@@ -9,3 +9,6 @@ Pipeline: Stream-VODs → Kurzclips → Posten → Einreichen bei Content-Reward
 - `tools/auth.py` – Zugangsdaten als GitHub-Secrets
 - `tools/intake.py` – Kampagne aus Seitentext erfassen (Issue „Neue Kampagne“)
 - `tools/campaigns.py` – prüfen, filtern, priorisieren, auto-stoppen
+- `tools/factory.py` – Clip-Fabrik (Quelle → Transkript → Kandidaten → Hook-Varianten → 9:16-Schnitt → post.json → QA)
+- `tools/post.py` – Posten (YouTube, Instagram, TikTok-Entwurf) + Einreich-Hinweise
+- `docs/SETUP.md` – Einrichtung (Konten verbinden, nur Browser) · `AUTOMATION.md` – Betrieb · `docs/HOOKS.md` – Hook-Regeln

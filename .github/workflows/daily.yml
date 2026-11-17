@@ -1,0 +1,43 @@
+name: daily
+on:
+  schedule:
+    - cron: "17 5 * * *"      # 06:17 Berlin (Winter): Clips für den Tag bauen, vor dem ersten Posting-Slot
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      campaigns: ${{ steps.p.outputs.campaigns }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        name: Beigetretene Kampagnen nach Priorität
+        run: |
+          python tools/campaigns.py triage >/dev/null
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          q = json.load(open("out/queue.json"))
+          acc = json.load(open("config/accounts.json"))["accounts"]
+          prefs = json.load(open("config/preferences.json"))
+          per_day = max(sum(1 for a in acc if a["active"]) * prefs["clips_per_account_per_day"], 3)
+          # so viele Kampagnen, dass genug Clips für alle Slots entstehen (je Quelle bis 8 Clips, QA filtert)
+          n = min(len(q), max(1, per_day // 4))
+          print("campaigns=" + json.dumps(q[:n]))
+          PY
+  clips:
+    needs: plan
+    if: needs.plan.outputs.campaigns != '[]'
+    strategy:
+      fail-fast: false
+      max-parallel: 3
+      matrix:
+        campaign: ${{ fromJSON(needs.plan.outputs.campaigns) }}
+    uses: ./.github/workflows/clips.yml
+    with:
+      campaign: ${{ matrix.campaign }}
+      max_clips: "8"
+    secrets: inherit

@@ -13,11 +13,16 @@ on:
         description: "Höchstzahl Clips"
         required: false
         default: "8"
+  workflow_call:
+    inputs:
+      campaign: {type: string, required: true}
+      url: {type: string, required: false, default: ""}
+      max_clips: {type: string, required: false, default: "8"}
 
 permissions:
   contents: read
 
-concurrency: clips-${{ github.event.inputs.campaign }}
+concurrency: clips-${{ inputs.campaign }}
 
 jobs:
   factory:
@@ -41,7 +46,7 @@ jobs:
           pip install -q -r requirements.txt
       - name: Kampagne wählen
         id: pick
-        env: {INPUT: "${{ github.event.inputs.campaign }}"}
+        env: {INPUT: "${{ inputs.campaign }}"}
         run: |
           if [ "$INPUT" = "auto" ]; then
             python tools/campaigns.py triage >/dev/null
@@ -54,8 +59,8 @@ jobs:
       - name: Clip-Fabrik
         env:
           CID: ${{ steps.pick.outputs.cid }}
-          URL: ${{ github.event.inputs.url }}
-          MAX: ${{ github.event.inputs.max_clips }}
+          URL: ${{ inputs.url }}
+          MAX: ${{ inputs.max_clips }}
         run: |
           ARGS=(--campaign "$CID" --max-clips "${MAX:-8}")
           [ -n "$URL" ] && ARGS+=(--url "$URL")
