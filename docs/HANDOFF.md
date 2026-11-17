@@ -24,3 +24,13 @@ Neue Sitzung: „Lies CLAUDE.md und docs/HANDOFF.md, mach beim nächsten Schritt
 - Workflows mit `toJSON(secrets)` werden von GitHub angehalten → Secrets einzeln übergeben (erledigt).
 - Testläufe: Actions → clips → Kampagne `cr-74fcae70-cartier2real-stream-clips-1-1k-views` (Kick) oder `cr-16e8fdb7-5-000-ultimate-fighting-bots-campaign` (Twitch).
 - Dashboard: https://claude.ai/artifact/548jwiLMNWHFdk8QYTjeyZ (Daten per tools/dashboard_data.py + Artifact-Upload).
+
+## Ergänzung (17.11., spät) – Entscheidungen und offene Punkte
+- **Nutzer ist bei Content Rewards noch keiner Kampagne beigetreten und hat im Issue „Beitreten“ NICHTS abgehakt.** Wichtig: Sobald er Cartier2Real abhakt, postet `post.yml` die vorhandenen schlechten Clips (Artefakte bis 12 Tage) öffentlich auf YouTube. → **Zuerst Posting-Schalter einbauen** (`config/posting.json` → `"enabled": false`, `tools/post.py` prüft ihn; Freigabe per Telegram „/go“ oder Datei-Flag), dann Bildqualität reparieren.
+- Telegram-Push: Bot + Chat-ID gespeichert, Test ok. Instagram (ig1) und TikTok (tt1) noch nicht verbunden (docs/SETUP.md). Nutzer will vorerst nur **YouTube + Instagram**, TikTok später.
+- **30-Min-Regel (CR AGB 7.12)** ist nicht änderbar. Offen: Zeiten, zu denen der Nutzer zuverlässig 5 Min. am Handy hat. Vorschlag: A) feste Slots nach Alltag, B) alle Plattformen in derselben Minute, E) zweite Erinnerung nach 15 Min. + „verpasst“-Meldung nach 30 Min., optional C) Posten auf Zuruf („/da“), D) „/pause“. Nutzer wollte das **später** klären, nachdem die Automatik steht.
+- Offene Frage: Postet jeder Slot 3 Clips gleichzeitig? (Nutzer: später klären.)
+- **Claude-API für Sonnet-Auswahl:** Nutzer überlegt Max-Abo (150 €). Hinweis gegeben: Betrieb braucht kein Abo; API (Haiku < $2/Monat, Sonnet ca. $4–30/Monat je nach Videos) wird separat abgerechnet. Entscheidung offen.
+- Skalierung: Vorrat/Qualität, YouTube-Quota (Quellen widersprüchlich: ~6 vs ~100 Uploads/Tag/Projekt), Einreichen von Hand (≈ 20–30 pro Sitzung) begrenzen; erst ausbauen, wenn Phase 3 Mindest-Views zeigt. Ziel heute: 3 Clips/Tag.
+- **Support-Anfrage an Content Rewards** (API/automatisches Einreichen, wie viele Social-Accounts verbindbar) vom Nutzer noch nicht gesendet/beantwortet; Antworttext liegt im Chatverlauf – bei Bedarf neu formulieren.
+- Nutzerwunsch Antwortstil: kurz, Stichworte, deutsch. Sitzungen kurz halten (5-Std-Limit war bei 96 %).
