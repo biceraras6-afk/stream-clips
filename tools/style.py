@@ -1,7 +1,8 @@
 """Phase 3: Top-Clips der Kampagnen (campaign.references) analysieren -> docs/STYLE.md.
 
 Nur zur Analyse (Länge, Tempo, Format, Titel-Muster, Views) – nichts wird übernommen, gepostet oder im Repo abgelegt.
-Standard: nur YouTube-Referenzen (stabil). --all versucht auch TikTok/Instagram (fragil, Fehler werden übersprungen).
+Quelle: offizielle YouTube Data API (Secret YOUTUBE_API_KEY) – kein Download (YouTube sperrt Actions-IPs per Bot-Abfrage).
+Nur Kampagnen mit Stream-/VOD-Quellen (wie unsere); nur Metadaten: Dauer, Views, Likes, Titel, Tags.
 Ausgabe enthält nur Kennzahlen und Regeln, keine Links/Accounts/Titel.
 
 Aufruf: python tools/style.py [--max-videos 40] [--all] [--campaigns id1,id2]
@@ -14,12 +15,10 @@ import json
 import re
 import statistics as st
 import sys
-import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from tools import media  # noqa: E402
 from tools.llm import complete  # noqa: E402
 
 
@@ -29,47 +28,40 @@ def references(only: set[str], allow_all: bool, limit: int) -> list[str]:
         d = json.loads(Path(f).read_text())
         if only and d["id"] not in only:
             continue
-        for u in (d.get("references") or [])[:3]:      # max. 3 je Kampagne -> Vielfalt
+        if not only and (d.get("source") or {}).get("type") not in ("vod", "channel", "stream", "clips"):
+            continue                                   # nur Stream-Clip-Kampagnen, wie unsere
+        for u in (d.get("references") or [])[:6]:      # max. 6 je Kampagne
             if allow_all or re.search(r"youtube\.com/(watch|shorts)|youtu\.be/", u):
                 urls.append(u)
     return list(dict.fromkeys(urls))[:limit]
 
 
-def scene_cuts(path: Path, upto: float | None = None) -> list[float]:
-    cmd = ["ffmpeg", "-hide_banner", "-i", str(path)] + (["-t", str(upto)] if upto else []) + \
-          ["-vf", "select='gt(scene,0.3)',showinfo", "-an", "-f", "null", "-"]
-    err = media.run(cmd, capture=True, check=False)
-    return [float(m) for m in re.findall(r"pts_time:([\d.]+)", err)]
-
-
-def analyze(url: str, tmp: Path) -> dict | None:
-    try:
-        meta = media.ytdlp_json(url)
-    except Exception as e:  # noqa: BLE001
-        print("  Metadaten-Fehler:", str(e).replace("\n", " ")[:160])
-        return None
-    dur = meta.get("duration") or 0
-    if not dur or dur > 180:
-        print(f"  übersprungen (Dauer {dur})")
-        return None
-    out = tmp / "v.mp4"
-    try:
-        media.run(["yt-dlp", "-q", "--no-warnings", "-f", "bv*[height<=480]+ba/b[height<=480]",
-                   "--merge-output-format", "mp4", "-o", str(out), url])
-        info = media.video_info(out)
-        cuts = scene_cuts(out)
-        lo = media.measure_loudness(out)
-    except Exception as e:  # noqa: BLE001
-        print("  Analyse-Fehler:", str(e).replace("\n", " ")[-200:])
-        return None
-    finally:
-        for f in tmp.glob("v.*"):
-            f.unlink()
-    views = meta.get("view_count") or 0
-    return {"dur": round(dur, 1), "w": meta.get("width") or info["w"], "h": meta.get("height") or info["h"],
-            "views": views, "likes": meta.get("like_count") or 0, "title_words": len((meta.get("title") or "").split()),
-            "title": (meta.get("title") or "")[:90], "cuts": len(cuts), "cuts_per_10s": round(len(cuts) / dur * 10, 1),
-            "cuts_first3s": sum(1 for c in cuts if c <= 3.0), "loudness": lo.get("input_i") if isinstance(lo, dict) else None}
+def api_stats(urls: list[str]) -> list[dict]:
+    import os
+    import urllib.parse
+    import urllib.request
+    key = os.environ.get("YOUTUBE_API_KEY")
+    if not key:
+        print("YOUTUBE_API_KEY fehlt")
+        return []
+    ids = list(dict.fromkeys(m.group(1) for u in urls if (m := re.search(r"(?:v=|youtu\.be/|shorts/)([\w-]{11})", u))))
+    rows = []
+    for i in range(0, len(ids), 50):
+        q = urllib.parse.urlencode({"part": "snippet,contentDetails,statistics", "id": ",".join(ids[i:i + 50]), "key": key})
+        try:
+            with urllib.request.urlopen("https://www.googleapis.com/youtube/v3/videos?" + q, timeout=30) as r:
+                items = json.load(r).get("items", [])
+        except Exception as e:  # noqa: BLE001
+            print("  API-Fehler:", str(e)[:160])
+            continue
+        for it in items:
+            m = re.fullmatch(r"PT(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?", it["contentDetails"]["duration"])
+            dur = int(m.group(1) or 0) * 3600 + int(m.group(2) or 0) * 60 + int(m.group(3) or 0) if m else 0
+            sn, stt = it["snippet"], it.get("statistics", {})
+            rows.append({"dur": dur, "views": int(stt.get("viewCount", 0)), "likes": int(stt.get("likeCount", 0)),
+                         "title": sn.get("title", "")[:90], "title_words": len(sn.get("title", "").split()),
+                         "tags": len(sn.get("tags") or []), "desc_len": len(sn.get("description", ""))})
+    return [r for r in rows if 5 <= r["dur"] <= 180]
 
 
 def main() -> int:
@@ -80,12 +72,7 @@ def main() -> int:
     a = ap.parse_args()
     urls = references({c for c in a.campaigns.split(",") if c}, a.all, a.max_videos)
     print(f"{len(urls)} Referenzen")
-    rows = []
-    with tempfile.TemporaryDirectory() as t:
-        for u in urls:
-            r = analyze(u, Path(t))
-            if r:
-                rows.append(r)
+    rows = api_stats(urls)
     print(f"{len(rows)} analysiert")
     if len(rows) < 5:
         print("Zu wenige Daten – STYLE.md nicht geschrieben.")
@@ -97,18 +84,17 @@ def main() -> int:
         v = [r[k] for r in rs if r.get(k) is not None]
         return round(st.median(v), 1) if v else None
 
-    stats = {k: {"alle": med(k, rows), "top_drittel": med(k, top)} for k in ("dur", "cuts_per_10s", "cuts_first3s", "title_words", "views")}
-    vertical = round(sum(r["h"] > r["w"] for r in top) / len(top), 2)
+    stats = {k: {"alle": med(k, rows), "top_drittel": med(k, top)} for k in ("dur", "title_words", "tags", "views", "likes")}
     titles = [r["title"] for r in top][:15]       # nur als LLM-Eingabe, nicht gespeichert
     prompt = ("Kurzvideo-Referenzen (Top-Drittel nach Views) und Kennzahlen. Leite knappe, konkrete Regeln für Stream-Clips ab "
-              "(Länge, Schnitttempo, Hook in ersten 3 s, Titel-Muster, Format). Nur Stichpunkte, deutsch, keine Zitate der Titel.\n"
-              f"Kennzahlen (Median alle vs. Top): {json.dumps(stats)}\nAnteil 9:16 im Top: {vertical}\nTitel Top: {titles}")
+              "(Länge, Titel-Muster, Hook-Wortwahl, Tags). Nur Stichpunkte, deutsch, keine Zitate der Titel.\n"
+              f"Kennzahlen (Median alle vs. Top): {json.dumps(stats)}\nTitel Top: {titles}")
     rules = complete(prompt, system="Du bist Short-Form-Analyst. Antworte nur mit einer Markdown-Liste.", task="style_rules")
     md = ["# Stil-Regeln aus Referenz-Clips (automatisch, tools/style.py)", "",
           f"Basis: {len(rows)} analysierte Referenzen, davon Top-Drittel = {len(top)}. Nur Kennzahlen, keine Links/Accounts.", "",
           "## Kennzahlen (Median)", "| Maß | alle | Top-Drittel |", "|---|---|---|"]
     md += [f"| {k} | {v['alle']} | {v['top_drittel']} |" for k, v in stats.items()]
-    md += [f"| Anteil 9:16 | – | {vertical} |", "", "## Regeln (LLM-Auswertung, prüfen)", str(rules).strip(), ""]
+    md += ["", "## Regeln (LLM-Auswertung, prüfen)", str(rules).strip(), ""]
     (ROOT / "docs" / "STYLE.md").write_text("\n".join(md))
     print("docs/STYLE.md geschrieben")
     return 0
