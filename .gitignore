@@ -5,3 +5,4 @@ media/
 *.wav
 .env
 __pycache__/
+work/
