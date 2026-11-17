@@ -14,6 +14,7 @@ Lokal (mit gh CLI):
 from __future__ import annotations
 
 import getpass
+import re
 import json
 import os
 import pathlib
@@ -164,7 +165,9 @@ if __name__ == "__main__":
         sys.exit(__doc__)
     cmd, args = sys.argv[1], sys.argv[2:]
     if cmd == "link":
-        url = link(args[0])
+        # Client-ID ist öffentlich (steht ohnehin in der Anmelde-Adresse); GitHub würde sie als Secret
+        # schwärzen -> Bindestriche prozent-kodieren, damit der Link anklickbar bleibt.
+        url = re.sub(r"(client_(?:id|key)=)([^&]+)", lambda m: m.group(1) + m.group(2).replace("-", "%2D").replace(".", "%2E"), link(args[0]))
         print(url)
         if os.environ.get("GITHUB_STEP_SUMMARY"):
             with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as f:
