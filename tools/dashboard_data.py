@@ -20,12 +20,12 @@ OUT = ROOT / "out" / "dashboard"
 
 PHASES = [
     ("0", "Recherche", "fertig", "AGB, Plattform-APIs, Quellen geprüft"),
-    ("1", "Kampagnen", "läuft", "Automatische Suche alle 3 Std., Filter, Rangliste, Beitritts-Issue"),
-    ("2", "Clip-Fabrik", "offen", "Stream laden, Momente finden, 9:16-Schnitt, Untertitel, QA"),
-    ("2b", "Hook", "offen", "Kaltstart, Hook-Text, 3 Varianten pro Clip"),
-    ("3", "Qualität", "offen", "Referenz-Clips, STYLE.md, Testlauf, Feedback-Schleife"),
-    ("4", "Posten & Einreichen", "offen", "YouTube/TikTok-Upload, Einreich-Liste (30-Min.-Frist)"),
-    ("5", "Dauerbetrieb", "offen", "Täglicher Ablauf ohne Handarbeit"),
+    ("1", "Kampagnen", "fertig", "Automatische Suche alle 3 Std., Filter, Rangliste, Beitritts-Issue"),
+    ("2", "Clip-Fabrik", "fertig", "Getestet mit Kick: Laden, Transkript, Auswahl, 9:16, Untertitel, QA"),
+    ("2b", "Hook", "fertig", "3 Varianten pro Clip, Kaltstart, Teaser, HOOKS.md"),
+    ("3", "Qualität", "offen", "Startet mit den ersten Posts: Views, Hold-Rate, STYLE.md"),
+    ("4", "Posten & Einreichen", "läuft", "Gebaut – wartet auf Verbindung von YouTube, Instagram, TikTok, Telegram"),
+    ("5", "Dauerbetrieb", "läuft", "Täglich 06:17 Clips, Posten alle 30 Min. – startet nach Schritt 4"),
 ]
 
 
