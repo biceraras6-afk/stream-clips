@@ -58,3 +58,6 @@ Bei Content Rewards deine Social-Accounts verbinden (manche Kampagnen verlangen 
 - Push „Einreichen bis HH:MM“ → Link öffnen → bei Content Rewards **Submit** → Issue schließen.
 - TikTok: Entwurf in der App posten, dann einreichen.
 - Neue Kampagnen im Issue „Beitreten“ abhaken.
+
+## Neuer Account später
+Eintrag in `config/accounts.json` (bzw. `python tools/auth.py add-account <plattform>`) **und** seine Secrets in `.github/workflows/post.yml`, `auth.yml`, `tokens.yml` unter `env:` ergänzen.

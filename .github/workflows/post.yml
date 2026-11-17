@@ -25,7 +25,20 @@ jobs:
       - run: pip install -q pynacl
       - name: Posten
         env:
-          SECRETS_JSON: ${{ toJSON(secrets) }}
+          YT1_CLIENT_ID: ${{ secrets.YT1_CLIENT_ID }}
+          YT1_CLIENT_SECRET: ${{ secrets.YT1_CLIENT_SECRET }}
+          YT1_REFRESH_TOKEN: ${{ secrets.YT1_REFRESH_TOKEN }}
+          IG1_APP_ID: ${{ secrets.IG1_APP_ID }}
+          IG1_APP_SECRET: ${{ secrets.IG1_APP_SECRET }}
+          IG1_ACCESS_TOKEN: ${{ secrets.IG1_ACCESS_TOKEN }}
+          IG1_USER_ID: ${{ secrets.IG1_USER_ID }}
+          TT1_CLIENT_KEY: ${{ secrets.TT1_CLIENT_KEY }}
+          TT1_CLIENT_SECRET: ${{ secrets.TT1_CLIENT_SECRET }}
+          TT1_REFRESH_TOKEN: ${{ secrets.TT1_REFRESH_TOKEN }}
+          TT1_OPEN_ID: ${{ secrets.TT1_OPEN_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Neuer Account: hier seine Secrets ergänzen (z. B. YT2_*)
           GH_ADMIN_TOKEN: ${{ secrets.GH_ADMIN_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
