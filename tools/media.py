@@ -13,7 +13,7 @@ import numpy as np
 
 def run(cmd: list[str], capture: bool = False, check: bool = True) -> str:
     r = subprocess.run(cmd, capture_output=True, text=True)
-    if check and r.returncode != 0:
+    if check and r.returncode != 0 and not (cmd[0] == "yt-dlp" and "-J" in cmd and r.stdout.strip().startswith("{")):
         raise RuntimeError(f"{cmd[0]} fehlgeschlagen: {r.stderr[-1500:]}")
     return (r.stdout + r.stderr) if capture else r.stdout
 
@@ -46,20 +46,35 @@ def resolve_source(url: str, seen: set[str], limit: int = 5) -> dict | None:
     if SINGLE_VIDEO.search(url):
         meta = ytdlp_json(url)
         return None if meta["id"] in seen else meta
+    base = url.rstrip("/")
     candidates = [url]
     if "twitch.tv/" in url:
-        candidates = [url.rstrip("/") + "/videos?filter=archives&sort=time"]
+        name = base.split("twitch.tv/")[1].split("/")[0]
+        candidates = [f"https://www.twitch.tv/{name}/videos?filter=archives&sort=time",
+                      f"https://www.twitch.tv/{name}/videos?filter=all&sort=time",
+                      f"https://www.twitch.tv/{name}/clips?filter=clips&range=7d"]
     elif "youtube.com/" in url and "/@" in url:
-        base = re.sub(r"/(videos|streams|shorts)/?$", "", url.rstrip("/"))
+        base = re.sub(r"/(videos|streams|shorts)/?$", "", base)
         candidates = [base + "/streams", base + "/videos"]
+    elif "kick.com/" in url:
+        name = base.split("kick.com/")[1].split("/")[0]
+        candidates = [f"https://kick.com/{name}/videos", f"https://kick.com/{name}"]
     for cand in candidates:
         try:
             pl = ytdlp_json(cand, ["--flat-playlist", "--playlist-items", f"1:{limit}"])
-        except RuntimeError:
+        except RuntimeError as e:
+            print(f"  Liste {cand}: {str(e)[-200:]}")
             continue
-        for e in pl.get("entries") or []:
-            if e.get("id") and e["id"] not in seen:
-                return ytdlp_json(e.get("url") or e.get("webpage_url") or e["id"])
+        entries = [e for e in (pl.get("entries") or []) if e]
+        if not entries and pl.get("_type") != "playlist" and pl.get("id"):
+            entries = [pl]                                   # Einzelvideo/Live statt Liste
+        print(f"  Liste {cand}: {len(entries)} Einträge")
+        for e in entries:
+            if e.get("id") and e["id"] not in seen and not e.get("is_live"):
+                try:
+                    return ytdlp_json(e.get("url") or e.get("webpage_url") or e["id"])
+                except RuntimeError as err:
+                    print(f"  Video {e.get('id')}: {str(err)[-200:]}")
     return None
 
 
