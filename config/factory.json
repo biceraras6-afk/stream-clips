@@ -17,8 +17,9 @@
   "output": {
     "width": 1080,
     "height": 1920,
-    "fps": 30,
-    "crf": 20
+    "crf": 18,
+    "preset": "medium",
+    "fps_max": 60
   },
   "loudness": {
     "target": -14.0,
@@ -26,13 +27,13 @@
     "true_peak": -1.0
   },
   "subtitles": {
-    "font": "DejaVu Sans",
-    "size": 78,
-    "words_per_line": 3,
-    "y_ratio": 0.62,
+    "font": "Montserrat",
+    "size": 96,
+    "words_per_line": 2,
+    "y_ratio": 0.6,
     "color": "&H00FFFFFF",
     "highlight": "&H0000E5FF",
-    "outline": 6
+    "outline": 8
   },
   "hook": {
     "max_words": 8,
@@ -67,5 +68,8 @@
     "oh no",
     "i can't",
     "screaming"
-  ]
+  ],
+  "layout": {
+    "fit_zoom": 1.3
+  }
 }

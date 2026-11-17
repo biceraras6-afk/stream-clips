@@ -62,7 +62,8 @@ def choose_layout(info: dict, faces: list[dict]) -> dict:
     corner = (cx < 0.3 or cx > 0.7) or (cy < 0.3 or cy > 0.7)
     if ratio >= 0.4 and area < 0.04 and spread < 0.05 and corner:
         return {"type": "split", "cx": cx, "cy": cy, "fw": fw}
-    return {"type": "crop", "cx": cx if ratio >= 0.3 else 0.5}
+    # Kein starker Crop (wirkt unscharf): ganzes Bild + unscharfer Hintergrund, max. fit_zoom-facher Ausschnitt
+    return {"type": "fit", "cx": cx if ratio >= 0.3 else 0.5, "zoom": CFG.get("layout", {}).get("fit_zoom", 1.3)}
 
 
 def layout_filter(lay: dict, info: dict) -> str:
@@ -70,6 +71,15 @@ def layout_filter(lay: dict, info: dict) -> str:
     W, H = info["w"], info["h"]
     if lay["type"] == "native":
         return f"scale={OW}:{OH}:force_original_aspect_ratio=increase,crop={OW}:{OH}"
+    if lay["type"] == "fit":
+        z = max(1.0, lay.get("zoom", 1.0))
+        cw, ch = int(W / z) // 2 * 2, int(H / z) // 2 * 2
+        x = int(min(max(lay["cx"] * W - cw / 2, 0), W - cw))
+        y = (H - ch) // 2
+        fh = int(OW * ch / cw) // 2 * 2
+        return (f"split=2[bg][fg];[bg]scale={OW}:{OH}:force_original_aspect_ratio=increase,crop={OW}:{OH},"
+                f"boxblur=30:5,eq=brightness=-0.08[b];[fg]crop={cw}:{ch}:{x}:{y},scale={OW}:{fh}:flags=lanczos[f];"
+                f"[b][f]overlay=0:(H-h)/2")
     if lay["type"] == "crop":
         cw = int(H * OW / OH) // 2 * 2
         x = int(min(max(lay["cx"] * W - cw / 2, 0), W - cw))
@@ -206,17 +216,22 @@ def render(section: Path, section_start: float, clip: dict, words: list[dict], o
                      f"[0:a]atrim={off + a:.3f}:{off + b:.3f},asetpts=PTS-STARTPTS[a{i}];")
         labels.append(f"[v{i}][a{i}]")
     o = CFG["output"]
+    fps = min(o.get("fps_max", 60), round(info["fps"])) if info["fps"] >= 24 else 30
     fc = ("".join(parts) + "".join(labels) + f"concat=n={len(segs)}:v=1:a=1[vc][ac];"
-          f"[vc]{layout_filter(lay, info)},fps={o['fps']},ass={out_dir / 'subs.ass'}[vo]")
+          f"[vc]{layout_filter(lay, info)},fps={fps},ass={out_dir / 'subs.ass'}[vo]")
     raw = out_dir / "raw.mp4"
     media.run(["ffmpeg", "-y", "-v", "error", "-i", str(section), "-filter_complex", fc, "-map", "[vo]", "-map", "[ac]",
-               "-c:v", "libx264", "-preset", "veryfast", "-crf", str(o["crf"]), "-pix_fmt", "yuv420p",
-               "-c:a", "aac", "-b:a", "192k", str(raw)])
+               "-c:v", "libx264", "-preset", o.get("preset", "medium"), "-crf", str(o["crf"]), "-pix_fmt", "yuv420p",
+               "-profile:v", "high", "-c:a", "aac", "-b:a", "192k", str(raw)])
     final = out_dir / "clip.mp4"
     lo = CFG["loudness"]
     media.normalize_audio(raw, final, lo["target"], lo["true_peak"])
     raw.unlink()
-    meta = {"layout": lay, "segments": segs, "source_start": start, "source_end": end, "teaser": clip.get("teaser"),
+    try:
+        br = int(media.probe(section)["format"].get("bit_rate") or 0) // 1000
+    except Exception:  # noqa: BLE001
+        br = 0
+    meta = {"source": {"w": info["w"], "h": info["h"], "fps": round(info["fps"], 1), "kbps": br}, "out_fps": fps, "layout": lay, "segments": segs, "source_start": start, "source_end": end, "teaser": clip.get("teaser"),
             "overlay": overlay, "duration": round(sum(b - a for a, b in segs), 2),
             "face_hit_ratio": round(sum("x" in f for f in faces) / max(1, len(faces)), 2)}
     (out_dir / "render.json").write_text(json.dumps(meta, indent=1))

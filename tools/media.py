@@ -95,7 +95,9 @@ def download_audio(url: str, out_wav: Path) -> Path:
 
 
 def download_section(url: str, start: float, end: float, out: Path, max_h: int = 1080) -> Path:
-    run(["yt-dlp", "-q", "--no-warnings", "-f", f"bv*[height<={max_h}]+ba/b[height<={max_h}]",
+    # Beste Qualität (Auflösung bis max_h, dann fps, dann Bitrate); Schnitt-Neukodierung von yt-dlp nahezu verlustfrei (crf 12)
+    run(["yt-dlp", "-q", "--no-warnings", "-f", "bv*+ba/b", "-S", f"res:{max_h},fps,br",
+         "--downloader-args", "ffmpeg_o:-c:v libx264 -crf 12 -preset veryfast -c:a aac -b:a 192k",
          "--download-sections", f"*{start:.2f}-{end:.2f}", "--force-keyframes-at-cuts",
          "--merge-output-format", "mp4", "-o", str(out), url])
     return out
