@@ -20,7 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from tools import campaigns as cm  # noqa: E402
-from tools import candidates, cut, media, postmeta, qa  # noqa: E402
+from tools import candidates, cut, hook, media, postmeta, qa  # noqa: E402
 from tools import transcribe as tr  # noqa: E402
 
 CFG = json.loads((ROOT / "config" / "factory.json").read_text())
@@ -141,12 +141,23 @@ def main() -> int:
         swav = work / f"section_{n:02d}.wav"
         media.run(["ffmpeg", "-y", "-v", "error", "-i", str(section), "-ac", "1", "-ar", "16000", str(swav)])
         ft = tr.transcribe(swav, CFG["whisper_final_model"], language=c.get("language") or "en", offset=s0)
-        words = tr.words_between(ft, clip["start"], clip["end"])
-        r = cut.render(section, s0, clip, words, cdir, c.get("disclosure"), c.get("overlays_allowed") is not False)
+        all_words = ft["words"]
+        # Phase 2b: 3 Hook-Varianten, beste nach Daten + HOOKS.md
+        vs = hook.variants(all_words, clip, swav, s0, sel["min_s"], sel["max_s"])
+        best, vs, hook_by = hook.choose(vs, all_words, section, s0, swav)
+        log(f"  Hook: {best['name']} (gesamt {best['total']}) – „{best.get('overlay')}“")
+        chosen = dict(clip, start=best["start"], end=best["end"], teaser=best["teaser"], overlay=best.get("overlay"))
+        words = tr.words_between(ft, chosen["start"], chosen["end"])
+        r = cut.render(section, s0, chosen, all_words, cdir, c.get("disclosure"), c.get("overlays_allowed") is not False)
+        r["loop_score"] = hook.loop_score(cdir / "clip.mp4")
+        (cdir / "render.json").write_text(json.dumps(r, indent=1))
         text = " ".join(w["w"] for w in words)
-        post = postmeta.build(clip, text, c)
-        post.update({"source_video": meta.get("webpage_url"), "source_start": clip["start"], "source_end": clip["end"],
-                     "score": clip.get("score"), "hook_type": clip.get("hook_type"), "judged_by": sel["judged_by"]})
+        post = postmeta.build(dict(clip, hook_text=best.get("overlay")), text, c)
+        post.update({"source_video": meta.get("webpage_url"), "source_start": chosen["start"], "source_end": chosen["end"],
+                     "score": clip.get("score"), "hook_type": clip.get("hook_type"), "judged_by": sel["judged_by"],
+                     "hook": {"chosen": best["name"], "judged_by": hook_by, "loop_score": r["loop_score"],
+                              "variants": [{k: v[k] for k in ("name", "start", "end", "teaser", "overlay", "total", "data")
+                                            if k in v} | {"llm_score": v.get("llm_score"), "why": v.get("why")} for v in vs]}})
         postmeta.save(post, cdir / "post.json")
         q = qa.check(cdir, post, c, len(words), len(words), sel["min_s"], sel["max_s"])
         log(f"  QA: {q['status']} " + "; ".join(f"{x['check']}: {x['detail']}" for x in q["checks"] if not x["ok"]))

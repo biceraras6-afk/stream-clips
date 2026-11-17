@@ -131,6 +131,7 @@ def _esc(s: str) -> str:
 
 
 def build_ass(words: list[dict], start: float, segs, hook_text: str | None, disclosure: str | None) -> str:
+    """segs: Bereiche relativ zu `start`, in Ausgabereihenfolge (ein Teaser darf vorn stehen)."""
     sc, hk = CFG["subtitles"], CFG["hook"]
     OW, OH = CFG["output"]["width"], CFG["output"]["height"]
     lines = [
@@ -145,23 +146,27 @@ def build_ass(words: list[dict], start: float, segs, hook_text: str | None, disc
         f"Style: Ad,{sc['font']},44,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,3,0,7,50,50,60,1",
         "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
     ]
-    # Wortgruppen
-    groups: list[list[dict]] = []
-    for w in words:
-        if (not groups or len(groups[-1]) >= sc["words_per_line"]
-                or re.search(r"[.!?,]$", groups[-1][-1]["w"]) or w["s"] - groups[-1][-1]["e"] > 0.3):
-            groups.append([])
-        groups[-1].append(w)
-    for g in groups:
-        for i, w in enumerate(g):
-            t0 = remap(w["s"] - start, segs)
-            t1 = remap((g[i + 1]["s"] if i + 1 < len(g) else w["e"]) - start, segs)
-            if t1 - t0 < 0.05:
-                t1 = t0 + 0.05
-            txt = " ".join(
-                (f"{{\\c{sc['highlight']}}}{_esc(x['w']).upper()}{{\\c{sc['color']}}}" if j == i else _esc(x["w"]).upper())
-                for j, x in enumerate(g))
-            lines.append(f"Dialogue: 0,{_ass_time(t0)},{_ass_time(t1)},Cap,,0,0,0,,{txt}")
+    out_off = 0.0
+    for a, b in segs:
+        seg_words = [w for w in words if a - 0.02 <= w["s"] - start < b]
+        groups: list[list[dict]] = []
+        for w in seg_words:
+            if (not groups or len(groups[-1]) >= sc["words_per_line"]
+                    or re.search(r"[.!?,]$", groups[-1][-1]["w"]) or w["s"] - groups[-1][-1]["e"] > 0.3):
+                groups.append([])
+            groups[-1].append(w)
+        for g in groups:
+            for i, w in enumerate(g):
+                t0 = out_off + max(0.0, w["s"] - start - a)
+                nxt = g[i + 1]["s"] if i + 1 < len(g) else w["e"]
+                t1 = out_off + min(b - a, nxt - start - a)
+                if t1 - t0 < 0.05:
+                    t1 = t0 + 0.05
+                txt = " ".join(
+                    (f"{{\\c{sc['highlight']}}}{_esc(x['w']).upper()}{{\\c{sc['color']}}}" if j == i else _esc(x["w"]).upper())
+                    for j, x in enumerate(g))
+                lines.append(f"Dialogue: 0,{_ass_time(t0)},{_ass_time(t1)},Cap,,0,0,0,,{txt}")
+        out_off += b - a
     if hook_text:
         hook = " ".join(hook_text.split()[: hk["max_words"]]).upper()
         lines.append(f"Dialogue: 1,{_ass_time(0)},{_ass_time(hk['seconds'])},Hook,,0,0,0,,{_esc(hook)}")
@@ -174,15 +179,20 @@ def build_ass(words: list[dict], start: float, segs, hook_text: str | None, disc
 
 def render(section: Path, section_start: float, clip: dict, words: list[dict], out_dir: Path,
            disclosure: str | None, overlays_allowed: bool = True) -> dict:
-    """section: heruntergeladener Abschnitt ab `section_start` (absolute Zeit)."""
+    """section: heruntergeladener Abschnitt ab `section_start` (absolute Zeit).
+    clip: {start, end, overlay|hook_text, teaser: [a, b] | None} (absolute Zeiten)."""
     out_dir.mkdir(parents=True, exist_ok=True)
     info = media.video_info(section)
     faces = analyze_faces(section)
     lay = choose_layout(info, faces)
     start, end = clip["start"], clip["end"]
     off = start - section_start                                  # Clipstart im Abschnitt
-    segs = keep_segments(words, start, end)
-    ass = build_ass(words, start, segs, clip.get("hook_text") if overlays_allowed else None, disclosure)
+    segs = keep_segments([w for w in words if start <= w["s"] <= end], start, end)
+    if clip.get("teaser"):
+        ta, tb = clip["teaser"]
+        segs = [(round(ta - start, 3), round(tb - start, 3))] + segs
+    overlay = (clip.get("overlay") or clip.get("hook_text")) if overlays_allowed else None
+    ass = build_ass(words, start, segs, overlay, disclosure)
     (out_dir / "subs.ass").write_text(ass)
     parts, labels = [], []
     for i, (a, b) in enumerate(segs):
@@ -200,8 +210,8 @@ def render(section: Path, section_start: float, clip: dict, words: list[dict], o
     lo = CFG["loudness"]
     media.normalize_audio(raw, final, lo["target"], lo["true_peak"])
     raw.unlink()
-    meta = {"layout": lay, "segments": segs, "source_start": start, "source_end": end,
-            "duration": round(sum(b - a for a, b in segs), 2),
+    meta = {"layout": lay, "segments": segs, "source_start": start, "source_end": end, "teaser": clip.get("teaser"),
+            "overlay": overlay, "duration": round(sum(b - a for a, b in segs), 2),
             "face_hit_ratio": round(sum("x" in f for f in faces) / max(1, len(faces)), 2)}
     (out_dir / "render.json").write_text(json.dumps(meta, indent=1))
     return meta
