@@ -41,7 +41,7 @@ def ytdlp_json(url: str, extra: list[str] | None = None) -> dict:
     return json.loads(run(["yt-dlp", "-J", "--no-warnings", *(extra or []), url]))
 
 
-def resolve_source(url: str, seen: set[str], limit: int = 5) -> dict | None:
+def resolve_source(url: str, seen: set[str], limit: int = 8, min_seconds: int = 600) -> dict | None:
     """Kanal-URL -> neuestes noch nicht verarbeitetes Video; Einzelvideo -> sich selbst."""
     if SINGLE_VIDEO.search(url):
         meta = ytdlp_json(url)
@@ -71,10 +71,17 @@ def resolve_source(url: str, seen: set[str], limit: int = 5) -> dict | None:
         print(f"  Liste {cand}: {len(entries)} Einträge")
         for e in entries:
             if e.get("id") and e["id"] not in seen and not e.get("is_live"):
+                if e.get("duration") and e["duration"] < min_seconds:
+                    continue
                 try:
-                    return ytdlp_json(e.get("url") or e.get("webpage_url") or e["id"])
+                    meta = ytdlp_json(e.get("url") or e.get("webpage_url") or e["id"])
                 except RuntimeError as err:
                     print(f"  Video {e.get('id')}: {str(err)[-200:]}")
+                    continue
+                if (meta.get("duration") or 0) < min_seconds:
+                    print(f"  Video {e.get('id')}: zu kurz ({(meta.get('duration') or 0) / 60:.0f} min) – nächstes")
+                    continue
+                return meta
     return None
 
 
