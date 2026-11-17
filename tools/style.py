@@ -45,10 +45,12 @@ def scene_cuts(path: Path, upto: float | None = None) -> list[float]:
 def analyze(url: str, tmp: Path) -> dict | None:
     try:
         meta = media.ytdlp_json(url)
-    except Exception:  # noqa: BLE001
+    except Exception as e:  # noqa: BLE001
+        print("  Metadaten-Fehler:", str(e).replace("\n", " ")[:160])
         return None
     dur = meta.get("duration") or 0
     if not dur or dur > 180:
+        print(f"  übersprungen (Dauer {dur})")
         return None
     out = tmp / "v.mp4"
     try:
@@ -57,7 +59,8 @@ def analyze(url: str, tmp: Path) -> dict | None:
         info = media.video_info(out)
         cuts = scene_cuts(out)
         lo = media.measure_loudness(out)
-    except Exception:  # noqa: BLE001
+    except Exception as e:  # noqa: BLE001
+        print("  Analyse-Fehler:", str(e).replace("\n", " ")[-200:])
         return None
     finally:
         for f in tmp.glob("v.*"):

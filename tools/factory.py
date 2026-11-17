@@ -171,6 +171,8 @@ def main() -> int:
         r = cut.render(section, s0, chosen, all_words, cdir, c.get("disclosure"), c.get("overlays_allowed") is not False)
         r["loop_score"] = hook.loop_score(cdir / "clip.mp4")
         (cdir / "render.json").write_text(json.dumps(r, indent=1))
+        log(f"  Bild: Quelle {r['source']['w']}x{r['source']['h']}@{r['source']['fps']} {r['source']['kbps']} kbit/s, "
+            f"Layout {r['layout']['type']}, Ausgabe {r['out_fps']} fps")
         text = " ".join(w["w"] for w in words)
         post = postmeta.build(dict(clip, hook_text=best.get("overlay")), text, c)
         post.update({"source_video": meta.get("webpage_url"), "source_start": chosen["start"], "source_end": chosen["end"],
