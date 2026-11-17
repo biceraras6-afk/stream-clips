@@ -112,7 +112,20 @@ def notify(rec: dict, camp: dict, post: dict) -> None:
     body += f"\n<!--key:{rec['key']}|{rec['platform']}-->"
     if rec["platform"] != "tiktok" or rec.get("url"):
         title = f"Einreichen bis {deadline}: {camp['title'][:60]}"
-    ghapi.create_issue(DATA, title, body, ["einreichen"])
+    iss = ghapi.create_issue(DATA, title, body, ["einreichen"])
+    push(f"*{title}*\n\n" + body.split("<!--")[0] + (f"\nErledigt? Issue schließen: {iss.get('html_url')}" if iss else ""))
+
+
+def push(text: str) -> None:
+    """Push aufs Handy per Telegram-Bot (Secrets TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID)."""
+    tok, chat = platforms.secret("TELEGRAM_BOT_TOKEN"), platforms.secret("TELEGRAM_CHAT_ID")
+    if not (tok and chat):
+        return
+    try:
+        platforms._http("POST", f"https://api.telegram.org/bot{tok}/sendMessage", form={
+            "chat_id": chat, "text": text[:4000], "parse_mode": "Markdown", "disable_web_page_preview": "true"})
+    except platforms.UploadError:
+        platforms._http("POST", f"https://api.telegram.org/bot{tok}/sendMessage", form={"chat_id": chat, "text": text[:4000]})
 
 
 def sync_submitted(posted: dict) -> bool:
@@ -171,6 +184,7 @@ def main() -> int:
             rec.update(status="error", error=str(e)[:300])
             print("  FEHLER – Details im privaten Daten-Repo (Issue)")
             ghapi.create_issue(DATA, f"Fehler beim Posten ({acc['id']})", f"```\n{str(e)[:1500]}\n```\nClip: {key}", ["fehler"])
+            push(f"Fehler beim Posten ({acc['id']}) – Details im Daten-Repo")
         posted["clips"][f"{key}|{acc['platform']}"] = rec
         psha = ghapi.put_json(DATA, "posted.json", posted, psha, f"{rec['status']} {acc['id']} {slot}")
         day, dsha = ghapi.get_json(DATA, f"days/{today}/posted.json", [])

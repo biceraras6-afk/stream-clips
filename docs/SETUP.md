@@ -5,7 +5,13 @@ Zugangsdaten nie in den Chat, nie ins Repo. Immer: **Repo → Settings → Secre
 
 ## 1. Privates Daten-Repo (Protokolle, Post-Links, Einreich-Hinweise)
 1. https://github.com/new → Name `stream-clips-data` → **Private** → „Add a README“ anhaken → Create.
-2. In der GitHub-App: Repo öffnen → **Watch → All Activity**, damit Einreich-Hinweise als Push kommen.
+2. (Dort landen Protokolle und Einreich-Issues; Push kommt über Telegram, siehe 1b.)
+
+## 1b. Push aufs Handy (Telegram, empfohlen)
+GitHub benachrichtigt dich nicht über Issues, die mit deinem eigenen Schlüssel angelegt werden – deshalb Telegram.
+1. Telegram öffnen → **@BotFather** → `/newbot` → Name z. B. „Clip Einreichen“ → Token kopieren → Secret `TELEGRAM_BOT_TOKEN`.
+2. Deinem neuen Bot eine Nachricht schicken (z. B. „hi“).
+3. Im Browser öffnen: `https://api.telegram.org/bot<TOKEN>/getUpdates` → bei `"chat":{"id":…}` die Zahl kopieren → Secret `TELEGRAM_CHAT_ID`.
 
 ## 2. GitHub-Schlüssel `GH_ADMIN_TOKEN`
 Damit kann die Automatik Zugänge speichern und ins Daten-Repo schreiben.
