@@ -1,0 +1,91 @@
+{
+  "id": "cr-b5063b46-bruiser-wolf-the-dealer-wins-freestyle-8",
+  "title": "Bruiser Wolf - The Dealer Wins Freestyle [8518]",
+  "url": "https://contentrewards.com/c/campaigns/b5063b46-6922-4227-8da5-f0f4560386ef",
+  "status": "open",
+  "brand": "Sound Network",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "Clip Bruiser Wolf’s freestyles of tracks from The Dealer Wins.\nUse footage from the official content folder.\nPost to TikTok and Instagram Reels.\n",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 986.1,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "b5063b46-6922-4227-8da5-f0f4560386ef",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 4,
+    "total_views": 12971,
+    "creators": 4,
+    "avg_views": 3243,
+    "avg_payout": 3.48,
+    "updated_at": "2026-11-17T18:20:19.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@pov_publik/video/7708983805255732488",
+    "https://www.instagram.com/reel/Df1lYuJMyKd/",
+    "https://www.tiktok.com/@light.and.art/video/7708916087236152598",
+    "https://www.tiktok.com/@hajiahsan8119/video/7709033260835278100"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-16T23:03:02.000Z",
+  "brief_hash": "65a11ded09f6de8c"
+}

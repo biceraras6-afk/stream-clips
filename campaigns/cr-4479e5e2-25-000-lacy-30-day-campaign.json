@@ -1,0 +1,103 @@
+{
+  "id": "cr-4479e5e2-25-000-lacy-30-day-campaign",
+  "title": "$25,000 Lacy 30 Day Campaign",
+  "url": "https://contentrewards.com/c/campaigns/4479e5e2-9a00-489e-8b0c-345834f37cc7",
+  "status": "open",
+  "brand": "Reach",
+  "streamer": null,
+  "category": "streamer",
+  "language": null,
+  "description": "Clip content from Lacy's social media accounts\n\n(TikTok, IG, YT)\n\nREAD THE RULES AND REQUIREMENTS HERE: \nhttps://reachclipping.com/Lacy",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "pool",
+    "rate_per_1k": 0.0,
+    "min_payout": null,
+    "max_payout_per_clip": null,
+    "min_views": null,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      },
+      "instagram": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      },
+      "youtube": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 25000.0,
+    "remaining": 25000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "4479e5e2-9a00-489e-8b0c-345834f37cc7",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 69994,
+    "total_views": 379701407,
+    "creators": 5667,
+    "avg_views": 5425,
+    "avg_payout": 0.0,
+    "updated_at": "2026-11-17T18:18:22.000Z"
+  },
+  "references": [
+    "https://www.youtube.com/watch?v=WEiKyTlH-Cw",
+    "https://www.youtube.com/watch?v=jDIWWIwNIHE",
+    "https://www.tiktok.com/@thatclipguy0_0/video/7705946290852498696",
+    "https://www.tiktok.com/@rjclippedu/video/7700741189527407894",
+    "https://www.tiktok.com/@boombasticclips/video/7701774753249414414",
+    "https://www.tiktok.com/@clipthislive/video/7707510161044294919",
+    "https://www.tiktok.com/@bwclipsss/video/7707477105256205582",
+    "https://www.youtube.com/watch?v=rl6uyAxXzos",
+    "https://www.youtube.com/watch?v=qQduqy9GdTk",
+    "https://www.youtube.com/watch?v=ZiPt6AWaohc"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-10-20T22:15:03.000Z",
+  "brief_hash": "52f5c3e7cf9a267b"
+}

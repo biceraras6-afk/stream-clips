@@ -1,0 +1,80 @@
+{
+  "id": "cr-1d55eb2a-easy-french-friendship-trend",
+  "title": "[EASY $] FRENCH FRIENDSHIP TREND",
+  "url": "https://contentrewards.com/c/campaigns/1d55eb2a-a5ed-48c4-a6ac-28030d6c1a11",
+  "status": "open",
+  "brand": "Duetti",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Faceless friendship dedication: on-screen text to your best friend or “sisters” over aesthetic clips (matching outfits, linked hands, nights out, car rides, shot from behind). Caption about loyalty (“c’est nous les plus fidèles”). Use the official Les Amis sound by Lacrim ft. Léa Castel, 10–20s.",
+  "source": null,
+  "platforms": [
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.25,
+    "min_payout": 1.25,
+    "max_payout_per_clip": 100.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.25,
+        "min_payout": 1.25,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "1d55eb2a-a5ed-48c4-a6ac-28030d6c1a11",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-17T18:18:17.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-17T14:50:56.000Z",
+  "brief_hash": "40d2d14d66857cba"
+}

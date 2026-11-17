@@ -1,0 +1,97 @@
+{
+  "id": "cr-2e7ca35e-daise-dollfaces-charm-bracelets-clipping",
+  "title": "Daise — Dollfaces + Charm Bracelets Clipping",
+  "url": "https://contentrewards.com/c/campaigns/2e7ca35e-4cff-4755-bae8-8f9f5d727c0b",
+  "status": "open",
+  "brand": "Clip Influence",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "Get Paid $2/thousand views to clip for Daise — Dollfaces + Charm Bracelets! \nCreate viral clips showcasing the Dollfaces + Charm Bracelets and get paid.\n(THEME PAGES).",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 2.0,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 300.0,
+    "min_views": 1000,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 2.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 300.0
+      },
+      "tiktok": {
+        "rate_per_1k": 2.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 300.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 10000.0,
+    "remaining": 7940.98,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "2e7ca35e-4cff-4755-bae8-8f9f5d727c0b",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 255,
+    "total_views": 1052445,
+    "creators": 29,
+    "avg_views": 4127,
+    "avg_payout": 8.07,
+    "updated_at": "2026-11-17T18:16:18.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@unboxingtherapy08/video/7698827552785222933",
+    "https://www.instagram.com/reel/DesC94ctMxy/",
+    "https://www.tiktok.com/@mochiimi.w/photo/7698348859021380878",
+    "https://www.tiktok.com/@.lu.mii/photo/7697677580664638728",
+    "https://www.tiktok.com/@.lu.mii/video/7706615385931451666",
+    "https://www.tiktok.com/@.lu.mii/photo/7700533678518160658",
+    "https://www.tiktok.com/@.lu.mii/photo/7700260637624077575",
+    "https://www.tiktok.com/@myminiunbox/photo/7697278448036859150",
+    "https://www.tiktok.com/@lilbrotoys/video/7698781139246370049",
+    "https://www.tiktok.com/@.lu.mii/video/7706951776183831809"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-10-15T21:46:44.000Z",
+  "brief_hash": "c173438c65e1eb58"
+}

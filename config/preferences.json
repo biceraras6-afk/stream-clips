@@ -1,12 +1,57 @@
 {
   "language": "en",
-  "preferred_streamers": ["Kai Cenat", "IShowSpeed", "xQc", "Adin Ross", "Jynxzi", "Pokimane"],
+  "preferred_streamers": [
+    "Kai Cenat",
+    "IShowSpeed",
+    "xQc",
+    "Adin Ross",
+    "Jynxzi",
+    "Pokimane"
+  ],
   "preferred_bonus": 0.25,
   "min_budget_remaining_for_join": 0.5,
-  "excluded_categories": ["gambling", "casino", "crypto", "adult", "political"],
-  "excluded_keywords": ["casino", "gambling", "sportsbook", "betting", "stake.com", "crypto", "memecoin", "nft", "onlyfans", "nsfw", "adult content"],
-  "allowed_source_types": ["vod", "stream", "drive", "channel", "clips"],
+  "excluded_categories": [
+    "gambling",
+    "casino",
+    "crypto",
+    "adult",
+    "political"
+  ],
+  "excluded_keywords": [
+    "casino",
+    "gambling",
+    "sportsbook",
+    "betting",
+    "stake.com",
+    "crypto",
+    "memecoin",
+    "nft",
+    "onlyfans",
+    "nsfw",
+    "adult content"
+  ],
+  "allowed_source_types": [
+    "vod",
+    "stream",
+    "drive",
+    "channel",
+    "clips"
+  ],
   "default_est_views": 5000,
   "below_min_views_factor": 0.3,
-  "clips_per_account_per_day": 3
+  "clips_per_account_per_day": 3,
+  "cr_categories": [
+    "Streamer",
+    "Gaming",
+    "Entertainment",
+    "Content Creator",
+    "YouTuber",
+    "Celebrity",
+    "Comedy Podcast",
+    "Fan Page",
+    "Sports",
+    "Minecraft"
+  ],
+  "max_est_views": 50000,
+  "min_approved_for_stats": 10
 }

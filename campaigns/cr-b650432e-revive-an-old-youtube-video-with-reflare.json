@@ -1,0 +1,116 @@
+{
+  "id": "cr-b650432e-revive-an-old-youtube-video-with-reflare",
+  "title": "Revive an old YouTube video with Reflare",
+  "url": "https://contentrewards.com/c/campaigns/b650432e-813d-4908-baae-80b86233f84f",
+  "status": "open",
+  "brand": "Reflare",
+  "streamer": null,
+  "category": "technology",
+  "language": null,
+  "description": "Film yourself showing how Reflare brings old YouTube videos back to life: it generates new thumbnails in your channel's style and A/B tests them on your back catalog. For YouTubers who can show an old, low-performing video of their own in YouTube Studio.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 3.0,
+    "min_payout": 6.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 2000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 3.0,
+        "min_payout": 6.0,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 3.0,
+        "min_payout": 6.0,
+        "max_payout_per_clip": 100.0
+      },
+      "youtube": {
+        "rate_per_1k": 3.0,
+        "min_payout": 6.0,
+        "max_payout_per_clip": 100.0
+      },
+      "x": {
+        "rate_per_1k": 3.0,
+        "min_payout": 6.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "b650432e-813d-4908-baae-80b86233f84f",
+  "guidelines": "$4e",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": true,
+    "draftCaptionRequired": true
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 1,
+  "launched_at": "2026-11-17T15:55:54.000Z",
+  "brief_hash": "1ff4c1100368943a"
+}

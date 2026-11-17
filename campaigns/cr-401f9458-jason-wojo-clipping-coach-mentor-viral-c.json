@@ -1,0 +1,118 @@
+{
+  "id": "cr-401f9458-jason-wojo-clipping-coach-mentor-viral-c",
+  "title": "Jason Wojo Clipping | Coach & Mentor | Viral Clips",
+  "url": "https://contentrewards.com/c/campaigns/401f9458-d426-47fb-9f8f-83002a162cb5",
+  "status": "open",
+  "brand": "Jason Wojo",
+  "streamer": null,
+  "category": "coach-mentor",
+  "language": null,
+  "description": "Clip Jason Wojo's Content To Push More YouTube Subscribers: Clip From Podcasts, Events, Speeches, Keynotes, YouTube Long Form and Front Facing Content Already!",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": [
+    "@thejasonwojo"
+  ],
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 2.0,
+    "min_payout": 10.0,
+    "max_payout_per_clip": 500.0,
+    "min_views": 5000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 500.0
+      },
+      "instagram": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 500.0
+      },
+      "youtube": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 500.0
+      },
+      "facebook": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 500.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2000.0,
+    "remaining": 2000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "401f9458-d426-47fb-9f8f-83002a162cb5",
+  "guidelines": "- Must tag @thejasonwojo in all posts and tag me too so I see it in my tags\n- must use the right branding and congruent fonts to what content you currently see on my instagram\n- editing must be very professional and stand out as we are B2B and need to make sure brand is congruent\n- do not post any clips that can hurt brand reputation ( I like cursing but don't have a clip with 10 curse words in it)\n- must target United States people with content - not international bot views ( if bots are found, refund will be required)\n",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": true,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": true,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 2,
+  "launched_at": "2026-11-17T01:57:11.000Z",
+  "brief_hash": "0d19fc864219f61b"
+}

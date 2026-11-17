@@ -1,0 +1,103 @@
+{
+  "id": "cr-5f6b6ac5-stream-house-la-clipping-4k-budget",
+  "title": "Stream House LA Clipping| $4k Budget",
+  "url": "https://contentrewards.com/c/campaigns/5f6b6ac5-9878-4ad6-b90f-c2f2a3392e91",
+  "status": "open",
+  "brand": "Motion Clipping",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "Clip for Stream House LA and post viral moments across Tiktok, Instagram and YT shorts and get paid ",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 2.0,
+    "min_payout": 3.5,
+    "max_payout_per_clip": 700.0,
+    "min_views": 1750,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 2.0,
+        "min_payout": 3.5,
+        "max_payout_per_clip": 700.0
+      },
+      "instagram": {
+        "rate_per_1k": 2.0,
+        "min_payout": 3.5,
+        "max_payout_per_clip": 700.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.5,
+        "min_payout": 1.2,
+        "max_payout_per_clip": 500.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 4000.0,
+    "remaining": 2431.92,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "5f6b6ac5-9878-4ad6-b90f-c2f2a3392e91",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 864,
+    "total_views": 843356,
+    "creators": 130,
+    "avg_views": 976,
+    "avg_payout": 1.81,
+    "updated_at": "2026-11-17T18:18:17.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@cweplug/video/7703206759887850773",
+    "https://www.youtube.com/watch?v=5sfuMvtxiLg",
+    "https://www.tiktok.com/@cwedailyplug/video/7697018712385342723",
+    "https://www.tiktok.com/@cwedailyplug/video/7696295557333175555",
+    "https://www.youtube.com/watch?v=ysPOGQmqm-E",
+    "https://www.tiktok.com/@cwememes/video/7708445824287526150",
+    "https://www.youtube.com/watch?v=AqD-nD1iDVw",
+    "https://www.youtube.com/watch?v=hLO3wmu8d7g",
+    "https://www.youtube.com/watch?v=QxzpjqKXH-A",
+    "https://www.youtube.com/watch?v=FTEt7LEyKlM"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-10-06T00:03:34.000Z",
+  "brief_hash": "0778ac767c41eb59"
+}

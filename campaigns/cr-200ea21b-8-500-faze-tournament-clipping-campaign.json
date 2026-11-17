@@ -1,0 +1,143 @@
+{
+  "id": "cr-200ea21b-8-500-faze-tournament-clipping-campaign",
+  "title": "$8,500 FaZe Tournament Clipping Campaign",
+  "url": "https://contentrewards.com/c/campaigns/200ea21b-be80-4db8-b552-8e32b148604e",
+  "status": "open",
+  "brand": "ClippedIn",
+  "streamer": null,
+  "category": "gaming",
+  "language": null,
+  "description": "FaZe Flank Invitational (Call of Duty), live on Twitch Nov 10 to 12.\nClip the draft, clutch plays and reactions from the official broadcast only.\nFaZe Flank logo on every clip, required caption tags, 60%+ US audience.\n$2 CPM, up to $350 per clip. \nTop clippers get invited to our private team.",
+  "source": {
+    "type": "vod",
+    "urls": [
+      "https://twitch.tv/faze",
+      "https://twitch.tv/zoomaa"
+    ],
+    "permission_quote": "Clip the draft, clutch plays and reactions from the official broadcast only."
+  },
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": [
+    "@FaZeClan",
+    "@TheFlank",
+    "@ZooMaa"
+  ],
+  "hashtags": [
+    "#FaZeFlankInvitational"
+  ],
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 2.0,
+    "min_payout": 10.0,
+    "max_payout_per_clip": 350.0,
+    "min_views": 5000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 350.0
+      },
+      "instagram": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 350.0
+      },
+      "youtube": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 350.0
+      },
+      "x": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 350.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 8500.0,
+    "remaining": 8329.83,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "200ea21b-be80-4db8-b552-8e32b148604e",
+  "guidelines": "Only clip the official FaZe Flank Invitational broadcast (twitch.tv/faze, twitch.tv/zoomaa) or the players' own POV streams\nKeep the FaZe Flank Invitational logo on screen for the whole clip, never over the action\nCaption must include @FaZeClan @ZooMaa @TheFlank #FaZeFlankInvitational, plus featured player and team handles when shown\n60%+ US audience required\nHook in the first second: open on the play, the pick or the reaction\nEvery clip must be an edit, no full VODs or unedited stream segments\nNever make FaZe, CDL teams or players look bad, no fake results, fake drama or misleading scores\nVertical 9:16, at least 7 seconds\nNo carousels, collab posts, politics or religion\nKeep every clip public for at least 3 months\nFull rules in the guidelines",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": true,
+    "oauthPlatforms": [
+      "tiktok",
+      "instagram"
+    ],
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 46,
+    "total_views": 146964,
+    "creators": 15,
+    "avg_views": 3195,
+    "avg_payout": 3.7,
+    "updated_at": "2026-11-17T18:18:23.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/DfsbFasohdY/",
+    "https://www.instagram.com/reel/DfxXo4EI3xO/",
+    "https://www.youtube.com/watch?v=RmAnbmOiNr8",
+    "https://www.instagram.com/reel/Df0WFUJor-u/",
+    "https://www.youtube.com/watch?v=5XPGYma9ZnQ",
+    "https://www.youtube.com/watch?v=MBN129QclX4",
+    "https://www.tiktok.com/@clipvault.285/video/7707038013477424398",
+    "https://www.tiktok.com/@clipvault.285/video/7707131667189714206",
+    "https://www.tiktok.com/@clipsignal.hq/video/7707455487666605318",
+    "https://www.tiktok.com/@clipsignal.hq/video/7707454501841669396"
+  ],
+  "locked_references": 2,
+  "launched_at": "2026-11-11T19:00:34.000Z",
+  "brief_hash": "7f824c962f26f44f"
+}

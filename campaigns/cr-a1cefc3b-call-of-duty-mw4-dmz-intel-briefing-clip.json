@@ -1,0 +1,97 @@
+{
+  "id": "cr-a1cefc3b-call-of-duty-mw4-dmz-intel-briefing-clip",
+  "title": "Call of Duty - MW4 DMZ Intel Briefing Clipping",
+  "url": "https://contentrewards.com/c/campaigns/a1cefc3b-4533-438f-8e70-a7299550f1cf",
+  "status": "open",
+  "brand": "Clipping Culture",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "Clip the DMZ Intel Briefing video from the official content folder.\nShow the new DMZ content in Modern Warfare 4 Season 1.\nPost to TikTok and Instagram Reels.\n",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 0.0,
+    "min_payout": 6.0,
+    "max_payout_per_clip": 1200.0,
+    "min_views": null,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.0,
+        "min_payout": 6.0,
+        "max_payout_per_clip": 1200.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 4.5,
+        "max_payout_per_clip": 1200.0
+      }
+    },
+    "geo_priced": true
+  },
+  "budget": {
+    "total": 30000.0,
+    "remaining": 21197.23,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "a1cefc3b-4533-438f-8e70-a7299550f1cf",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 448,
+    "total_views": 5419281,
+    "creators": 112,
+    "avg_views": 12097,
+    "avg_payout": 19.65,
+    "updated_at": "2026-11-17T18:18:24.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/DfwBZ5zOku8/",
+    "https://www.instagram.com/reel/DfioucJuo5m/",
+    "https://www.instagram.com/reel/DflFjz7uSYW/",
+    "https://www.instagram.com/reel/Dfln8qTONQO/",
+    "https://www.instagram.com/reel/DfqDro5uKIK/",
+    "https://www.instagram.com/reel/DflhW2FOCV1/",
+    "https://www.instagram.com/reel/DflOWTIOhzb/",
+    "https://www.instagram.com/reel/DfkuNfHShKe/",
+    "https://www.instagram.com/reel/DfjCI0nONMG/",
+    "https://www.instagram.com/reel/DfnnVGVuI1k/"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-09T17:59:40.000Z",
+  "brief_hash": "0649ed8cff417ba3"
+}

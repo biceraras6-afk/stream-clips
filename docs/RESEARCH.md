@@ -98,3 +98,11 @@ Quelle: [contentrewards.com/terms-of-service/clippers](https://contentrewards.co
 - **7.3** CPM-Runden: 7 Tage Verdienst + 3 Tage Halt.
 - Zu Scraping/Automatisierung des CR-Zugangs: **kein Abschnitt gefunden**. robots.txt sperrt `/api/`. → Keine Nutzung interner CR-Endpunkte; Erfassung per kopiertem Seitentext (Issue-Formular).
 - Whop-API: Endpunkte „bounties“ mit Ziel-Typ `clipping` existieren (Current API, Beta); ob CR-Kampagnen dort gelistet sind und ob Creator-Schlüssel Zugriff haben: **ungeprüft** (Doku-Abruf hier blockiert). Bis dahin Halbautomat.
+
+## 9. Automatische Kampagnensuche (umgesetzt)
+- **Quelle:** öffentliche Seiten `contentrewards.com/c/discover/clipping`, `/c/discover`, `/sitemap.xml`, `/c/campaigns/<id>` – ohne Login. robots.txt erlaubt sie (gesperrt nur `/api/`, `/home`, `/onboarding` …). Die Seiten liefern strukturierte Daten: Rate/Mindest-/Höchstauszahlung je Plattform, Budget/verbraucht, Status, Bewerbung nötig, Briefing („guidelines“), Pflicht-Flags (OAuth, Link in Bio, Logo, Pre-Approval), Statistik (genehmigte Clips, Views), Top-Clips.
+- **Schonend:** `tools/discover.py` prüft robots.txt, nutzt nie `/api/`, 4 s Pause je Seite, max. 30 Detailseiten pro Lauf, alle 3 h (≈ 250 Seiten/Tag), eigener User-Agent.
+- **Restrisiko:** CR-AGB enthalten kein Scraping-Verbot (gelesen, s. Abschnitt 8), aber CR kann das jederzeit ändern oder den Seitenaufbau umstellen → Parser meldet „keine Daten“, dann Issue-Formular als Rückfall.
+- **Whop-API:** „Bounties“ (`GET /api/v1/bounties`, Ziel `clipping`) sind Festbetrag-pro-Gewinner-Aufgaben, **nicht** die CPM-Kampagnen von CR → für CR nicht nutzbar. ✅ (OpenAPI gelesen)
+- **Beitreten:** braucht Login, keine API → bleibt ein Klick von Hand (Issue „Beitreten“ mit Häkchen). Ein Login-Bot wäre Browser-Automatisierung mit Konto – bewusst nicht gebaut.
+- Keine Frist im Datenmodell von CR: Kampagnen enden über Budget/Status → Auto-Stopp darüber.

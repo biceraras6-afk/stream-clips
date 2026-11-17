@@ -1,0 +1,103 @@
+{
+  "id": "cr-0afd04db-call-of-duty-mw4-v2",
+  "title": "Call of Duty MW4 عربي V2",
+  "url": "https://contentrewards.com/c/campaigns/0afd04db-e183-4411-9957-0b890ef272b5",
+  "status": "open",
+  "brand": "Arabic Clipping",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "🔥 Call of Duty MW4 انضم إلى حملة كليبينغ   \nانشر مقاطع قصيرة عن اللعبة على حساباتك، واحصل على أرباح حسب عدد المشاهدات \nالمحتوى  جاهز عليك ان تقص و تنزل فقط ",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "x"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.0,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 300.0,
+    "min_views": 2000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 300.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 150.0
+      },
+      "x": {
+        "rate_per_1k": 3.0,
+        "min_payout": 6.0,
+        "max_payout_per_clip": 225.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 26300.0,
+    "remaining": 14629.7,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "0afd04db-e183-4411-9957-0b890ef272b5",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 690,
+    "total_views": 11004679,
+    "creators": 79,
+    "avg_views": 15949,
+    "avg_payout": 16.91,
+    "updated_at": "2026-11-17T18:18:23.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@clzr_clips/video/7698520367580663048",
+    "https://www.tiktok.com/@ghost.darrk/video/7705440528489254166",
+    "https://www.tiktok.com/@abcall.of.duty/video/7702198557385805076",
+    "https://www.tiktok.com/@abcall.of.duty/video/7699107108406496532",
+    "https://www.tiktok.com/@gaming.universe74/video/7699811427187428628",
+    "https://www.tiktok.com/@clzr_clips/video/7694070524258831617",
+    "https://www.tiktok.com/@rrspon7/video/7695087432412466452",
+    "https://www.tiktok.com/@content.anas2/video/7694410373327326485",
+    "https://www.tiktok.com/@cod_arab_army/video/7698412467214404896",
+    "https://www.tiktok.com/@ghost.darrk/video/7706507555215854870"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-09-22T07:07:32.000Z",
+  "brief_hash": "69d5630f18affd92"
+}

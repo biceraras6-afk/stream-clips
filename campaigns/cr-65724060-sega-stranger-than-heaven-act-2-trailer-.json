@@ -1,0 +1,103 @@
+{
+  "id": "cr-65724060-sega-stranger-than-heaven-act-2-trailer-",
+  "title": "SEGA - STRANGER THAN HEAVEN Act 2 Trailer Clipping",
+  "url": "https://contentrewards.com/c/campaigns/65724060-69de-4dc7-a523-4843b7358871",
+  "status": "open",
+  "brand": "Clipping Culture",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "Post clips of the STRANGER THAN HEAVEN Act 2 Story Trailer.\nPost on TikTok, Instagram, or YouTube Shorts.\n",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 0.0,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 800.0,
+    "min_views": null,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 800.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.0,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 800.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 800.0
+      }
+    },
+    "geo_priced": true
+  },
+  "budget": {
+    "total": 24000.0,
+    "remaining": 21283.37,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "65724060-69de-4dc7-a523-4843b7358871",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 471,
+    "total_views": 1575159,
+    "creators": 90,
+    "avg_views": 3344,
+    "avg_payout": 5.77,
+    "updated_at": "2026-11-17T18:18:23.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/DfxCOO6MuOZ/",
+    "https://www.instagram.com/reel/Dfw-iIERWCm/",
+    "https://www.instagram.com/reel/DfxDwE5sW42/",
+    "https://www.instagram.com/reel/DfxAZfUK-yW/",
+    "https://www.instagram.com/reel/DfxEAfOImpv/",
+    "https://www.instagram.com/reel/DfxDNJqqYQ-/",
+    "https://www.instagram.com/reel/Dfw_jybxLtQ/",
+    "https://www.instagram.com/reel/DfxF5RhRHzc/",
+    "https://www.instagram.com/reel/DfxF5icxREL/",
+    "https://www.instagram.com/reel/DfxDmz-RC9U/"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-13T18:44:45.000Z",
+  "brief_hash": "af98d2b310167fda"
+}

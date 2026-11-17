@@ -1,0 +1,103 @@
+{
+  "id": "cr-2ade1fa0-lucas-clipping-cycle-2",
+  "title": "Lucas Clipping Cycle 2",
+  "url": "https://contentrewards.com/c/campaigns/2ade1fa0-ef91-40c6-af02-6ec52d2f5685",
+  "status": "open",
+  "brand": "Lucas clipping",
+  "streamer": null,
+  "category": "fan-page",
+  "language": null,
+  "description": "Clippe Lucas - créateur lifestyle luxe & mindset (Dubaï). Transforme ses vlogs, ses rushs Cannes/Côte d'Azur et ses passages où il parle en clips courts pour TikTok, Insta & YT Shorts. Payé aux vues. Comptes dédiés à son image. ",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.0,
+    "min_payout": 5.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 5000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 150.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 150.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 4900.0,
+    "remaining": 3096.73,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "2ade1fa0-ef91-40c6-af02-6ec52d2f5685",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 241,
+    "total_views": 2562344,
+    "creators": 27,
+    "avg_views": 10632,
+    "avg_payout": 7.48,
+    "updated_at": "2026-11-17T18:18:18.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@clip2lucas/video/7701297385858764065",
+    "https://www.tiktok.com/@lucasonlyclip1/video/7694632834123795734",
+    "https://www.tiktok.com/@lucas.evolution0/video/7699874307886927136",
+    "https://www.tiktok.com/@lucasonlyclip1/video/7693590817675496736",
+    "https://www.tiktok.com/@lucasonly91/video/7705104989055651078",
+    "https://www.tiktok.com/@lucasonlyclip1/video/7697700374291156247",
+    "https://www.tiktok.com/@lucasonly91/video/7703080863960943893",
+    "https://www.tiktok.com/@imlucasonly1.clipping/video/7708447247146421537",
+    "https://www.tiktok.com/@lucasonlyclip1/video/7695823290899746070",
+    "https://www.youtube.com/watch?v=iEHApggVgWI"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-09-15T20:02:41.000Z",
+  "brief_hash": "492d9a4716dcfa41"
+}

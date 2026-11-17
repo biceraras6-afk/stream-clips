@@ -1,0 +1,104 @@
+{
+  "id": "cr-b8cf722b-bropacks-discover-games-on-eneba",
+  "title": "BroPacks - Discover Games on Eneba",
+  "url": "https://contentrewards.com/c/campaigns/b8cf722b-8dd2-444b-b3cc-b1a7d23104ba",
+  "status": "open",
+  "brand": "Eneba",
+  "streamer": null,
+  "category": "gaming",
+  "language": null,
+  "description": "Edit short-form videos from our supplied pack-openin footage and send viewers to ene.ba/bro to discover roPacks on Eneba. See every item and the odds upfron. 18+. Post on TikTok, Reels or Shorts with #Ad. Rea the full brief and rules before posting.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": [
+    "#Ad"
+  ],
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 3.0,
+    "min_payout": 3.0,
+    "max_payout_per_clip": 500.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 3.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 500.0
+      },
+      "instagram": {
+        "rate_per_1k": 3.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 500.0
+      },
+      "youtube": {
+        "rate_per_1k": 3.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 500.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 5973.53,
+    "remaining": 5939.32,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "b8cf722b-8dd2-444b-b3cc-b1a7d23104ba",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 9,
+    "total_views": 11641,
+    "creators": 5,
+    "avg_views": 1293,
+    "avg_payout": 3.8,
+    "updated_at": "2026-11-17T18:18:22.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@rizzbymax1/video/7708402616895687957",
+    "https://www.tiktok.com/@dropzone.intel/video/7704081297454484768",
+    "https://www.youtube.com/watch?v=c8d5lCq_0V4",
+    "https://www.youtube.com/watch?v=LX3tO0YKApE",
+    "https://www.youtube.com/watch?v=lGZk08g5GWU",
+    "https://www.youtube.com/watch?v=ypFWant98PM",
+    "https://www.youtube.com/watch?v=Wo6-zSUeqz8",
+    "https://www.youtube.com/watch?v=2d4I6kHys54",
+    "https://www.youtube.com/watch?v=9IDuF4-N410"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-10-28T20:26:37.000Z",
+  "brief_hash": "cdad4f1e163e0eff"
+}

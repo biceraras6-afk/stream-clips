@@ -1,0 +1,115 @@
+{
+  "id": "cr-ea437ce3-campus-drivers",
+  "title": "Campus Drivers ",
+  "url": "https://contentrewards.com/c/campaigns/ea437ce3-68b5-4cf6-90d0-3fcc39f54010",
+  "status": "open",
+  "brand": "TriplePlay",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "Share standout romance, relationship drama, and college-life moments from Campus Drivers, now streaming on Prime Video.",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 0.75,
+    "min_payout": 5.0,
+    "max_payout_per_clip": 200.0,
+    "min_views": 6667,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.75,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 200.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.75,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 200.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.75,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 200.0
+      },
+      "x": {
+        "rate_per_1k": 0.75,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 200.0
+      },
+      "facebook": {
+        "rate_per_1k": 0.75,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 200.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2000.0,
+    "remaining": 1742.21,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "ea437ce3-68b5-4cf6-90d0-3fcc39f54010",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 30,
+    "total_views": 340417,
+    "creators": 23,
+    "avg_views": 11347,
+    "avg_payout": 8.59,
+    "updated_at": "2026-11-17T18:18:24.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/Df0H4ezRu9Q/",
+    "https://www.instagram.com/reel/Df0ZASdBHSC/",
+    "https://www.instagram.com/reel/Df0TcQzz4Ns/",
+    "https://www.instagram.com/reel/Df0JhceB53C/",
+    "https://www.instagram.com/reel/Df0hC25SkT0/",
+    "https://www.youtube.com/watch?v=FC4WmVWYQGI",
+    "https://www.instagram.com/reel/Df0aAGWOn3Y/",
+    "https://www.instagram.com/reel/Df0fX0Jt-Rc/",
+    "https://www.tiktok.com/@itslucasclips/video/7708850902744222996",
+    "https://www.instagram.com/reel/Df03q3RTLuO/"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-16T17:59:41.000Z",
+  "brief_hash": "4836256abba1e445"
+}

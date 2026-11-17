@@ -1,0 +1,97 @@
+{
+  "id": "cr-bb11120c-g2g-channel-clipping-campaign",
+  "title": "G2G Channel Clipping Campaign",
+  "url": "https://contentrewards.com/c/campaigns/bb11120c-865b-4d12-911f-aec4e701767c",
+  "status": "open",
+  "brand": "G2G Clippers",
+  "streamer": null,
+  "category": "sports",
+  "language": null,
+  "description": "We are looking for experienced, creative video editors to join the G2G Channel team! Help us transform our best live stream moments, highlights, and reactions into engaging, high-performing short clips.\n\nWhat We're Looking For:\n\nProven experience in video editing and clipping stream highlights.\n\nA strong eye for pacing, storytelling, and viral-ready content.\n\nFamiliarity with our content, community, and dynamic live stream style",
+  "source": null,
+  "platforms": [
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.5,
+    "min_payout": 2.5,
+    "max_payout_per_clip": 15.0,
+    "min_views": 1667,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.5,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 15.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.5,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 15.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 745.91,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "bb11120c-865b-4d12-911f-aec4e701767c",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 476,
+    "total_views": 371262,
+    "creators": 58,
+    "avg_views": 780,
+    "avg_payout": 0.53,
+    "updated_at": "2026-11-17T18:20:13.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@mrdmt_666/video/7705174872263003410",
+    "https://www.tiktok.com/@gamgamclip/video/7708703243135700231",
+    "https://www.tiktok.com/@sportsclipsdly/video/7697746571043032327",
+    "https://www.tiktok.com/@z_clips49/video/7697052784905948429",
+    "https://www.tiktok.com/@sportsclipsdly/video/7703306723645213959",
+    "https://www.youtube.com/watch?v=UxRANc9zFY0",
+    "https://www.tiktok.com/@mrdmt_666/video/7707365755595083026",
+    "https://www.youtube.com/watch?v=k-NK2vvbUhE",
+    "https://www.tiktok.com/@sportsclipsdly/video/7697763715428535568",
+    "https://www.tiktok.com/@mrdmt_666/video/7708139842743307538"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-08-06T15:10:23.000Z",
+  "brief_hash": "8f2b1ca1631ab1c3"
+}

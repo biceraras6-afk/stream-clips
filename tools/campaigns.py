@@ -7,7 +7,8 @@ Priorität (erwarteter Ertrag je Clip, gewichtet):
     pro_clip = min(rate_per_1k * est_views / 1000, max_payout_per_clip)
     * below_min_views_factor, falls est_views < min_views
     score = pro_clip * Restbudget-Anteil * (1 + preferred_bonus bei Wunsch-Streamer)
-est_views: Kampagnenwert, sonst default_est_views (bis Phase 3 echte Daten liefert).
+est_views: Kampagnenwert, sonst Ø Views der genehmigten Clips (CR-Statistik, gedeckelt), sonst default_est_views.
+Mit genug genehmigten Clips (min_approved_for_stats) gilt stattdessen pro_clip = Ø Auszahlung je Clip.
 """
 from __future__ import annotations
 
@@ -63,7 +64,7 @@ def validate(c: dict) -> tuple[list[str], list[str]]:
     if pay:
         if pay.get("model") not in {"cpm", "per_post", "pool", "retainer"}:
             err.append(f"payment.model ungültig: {pay.get('model')}")
-        if pay.get("model") == "cpm" and not pay.get("rate_per_1k"):
+        if pay.get("model") == "cpm" and pay.get("rate_per_1k") is None:
             err.append("payment.rate_per_1k fehlt")
         if pay.get("min_views") is None:
             warn.append("payment.min_views unbekannt")
@@ -131,8 +132,16 @@ def active_platforms(c: dict) -> set[str]:
 
 def score(c: dict) -> float:
     pay = c.get("payment") or {}
-    est = c.get("est_views") or PREFS["default_est_views"]
-    if pay.get("model") == "per_post":
+    st = c.get("stats") or {}
+    est = c.get("est_views") or min(st.get("avg_views") or PREFS["default_est_views"], PREFS["max_est_views"])
+    if pay.get("model") == "pool":
+        # Anteil am Restbudget im Verhältnis eigener zu allen Views
+        b = c.get("budget") or {}
+        per_clip = (b.get("remaining") or 0) * est / max(st.get("total_views") or 0, est * 50)
+    elif (pay.get("model") == "cpm" and (st.get("approved") or 0) >= PREFS["min_approved_for_stats"]
+          and st.get("avg_payout")):
+        per_clip = st["avg_payout"]
+    elif pay.get("model") == "per_post":
         per_clip = pay.get("amount_per_post") or 0
     else:
         per_clip = (pay.get("rate_per_1k") or 0) * est / 1000
@@ -200,6 +209,12 @@ def cmd_triage(write: bool) -> int:
     out.mkdir(exist_ok=True)
     (out / "campaigns.md").write_text(report)
     (out / "queue.json").write_text(json.dumps([c["id"] for c in active], indent=2))
+    (out / "join.json").write_text(json.dumps([
+        {"id": c["id"], "title": c["title"], "url": c["url"], "score": score(c),
+         "remaining": round(remaining_frac(c), 2), "application": bool(c.get("requires_application")),
+         "platforms": sorted(set(c["platforms"]) & active_platforms(c)),
+         "rate": (c.get("payment") or {}).get("rate_per_1k"), "model": (c.get("payment") or {}).get("model")}
+        for c in join], indent=2, ensure_ascii=False))
     if os.environ.get("GITHUB_STEP_SUMMARY"):
         with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as f:
             f.write(report)

@@ -1,0 +1,109 @@
+{
+  "id": "cr-f7ac5280-jake-paul-mvp-x-pfl-interview",
+  "title": "Jake Paul MVP x PFL Interview",
+  "url": "https://contentrewards.com/c/campaigns/f7ac5280-4d8b-4f96-9c49-351a0c1f6477",
+  "status": "open",
+  "brand": "Clipflow",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "Jake Paul MVP x PFL Interview Clipping \n\n- Clip Jake Paul from the content folder talking about the PFL and MVP merger.\n- Keep Jake front and center and make the PFL x MVP merger the story of every post.\n- Clip moments where Jak",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 0.5,
+    "min_payout": 2.5,
+    "max_payout_per_clip": 50.0,
+    "min_views": 5000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.5,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 50.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.5,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 50.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.5,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 50.0
+      },
+      "x": {
+        "rate_per_1k": 0.5,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 50.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2000.0,
+    "remaining": 1804.48,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "f7ac5280-4d8b-4f96-9c49-351a0c1f6477",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 700,
+    "total_views": 1151043,
+    "creators": 324,
+    "avg_views": 1644,
+    "avg_payout": 0.28,
+    "updated_at": "2026-11-17T18:18:21.000Z"
+  },
+  "references": [
+    "https://x.com/itzgaffer2/status/2121515437334659442",
+    "https://www.tiktok.com/@clipshub0326/video/7709016058866224414",
+    "https://www.youtube.com/watch?v=y1tAkpI642c",
+    "https://x.com/0xdara_/status/2122317817538084905",
+    "https://www.youtube.com/watch?v=JBfil2IrXQw",
+    "https://x.com/Noirdcreative/status/2121967933144342804",
+    "https://www.instagram.com/reel/DfxCY3ZMqSu/",
+    "https://www.youtube.com/watch?v=LKvBx2L-M64",
+    "https://x.com/Felin11932/status/2122112544768991467",
+    "https://x.com/Felin11932/status/2122405596599398727"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-09T12:14:41.000Z",
+  "brief_hash": "96418dce442c43b2"
+}

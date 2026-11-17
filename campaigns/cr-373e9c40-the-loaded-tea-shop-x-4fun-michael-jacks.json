@@ -1,0 +1,109 @@
+{
+  "id": "cr-373e9c40-the-loaded-tea-shop-x-4fun-michael-jacks",
+  "title": "The Loaded Tea Shop x 4Fun (MICHAEL JACKSON)",
+  "url": "https://contentrewards.com/c/campaigns/373e9c40-dfc5-4a6d-bab8-6c2f96dda100",
+  "status": "open",
+  "brand": "Clip Farm",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "The Loaded Tea Shop makes loaded tea drinks. Make short clips of Michael Jackson moments. Use only our footage. Add the watermark. You earn money for every view.",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.0,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 500.0,
+    "min_views": 2000,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 500.0
+      },
+      "facebook": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 500.0
+      },
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 500.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 500.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 50000.0,
+    "remaining": 47134.12,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "373e9c40-dfc5-4a6d-bab8-6c2f96dda100",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 119,
+    "total_views": 2664145,
+    "creators": 39,
+    "avg_views": 22388,
+    "avg_payout": 24.08,
+    "updated_at": "2026-11-17T18:18:20.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/Dfm_tcGOE8e/",
+    "https://www.instagram.com/reel/DfpdfxMIQdc/",
+    "https://www.instagram.com/reel/DfnESfZOMLE/",
+    "https://www.instagram.com/reel/Dfm-OJDOzrb/",
+    "https://www.instagram.com/reel/DfqLiOXoQvx/",
+    "https://www.instagram.com/reel/Dfm_Y__RUWs/",
+    "https://www.instagram.com/reel/DfnD6RJqk_m/",
+    "https://www.youtube.com/watch?v=Io6RE_DMcRg",
+    "https://www.instagram.com/reel/DfriEg9xk4O/",
+    "https://www.instagram.com/reel/DfnEmgctrZB/"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-10T23:19:37.000Z",
+  "brief_hash": "e5e84089fc18f28d"
+}

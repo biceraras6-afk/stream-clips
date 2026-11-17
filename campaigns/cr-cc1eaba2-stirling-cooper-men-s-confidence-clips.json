@@ -1,0 +1,86 @@
+{
+  "id": "cr-cc1eaba2-stirling-cooper-men-s-confidence-clips",
+  "title": "Stirling Cooper — Men's Confidence Clips",
+  "url": "https://contentrewards.com/c/campaigns/cc1eaba2-1b0d-4358-b50a-c5c1601f1557",
+  "status": "open",
+  "brand": "Inscale Media",
+  "streamer": null,
+  "category": "personal-brand",
+  "language": null,
+  "description": "Clip Stirling Cooper (178K on IG): men's confidence, attraction & psychology. Hours of long-form YouTube content ready to clip. $0.90 per 1K views, up to $100 per clip. Fast daily reviews. CTA required on every clip: \"Grab My Free Guide For Men at 5SubtleMistakes.com\"",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 0.9,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 2222,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.9,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.9,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "cc1eaba2-1b0d-4358-b50a-c5c1601f1557",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-17T18:20:11.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-17T08:24:47.000Z",
+  "brief_hash": "f38808f4d4db6a61"
+}
