@@ -112,8 +112,8 @@ def data_score(v: dict, words: list[dict], section: Path, section_start: float, 
              + (faces > 0) * 1.5                     # Gesicht/Reaktion im Bild
              + (first_gap < 0.4) * 2                 # sofort Sprache, keine Stille
              + (not fragment) * 1.5)                 # kein abgeschnittenes Wort
-    return {"loud_rel_db": round(rel, 1), "motion": round(motion, 1), "face_frames": faces,
-            "first_word_gap": round(first_gap, 2), "fragment": fragment, "data_score": round(score, 2)}
+    return {"loud_rel_db": round(float(rel), 1), "motion": round(float(motion), 1), "face_frames": int(faces),
+            "first_word_gap": round(float(first_gap), 2), "fragment": bool(fragment), "data_score": round(float(score), 2)}
 
 
 JUDGE = """You judge the first 2 seconds of short-form clip variants using these hook rules:
