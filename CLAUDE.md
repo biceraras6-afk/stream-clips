@@ -8,7 +8,7 @@ Läuft in GitHub Actions (öffentliches Repo). Details: `README.md`, `AUTOMATION
 - Unsicherheiten offen benennen; prüfen statt raten.
 
 ## Regeln
-- Qualität vor Menge, Hook zuerst: `docs/HOOKS.md`, Skill `stream-hooks`.
+- Menge vor Qualität (Nutzerentscheidung 17.11.): Tagesziel an Posts muss erreicht werden; die besten verfügbaren Clips nehmen, nicht abbrechen. Technische Mängel (QA: Format, Länge, Lautheit) bleiben Sperrgrund. Hook zuerst: `docs/HOOKS.md`, Skill `stream-hooks`.
 - Abo sparen: Dauerläufe nur als Skripte/Actions. Claude nur für Urteile (Sonnet), nie Opus im Dauerbetrieb. Massenarbeit über `tools/llm.py` (Gemini → Groq → Claude).
 - Nie ins Repo: Zugangsdaten, Account-Namen/-IDs, gepostete Links, Protokolle, Statistiken. Secrets → GitHub-Secrets; Protokolle → privates Repo `stream-clips-data`. Öffentliche Logs ohne Titel/Links der Posts.
 - Nur Quellen mit Freigabe der Kampagne (`source.permission_quote`). Keine Browser-Bots, kein Login-Bot für Content Rewards, keine Fake-Views, keine Massen-Accounts.
