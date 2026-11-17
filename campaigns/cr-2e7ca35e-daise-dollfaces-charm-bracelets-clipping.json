@@ -13,15 +13,23 @@
     "instagram",
     "tiktok"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
+    "amount_per_post": null,
     "rate_per_1k": 2.0,
     "min_payout": 2.0,
     "max_payout_per_clip": 300.0,
@@ -42,7 +50,7 @@
   },
   "budget": {
     "total": 10000.0,
-    "remaining": 7940.98,
+    "remaining": 7921.54,
     "currency": "USD",
     "updated_at": "2026-11-17"
   },
@@ -72,12 +80,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 255,
-    "total_views": 1052445,
+    "approved": 259,
+    "total_views": 1061337,
     "creators": 29,
-    "avg_views": 4127,
-    "avg_payout": 8.07,
-    "updated_at": "2026-11-17T18:16:18.000Z"
+    "avg_views": 4098,
+    "avg_payout": 8.02,
+    "updated_at": "2026-11-17T22:16:18.000Z"
   },
   "references": [
     "https://www.tiktok.com/@unboxingtherapy08/video/7698827552785222933",
@@ -93,5 +101,12 @@
   ],
   "locked_references": null,
   "launched_at": "2026-10-15T21:46:44.000Z",
-  "brief_hash": "c173438c65e1eb58"
+  "brief_hash": "c173438c65e1eb58",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

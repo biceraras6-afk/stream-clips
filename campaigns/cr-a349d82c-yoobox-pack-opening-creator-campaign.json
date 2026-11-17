@@ -13,12 +13,19 @@
     "instagram",
     "tiktok"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": 15,
+    "max_seconds": 30,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "perPost",
@@ -100,5 +107,12 @@
   "references": [],
   "locked_references": 1,
   "launched_at": "2026-11-15T15:01:18.000Z",
-  "brief_hash": "295b30419d7e51f2"
+  "brief_hash": "295b30419d7e51f2",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

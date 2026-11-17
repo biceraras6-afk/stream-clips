@@ -4,21 +4,32 @@
   "url": "https://contentrewards.com/c/campaigns/b5063b46-6922-4227-8da5-f0f4560386ef",
   "status": "open",
   "brand": "Sound Network",
-  "streamer": null,
+  "streamer": "Bruiser Wolf",
   "category": "entertainment",
   "language": null,
   "description": "Clip Bruiser Wolf’s freestyles of tracks from The Dealer Wins.\nUse footage from the official content folder.\nPost to TikTok and Instagram Reels.\n",
-  "source": null,
+  "source": {
+    "type": "drive",
+    "urls": [],
+    "permission_quote": "Use footage from the official content folder."
+  },
   "platforms": [
     "instagram",
     "tiktok"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -87,5 +98,12 @@
   ],
   "locked_references": null,
   "launched_at": "2026-11-16T23:03:02.000Z",
-  "brief_hash": "65a11ded09f6de8c"
+  "brief_hash": "65a11ded09f6de8c",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

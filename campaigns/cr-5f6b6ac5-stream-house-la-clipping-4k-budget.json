@@ -30,6 +30,7 @@
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
+    "amount_per_post": null,
     "rate_per_1k": 2.0,
     "min_payout": 3.5,
     "max_payout_per_clip": 700.0,
@@ -55,7 +56,7 @@
   },
   "budget": {
     "total": 4000.0,
-    "remaining": 2431.92,
+    "remaining": 2420.26,
     "currency": "USD",
     "updated_at": "2026-11-17"
   },
@@ -86,19 +87,19 @@
   "content_rules": {},
   "stats": {
     "approved": 864,
-    "total_views": 843356,
+    "total_views": 848499,
     "creators": 130,
-    "avg_views": 976,
-    "avg_payout": 1.81,
-    "updated_at": "2026-11-17T18:18:17.000Z"
+    "avg_views": 982,
+    "avg_payout": 1.83,
+    "updated_at": "2026-11-17T22:16:18.000Z"
   },
   "references": [
     "https://www.tiktok.com/@cweplug/video/7703206759887850773",
     "https://www.youtube.com/watch?v=5sfuMvtxiLg",
     "https://www.tiktok.com/@cwedailyplug/video/7697018712385342723",
+    "https://www.tiktok.com/@cwememes/video/7708445824287526150",
     "https://www.tiktok.com/@cwedailyplug/video/7696295557333175555",
     "https://www.youtube.com/watch?v=ysPOGQmqm-E",
-    "https://www.tiktok.com/@cwememes/video/7708445824287526150",
     "https://www.youtube.com/watch?v=AqD-nD1iDVw",
     "https://www.youtube.com/watch?v=hLO3wmu8d7g",
     "https://www.youtube.com/watch?v=QxzpjqKXH-A",

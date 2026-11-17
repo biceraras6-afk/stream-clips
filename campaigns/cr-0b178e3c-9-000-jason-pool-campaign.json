@@ -34,6 +34,7 @@
   "overlays_allowed": null,
   "payment": {
     "model": "pool",
+    "amount_per_post": null,
     "rate_per_1k": 0.0,
     "min_payout": null,
     "max_payout_per_clip": null,
@@ -94,12 +95,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 23542,
-    "total_views": 118782947,
-    "creators": 2593,
-    "avg_views": 5046,
+    "approved": 23522,
+    "total_views": 119464788,
+    "creators": 2592,
+    "avg_views": 5079,
     "avg_payout": 0.0,
-    "updated_at": "2026-11-17T18:18:25.000Z"
+    "updated_at": "2026-11-17T22:12:22.000Z"
   },
   "references": [
     "https://www.tiktok.com/@everythingkc3/video/7703718326911896862",
@@ -111,7 +112,7 @@
     "https://www.tiktok.com/@pbarclips.tv/video/7707754093221072159",
     "https://www.tiktok.com/@clipplug.dailyy/video/7704930957609930015",
     "https://www.tiktok.com/@rami.mehenni5/video/7702941362882219286",
-    "https://www.tiktok.com/@core_fx_/video/7704092194096827651"
+    "https://www.tiktok.com/@beastbackyard/video/7703626166296481046"
   ],
   "locked_references": null,
   "launched_at": "2026-10-31T17:21:26.000Z",

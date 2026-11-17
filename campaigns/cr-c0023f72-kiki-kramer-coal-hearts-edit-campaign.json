@@ -13,12 +13,19 @@
     "instagram",
     "tiktok"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -94,5 +101,12 @@
   ],
   "locked_references": null,
   "launched_at": "2026-11-12T16:30:13.000Z",
-  "brief_hash": "785ed343a310e976"
+  "brief_hash": "785ed343a310e976",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

@@ -4,21 +4,30 @@
   "url": "https://contentrewards.com/c/campaigns/cc1eaba2-1b0d-4358-b50a-c5c1601f1557",
   "status": "open",
   "brand": "Inscale Media",
-  "streamer": null,
+  "streamer": "Stirling Cooper",
   "category": "personal-brand",
-  "language": null,
+  "language": "en",
   "description": "Clip Stirling Cooper (178K on IG): men's confidence, attraction & psychology. Hours of long-form YouTube content ready to clip. $0.90 per 1K views, up to $100 per clip. Fast daily reviews. CTA required on every clip: \"Grab My Free Guide For Men at 5SubtleMistakes.com\"",
   "source": null,
   "platforms": [
     "instagram",
     "tiktok"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
-  "links": null,
+  "links": [
+    "https://5SubtleMistakes.com"
+  ],
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -82,5 +91,12 @@
   "references": [],
   "locked_references": null,
   "launched_at": "2026-11-17T08:24:47.000Z",
-  "brief_hash": "f38808f4d4db6a61"
+  "brief_hash": "f38808f4d4db6a61",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

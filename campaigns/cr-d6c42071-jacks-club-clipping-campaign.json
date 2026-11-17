@@ -4,8 +4,8 @@
   "url": "https://contentrewards.com/c/campaigns/d6c42071-e0b9-4faf-8918-3b730cdfcd2d",
   "status": "open",
   "brand": "Jacks Club",
-  "streamer": null,
-  "category": "casino",
+  "streamer": "Jacks Club",
+  "category": "gambling",
   "language": null,
   "description": "Find the best moments from the Jacks Club stream, cut them into clips, and post with #JacksClubCasino. The more views, the more you earn. 18+",
   "source": null,
@@ -15,14 +15,21 @@
     "x",
     "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": [
     "#JacksClubCasino"
   ],
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -98,5 +105,11 @@
   "locked_references": null,
   "launched_at": "2026-11-13T10:56:53.000Z",
   "brief_hash": "8ce82d4f51fd0bdd",
-  "enriched": false
+  "enriched": true,
+  "flags": {
+    "gambling": true,
+    "crypto": false,
+    "adult": true,
+    "political": false
+  }
 }

@@ -4,25 +4,37 @@
   "url": "https://contentrewards.com/c/campaigns/4479e5e2-9a00-489e-8b0c-345834f37cc7",
   "status": "open",
   "brand": "Reach",
-  "streamer": null,
+  "streamer": "Lacy",
   "category": "streamer",
   "language": null,
   "description": "Clip content from Lacy's social media accounts\n\n(TikTok, IG, YT)\n\nREAD THE RULES AND REQUIREMENTS HERE: \nhttps://reachclipping.com/Lacy",
-  "source": null,
+  "source": {
+    "type": "channel",
+    "urls": [],
+    "permission_quote": "Clip content from Lacy's social media accounts"
+  },
   "platforms": [
     "instagram",
     "tiktok",
     "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "pool",
+    "amount_per_post": null,
     "rate_per_1k": 0.0,
     "min_payout": null,
     "max_payout_per_clip": null,
@@ -78,12 +90,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 69994,
-    "total_views": 379701407,
-    "creators": 5667,
-    "avg_views": 5425,
+    "approved": 72078,
+    "total_views": 384631390,
+    "creators": 5864,
+    "avg_views": 5336,
     "avg_payout": 0.0,
-    "updated_at": "2026-11-17T18:18:22.000Z"
+    "updated_at": "2026-11-17T22:16:20.000Z"
   },
   "references": [
     "https://www.youtube.com/watch?v=WEiKyTlH-Cw",
@@ -99,5 +111,12 @@
   ],
   "locked_references": null,
   "launched_at": "2026-10-20T22:15:03.000Z",
-  "brief_hash": "52f5c3e7cf9a267b"
+  "brief_hash": "52f5c3e7cf9a267b",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

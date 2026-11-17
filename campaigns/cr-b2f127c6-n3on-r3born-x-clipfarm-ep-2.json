@@ -4,7 +4,7 @@
   "url": "https://contentrewards.com/c/campaigns/b2f127c6-66f9-4a70-aae4-0deb86748be5",
   "status": "open",
   "brand": "Clip Farm",
-  "streamer": null,
+  "streamer": "N3on",
   "category": "entertainment",
   "language": null,
   "description": "R3born is N3on's new show on HardScope, following the livestreamer through a fitness transformation. Clip the best moments from Episode 2. \n",
@@ -15,12 +15,19 @@
     "x",
     "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -107,5 +114,11 @@
   "locked_references": null,
   "launched_at": "2026-11-14T00:12:31.000Z",
   "brief_hash": "34052b0fcb6fb544",
-  "enriched": false
+  "enriched": true,
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  }
 }

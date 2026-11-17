@@ -12,12 +12,19 @@
   "platforms": [
     "instagram"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -79,5 +86,12 @@
   ],
   "locked_references": null,
   "launched_at": "2026-11-16T17:47:17.000Z",
-  "brief_hash": "1952f9377744b287"
+  "brief_hash": "1952f9377744b287",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

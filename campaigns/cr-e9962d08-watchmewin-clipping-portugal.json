@@ -6,22 +6,30 @@
   "brand": "WMW CLIPPING PT",
   "streamer": null,
   "category": "entertainment",
-  "language": null,
+  "language": "pt",
   "description": "Clipa e Ganha! 🎥💸",
   "source": null,
   "platforms": [
     "instagram",
     "tiktok"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
+    "amount_per_post": null,
     "rate_per_1k": 1.0,
     "min_payout": 1.0,
     "max_payout_per_clip": 50.0,
@@ -42,7 +50,7 @@
   },
   "budget": {
     "total": 2000.0,
-    "remaining": 1151.14,
+    "remaining": 1146.39,
     "currency": "USD",
     "updated_at": "2026-11-17"
   },
@@ -73,15 +81,15 @@
   "content_rules": {},
   "stats": {
     "approved": 113,
-    "total_views": 1358955,
+    "total_views": 1377706,
     "creators": 22,
-    "avg_views": 12026,
-    "avg_payout": 7.51,
-    "updated_at": "2026-11-17T18:18:21.000Z"
+    "avg_views": 12192,
+    "avg_payout": 7.55,
+    "updated_at": "2026-11-17T22:14:11.000Z"
   },
   "references": [
-    "https://www.tiktok.com/@the._paradise/video/7704011175054298400",
     "https://www.tiktok.com/@the._paradise/video/7707651237897948448",
+    "https://www.tiktok.com/@the._paradise/video/7704011175054298400",
     "https://www.tiktok.com/@the._paradise/video/7705121516312186145",
     "https://www.tiktok.com/@tuga.football.zone/video/7708317811382177046",
     "https://www.tiktok.com/@tuga._tok/video/7701865320276954400",
@@ -93,5 +101,12 @@
   ],
   "locked_references": null,
   "launched_at": "2026-10-21T18:41:33.000Z",
-  "brief_hash": "6c79c986981e262f"
+  "brief_hash": "6c79c986981e262f",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

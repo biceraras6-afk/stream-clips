@@ -4,26 +4,38 @@
   "url": "https://contentrewards.com/c/campaigns/f7ac5280-4d8b-4f96-9c49-351a0c1f6477",
   "status": "open",
   "brand": "Clipflow",
-  "streamer": null,
+  "streamer": "Jake Paul",
   "category": "entertainment",
   "language": null,
   "description": "Jake Paul MVP x PFL Interview Clipping \n\n- Clip Jake Paul from the content folder talking about the PFL and MVP merger.\n- Keep Jake front and center and make the PFL x MVP merger the story of every post.\n- Clip moments where Jak",
-  "source": null,
+  "source": {
+    "type": "drive",
+    "urls": [],
+    "permission_quote": "Clip Jake Paul from the content folder talking about the PFL and MVP merger."
+  },
   "platforms": [
     "instagram",
     "tiktok",
     "x",
     "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
+    "amount_per_post": null,
     "rate_per_1k": 0.5,
     "min_payout": 2.5,
     "max_payout_per_clip": 50.0,
@@ -54,7 +66,7 @@
   },
   "budget": {
     "total": 2000.0,
-    "remaining": 1804.48,
+    "remaining": 1797.73,
     "currency": "USD",
     "updated_at": "2026-11-17"
   },
@@ -84,12 +96,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 700,
-    "total_views": 1151043,
-    "creators": 324,
-    "avg_views": 1644,
-    "avg_payout": 0.28,
-    "updated_at": "2026-11-17T18:18:21.000Z"
+    "approved": 756,
+    "total_views": 1237336,
+    "creators": 354,
+    "avg_views": 1637,
+    "avg_payout": 0.27,
+    "updated_at": "2026-11-17T22:16:17.000Z"
   },
   "references": [
     "https://x.com/itzgaffer2/status/2121515437334659442",
@@ -105,5 +117,12 @@
   ],
   "locked_references": null,
   "launched_at": "2026-11-09T12:14:41.000Z",
-  "brief_hash": "96418dce442c43b2"
+  "brief_hash": "96418dce442c43b2",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

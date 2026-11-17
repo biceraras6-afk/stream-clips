@@ -4,7 +4,7 @@
   "url": "https://contentrewards.com/c/campaigns/1ecf4658-4f99-49b3-b42b-ae62b072703d",
   "status": "open",
   "brand": "Krystal Galtry",
-  "streamer": null,
+  "streamer": "Krystal Galtry",
   "category": "entertainment",
   "language": null,
   "description": "Create and post short-form clips of Krystal Galtry (@krystal.galtry) on dedicated pages. The goal is to drive real viewers to her link in bio: krystalmaddison.com. You get paid per 1,000 real views on approved clips.",
@@ -14,14 +14,23 @@
     "tiktok",
     "x"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": [
     "@krystal.galtry"
   ],
   "hashtags": null,
-  "links": null,
+  "links": [
+    "krystalmaddison.com"
+  ],
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -90,5 +99,12 @@
   "references": [],
   "locked_references": null,
   "launched_at": "2026-11-16T12:15:54.000Z",
-  "brief_hash": "eb0522176956a7e5"
+  "brief_hash": "eb0522176956a7e5",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

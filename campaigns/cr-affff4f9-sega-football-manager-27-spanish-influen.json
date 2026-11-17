@@ -1,0 +1,107 @@
+{
+  "id": "cr-affff4f9-sega-football-manager-27-spanish-influen",
+  "title": "SEGA - Football Manager 27 Spanish Influencer Clip",
+  "url": "https://contentrewards.com/c/campaigns/affff4f9-30b5-4dea-841f-69ef3f8f9c50",
+  "status": "open",
+  "brand": "Clipping Culture",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "Clip moments from the Football Manager 27 influencer videos in the content list.\nPost to TikTok, Instagram Reels, and YouTube Shorts.\n",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.5,
+    "min_payout": 1.5,
+    "max_payout_per_clip": 600.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 600.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 600.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 600.0
+      }
+    },
+    "geo_priced": true
+  },
+  "budget": {
+    "total": 5000.0,
+    "remaining": 5000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "affff4f9-30b5-4dea-841f-69ef3f8f9c50",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-17T22:14:09.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-17T19:54:45.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "d22d94494b4b667f",
+  "enriched": true
+}

@@ -30,6 +30,7 @@
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
+    "amount_per_post": null,
     "rate_per_1k": 1.0,
     "min_payout": 1.0,
     "max_payout_per_clip": 100.0,
@@ -55,7 +56,7 @@
   },
   "budget": {
     "total": 5000.0,
-    "remaining": 4488.92,
+    "remaining": 4488.9,
     "currency": "USD",
     "updated_at": "2026-11-17"
   },
@@ -86,11 +87,11 @@
   "content_rules": {},
   "stats": {
     "approved": 174,
-    "total_views": 467436,
+    "total_views": 467453,
     "creators": 14,
-    "avg_views": 2686,
+    "avg_views": 2687,
     "avg_payout": 2.94,
-    "updated_at": "2026-11-17T18:20:22.000Z"
+    "updated_at": "2026-11-17T22:16:15.000Z"
   },
   "references": [
     "https://www.youtube.com/watch?v=-muFj3ZTyLY",

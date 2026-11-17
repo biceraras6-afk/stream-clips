@@ -1,0 +1,81 @@
+{
+  "id": "cr-a84628a5-easy-celebrity-spanish-text-trend",
+  "title": "[EASY $] CELEBRITY / SPANISH TEXT TREND",
+  "url": "https://contentrewards.com/c/campaigns/a84628a5-18cb-4184-b20b-8883f8021b08",
+  "status": "open",
+  "brand": "Duetti",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Put this text over old photos or clips of celebrities (young photos when they were teens, kids or in school), \n\nWrite: “Cómo suena Bad Boy ahora pero yo ya no tengo 13 y ya no estoy en mi prime”.",
+  "source": null,
+  "platforms": [
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.25,
+    "min_payout": 1.25,
+    "max_payout_per_clip": 100.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.25,
+        "min_payout": 1.25,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "a84628a5-18cb-4184-b20b-8883f8021b08",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-17T22:12:09.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-17T20:15:43.000Z",
+  "brief_hash": "d5f1a029ad1590bc"
+}

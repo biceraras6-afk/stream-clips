@@ -6,7 +6,7 @@
   "brand": "Arabic Clipping",
   "streamer": null,
   "category": "entertainment",
-  "language": null,
+  "language": "ar",
   "description": "🔥 Call of Duty MW4 انضم إلى حملة كليبينغ   \nانشر مقاطع قصيرة عن اللعبة على حساباتك، واحصل على أرباح حسب عدد المشاهدات \nالمحتوى  جاهز عليك ان تقص و تنزل فقط ",
   "source": null,
   "platforms": [
@@ -14,15 +14,23 @@
     "tiktok",
     "x"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
+    "amount_per_post": null,
     "rate_per_1k": 1.0,
     "min_payout": 2.0,
     "max_payout_per_clip": 300.0,
@@ -48,7 +56,7 @@
   },
   "budget": {
     "total": 26300.0,
-    "remaining": 14629.7,
+    "remaining": 14603.46,
     "currency": "USD",
     "updated_at": "2026-11-17"
   },
@@ -79,11 +87,11 @@
   "content_rules": {},
   "stats": {
     "approved": 690,
-    "total_views": 11004679,
+    "total_views": 11030406,
     "creators": 79,
-    "avg_views": 15949,
-    "avg_payout": 16.91,
-    "updated_at": "2026-11-17T18:18:23.000Z"
+    "avg_views": 15986,
+    "avg_payout": 16.95,
+    "updated_at": "2026-11-17T22:16:19.000Z"
   },
   "references": [
     "https://www.tiktok.com/@clzr_clips/video/7698520367580663048",
@@ -99,5 +107,12 @@
   ],
   "locked_references": null,
   "launched_at": "2026-09-22T07:07:32.000Z",
-  "brief_hash": "69d5630f18affd92"
+  "brief_hash": "69d5630f18affd92",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

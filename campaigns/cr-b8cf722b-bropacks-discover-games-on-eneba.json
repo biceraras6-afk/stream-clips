@@ -6,25 +6,39 @@
   "brand": "Eneba",
   "streamer": null,
   "category": "gaming",
-  "language": null,
+  "language": "en",
   "description": "Edit short-form videos from our supplied pack-openin footage and send viewers to ene.ba/bro to discover roPacks on Eneba. See every item and the odds upfron. 18+. Post on TikTok, Reels or Shorts with #Ad. Rea the full brief and rules before posting.",
-  "source": null,
+  "source": {
+    "type": "drive",
+    "urls": [],
+    "permission_quote": "Edit short-form videos from our supplied pack-openin footage"
+  },
   "platforms": [
     "instagram",
     "tiktok",
     "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": [
     "#Ad"
   ],
-  "links": null,
-  "disclosure": null,
-  "rules": null,
+  "links": [
+    "ene.ba/bro"
+  ],
+  "disclosure": "#Ad",
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
+    "amount_per_post": null,
     "rate_per_1k": 3.0,
     "min_payout": 3.0,
     "max_payout_per_clip": 500.0,
@@ -50,7 +64,7 @@
   },
   "budget": {
     "total": 5973.53,
-    "remaining": 5939.32,
+    "remaining": 5939.31,
     "currency": "USD",
     "updated_at": "2026-11-17"
   },
@@ -81,11 +95,11 @@
   "content_rules": {},
   "stats": {
     "approved": 9,
-    "total_views": 11641,
+    "total_views": 11643,
     "creators": 5,
-    "avg_views": 1293,
+    "avg_views": 1294,
     "avg_payout": 3.8,
-    "updated_at": "2026-11-17T18:18:22.000Z"
+    "updated_at": "2026-11-17T22:14:16.000Z"
   },
   "references": [
     "https://www.tiktok.com/@rizzbymax1/video/7708402616895687957",
@@ -100,5 +114,13 @@
   ],
   "locked_references": null,
   "launched_at": "2026-10-28T20:26:37.000Z",
-  "brief_hash": "cdad4f1e163e0eff"
+  "brief_hash": "cdad4f1e163e0eff",
+  "audience": "18+",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

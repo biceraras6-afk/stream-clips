@@ -4,22 +4,33 @@
   "url": "https://contentrewards.com/c/campaigns/ca9e8eca-1d96-4dfa-a252-f4b12f21f394",
   "status": "open",
   "brand": "Clip Farm",
-  "streamer": null,
+  "streamer": "Jake Paul",
   "category": "entertainment",
-  "language": null,
+  "language": "en",
   "description": "Post and create clips from Jake Paul's latest business video, \"How to Make Money With AI\". Clips should be informational and highlight any insights that Jake gives throughout the video. ",
-  "source": null,
+  "source": {
+    "type": "vod",
+    "urls": [],
+    "permission_quote": "Post and create clips from Jake Paul's latest business video, \"How to Make Money With AI\"."
+  },
   "platforms": [
     "instagram",
     "tiktok",
     "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -100,5 +111,12 @@
   ],
   "locked_references": null,
   "launched_at": "2026-11-12T15:57:19.000Z",
-  "brief_hash": "653bad8e78f74845"
+  "brief_hash": "653bad8e78f74845",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

@@ -37,6 +37,7 @@
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
+    "amount_per_post": null,
     "rate_per_1k": 2.0,
     "min_payout": 10.0,
     "max_payout_per_clip": 350.0,
@@ -67,7 +68,7 @@
   },
   "budget": {
     "total": 8500.0,
-    "remaining": 8329.83,
+    "remaining": 8319.59,
     "currency": "USD",
     "updated_at": "2026-11-17"
   },
@@ -119,17 +120,17 @@
   },
   "stats": {
     "approved": 46,
-    "total_views": 146964,
+    "total_views": 152158,
     "creators": 15,
-    "avg_views": 3195,
-    "avg_payout": 3.7,
-    "updated_at": "2026-11-17T18:18:23.000Z"
+    "avg_views": 3308,
+    "avg_payout": 3.92,
+    "updated_at": "2026-11-17T22:14:11.000Z"
   },
   "references": [
     "https://www.instagram.com/reel/DfsbFasohdY/",
     "https://www.instagram.com/reel/DfxXo4EI3xO/",
-    "https://www.youtube.com/watch?v=RmAnbmOiNr8",
     "https://www.instagram.com/reel/Df0WFUJor-u/",
+    "https://www.youtube.com/watch?v=RmAnbmOiNr8",
     "https://www.youtube.com/watch?v=5XPGYma9ZnQ",
     "https://www.youtube.com/watch?v=MBN129QclX4",
     "https://www.tiktok.com/@clipvault.285/video/7707038013477424398",

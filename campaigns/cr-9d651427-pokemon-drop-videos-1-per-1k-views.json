@@ -6,19 +6,26 @@
   "brand": "Dealify",
   "streamer": null,
   "category": "gaming",
-  "language": null,
+  "language": "en",
   "description": "Make short videos about Pokemon restocks and drops at Target, Walmart, Costco, Best Buy and more. Give the news fast, then end with the reason + \"follow me and tap the link in my bio for access\". US audience only. Footage, scripts and 3 example styles are in the reference materials.",
   "source": null,
   "platforms": [
     "facebook",
     "instagram"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -85,5 +92,13 @@
   ],
   "locked_references": null,
   "launched_at": "2026-11-16T19:48:14.000Z",
-  "brief_hash": "16aeec253a215716"
+  "brief_hash": "16aeec253a215716",
+  "audience": "US",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }
