@@ -35,6 +35,7 @@ BASE = "https://contentrewards.com"
 UA = "stream-clips-bot/0.1 (personal campaign finder; respects robots.txt)"
 DELAY = 4.0
 MAX_DETAILS = 30
+MAX_BACKLOG = 20
 LIST_PAGES = ["/c/discover/clipping", "/c/discover"]
 PREFS = cm.PREFS
 
@@ -306,7 +307,18 @@ def main(dry: bool = False) -> int:
         if not dry:
             (ROOT / "campaigns" / f"{c['id']}.json").write_text(json.dumps(c, indent=2, ensure_ascii=False) + "\n")
             changed += 1
-    # bekannte Kampagnen, die nicht mehr gelistet sind und nicht abgerufen wurden: nichts ändern
+    # Nachholen: gespeicherte Kampagnen, deren Briefing noch nicht per LLM ausgewertet ist
+    done = set(todo)
+    backlog = [(p, c) for p, c in cm.load() if c.get("cr_id") and c["cr_id"] not in done
+               and not c.get("enriched") and c.get("status") == "open"
+               and STREAM_HINT.search(f"{c.get('title')} {c.get('description')} {c.get('guidelines')}")]
+    for p, c in backlog[:MAX_BACKLOG]:
+        c = enrich(c)
+        if c.get("enriched"):
+            print(f"  [nachgeholt] {c['title'][:60]}")
+            if not dry:
+                p.write_text(json.dumps(c, indent=2, ensure_ascii=False) + "\n")
+                changed += 1
     print(f"geschrieben: {changed}")
     return 0
 

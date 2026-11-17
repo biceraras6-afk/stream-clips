@@ -40,7 +40,8 @@ class NeedsClaudeSession(LLMError):
 
 def _post(url: str, headers: dict, body: dict, timeout: int = 60) -> dict:
     req = urllib.request.Request(
-        url, data=json.dumps(body).encode(), headers={"Content-Type": "application/json", **headers}
+        url, data=json.dumps(body).encode(),
+        headers={"Content-Type": "application/json", "User-Agent": "stream-clips/0.1", **headers}
     )
     try:
         with urllib.request.urlopen(req, timeout=timeout) as r:
