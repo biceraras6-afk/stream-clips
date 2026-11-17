@@ -137,13 +137,18 @@ def judge(t: dict, cands: list[dict], k: int) -> tuple[list[dict], str]:
         return sorted(cands, key=lambda c: c["score"], reverse=True)[:k], "bulk"
 
 
-def select(t: dict, loud: np.ndarray, campaign: dict, max_clips: int) -> dict:
+def select(t: dict, loud: np.ndarray, campaign: dict, max_clips: int, viewer: list[dict] | None = None) -> dict:
     fmt = campaign.get("format") or {}
     min_s = int(fmt.get("min_seconds") or CFG["default_min_seconds"])
     max_s = int(fmt.get("max_seconds") or CFG["default_max_seconds"])
     max_s = max(max_s, min_s + 5)
     wins = signal_windows(t, loud, CFG["window_seconds"], CFG["window_step"], CFG["top_windows"])
     cands = bulk_score(t, wins, campaign, min_s, max_s)
+    for c in cands:      # Zuschauer-Clips = Hauptsignal: Überlappung hebt den Score (+2, bei vielen Views +3)
+        hits = [v for v in (viewer or []) if v["s"] < c["end"] and v["e"] > c["start"]]
+        if hits:
+            c["score"] = min(10, float(c["score"]) + (3 if max(v["views"] for v in hits) >= 5 else 2))
+            c["viewer_clip"] = True
     good = []
     for c in cands:
         sn = snap(t, c["start"], c["end"], min_s, max_s)

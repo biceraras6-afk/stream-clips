@@ -47,7 +47,12 @@ def _post(url: str, headers: dict, body: dict, timeout: int = 60) -> dict:
         with urllib.request.urlopen(req, timeout=timeout) as r:
             return json.load(r)
     except urllib.error.HTTPError as e:
-        raise LLMError(f"HTTP {e.code}: {e.read()[:200]!r}", e.code) from None
+        err = LLMError(f"HTTP {e.code}: {e.read()[:200]!r}", e.code)
+        try:
+            err.retry_after = float(e.headers.get("Retry-After") or 0)   # Sekunden, falls vom Anbieter genannt
+        except (TypeError, ValueError):
+            err.retry_after = 0.0
+        raise err from None
     except (urllib.error.URLError, TimeoutError) as e:
         raise LLMError(str(e), 0) from None
 
@@ -175,7 +180,8 @@ def complete(prompt: str, system: str = "", task: str = "misc", json_mode: bool 
                     if status == 429:
                         daily = "per day" in str(e).lower() or "perday" in str(e).lower() or "quota" in str(e).lower() and "minute" not in str(e).lower()
                         if attempt == 0 and not daily:
-                            time.sleep(30)          # Minutenlimit: kurz warten, dann nochmal
+                            ra = getattr(e, "retry_after", 0) or 30   # Retry-After auswerten (max. 90 s)
+                            time.sleep(min(ra + 1, 90))
                             continue
                         _EXHAUSTED.add(p)
                         break

@@ -20,7 +20,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from tools import campaigns as cm  # noqa: E402
-from tools import candidates, cut, hook, media, postmeta, qa  # noqa: E402
+from tools import candidates, cut, hook, media, postmeta, qa, viewer_clips  # noqa: E402
 from tools import transcribe as tr  # noqa: E402
 
 CFG = json.loads((ROOT / "config" / "factory.json").read_text())
@@ -133,7 +133,9 @@ def main() -> int:
     spath = work / "selection.json"
     if not spath.exists():
         log("Kandidaten bewerten …")
-        sel = candidates.select(t, media.loudness_curve(wav), c, a.max_clips)
+        viewer = viewer_clips.twitch_clips(meta)
+        log(f"{len(viewer)} Zuschauer-Clips (Twitch)" if viewer else "keine Zuschauer-Clips (Secrets fehlen oder Kick)")
+        sel = candidates.select(t, media.loudness_curve(wav), c, a.max_clips, viewer)
         spath.write_text(json.dumps(sel, indent=1, ensure_ascii=False))
     sel = json.loads(spath.read_text())
     log(f"{len(sel['candidates'])} Kandidaten, {len(sel['picks'])} ausgewählt (Urteil: {sel['judged_by']})")
