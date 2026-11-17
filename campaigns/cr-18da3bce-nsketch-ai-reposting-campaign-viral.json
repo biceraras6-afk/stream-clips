@@ -1,0 +1,90 @@
+{
+  "id": "cr-18da3bce-nsketch-ai-reposting-campaign-viral",
+  "title": "Nsketch Ai Reposting Campaign [VIRAL]",
+  "url": "https://contentrewards.com/c/campaigns/18da3bce-4af2-4887-8be4-959dd62a1986",
+  "status": "open",
+  "brand": "Bounty",
+  "streamer": null,
+  "category": "ai-tools",
+  "language": null,
+  "description": "Repost ready made viral AI videos for Nsketch AI, an app that turns text prompts and photos into AI videos and images. Grab clips from the Google Drive, post them on your page, and get paid!",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.5,
+    "min_payout": 1.5,
+    "max_payout_per_clip": 150.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 150.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 4900.0,
+    "remaining": 4890.03,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "18da3bce-4af2-4887-8be4-959dd62a1986",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 3,
+    "total_views": 6065,
+    "creators": 3,
+    "avg_views": 2022,
+    "avg_payout": 3.32,
+    "updated_at": "2026-11-17T18:24:25.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/Df1yxYExLw8/",
+    "https://www.instagram.com/p/Df0foGiuGnp/",
+    "https://www.instagram.com/reel/Df0aNeKI_B7/"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-16T20:30:06.000Z",
+  "brief_hash": "5f79ad73b28ea82e"
+}

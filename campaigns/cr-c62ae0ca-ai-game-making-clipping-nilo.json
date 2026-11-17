@@ -1,0 +1,97 @@
+{
+  "id": "cr-c62ae0ca-ai-game-making-clipping-nilo",
+  "title": "AI Game Making Clipping | Nilo ",
+  "url": "https://contentrewards.com/c/campaigns/c62ae0ca-97b7-4038-9c20-d0016add93cc",
+  "status": "open",
+  "brand": "ClipScales",
+  "streamer": null,
+  "category": "gaming",
+  "language": null,
+  "description": "Create original, engaging short-form videos clipping Nilo, an AI that makes games. Easy Virality. Earn Big.\n\n",
+  "source": null,
+  "platforms": [
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 300.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 300.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.85,
+        "min_payout": 0.85,
+        "max_payout_per_clip": 300.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 979.67,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "c62ae0ca-97b7-4038-9c20-d0016add93cc",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 14,
+    "total_views": 22506,
+    "creators": 10,
+    "avg_views": 1608,
+    "avg_payout": 1.45,
+    "updated_at": "2026-11-17T18:32:21.000Z"
+  },
+  "references": [
+    "https://www.youtube.com/watch?v=MErNRm2Xgnw",
+    "https://www.youtube.com/watch?v=1vWI8dyaZ8Y",
+    "https://www.youtube.com/watch?v=8p-atDS9IME",
+    "https://www.youtube.com/watch?v=kEoCymdD2ek",
+    "https://www.youtube.com/watch?v=UbebiqeI2Hk",
+    "https://www.youtube.com/watch?v=iannsKFBB-s",
+    "https://www.youtube.com/watch?v=OM6Pyw-CR0g",
+    "https://www.youtube.com/watch?v=BGDYtx_02YA",
+    "https://www.youtube.com/watch?v=rprycJTLW9M",
+    "https://www.youtube.com/watch?v=FXB_xB5-Z9s"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-15T19:33:45.000Z",
+  "brief_hash": "6e6c3f07414eb8f9"
+}

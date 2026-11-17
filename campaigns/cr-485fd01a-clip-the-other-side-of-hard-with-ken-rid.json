@@ -1,0 +1,123 @@
+{
+  "id": "cr-485fd01a-clip-the-other-side-of-hard-with-ken-rid",
+  "title": "Clip The Other Side of Hard with Ken Rideout",
+  "url": "https://contentrewards.com/c/campaigns/485fd01a-6710-4cce-a0e7-723de8990827",
+  "status": "open",
+  "brand": "RIDEOUT",
+  "streamer": null,
+  "category": "interview-podcast",
+  "language": null,
+  "description": "Clip full episodes of The Other Side of Hard, Ken Rideout's podcast. $1 per 1,000 views on TikTok, Reels and Shorts, $10 to $100 per clip. Ken is a world champion marathoner and recovered addict who talks to Olympians, NBA players and fighters about the hardest thing they got through.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": [
+    "@ken_rideout"
+  ],
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.0,
+    "min_payout": 10.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 10000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 100.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2000.0,
+    "remaining": 1916.19,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "485fd01a-6710-4cce-a0e7-723de8990827",
+  "guidelines": "MUST HAVE: \"The Other Side of Hard with Ken Rideout\" on screen for the full clip. Clips without it are rejected\nMUST BE 25 to 60 seconds. Shorter or longer clips are rejected\nClip only from the two linked full episodes: Shawn Johnson East and Chris Herren\nOpen on a confession, a hard number or a strong claim in the first 3 seconds\nOne complete story per clip with a clear ending\n9:16 vertical, burned-in captions, original audio\nCaption must tag @ken_rideout and name the guest\nDo not clip ad reads or mention sponsors\nDo not clip anything about Larry Nassar or USA Gymnastics team doctors\nCaptions and titles must match what the speaker said. No fake quotes or invented drama\nDo not present drug use as fun or cool. Chris Herren clips must read as a recovery story\nNo health or medical claims\nNo AI voices, reaction overlays, gameplay split screens or copyrighted music\nNo bought views or bots. Flagged clips are rejected",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 497,
+    "total_views": 283889,
+    "creators": 138,
+    "avg_views": 571,
+    "avg_payout": 0.17,
+    "updated_at": "2026-11-17T18:32:17.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@clips9292/video/7708547026031496479",
+    "https://www.instagram.com/reel/DfwrzGyBuTm/",
+    "https://www.instagram.com/reel/DfxUA26IP4L/",
+    "https://www.instagram.com/reel/DfwM7F6MlSe/",
+    "https://www.instagram.com/reel/DfxT2yeIrnX/",
+    "https://www.instagram.com/reel/DfwNYjRM6hr/",
+    "https://www.youtube.com/watch?v=MIWwrejicZA",
+    "https://www.youtube.com/watch?v=DcTGmhKWo9w",
+    "https://www.instagram.com/reel/DfwNi6LMDd5/",
+    "https://www.instagram.com/reel/DfwNsBiMLTe/"
+  ],
+  "locked_references": 2,
+  "launched_at": "2026-11-14T17:37:17.000Z",
+  "brief_hash": "45ed149f2c0493e0"
+}

@@ -1,0 +1,107 @@
+{
+  "id": "cr-18494bc9-monty-wyoming-tech-conference",
+  "title": "Monty @ Wyoming Tech Conference",
+  "url": "https://contentrewards.com/c/campaigns/18494bc9-d1c9-41df-91c1-96a438cf0c62",
+  "status": "open",
+  "brand": "Toto Finance",
+  "streamer": null,
+  "category": "entrepreneur",
+  "language": null,
+  "description": "Create viral clips from Toto Finance's video on copper, commodity tokenization and the future of real-world assets. Highlight how Toto Finance aims to bring physical copper on-chain and transform global commodity markets. Post on X, tag @totofinance and @montymetzger, and include $TOTO.",
+  "source": null,
+  "platforms": [
+    "x",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": [
+    "@montymetzger",
+    "@totofinance"
+  ],
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.0,
+    "min_payout": 50.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 50000,
+    "per_platform": {
+      "x": {
+        "rate_per_1k": 1.0,
+        "min_payout": 50.0,
+        "max_payout_per_clip": 100.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 50.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "18494bc9-d1c9-41df-91c1-96a438cf0c62",
+  "guidelines": "$4d",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": true,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-17T18:32:15.000Z"
+  },
+  "references": [],
+  "locked_references": 1,
+  "launched_at": "2026-11-14T21:06:16.000Z",
+  "brief_hash": "dda4188b91c0d1b1"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "cr-e50854d4-have-yourself-a-merry-little-christmas-8",
+  "title": "\"Have Yourself a Merry Little Christmas\" [8479]",
+  "url": "https://contentrewards.com/c/campaigns/e50854d4-3991-4981-bf84-b8911e52c0f3",
+  "status": "open",
+  "brand": "TikCut",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Clip and edit videos from the provided content folder to Laufey's cover of “Have Yourself a Merry Little Christmas”.\n\nUse the clips provided in the Content Folder.\nUse the TikTok sound. ",
+  "source": null,
+  "platforms": [
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1200.0,
+    "remaining": 1200.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "e50854d4-3991-4981-bf84-b8911e52c0f3",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-17T18:32:21.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-14T17:07:41.000Z",
+  "brief_hash": "31ac07d0b8fc86bf"
+}

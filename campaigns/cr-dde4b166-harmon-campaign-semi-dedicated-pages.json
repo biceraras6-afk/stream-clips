@@ -1,0 +1,92 @@
+{
+  "id": "cr-dde4b166-harmon-campaign-semi-dedicated-pages",
+  "title": "Harmon Campaign (Semi Dedicated Pages)",
+  "url": "https://contentrewards.com/c/campaigns/dde4b166-5eb9-465c-878e-1b086986facc",
+  "status": "open",
+  "brand": "Harmon Clips",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "$$1.5 per 1k views for harmon",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.5,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 1333,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.5,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 150.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 150.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.5,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "dde4b166-5eb9-465c-878e-1b086986facc",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-17T18:30:17.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-15T21:39:27.000Z",
+  "brief_hash": "c6da949e450d5257"
+}

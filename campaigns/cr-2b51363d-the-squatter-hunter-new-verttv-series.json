@@ -1,0 +1,109 @@
+{
+  "id": "cr-2b51363d-the-squatter-hunter-new-verttv-series",
+  "title": "The Squatter Hunter | New vertTV Series",
+  "url": "https://contentrewards.com/c/campaigns/2b51363d-04ce-4600-8c4f-d48ac58650f9",
+  "status": "open",
+  "brand": "VertTV",
+  "streamer": null,
+  "category": "tv-series",
+  "language": null,
+  "description": "Clip vertTV's new series The Squatter Hunter, starring Michael Paré: Ayla inherits her parents' house and finds a squatter, Dante, living in it, so she calls in the Squatter Hunter. Goal: get viewers to download the vertTV app and watch. Premieres Nov 17. Paid per 1K views.",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.25,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 800,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.25,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.25,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.25,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      },
+      "facebook": {
+        "rate_per_1k": 1.25,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 849.85,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "2b51363d-04ce-4600-8c4f-d48ac58650f9",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 35,
+    "total_views": 109439,
+    "creators": 28,
+    "avg_views": 3127,
+    "avg_payout": 4.29,
+    "updated_at": "2026-11-17T18:30:22.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/Df1OO8rytC9/",
+    "https://www.instagram.com/reel/DfzFUnzJxDV/",
+    "https://www.instagram.com/reel/DfzFSoWhzPV/",
+    "https://www.instagram.com/reel/Dfym0TsBDwI/",
+    "https://www.instagram.com/reel/Dfy7X_-y60r/",
+    "https://www.instagram.com/reel/Dfy2BRnvVhQ/",
+    "https://www.youtube.com/watch?v=OzvM5vrPn5M",
+    "https://www.youtube.com/watch?v=WRzavo81w30",
+    "https://www.instagram.com/reel/DfywpCdvy__/",
+    "https://www.tiktok.com/@b2bsuzz/video/7708717094820531477"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-16T02:08:12.000Z",
+  "brief_hash": "fb7bb19d4c2167d0"
+}

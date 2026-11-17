@@ -1,0 +1,99 @@
+{
+  "id": "cr-1c021217-french-montana-x-max-b-x-jamie-foxx-2-pe",
+  "title": "French Montana x Max B x Jamie Foxx $2 per 1k",
+  "url": "https://contentrewards.com/c/campaigns/1c021217-4308-467a-a5c0-765b97465a70",
+  "status": "open",
+  "brand": "Any Given Friday - Clipping",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Use one of the videos in the folder as the content:\n\nadd your TOS and your own caption: \n\ntag: @frenchmontana\n\nuse hashtags: #club #fyp #party #showmelove #nightlife",
+  "source": null,
+  "platforms": [
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": [
+    "@frenchmontana"
+  ],
+  "hashtags": [
+    "#club",
+    "#fyp",
+    "#nightlife",
+    "#party",
+    "#showmelove"
+  ],
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "perPost",
+    "rate_per_1k": 0.0,
+    "min_payout": null,
+    "max_payout_per_clip": null,
+    "min_views": null,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 945.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "1c021217-4308-467a-a5c0-765b97465a70",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": true,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 25,
+    "total_views": 908,
+    "creators": 13,
+    "avg_views": 36,
+    "avg_payout": 2.2,
+    "updated_at": "2026-11-17T18:32:19.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@hqpethaven/video/7709196959940168982",
+    "https://www.tiktok.com/@hqpethaven/video/7709196691684986134",
+    "https://www.tiktok.com/@clipsgrow0/video/7708919294121348360",
+    "https://www.tiktok.com/@hqpethaven/video/7709196497736240406",
+    "https://www.tiktok.com/@gamblememes0/video/7709198189521358102",
+    "https://www.tiktok.com/@christinelewis404/video/7708918081568935190",
+    "https://www.tiktok.com/@stagerewind1/video/7708910033395895559",
+    "https://www.tiktok.com/@gamblememes0/video/7709198020436462850",
+    "https://www.tiktok.com/@fabio.4468/video/7708915631235828999",
+    "https://www.tiktok.com/@elouadehabdelkade/video/7708918570595388693"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-15T21:02:13.000Z",
+  "brief_hash": "7bc5ebd2434a897a"
+}

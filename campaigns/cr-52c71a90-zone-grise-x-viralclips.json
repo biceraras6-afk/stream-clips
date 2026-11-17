@@ -1,0 +1,124 @@
+{
+  "id": "cr-52c71a90-zone-grise-x-viralclips",
+  "title": "Zone Grise X ViralClips®",
+  "url": "https://contentrewards.com/c/campaigns/52c71a90-b783-4d54-9277-5e5a97890710",
+  "status": "open",
+  "brand": "ViralClips",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "Clipper le podcast Zone grise ",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.0,
+    "min_payout": 3.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 3000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 100.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 970.26,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "52c71a90-b783-4d54-9277-5e5a97890710",
+  "guidelines": "$4e",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": [
+      "tiktok",
+      "instagram"
+    ],
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 125,
+    "total_views": 66923,
+    "creators": 25,
+    "avg_views": 535,
+    "avg_payout": 0.24,
+    "updated_at": "2026-11-17T18:30:20.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/DfzTFiAxCyv/",
+    "https://www.tiktok.com/@clip.z_one/video/7708784026852625696",
+    "https://www.instagram.com/reel/Df1-vOkh-O6/",
+    "https://www.instagram.com/reel/Df1wU4ySMgL/",
+    "https://www.youtube.com/watch?v=3HIXSUhzYdE",
+    "https://www.youtube.com/watch?v=oa2fLpQHX9E",
+    "https://www.instagram.com/reel/Dfznq6qt_6c/",
+    "https://www.youtube.com/watch?v=eRKhmBfBylA",
+    "https://www.youtube.com/watch?v=_1cTwtqhRhI",
+    "https://www.youtube.com/watch?v=T1sVTijAIXk"
+  ],
+  "locked_references": 3,
+  "launched_at": "2026-11-16T09:47:40.000Z",
+  "brief_hash": "bc31927ec9c55bdf"
+}

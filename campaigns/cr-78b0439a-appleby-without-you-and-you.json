@@ -1,0 +1,83 @@
+{
+  "id": "cr-78b0439a-appleby-without-you-and-you",
+  "title": "Appleby - \"Without You\" and \"YOU\"",
+  "url": "https://contentrewards.com/c/campaigns/78b0439a-19fd-40d5-93e0-f8a5ce3ba818",
+  "status": "open",
+  "brand": "Verge Records",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "Pair dysfunctional relationships (platonic and romantic) with Appleby’s introspective track “Without You” or your favorite tv couples for his track “YOU”.\n",
+  "source": null,
+  "platforms": [
+    "instagram"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": null,
+    "min_payout": null,
+    "max_payout_per_clip": null,
+    "min_views": null,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 0.5,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "78b0439a-19fd-40d5-93e0-f8a5ce3ba818",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 2,
+    "total_views": 10414,
+    "creators": 2,
+    "avg_views": 5207,
+    "avg_payout": 0.0,
+    "updated_at": "2026-11-17T18:24:11.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/Df1DLa-sxNP/",
+    "https://www.instagram.com/reel/Df0RivDziVs/"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-16T17:47:17.000Z",
+  "brief_hash": "1952f9377744b287"
+}

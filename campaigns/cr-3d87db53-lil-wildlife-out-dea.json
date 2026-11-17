@@ -1,0 +1,88 @@
+{
+  "id": "cr-3d87db53-lil-wildlife-out-dea",
+  "title": "Lil Wildlife - Out Dea",
+  "url": "https://contentrewards.com/c/campaigns/3d87db53-0689-4588-b502-af7625ad25c2",
+  "status": "open",
+  "brand": "Digital E-Clipz",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "“Out Dea” is Lil Wildlife’s new track. Post dance clips synced to the beat, Baddies / reality TV fight videos, Kevin Gates videos and reactions, and football edits with the song. ",
+  "source": null,
+  "platforms": [
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 250.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 250.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 973.18,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "3d87db53-0689-4588-b502-af7625ad25c2",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 7,
+    "total_views": 24546,
+    "creators": 6,
+    "avg_views": 3507,
+    "avg_payout": 3.83,
+    "updated_at": "2026-11-17T18:32:10.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@danielseaveyph5/video/7708314752010751253",
+    "https://www.tiktok.com/@feedphantomm/video/7708427468046142752",
+    "https://www.tiktok.com/@_crisstnx/video/7708419419252247828",
+    "https://www.tiktok.com/@paclipa.9090/video/7708440169434598676",
+    "https://www.tiktok.com/@nbamovers/video/7708239276865195284",
+    "https://www.tiktok.com/@danielseaveyph5/video/7708314826199616789",
+    "https://www.tiktok.com/@urmummymate/video/7708346136620223765"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-15T03:38:09.000Z",
+  "brief_hash": "e16a0b4d7dfd9783"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "cr-3d9ef19f-clip-pro-pickleball-cnpl-rallies-highlig",
+  "title": "Clip Pro Pickleball: CNPL Rallies & Highlights",
+  "url": "https://contentrewards.com/c/campaigns/3d9ef19f-1256-47ca-b630-e33e2c923969",
+  "status": "open",
+  "brand": "Canadian National Pickleball League",
+  "streamer": null,
+  "category": "sports-highlights",
+  "language": null,
+  "description": "Clip official CNPL match footage into 8-60s vertical shorts. Best rallies, dinks, ernes, crowd pops. Paid per 1K views on TikTok, Reels and Shorts. Official match footage, logos and a hook list in the asset pack. First pickleball campaign on Content Rewards.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.5,
+    "min_payout": 1.5,
+    "max_payout_per_clip": 250.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 250.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 250.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 250.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2500.0,
+    "remaining": 2418.39,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "3d9ef19f-1256-47ca-b630-e33e2c923969",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 36,
+    "total_views": 53624,
+    "creators": 12,
+    "avg_views": 1490,
+    "avg_payout": 2.27,
+    "updated_at": "2026-11-17T18:32:17.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/DfxKuIUNjVh/",
+    "https://www.instagram.com/reel/Df0qxXCoxo4/",
+    "https://www.instagram.com/reel/DfwPPxiz7OP/",
+    "https://www.instagram.com/reel/DfwWqPTv1ak/",
+    "https://www.youtube.com/watch?v=5adgzMLBBWA",
+    "https://www.youtube.com/watch?v=IvEntzaGkDA",
+    "https://www.youtube.com/watch?v=6K2FPGB_K34",
+    "https://www.youtube.com/watch?v=I8KRIhpZOY8",
+    "https://www.youtube.com/watch?v=Di_t9JD0LTw",
+    "https://www.youtube.com/watch?v=FlGIC_eqYn4"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-14T17:23:44.000Z",
+  "brief_hash": "fc4a853dca1bf461"
+}

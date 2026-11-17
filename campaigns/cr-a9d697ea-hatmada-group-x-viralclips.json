@@ -1,0 +1,121 @@
+{
+  "id": "cr-a9d697ea-hatmada-group-x-viralclips",
+  "title": "Hatmada Group x ViralClips®",
+  "url": "https://contentrewards.com/c/campaigns/a9d697ea-0adc-41dd-8b0c-998f15552afb",
+  "status": "open",
+  "brand": "ViralClips",
+  "streamer": null,
+  "category": "business",
+  "language": null,
+  "description": "Campagne de clipping pour le podcast Htamada group",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.2,
+    "min_payout": 2.4,
+    "max_payout_per_clip": 120.0,
+    "min_views": 2000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.2,
+        "min_payout": 2.4,
+        "max_payout_per_clip": 120.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.2,
+        "min_payout": 2.4,
+        "max_payout_per_clip": 120.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.2,
+        "min_payout": 2.4,
+        "max_payout_per_clip": 120.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1200.0,
+    "remaining": 1200.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "a9d697ea-0adc-41dd-8b0c-998f15552afb",
+  "guidelines": "$4d",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 22,
+    "total_views": 6067,
+    "creators": 7,
+    "avg_views": 276,
+    "avg_payout": 0.0,
+    "updated_at": "2026-11-17T18:30:14.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@clip.z_one/video/7708765587006049569",
+    "https://www.tiktok.com/@clip.z_one/video/7708893628847983904",
+    "https://www.youtube.com/watch?v=gbpAW6cX6-8",
+    "https://www.tiktok.com/@hatmadaclips/video/7708804864528223510",
+    "https://www.tiktok.com/@hatmadaclips/video/7708848362954460438",
+    "https://www.tiktok.com/@hatmadaclips/video/7708819449595366678",
+    "https://www.youtube.com/watch?v=JXWwUTMDE9k",
+    "https://www.youtube.com/watch?v=yMhKvD3awjs",
+    "https://www.tiktok.com/@generationzelites/video/7708891766832893206",
+    "https://www.tiktok.com/@hatmadaclips/video/7709073379994782998"
+  ],
+  "locked_references": 1,
+  "launched_at": "2026-11-16T10:44:09.000Z",
+  "brief_hash": "d7266a4424cb1f50"
+}

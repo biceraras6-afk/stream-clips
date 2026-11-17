@@ -1,0 +1,103 @@
+{
+  "id": "cr-319cc15a-france-blizzard-world-of-warcraft-foreve",
+  "title": "[FRANCE] Blizzard - World of Warcraft Forever",
+  "url": "https://contentrewards.com/c/campaigns/319cc15a-bf2d-477f-bb04-c64a243aa681",
+  "status": "open",
+  "brand": "Clipping Culture",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "Post clips of World of Warcraft: Forever.\nUse the trailers, gameplay, panels, and video assets in the content folder.\nShow the visuals, the footage highlights, the gameplay, or the world.\nSome files have no spoken language. You can use those too.\nPost on TikTok and YouTube Shorts.\n",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 0.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 500.0,
+    "min_views": null,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 500.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 500.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 500.0
+      }
+    },
+    "geo_priced": true
+  },
+  "budget": {
+    "total": 8000.0,
+    "remaining": 7395.62,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "319cc15a-bf2d-477f-bb04-c64a243aa681",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 173,
+    "total_views": 364024,
+    "creators": 39,
+    "avg_views": 2104,
+    "avg_payout": 3.49,
+    "updated_at": "2026-11-17T18:20:17.000Z"
+  },
+  "references": [
+    "https://www.youtube.com/watch?v=QNC-99IG2E0",
+    "https://www.tiktok.com/@komsic.stwak/video/7706281892508634390",
+    "https://www.tiktok.com/@raz_eur/video/7705141988953296150",
+    "https://www.tiktok.com/@komsic.stwak/video/7707672248139681047",
+    "https://www.tiktok.com/@ruzzz011/video/7708288496431156532",
+    "https://www.tiktok.com/@raz_eur/video/7706905587576999190",
+    "https://www.tiktok.com/@komsic.stwak/video/7707043275542400258",
+    "https://www.tiktok.com/@raz_eur/video/7706569312160451862",
+    "https://www.tiktok.com/@komsic.stwak/video/7706280944415640854",
+    "https://www.tiktok.com/@raz_eur/video/7706917563443334422"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-03T20:14:38.000Z",
+  "brief_hash": "e68bd0b2b7442c68"
+}

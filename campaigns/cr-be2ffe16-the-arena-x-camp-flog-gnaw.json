@@ -1,0 +1,103 @@
+{
+  "id": "cr-be2ffe16-the-arena-x-camp-flog-gnaw",
+  "title": "The Arena x Camp Flog Gnaw",
+  "url": "https://contentrewards.com/c/campaigns/be2ffe16-9e78-41e6-ab31-27d2076e6929",
+  "status": "open",
+  "brand": "Clip Farm",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "The Arena is at Camp Flog Gnaw in LA this weekend. Show fans the space and the fun. You earn money for every view.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 2.0,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 500.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 2.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 500.0
+      },
+      "instagram": {
+        "rate_per_1k": 2.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 500.0
+      },
+      "youtube": {
+        "rate_per_1k": 2.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 500.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 22500.0,
+    "remaining": 16274.15,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "be2ffe16-9e78-41e6-ab31-27d2076e6929",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 404,
+    "total_views": 3165814,
+    "creators": 151,
+    "avg_views": 7836,
+    "avg_payout": 15.41,
+    "updated_at": "2026-11-17T18:32:25.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/Dfxw-04oNKT/",
+    "https://www.instagram.com/reel/Dfxl-s9q9VV/",
+    "https://www.instagram.com/reel/DfxwxmiqDRv/",
+    "https://www.instagram.com/reel/DfxlWuwxnBJ/",
+    "https://www.instagram.com/reel/DfxyFOpur0x/",
+    "https://www.instagram.com/reel/Dfxuw0tNmxw/",
+    "https://www.instagram.com/reel/DfyP1cLyFBF/",
+    "https://www.instagram.com/reel/DfxxeSDx8pz/",
+    "https://www.instagram.com/reel/Df0KcusTIjF/",
+    "https://www.instagram.com/reel/Dfz92LHSgFR/"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-14T22:31:53.000Z",
+  "brief_hash": "679301248c5fb5d2"
+}

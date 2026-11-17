@@ -1,0 +1,80 @@
+{
+  "id": "cr-89af08d8-crumb-pit-down-2-wait-anime-edit-campaig",
+  "title": "Crumb Pit - Down 2 Wait | Anime Edit Campaign",
+  "url": "https://contentrewards.com/c/campaigns/89af08d8-8bc3-467a-a2e6-b3de64cf507c",
+  "status": "open",
+  "brand": "Artist Influence",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Get paid per view to clip Crumb Pit’s “Down 2 Wait” on TikTok. Earn $1 per 1K views. This is an anime heartbreak campaign about one specific feeling: waiting for someone who may never come back. very edit needs a story: who’s waiting, who for, and why. Max Pay $200+",
+  "source": null,
+  "platforms": [
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "89af08d8-8bc3-467a-a2e6-b3de64cf507c",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-17T18:22:09.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-16T20:46:34.000Z",
+  "brief_hash": "73d34670b3411f95"
+}

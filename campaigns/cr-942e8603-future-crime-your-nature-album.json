@@ -1,0 +1,104 @@
+{
+  "id": "cr-942e8603-future-crime-your-nature-album",
+  "title": "Future Crime - Your Nature Album",
+  "url": "https://contentrewards.com/c/campaigns/942e8603-12f1-421a-8fdc-993a7dbe6eed",
+  "status": "open",
+  "brand": "Future Crime",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Alternative Bass Music for girls who want it beautiful, heavy and dangerous. Your Nature is one of two albums released together by 24-year-old Gracie of Future Crime. Promote it through her quality songwriting, live sampler performances, and striking visuals to draw fans into her mysterious brand.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "rate_per_1k": 1.5,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 200.0,
+    "min_views": 1333,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.5,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 200.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 200.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "942e8603-12f1-421a-8fdc-993a7dbe6eed",
+  "guidelines": "Create exciting, visually striking clips promoting FUTURE CRIME's album 'Your Nature.' Every clip must feature footage of Gracie performing live on samplers. Introduce twenty-four-year-old Gracie, frontwoman of FUTURE CRIME, and highlight her songwriting and musical talent. Emphasize that FUTURE CRIME has released two contrasting EDM albums simultaneously, with this campaign focused on 'Your Nature.' Highlight FUTURE CRIME's signature Girl EDM sound, bold, dangerous, bass-driven electronic music made for girls who love harder sounds. Showcase the exceptional music production, and striking visuals that draw people into FUTURE CRIME's dark, mysterious world. Use only approved FUTURE CRIME music and footage. No unauthorized remixes, AI voice cloning, or AI-generated alterations. Encourage viewers to discover FUTURE CRIME and listen to 'Your Nature' on Spotify.",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": true,
+    "draftCaptionRequired": true
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 5,
+  "launched_at": "2026-11-15T00:02:33.000Z",
+  "brief_hash": "bdce681b4042cfa8"
+}
