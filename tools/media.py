@@ -78,7 +78,7 @@ def resolve_source(url: str, seen: set[str], limit: int = 8, min_seconds: int = 
                 except RuntimeError as err:
                     print(f"  Video {e.get('id')}: {str(err)[-200:]}")
                     continue
-                if (meta.get("duration") or 0) < min_seconds:
+                if meta.get("duration") and meta["duration"] < min_seconds:   # Kick liefert oft keine Dauer
                     print(f"  Video {e.get('id')}: zu kurz ({(meta.get('duration') or 0) / 60:.0f} min) – nächstes")
                     continue
                 return meta

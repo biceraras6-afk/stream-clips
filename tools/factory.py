@@ -91,19 +91,37 @@ def main() -> int:
         if (meta.get("duration") or 0) > CFG["max_source_hours"] * 3600:
             log(f"Video zu lang ({meta['duration'] / 3600:.1f} h) – übersprungen.")
             return 0
-    vid = re.sub(r"[^\w-]", "_", str(meta["id"]))
-    work = WORK / c["id"] / vid
-    work.mkdir(parents=True, exist_ok=True)
-    log(f"Quelle: {meta.get('title')} ({(meta.get('duration') or 0) / 60:.0f} min)")
-
-    # 2. Audio + grobes Transkript
-    wav = work / "audio.wav"
-    if not wav.exists():
-        if a.local_video:
-            media.run(["ffmpeg", "-y", "-v", "error", "-i", a.local_video, "-ac", "1", "-ar", "16000", str(wav)])
-        else:
-            log("Audio laden …")
-            media.download_audio(meta["webpage_url"], wav)
+    for _attempt in range(6):
+        vid = re.sub(r"[^\w-]", "_", str(meta["id"]))
+        work = WORK / c["id"] / vid
+        work.mkdir(parents=True, exist_ok=True)
+        log(f"Quelle: {meta.get('title')} ({(meta.get('duration') or 0) / 60:.0f} min)")
+        # 2. Audio + grobes Transkript
+        wav = work / "audio.wav"
+        if not wav.exists():
+            if a.local_video:
+                media.run(["ffmpeg", "-y", "-v", "error", "-i", a.local_video, "-ac", "1", "-ar", "16000", str(wav)])
+            else:
+                log("Audio laden …")
+                media.download_audio(meta["webpage_url"], wav)
+        secs = wav.stat().st_size / 32000
+        if a.local_video or secs >= 600:
+            break
+        log(f"Video nur {secs / 60:.1f} min – übersprungen, nächstes")
+        seen.add(str(meta["id"]))
+        SEEN.parent.mkdir(exist_ok=True)
+        SEEN.write_text(json.dumps(sorted(seen)))
+        meta = None
+        for u in urls:
+            try:
+                meta = media.resolve_source(u, seen)
+            except RuntimeError as e:
+                log(f"Quelle {u}: {e}")
+            if meta:
+                break
+        if not meta:
+            log("Kein weiteres Video.")
+            return 0
     tpath = work / "transcript_select.json"
     if not tpath.exists():
         log(f"Transkript ({CFG['whisper_select_model']}) …")
