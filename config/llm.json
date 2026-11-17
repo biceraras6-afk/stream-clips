@@ -1,5 +1,5 @@
 {
-  "_doc": "Modelle/Limits ungepr\u00fcft gegen aktuelle Anbieter-Doku \u2013 vor Dauerbetrieb pr\u00fcfen. Limits konservativ unter den Gratis-Grenzen. Gemini-Gratisstufe ist knapp (429 bei Tests) -> Groq-Schl\u00fcssel als Ersatz empfohlen.",
+  "_doc": "Modelle/Limits ungeprüft gegen aktuelle Anbieter-Doku – vor Dauerbetrieb prüfen. Limits konservativ unter den Gratis-Grenzen. Gemini-Gratisstufe ist knapp (429 bei Tests) -> Groq-Schlüssel als Ersatz empfohlen.",
   "tiers": {
     "bulk": [
       "gemini",
@@ -17,6 +17,8 @@
       "rpd": 40,
       "models": [
         "gemini-flash-latest",
+        "gemini-2.5-flash",
+        "gemini-3.5-flash",
         "gemini-flash-lite-latest"
       ]
     },
@@ -25,8 +27,9 @@
       "rpm": 8,
       "rpd": 800,
       "models": [
-        "llama-3.3-70b-versatile",
-        "openai/gpt-oss-120b"
+        "openai/gpt-oss-120b",
+        "qwen/qwen3.8-27b",
+        "openai/gpt-oss-20b"
       ]
     },
     "claude": {

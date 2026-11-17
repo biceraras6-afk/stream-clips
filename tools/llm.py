@@ -162,10 +162,10 @@ def complete(prompt: str, system: str = "", task: str = "misc", json_mode: bool 
         if not os.environ.get(pc["key_env"]):
             errors.append(f"{p}: kein Schlüssel")
             continue
-        if p in _EXHAUSTED:
-            errors.append(f"{p}: Kontingent erschöpft")
-            continue
         for model in pc["models"]:
+            if f"{p}/{model}" in _EXHAUSTED:          # Limits gelten je Modell -> nächstes Modell probieren
+                errors.append(f"{p}/{model}: Kontingent erschöpft")
+                continue
             for attempt in range(2):  # 503/Timeout: einmal nach Pause wiederholen
                 if not _wait_for_slot(p, pc):
                     errors.append(f"{p}: Tageslimit")
@@ -183,7 +183,7 @@ def complete(prompt: str, system: str = "", task: str = "misc", json_mode: bool 
                             ra = getattr(e, "retry_after", 0) or 30   # Retry-After auswerten (max. 90 s)
                             time.sleep(min(ra + 1, 90))
                             continue
-                        _EXHAUSTED.add(p)
+                        _EXHAUSTED.add(f"{p}/{model}")
                         break
                     if status in (503, 500, 0) and attempt == 0:
                         time.sleep(10)
@@ -191,8 +191,6 @@ def complete(prompt: str, system: str = "", task: str = "misc", json_mode: bool 
                     break
                 _log(p, model, task, True, tin, tout)
                 return result
-            if p in _EXHAUSTED:
-                break
     if order == ["claude"] and "claude: kein Schlüssel" in errors:
         raise NeedsClaudeSession("Urteil in der geplanten Claude-Sitzung treffen")
     raise LLMError("alle Anbieter fehlgeschlagen: " + "; ".join(errors))
