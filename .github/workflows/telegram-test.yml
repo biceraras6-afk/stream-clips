@@ -1,0 +1,20 @@
+name: telegram-test
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test-Nachricht senden
+        env:
+          TOK: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          [ -z "$TOK" ] && { echo "TELEGRAM_BOT_TOKEN fehlt"; exit 1; }
+          TOK=$(echo -n "$TOK" | tr -d ' \r\n')
+          ME=$(curl -s "https://api.telegram.org/bot$TOK/getMe")
+          echo "$ME" | grep -q '"ok":true' && echo "Token: gültig" || { echo "Token: UNGÜLTIG ($(echo "$ME" | grep -o '"description":"[^"]*"'))"; exit 1; }
+          [ -z "$CHAT" ] && { echo "TELEGRAM_CHAT_ID fehlt"; exit 1; }
+          R=$(curl -s -X POST "https://api.telegram.org/bot$TOK/sendMessage" -d chat_id="$(echo -n "$CHAT" | tr -d ' \r\n')" -d text="✅ Test: Einreich-Hinweise kommen hier an.")
+          echo "$R" | grep -q '"ok":true' && echo "Nachricht: gesendet" || { echo "Nachricht: FEHLER ($(echo "$R" | grep -o '"description":"[^"]*"'))"; exit 1; }

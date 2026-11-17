@@ -119,6 +119,7 @@ def notify(rec: dict, camp: dict, post: dict) -> None:
 def push(text: str) -> None:
     """Push aufs Handy per Telegram-Bot (Secrets TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID)."""
     tok, chat = platforms.secret("TELEGRAM_BOT_TOKEN"), platforms.secret("TELEGRAM_CHAT_ID")
+    tok, chat = (tok or "").strip(), (chat or "").strip()
     if not (tok and chat):
         return
     try:
