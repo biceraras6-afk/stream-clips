@@ -1,12 +1,41 @@
 {
-  "_doc": "Modelle/Limits ungeprüft gegen aktuelle Anbieter-Doku – vor Dauerbetrieb prüfen. Limits konservativ unter den Gratis-Grenzen.",
+  "_doc": "Modelle/Limits ungepr\u00fcft gegen aktuelle Anbieter-Doku \u2013 vor Dauerbetrieb pr\u00fcfen. Limits konservativ unter den Gratis-Grenzen. Gemini-Gratisstufe ist knapp (429 bei Tests) -> Groq-Schl\u00fcssel als Ersatz empfohlen.",
   "tiers": {
-    "bulk": ["gemini", "groq", "claude"],
-    "judge": ["claude"]
+    "bulk": [
+      "gemini",
+      "groq",
+      "claude"
+    ],
+    "judge": [
+      "claude"
+    ]
   },
   "providers": {
-    "gemini": {"model": "gemini-flash-latest", "key_env": "GEMINI_API_KEY", "rpm": 8, "rpd": 200},
-    "groq":   {"model": "llama-3.3-70b-versatile", "key_env": "GROQ_API_KEY", "rpm": 25, "rpd": 800},
-    "claude": {"model": "claude-sonnet-5-5", "key_env": "ANTHROPIC_API_KEY", "rpm": 20, "rpd": 200}
+    "gemini": {
+      "key_env": "GEMINI_API_KEY",
+      "rpm": 5,
+      "rpd": 40,
+      "models": [
+        "gemini-flash-latest",
+        "gemini-flash-lite-latest"
+      ]
+    },
+    "groq": {
+      "key_env": "GROQ_API_KEY",
+      "rpm": 25,
+      "rpd": 800,
+      "models": [
+        "llama-3.3-70b-versatile",
+        "openai/gpt-oss-120b"
+      ]
+    },
+    "claude": {
+      "key_env": "ANTHROPIC_API_KEY",
+      "rpm": 20,
+      "rpd": 200,
+      "models": [
+        "claude-sonnet-5-5"
+      ]
+    }
   }
 }

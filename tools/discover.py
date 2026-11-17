@@ -180,7 +180,9 @@ def to_campaign(cr_id: str, d: dict, old: dict) -> dict:
         "description": s.get("description") or f.get("description") or "",
         "guidelines": content.get("guidelines") or "",
         "platforms": sorted(s.get("platforms") or per_platform),
-        "payment": {"model": s.get("payoutType") or f.get("type"), "rate_per_1k": best["rate_per_1k"],
+        "payment": {"model": {"perPost": "per_post", "per-post": "per_post"}.get(
+                        s.get("payoutType") or f.get("type"), s.get("payoutType") or f.get("type")),
+                    "amount_per_post": max(((p.get("amountCents") or 0) / 100 for p in payouts), default=0) or None, "rate_per_1k": best["rate_per_1k"],
                     "min_payout": best["min_payout"], "max_payout_per_clip": best["max_payout_per_clip"],
                     "min_views": min_views, "per_platform": per_platform, "geo_priced": s.get("geoPriced")},
         "budget": {"total": budget, "remaining": round(max(0.0, budget - spent), 2), "currency": "USD",
@@ -221,10 +223,18 @@ ENRICH_SYSTEM = (
 )
 
 
+STREAM_HINT = re.compile(r"twitch|kick\.com|\bkick\b|youtube|stream|vod|podcast|broadcast|livestream|episode", re.I)
+
+
 def enrich(c: dict) -> dict:
     text = f"Title: {c['title']}\nDescription:\n{c['description']}\nGuidelines:\n{c['guidelines']}"
     h = hashlib.sha256(text.encode()).hexdigest()[:16]
-    if c.get("brief_hash") == h and c.get("source"):
+    if c.get("brief_hash") == h and (c.get("source") or c.get("enriched")):
+        return c
+    # Gratis-Kontingent sparen: LLM nur, wenn das Briefing nach Stream/Video-Quelle klingt
+    if not STREAM_HINT.search(text):
+        c["brief_hash"] = h
+        c["source"] = None
         return c
     try:
         e = complete(text[:20000], system=ENRICH_SYSTEM, task="campaign_enrich", json_mode=True, max_tokens=2048)
@@ -241,6 +251,7 @@ def enrich(c: dict) -> dict:
     if flags.get("political"):
         c["category"] = "political"
     c["brief_hash"] = h
+    c["enriched"] = "heuristic" not in e
     return c
 
 
@@ -251,7 +262,7 @@ def heuristic(text: str) -> dict:
                   and re.search(r"twitch|kick|youtube|stream|broadcast|vod", ln, re.I)), None)
     return {"source": {"type": "vod", "urls": sorted(set(urls)), "permission_quote": quote} if urls else None,
             "required_tags": sorted(set(re.findall(r"(?<!\w)@[\w.]{2,}", text))),
-            "hashtags": sorted(set(re.findall(r"(?<!\w)#\w{2,}", text)))}
+            "hashtags": sorted(set(re.findall(r"(?<!\w)#\w{2,}", text))), "heuristic": True}
 
 
 # ---------- Hauptlauf ----------

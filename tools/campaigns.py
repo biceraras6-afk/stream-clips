@@ -183,6 +183,9 @@ def cmd_triage(write: bool) -> int:
             if write:
                 p.write_text(json.dumps(c, indent=2, ensure_ascii=False) + "\n")
         err, _ = validate(c)
+        if not c.get("source"):
+            skipped.append((c, "keine Stream-/Video-Quelle im Briefing"))
+            continue
         if err:
             skipped.append((c, "unvollständig: " + "; ".join(err[:2])))
             continue

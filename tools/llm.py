@@ -26,14 +26,19 @@ USAGE = ROOT / "state" / "llm_usage.jsonl"
 
 
 class LLMError(Exception):
-    pass
+    def __init__(self, msg: str, status: int | None = None):
+        super().__init__(msg)
+        self.status = status
+
+
+_EXHAUSTED: set[str] = set()  # Anbieter mit 429 in diesem Lauf nicht mehr fragen
 
 
 class NeedsClaudeSession(LLMError):
     """Kein Claude-API-Schlüssel: Urteil muss in der geplanten Claude-Sitzung fallen."""
 
 
-def _post(url: str, headers: dict, body: dict, timeout: int = 120) -> dict:
+def _post(url: str, headers: dict, body: dict, timeout: int = 60) -> dict:
     req = urllib.request.Request(
         url, data=json.dumps(body).encode(), headers={"Content-Type": "application/json", **headers}
     )
@@ -41,9 +46,9 @@ def _post(url: str, headers: dict, body: dict, timeout: int = 120) -> dict:
         with urllib.request.urlopen(req, timeout=timeout) as r:
             return json.load(r)
     except urllib.error.HTTPError as e:
-        raise LLMError(f"HTTP {e.code}: {e.read()[:300]!r}") from None
+        raise LLMError(f"HTTP {e.code}: {e.read()[:200]!r}", e.code) from None
     except (urllib.error.URLError, TimeoutError) as e:
-        raise LLMError(str(e)) from None
+        raise LLMError(str(e), 0) from None
 
 
 # ---------- Anbieter ----------
@@ -114,7 +119,7 @@ def _records(provider: str) -> list[dict]:
     return out
 
 
-def _wait_for_slot(provider: str, pc: dict) -> bool:
+def _wait_for_slot(provider: str, pc: dict) -> bool:  # noqa: C901
     """False, wenn das Tageslimit erreicht ist; wartet sonst ggf. auf das Minutenlimit."""
     now = time.time()
     recs = _records(provider)
@@ -151,18 +156,32 @@ def complete(prompt: str, system: str = "", task: str = "misc", json_mode: bool 
         if not os.environ.get(pc["key_env"]):
             errors.append(f"{p}: kein Schlüssel")
             continue
-        if not _wait_for_slot(p, pc):
-            errors.append(f"{p}: Tageslimit")
+        if p in _EXHAUSTED:
+            errors.append(f"{p}: Kontingent erschöpft")
             continue
-        try:
-            text, tin, tout = FUNCS[p](pc["model"], system, prompt, json_mode, max_tokens)
-            result = _parse_json(text) if json_mode else text
-        except (LLMError, KeyError, IndexError, json.JSONDecodeError) as e:
-            _log(p, pc["model"], task, False, err=str(e))
-            errors.append(f"{p}: {e}")
-            continue
-        _log(p, pc["model"], task, True, tin, tout)
-        return result
+        for model in pc["models"]:
+            for attempt in range(2):  # 503/Timeout: einmal nach Pause wiederholen
+                if not _wait_for_slot(p, pc):
+                    errors.append(f"{p}: Tageslimit")
+                    break
+                try:
+                    text, tin, tout = FUNCS[p](model, system, prompt, json_mode, max_tokens)
+                    result = _parse_json(text) if json_mode else text
+                except (LLMError, KeyError, IndexError, json.JSONDecodeError) as e:
+                    status = getattr(e, "status", None)
+                    _log(p, model, task, False, err=str(e))
+                    errors.append(f"{p}/{model}: {str(e)[:80]}")
+                    if status == 429:
+                        _EXHAUSTED.add(p)
+                        break
+                    if status in (503, 500, 0) and attempt == 0:
+                        time.sleep(10)
+                        continue
+                    break
+                _log(p, model, task, True, tin, tout)
+                return result
+            if p in _EXHAUSTED:
+                break
     if order == ["claude"] and "claude: kein Schlüssel" in errors:
         raise NeedsClaudeSession("Urteil in der geplanten Claude-Sitzung treffen")
     raise LLMError("alle Anbieter fehlgeschlagen: " + "; ".join(errors))
