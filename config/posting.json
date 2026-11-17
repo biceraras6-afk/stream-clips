@@ -1,5 +1,7 @@
 {
   "_doc": "Posting-Plan. Zeiten in 'timezone'. Du musst innerhalb von 30 Min. nach jedem Post bei Content Rewards einreichen – Zeiten so legen, dass du dann am Handy bist. Echte Account-Daten nur in Secrets.",
+  "enabled": false,
+  "_enabled_doc": "Posting-Schalter. false = es wird NIE gepostet. Freigabe: Telegram-Befehl /go (Flag im privaten Daten-Repo control.json) oder hier true. /stop sperrt wieder.",
   "timezone": "Europe/Berlin",
   "slots": {
     "youtube":   ["14:00", "18:00", "22:00"],

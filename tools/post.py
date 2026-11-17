@@ -142,7 +142,45 @@ def sync_submitted(posted: dict) -> bool:
     return changed
 
 
+def poll_telegram(ctl: dict) -> bool:
+    """Liest /go und /stop vom eigenen Chat (nur TELEGRAM_CHAT_ID zählt). True = ctl geändert."""
+    tok, chat = (platforms.secret("TELEGRAM_BOT_TOKEN") or "").strip(), (platforms.secret("TELEGRAM_CHAT_ID") or "").strip()
+    if not (tok and chat):
+        return False
+    try:
+        _, _, raw = platforms._http("GET", f"https://api.telegram.org/bot{tok}/getUpdates?offset={int(ctl.get('offset', 0))}&timeout=0", timeout=30)
+        r = json.loads(raw)
+    except Exception:  # noqa: BLE001
+        return False
+    changed = False
+    for u in (r.get("result") or []) if isinstance(r, dict) else []:
+        ctl["offset"] = u["update_id"] + 1
+        changed = True
+        m = u.get("message") or {}
+        if str((m.get("chat") or {}).get("id")) != chat:
+            continue
+        t = (m.get("text") or "").strip().lower().split("@")[0]
+        if t == "/go":
+            ctl["enabled"] = True
+            push("Posting FREIGEGEBEN (/stop zum Sperren).")
+        elif t == "/stop":
+            ctl["enabled"] = False
+            push("Posting GESPERRT.")
+    return changed
+
+
+def posting_enabled() -> bool:
+    """Schalter: config/posting.json enabled ODER Flag control.json im Daten-Repo (per Telegram /go)."""
+    ctl, csha = ghapi.get_json(DATA, "control.json", {"enabled": False, "offset": 0})
+    if poll_telegram(ctl) and not DRY:
+        ghapi.put_json(DATA, "control.json", ctl, csha, "control")
+    return bool(CFG.get("enabled")) or bool(ctl.get("enabled"))
+
+
 def main() -> int:
+    if not posting_enabled():
+        print("Posting gesperrt (config/posting.json enabled=false, kein /go) – nichts gepostet.")
+        return 0
     camps = {c["id"]: c for _, c in cm.load()}
     posted, psha = ghapi.get_json(DATA, "posted.json", {"clips": {}, "slots": {}})
     if sync_submitted(posted) and not DRY:
