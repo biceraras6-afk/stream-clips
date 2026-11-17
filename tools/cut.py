@@ -108,6 +108,12 @@ def keep_segments(words: list[dict], start: float, end: float) -> list[tuple[flo
     return [(round(a, 3), round(b, 3)) for a, b in segs if b - a > 0.05]
 
 
+def trimmed_len(words: list[dict], start: float, end: float) -> float:
+    """Länge nach dem Kürzen der Pausen."""
+    ws = [w for w in words if start - 0.05 <= w["s"] and w["e"] <= end + 0.05]
+    return sum(b - a for a, b in keep_segments(ws, start, end)) if ws else end - start
+
+
 def remap(t: float, segs: list[tuple[float, float]]) -> float:
     acc = 0.0
     for a, b in segs:

@@ -173,6 +173,10 @@ def complete(prompt: str, system: str = "", task: str = "misc", json_mode: bool 
                     _log(p, model, task, False, err=str(e))
                     errors.append(f"{p}/{model}: {str(e)[:80]}")
                     if status == 429:
+                        daily = "per day" in str(e).lower() or "perday" in str(e).lower() or "quota" in str(e).lower() and "minute" not in str(e).lower()
+                        if attempt == 0 and not daily:
+                            time.sleep(30)          # Minutenlimit: kurz warten, dann nochmal
+                            continue
                         _EXHAUSTED.add(p)
                         break
                     if status in (503, 500, 0) and attempt == 0:

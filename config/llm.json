@@ -22,7 +22,7 @@
     },
     "groq": {
       "key_env": "GROQ_API_KEY",
-      "rpm": 25,
+      "rpm": 8,
       "rpd": 800,
       "models": [
         "llama-3.3-70b-versatile",

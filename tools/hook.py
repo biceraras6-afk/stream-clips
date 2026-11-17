@@ -16,6 +16,7 @@ from pathlib import Path
 
 import numpy as np
 
+from tools.cut import trimmed_len
 from tools.llm import LLMError, NeedsClaudeSession, complete
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -56,7 +57,7 @@ def variants(words: list[dict], clip: dict, wav: Path, wav_start: float, min_s: 
 
     # B: Kaltstart – lautester Satzbeginn in den ersten 8 s, Restlänge >= min_s
     starts = [w for w in _sentence_starts([w for w in words if start <= w["s"] <= end])
-              if w["s"] <= start + 8 and end - w["s"] >= min_s and w["s"] > start + 0.5]
+              if w["s"] <= start + 8 and w["s"] > start + 0.5 and trimmed_len(words, w["s"] - 0.08, end) >= min_s + 0.5]
     if starts:
         best = max(starts, key=lambda w: loud(w["s"], w["s"] + 2))
         vs.append(dict(base, name="kaltstart", start=round(best["s"] - 0.08, 2), end=end))
@@ -71,7 +72,7 @@ def variants(words: list[dict], clip: dict, wav: Path, wav_start: float, min_s: 
             best_t, best_v = t, v
         t += 0.2
     if best_t is not None and best_v > loud(start, end) + 3:   # nur bei echtem Höhepunkt (+3 dB)
-        total = (end - start) + 1.2
+        total = trimmed_len(words, start, end) + 1.2
         if total <= max_s + 1:
             vs.append(dict(base, name="teaser", start=start, end=end, teaser=[round(best_t, 2), round(best_t + 1.2, 2)]))
     return vs

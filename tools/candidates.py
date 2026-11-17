@@ -99,7 +99,9 @@ def snap(t: dict, start: float, end: float, min_s: int, max_s: int) -> tuple[flo
     if not first:
         return None
     s = max(0.0, first["s"] - 0.1)
-    cand_ends = [w for w in ws if s + min_s <= w["e"] <= s + max_s]
+    from tools.cut import trimmed_len
+    cand_ends = [w for w in ws if s + min_s <= w["e"] <= s + max_s * 1.6
+                 and min_s + 0.5 <= trimmed_len(ws, s, w["e"] + 0.25) <= max_s]
     if not cand_ends:
         return None
     sentence_ends = [w for w in cand_ends if re.search(r"[.!?]$", w["w"])]
