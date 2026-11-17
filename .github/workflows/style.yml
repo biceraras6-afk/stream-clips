@@ -28,6 +28,9 @@ jobs:
           ARGS=(--max-videos "${MAX:-40}")
           [ "$ALL" = "1" ] && ARGS+=(--all)
           python tools/style.py "${ARGS[@]}"
+      - name: Ergebnis anzeigen (nur Kennzahlen/Regeln, keine Links)
+        if: always()
+        run: cat docs/STYLE.md || true
       - uses: actions/upload-artifact@v4
         if: always()
         with: {name: style, path: docs/STYLE.md, retention-days: 14}
