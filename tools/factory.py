@@ -168,7 +168,17 @@ def main() -> int:
         log(f"  Hook: {best['name']} (gesamt {best['total']}) – „{best.get('overlay')}“")
         chosen = dict(clip, start=best["start"], end=best["end"], teaser=best["teaser"], overlay=best.get("overlay"))
         words = tr.words_between(ft, chosen["start"], chosen["end"])
+        # Länge mit dem genauen Transkript prüfen: zu kurz -> Pausen weniger stark kürzen (sonst QA-Fehler „Länge“)
+        base_gap, base_keep = cut.CFG["silence_gap"], cut.CFG["silence_keep"]
+        for gap, keep in ((base_gap, base_keep), (0.9, 0.3), (1.5, 0.6), (99.0, 99.0)):
+            cut.CFG["silence_gap"], cut.CFG["silence_keep"] = gap, keep
+            ln = cut.trimmed_len(all_words, chosen["start"], chosen["end"]) + (1.2 if chosen.get("teaser") else 0)
+            if ln >= sel["min_s"] + 0.5:
+                break
+        if gap != base_gap:
+            log(f"  Länge: Pausen weniger gekürzt (gap {gap}) -> {ln:.1f}s")
         r = cut.render(section, s0, chosen, all_words, cdir, c.get("disclosure"), c.get("overlays_allowed") is not False)
+        cut.CFG["silence_gap"], cut.CFG["silence_keep"] = base_gap, base_keep
         r["loop_score"] = hook.loop_score(cdir / "clip.mp4")
         (cdir / "render.json").write_text(json.dumps(r, indent=1))
         log(f"  Bild: Quelle {r['source']['w']}x{r['source']['h']}@{r['source']['fps']} {r['source']['kbps']} kbit/s, "
