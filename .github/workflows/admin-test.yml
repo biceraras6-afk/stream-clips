@@ -1,0 +1,41 @@
+name: admin-test
+on: workflow_dispatch
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.13"}
+      - run: pip install -q pynacl
+      - name: GH_ADMIN_TOKEN prüfen
+        env:
+          GH_ADMIN_TOKEN: ${{ secrets.GH_ADMIN_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json, sys, datetime
+          sys.path.insert(0, ".")
+          from tools import ghapi
+          cfg = json.load(open("config/posting.json"))
+          data = cfg["data_repo"]
+          ok = True
+          def check(name, fn):
+              global ok
+              try:
+                  r = fn()
+                  print(f"OK    {name}" if r is not False else f"FEHLT {name}")
+                  ok &= r is not False
+              except Exception as e:
+                  print(f"FEHLT {name}: {str(e)[:160]}"); ok = False
+          check("Secrets lesen/schreiben (stream-clips)", lambda: bool(ghapi.req("GET", f"/repos/{ghapi.REPO}/actions/secrets/public-key", admin=True)) or False)
+          check("Actions lesen (stream-clips)", lambda: ghapi.req("GET", f"/repos/{ghapi.REPO}/actions/artifacts?per_page=1", admin=True) is not None or False)
+          check("Daten-Repo erreichbar", lambda: ghapi.req("GET", f"/repos/{data}", admin=True) is not None or False)
+          def write():
+              cur, sha = ghapi.get_json(data, "status.json", {})
+              ghapi.put_json(data, "status.json", {"checked": datetime.datetime.utcnow().isoformat()}, sha, "admin-test")
+          check("Daten-Repo schreiben", write)
+          check("Issues lesen (Daten-Repo)", lambda: ghapi.issues(data) is not None)
+          sys.exit(0 if ok else 1)
+          PY
