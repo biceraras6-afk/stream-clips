@@ -9,7 +9,7 @@
   "language": "en",
   "description": "Clip highlight moments from the official Metaphor: ReFantazio trailers.\nUse the Heismay Character Trailer and the Launch Trailer.\nPost to TikTok, Instagram Reels, or YouTube Shorts.\n",
   "source": {
-    "type": null,
+    "type": "vod",
     "urls": [],
     "permission_quote": "Clip highlight moments from the official Metaphor: ReFantazio trailers."
   },

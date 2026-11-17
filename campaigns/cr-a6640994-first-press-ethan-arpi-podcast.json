@@ -9,7 +9,7 @@
   "language": "en",
   "description": "First Press is a business podcast by Press On Ventures. It shows how brands get built. Clip the “Ethan Arpi” Episode. You earn money for every view.",
   "source": {
-    "type": null,
+    "type": "vod",
     "urls": [],
     "permission_quote": "Clip the “Ethan Arpi” Episode."
   },

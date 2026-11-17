@@ -8,11 +8,7 @@
   "category": "gambling",
   "language": null,
   "description": "Create viral X clips focused on crypto, gambling, casino culture, streamers, and relevant esports content for CCC.IO.\nClips should feel native to X, entertaining first, and relevant to crypto or gambling audiences.",
-  "source": {
-    "type": null,
-    "urls": [],
-    "permission_quote": null
-  },
+  "source": null,
   "platforms": [
     "x"
   ],
