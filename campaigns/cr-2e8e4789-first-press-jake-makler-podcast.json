@@ -1,0 +1,102 @@
+{
+  "id": "cr-2e8e4789-first-press-jake-makler-podcast",
+  "title": "First Press Jake Makler Podcast",
+  "url": "https://contentrewards.com/c/campaigns/2e8e4789-c832-40c9-9514-f6005ef6318c",
+  "status": "open",
+  "brand": "Clip Farm",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "First Press is a business podcast by Press On Ventures. It shows how brands get built. Clip the “Jake Makler” Episode. You earn money for every view.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.5,
+    "min_payout": 1.5,
+    "max_payout_per_clip": 350.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 350.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 350.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.5,
+        "min_payout": 2.25,
+        "max_payout_per_clip": 350.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 4000.0,
+    "remaining": 3960.55,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "2e8e4789-c832-40c9-9514-f6005ef6318c",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 7,
+    "total_views": 24462,
+    "creators": 6,
+    "avg_views": 3495,
+    "avg_payout": 5.64,
+    "updated_at": "2026-11-17T18:52:19.000Z"
+  },
+  "references": [
+    "https://www.youtube.com/watch?v=RcEyAaLWhwU",
+    "https://www.youtube.com/watch?v=Sid0_Pu2VYY",
+    "https://www.instagram.com/reel/DftgTAwMB_c/",
+    "https://www.youtube.com/watch?v=4ks8qKdq_Dk",
+    "https://www.youtube.com/watch?v=zdQs3s7ld9s",
+    "https://www.youtube.com/watch?v=heANZmj5__U",
+    "https://www.youtube.com/watch?v=MPb8vSPr1BY"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-13T14:26:11.000Z",
+  "brief_hash": "c00e3170196294cc",
+  "enriched": false
+}

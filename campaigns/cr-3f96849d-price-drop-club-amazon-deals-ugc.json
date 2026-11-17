@@ -1,0 +1,117 @@
+{
+  "id": "cr-3f96849d-price-drop-club-amazon-deals-ugc",
+  "title": "Price Drop Club - Amazon Deals (UGC)",
+  "url": "https://contentrewards.com/c/campaigns/3f96849d-79b8-4a89-a504-22bbd434b864",
+  "status": "open",
+  "brand": "Price Drop Club",
+  "streamer": null,
+  "category": "finance",
+  "language": null,
+  "description": "Make short vertical video hyping Amazon deals and sed viewers to pricedropclub.com. DO NOT show specific brand names r personal info (address, full name, etc). No false claims. Say and show pricedropclub.com in the video and caption. Please follow the provide templates for compliance.",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.5,
+    "min_payout": 5.0,
+    "max_payout_per_clip": 1000.0,
+    "min_views": 3333,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.5,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 1000.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 1000.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.5,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 1000.0
+      },
+      "facebook": {
+        "rate_per_1k": 1.5,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 1000.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2500.0,
+    "remaining": 2500.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "3f96849d-79b8-4a89-a504-22bbd434b864",
+  "guidelines": "$4d",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": true,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": true,
+    "draftCaptionRequired": true
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 5,
+  "launched_at": "2026-11-14T04:24:15.000Z",
+  "brief_hash": "25d6863c2eb3dfd8"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "cr-71e3d612-first-press-willie-litvack-podcast",
+  "title": "First Press Willie Litvack Podcast",
+  "url": "https://contentrewards.com/c/campaigns/71e3d612-5b75-4b30-941b-afb7e0cac36d",
+  "status": "open",
+  "brand": "Clip Farm",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "First Press is a business podcast by Press On Ventures. It shows how brands get built. Clip the “Willie Litvack” Episode. You earn money for every view.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.5,
+    "min_payout": 1.5,
+    "max_payout_per_clip": 350.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 350.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 350.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.5,
+        "min_payout": 2.25,
+        "max_payout_per_clip": 350.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 4000.0,
+    "remaining": 3909.86,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "71e3d612-5b75-4b30-941b-afb7e0cac36d",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 16,
+    "total_views": 56074,
+    "creators": 12,
+    "avg_views": 3505,
+    "avg_payout": 5.63,
+    "updated_at": "2026-11-17T18:52:22.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@foundrly6/video/7707695683955870990",
+    "https://www.youtube.com/watch?v=Eke_P6TbxAs",
+    "https://www.youtube.com/watch?v=nG366NgYdRI",
+    "https://www.youtube.com/watch?v=iMI7mA0hfiM",
+    "https://www.youtube.com/watch?v=ZHFs9JueWHM",
+    "https://www.youtube.com/watch?v=5gvXtUpReAQ",
+    "https://www.youtube.com/watch?v=Zm8MnOPgFOE",
+    "https://www.instagram.com/reel/Dfvi3YGNeCV/",
+    "https://www.youtube.com/watch?v=KA9A9AauLag",
+    "https://www.youtube.com/watch?v=ZqsNOzFz-E4"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-13T14:26:12.000Z",
+  "brief_hash": "adc74b75a0b3f3bf",
+  "enriched": false
+}

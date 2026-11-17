@@ -1,0 +1,81 @@
+{
+  "id": "cr-508cacc7-will-clarke-dance-with-me-drive-edits-re",
+  "title": "Will Clarke - Dance With Me | Drive Edits + Repost",
+  "url": "https://contentrewards.com/c/campaigns/508cacc7-530a-42f5-95b4-9b9c59488cbc",
+  "status": "open",
+  "brand": "Artist Influence",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Get paid per view to clip Will Clarke's \"Dance With Me\" on TikTok. Make high-energy edits from the official content repository, or rework and repost edits from our edit repo. Hook in 2s, biggest moment on the drop. Tag @djwillclarke. Multiple posts allowed. Read brief below. Max Payout $200+",
+  "source": null,
+  "platforms": [
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1150.0,
+    "remaining": 1150.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "508cacc7-530a-42f5-95b4-9b9c59488cbc",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-17T18:52:23.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-17T17:49:35.000Z",
+  "brief_hash": "2f326b5ffc2d364c"
+}

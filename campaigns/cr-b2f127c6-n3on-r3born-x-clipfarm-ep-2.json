@@ -1,0 +1,111 @@
+{
+  "id": "cr-b2f127c6-n3on-r3born-x-clipfarm-ep-2",
+  "title": "N3on R3born x ClipFarm Ep 2.",
+  "url": "https://contentrewards.com/c/campaigns/b2f127c6-66f9-4a70-aae4-0deb86748be5",
+  "status": "open",
+  "brand": "Clip Farm",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "R3born is N3on's new show on HardScope, following the livestreamer through a fitness transformation. Clip the best moments from Episode 2. \n",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 3.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 3000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 150.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 150.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 150.0
+      },
+      "x": {
+        "rate_per_1k": 1.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2070.0,
+    "remaining": 1359.18,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "b2f127c6-66f9-4a70-aae4-0deb86748be5",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 50,
+    "total_views": 663391,
+    "creators": 33,
+    "avg_views": 13268,
+    "avg_payout": 14.22,
+    "updated_at": "2026-11-17T18:52:24.000Z"
+  },
+  "references": [
+    "https://www.youtube.com/watch?v=GnQtb1pd1H0",
+    "https://www.youtube.com/watch?v=Kh9X9c-RrI8",
+    "https://www.youtube.com/watch?v=zpD6V4mcqP8",
+    "https://www.youtube.com/watch?v=Vye4ssm_6HY",
+    "https://www.youtube.com/watch?v=JG_b3-Eyl3A",
+    "https://www.youtube.com/watch?v=JzrMcNJ58KU",
+    "https://www.youtube.com/watch?v=pWuMoCmNiYk",
+    "https://www.youtube.com/watch?v=hZoRuzzsOuY",
+    "https://www.youtube.com/watch?v=SYYtnhvHTRk",
+    "https://www.youtube.com/watch?v=xvtfR7B5R48"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-14T00:12:31.000Z",
+  "brief_hash": "34052b0fcb6fb544",
+  "enriched": false
+}

@@ -1,0 +1,110 @@
+{
+  "id": "cr-06d86d3d-ascent-competitive-gaming-ugc",
+  "title": "Ascent Competitive Gaming UGC",
+  "url": "https://contentrewards.com/c/campaigns/06d86d3d-d3f3-48c8-93d1-3c5609f622c6",
+  "status": "open",
+  "brand": "Ascent GG",
+  "streamer": null,
+  "category": "gaming",
+  "language": null,
+  "description": "Ascent is a desktop app for competitive gamers to record, clip, review, and share gameplay. We’re looking for short-form UGC across TikTok, Reels, and Shorts that showcases Ascent naturally through gameplay, highlights, clips, and relatable moments in strictly competitive games.",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.3,
+    "min_payout": 10.0,
+    "max_payout_per_clip": 50.0,
+    "min_views": 33333,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.3,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 50.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.3,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 50.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.3,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 50.0
+      },
+      "facebook": {
+        "rate_per_1k": 0.3,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 50.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 7000.0,
+    "remaining": 1388.6,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "06d86d3d-d3f3-48c8-93d1-3c5609f622c6",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 164,
+    "total_views": 35281660,
+    "creators": 28,
+    "avg_views": 215132,
+    "avg_payout": 34.22,
+    "updated_at": "2026-11-17T18:52:23.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/DfzZETGvcD_/",
+    "https://www.instagram.com/reel/DfyboyHqJVz/",
+    "https://www.youtube.com/watch?v=XA7Ht3TgKXs",
+    "https://www.facebook.com/reel/3481571065521740",
+    "https://www.instagram.com/reel/Dfzbfx_ofr-/",
+    "https://www.instagram.com/reel/DfvzEF8vYLG/",
+    "https://www.facebook.com/reel/1134197492324316",
+    "https://www.tiktok.com/@1dospiores/video/7708586229607959826",
+    "https://www.instagram.com/reel/DfvpuZFtzw_/",
+    "https://www.instagram.com/reel/Dfw-J3CN8IR/"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-13T23:06:02.000Z",
+  "brief_hash": "d838875bd6bc54ff"
+}

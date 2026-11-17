@@ -1,0 +1,111 @@
+{
+  "id": "cr-14affae4-hardscope-love-justice-ep-5-x-clipfarm",
+  "title": "HardScope Love & Justice Ep 5 x ClipFarm",
+  "url": "https://contentrewards.com/c/campaigns/14affae4-940d-43b7-af36-fd64ed9575ea",
+  "status": "open",
+  "brand": "Clip Farm",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "Love & Justice is Zach Justice's new relationship show on HardScope. Real couples bring one relationship issue to Zach, who hears both sides and delivers a verdict on who is actually at fault. Clip the best moments from Episode 5.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 3.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 3000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 150.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 150.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 150.0
+      },
+      "x": {
+        "rate_per_1k": 1.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2070.0,
+    "remaining": 178.17,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "14affae4-940d-43b7-af36-fd64ed9575ea",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 86,
+    "total_views": 2761861,
+    "creators": 54,
+    "avg_views": 32115,
+    "avg_payout": 22.0,
+    "updated_at": "2026-11-17T18:52:23.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/Dfulu9Wyw30/",
+    "https://www.tiktok.com/@streamerclipz0423/video/7708065119330176287",
+    "https://x.com/slim_real82/status/2121578141252465047",
+    "https://www.youtube.com/watch?v=vVbvl32V0PE",
+    "https://www.youtube.com/watch?v=93qCMogvtrY",
+    "https://www.youtube.com/watch?v=Eckgh64fiaY",
+    "https://www.youtube.com/watch?v=4gz8gjvoZ5A",
+    "https://www.youtube.com/watch?v=JnUynaJGD3Y",
+    "https://www.youtube.com/watch?v=yJkiJDKOj8M",
+    "https://www.youtube.com/watch?v=SmcA-YCPbGQ"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-14T00:12:34.000Z",
+  "brief_hash": "26bbe2706251c33b",
+  "enriched": false
+}

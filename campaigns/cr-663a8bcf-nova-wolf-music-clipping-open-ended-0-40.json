@@ -1,0 +1,91 @@
+{
+  "id": "cr-663a8bcf-nova-wolf-music-clipping-open-ended-0-40",
+  "title": "Nova Wolf Music Clipping | Open Ended | $0.40 CPM",
+  "url": "https://contentrewards.com/c/campaigns/663a8bcf-3a22-4ec6-83d8-5a29f8de2832",
+  "status": "open",
+  "brand": "Nova Wolf",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Super easy campaign you can create tons of styles of content and just make sure to have Nova Wolf's Set Me Free in the background to get piad $0.40 per 1k views. ",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.4,
+    "min_payout": 1.2,
+    "max_payout_per_clip": 100.0,
+    "min_views": 3000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.4,
+        "min_payout": 1.2,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.4,
+        "min_payout": 1.2,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 973.08,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "663a8bcf-3a22-4ec6-83d8-5a29f8de2832",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 3,
+    "total_views": 61506,
+    "creators": 3,
+    "avg_views": 20502,
+    "avg_payout": 8.97,
+    "updated_at": "2026-11-17T18:52:13.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/Dfvl7nxuPGy/",
+    "https://www.tiktok.com/@sophia.reyes192/video/7707710528482725151",
+    "https://www.tiktok.com/@chlo_with_e/video/7708503092198788374"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-12T23:20:09.000Z",
+  "brief_hash": "3bc21a83e18b9f15"
+}

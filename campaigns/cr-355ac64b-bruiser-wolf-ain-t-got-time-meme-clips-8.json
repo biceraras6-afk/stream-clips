@@ -1,0 +1,98 @@
+{
+  "id": "cr-355ac64b-bruiser-wolf-ain-t-got-time-meme-clips-8",
+  "title": "Bruiser Wolf - Ain't Got Time Meme Clips [8509]",
+  "url": "https://contentrewards.com/c/campaigns/355ac64b-06e4-4b8f-9986-6cf99c0e840b",
+  "status": "open",
+  "brand": "Sound Network",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Make meme and fail edits set to the official \"Ain't Got Time\" sound.\nPost to TikTok and Instagram Reels.\nFind fail or meme clips. Use the two types below.\nAdd the sound.\nCut each moment to hit on the beat.\nAdd on-screen text.\n",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 420.14,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "355ac64b-06e4-4b8f-9986-6cf99c0e840b",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 44,
+    "total_views": 765646,
+    "creators": 17,
+    "avg_views": 17401,
+    "avg_payout": 13.18,
+    "updated_at": "2026-11-17T18:52:18.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/DfykIvzTgz9/",
+    "https://www.instagram.com/reel/DfygDGCS_lT/",
+    "https://www.instagram.com/reel/DfyyoAIAOM4/",
+    "https://www.instagram.com/reel/Dfyd9r8SFYa/",
+    "https://www.instagram.com/reel/DftPRj4OvQv/",
+    "https://www.instagram.com/reel/DfvtgJ0u3tz/",
+    "https://www.tiktok.com/@mschief00/video/7708063177895972114",
+    "https://www.instagram.com/reel/Dfvtfbjuy9e/",
+    "https://www.instagram.com/reel/DfyeD-WSsyE/",
+    "https://www.instagram.com/reel/DfyP6v6ucu8/"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-13T21:51:05.000Z",
+  "brief_hash": "75743fb8a680f56f"
+}

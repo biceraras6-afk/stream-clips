@@ -1,0 +1,99 @@
+{
+  "id": "cr-5b5a37cc-pacewell-slideshows",
+  "title": "Pacewell Slideshows",
+  "url": "https://contentrewards.com/c/campaigns/5b5a37cc-66d7-4581-b3cd-3cb17aff63c3",
+  "status": "open",
+  "brand": "pacewell",
+  "streamer": null,
+  "category": "app",
+  "language": null,
+  "description": "Post ready-made running slideshows on TikTok. No editing, no filming. $0.50 per 1,000 eligible views, up to $250 per post. Based in the US, UK, CA, AU or NZ. Paid partnership label required. Join our Discord for help getting started.",
+  "source": null,
+  "platforms": [
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.5,
+    "min_payout": 0.5,
+    "max_payout_per_clip": 250.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.5,
+        "min_payout": 0.5,
+        "max_payout_per_clip": 250.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "5b5a37cc-66d7-4581-b3cd-3cb17aff63c3",
+  "guidelines": "Post only the slideshows we provide, as they are (images and caption)\nPost from a TikTok account you declared to us\nSubmit the post link right after posting (24 hours max)\nKeep every post online until its views are counted and paid\nDo not mention or show competing running apps\nDo not talk about the app or running in a negative way\nDo not buy views, likes, comments or followers, and do not use bots",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 1,
+  "launched_at": "2026-11-17T18:32:50.000Z",
+  "brief_hash": "f7c93c0abcf93229"
+}

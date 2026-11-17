@@ -1,0 +1,104 @@
+{
+  "id": "cr-7ca4e29a-alysa-liu",
+  "title": "Alysa Liu",
+  "url": "https://contentrewards.com/c/campaigns/7ca4e29a-f9b5-41e4-beb6-d13e5fcc167d",
+  "status": "open",
+  "brand": "Clouted",
+  "streamer": null,
+  "category": "celebrity",
+  "language": null,
+  "description": "Cinematic edits celebrating Alysa Liu's personality, individuality, and journey while building excitement around her appearance on the cover of LIFE Magazine.\n",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.75,
+    "min_payout": 0.75,
+    "max_payout_per_clip": 250.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.75,
+        "min_payout": 0.75,
+        "max_payout_per_clip": 250.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.75,
+        "min_payout": 0.75,
+        "max_payout_per_clip": 250.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.75,
+        "min_payout": 0.75,
+        "max_payout_per_clip": 250.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 886.31,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "7ca4e29a-f9b5-41e4-beb6-d13e5fcc167d",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 77,
+    "total_views": 140664,
+    "creators": 47,
+    "avg_views": 1827,
+    "avg_payout": 1.48,
+    "updated_at": "2026-11-17T18:54:21.000Z"
+  },
+  "references": [
+    "https://www.youtube.com/watch?v=UQoscjVI91Y",
+    "https://www.youtube.com/watch?v=wByCpSO2YQo",
+    "https://www.youtube.com/watch?v=FLfjPkkMGr0",
+    "https://www.instagram.com/reel/DfrY9i2sBjY/",
+    "https://www.youtube.com/watch?v=LXP28c9Yjv4",
+    "https://www.instagram.com/reel/DftqHPbI6-6/",
+    "https://www.instagram.com/reel/Dfr4ylOvmHr/",
+    "https://www.youtube.com/watch?v=IVDDt551Uv4",
+    "https://www.youtube.com/watch?v=9BkrU6RVfqQ",
+    "https://www.youtube.com/watch?v=gzKfmY_VcA8"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-13T04:51:12.000Z",
+  "brief_hash": "728b89543401c3d1"
+}

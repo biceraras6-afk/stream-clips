@@ -1,0 +1,98 @@
+{
+  "id": "cr-d4372a76-silvana-estrada-latin-grammy-music-8507",
+  "title": "Silvana Estrada - Latin GRAMMY Music [8507]",
+  "url": "https://contentrewards.com/c/campaigns/d4372a76-2094-49fc-a770-2747b86c4ff6",
+  "status": "open",
+  "brand": "Sound Network",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Clip Silvana Estrada's music, performances, and career milestones from the folder below.\nPost to TikTok and Instagram Reels.\n",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 920.94,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "d4372a76-2094-49fc-a770-2747b86c4ff6",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 14,
+    "total_views": 73616,
+    "creators": 9,
+    "avg_views": 5258,
+    "avg_payout": 5.65,
+    "updated_at": "2026-11-17T18:52:11.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@kcfanpens/video/7708325004362108167",
+    "https://www.tiktok.com/@seventyseven998/video/7708385690416893185",
+    "https://www.tiktok.com/@seventyseven998/video/7708385605297720597",
+    "https://www.tiktok.com/@seventyseven998/video/7708385918079520021",
+    "https://www.tiktok.com/@dimensilab/video/7707825327501757703",
+    "https://www.tiktok.com/@andikairen0/video/7708520711911918866",
+    "https://www.tiktok.com/@muzikscenes/video/7708682670506511623",
+    "https://www.tiktok.com/@muzikscenes/video/7708683277388844296",
+    "https://www.tiktok.com/@ghzwulfikr/video/7708894281775271186",
+    "https://www.tiktok.com/@popgraamm/video/7708539178002435348"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-13T18:42:15.000Z",
+  "brief_hash": "05eef882e0aa3839"
+}

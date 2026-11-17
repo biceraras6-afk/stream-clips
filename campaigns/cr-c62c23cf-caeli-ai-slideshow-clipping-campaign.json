@@ -1,0 +1,97 @@
+{
+  "id": "cr-c62c23cf-caeli-ai-slideshow-clipping-campaign",
+  "title": "Caeli AI | Slideshow Clipping Campaign",
+  "url": "https://contentrewards.com/c/campaigns/c62c23cf-802b-41e6-aff3-086e876453d1",
+  "status": "open",
+  "brand": "ClipSmart 💰",
+  "streamer": null,
+  "category": "consumer-brand",
+  "language": null,
+  "description": "Make slideshow clips for Caeli AI. Follow the Campaign Brief and get paid!",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.5,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 200.0,
+    "min_views": 4000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.5,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 200.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.5,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 200.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 991.52,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "c62c23cf-802b-41e6-aff3-086e876453d1",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 9,
+    "total_views": 17230,
+    "creators": 8,
+    "avg_views": 1914,
+    "avg_payout": 0.94,
+    "updated_at": "2026-11-17T18:44:09.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/Dfur8-_IejU/",
+    "https://www.tiktok.com/@therishikatha_/photo/7707585729316113685",
+    "https://www.tiktok.com/@sofixsofficial/video/7707474535477431559",
+    "https://www.tiktok.com/@health_with_deb/photo/7708464276469484821",
+    "https://www.tiktok.com/@health_with_deb/photo/7707504824178199828",
+    "https://www.tiktok.com/@lindaemmanuel_/video/7707546180997139732",
+    "https://www.instagram.com/reel/DfwFquCuZGJ/",
+    "https://www.instagram.com/reel/Dfta_wcspN1/",
+    "https://www.instagram.com/reel/Dfqh5j_sX9n/"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-13T00:55:45.000Z",
+  "brief_hash": "a599e6e0e1f488fa"
+}

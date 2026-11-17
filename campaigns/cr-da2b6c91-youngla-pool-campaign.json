@@ -1,0 +1,105 @@
+{
+  "id": "cr-da2b6c91-youngla-pool-campaign",
+  "title": "YoungLA Pool Campaign",
+  "url": "https://contentrewards.com/c/campaigns/da2b6c91-f877-4b84-9de0-b0264f55dd0b",
+  "status": "open",
+  "brand": "Clip Farm",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "YoungLA is partnering with ClipFarm to source organic-feeling clips of its athletes and gym creators wearing YoungLA apparel, posted across TikTok, Instagram, and YouTube Shorts.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "pool",
+    "amount_per_post": null,
+    "rate_per_1k": 0.0,
+    "min_payout": null,
+    "max_payout_per_clip": null,
+    "min_views": null,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      },
+      "instagram": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      },
+      "youtube": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 8000.0,
+    "remaining": 8000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "da2b6c91-f877-4b84-9de0-b0264f55dd0b",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 22,
+    "total_views": 7994500,
+    "creators": 10,
+    "avg_views": 363386,
+    "avg_payout": 0.0,
+    "updated_at": "2026-11-17T18:52:18.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/DfqFVX3yPtL/",
+    "https://www.tiktok.com/@coreboyz.clips3/video/7707427892292128020",
+    "https://www.tiktok.com/@clipxv06/video/7708166073123622158",
+    "https://www.tiktok.com/@nocturnal.cinema/video/7707686567338446110",
+    "https://www.tiktok.com/@toclips76/video/7707757876151913742",
+    "https://www.tiktok.com/@scroll4clips8/video/7707652293251960094",
+    "https://www.youtube.com/watch?v=jiqdvDP6nCI",
+    "https://www.youtube.com/watch?v=mYlrthj7w6o",
+    "https://www.youtube.com/watch?v=IdEC5YGEZTg",
+    "https://www.youtube.com/watch?v=2NywzdP_dWY"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-12T21:20:10.000Z",
+  "brief_hash": "db9fc09583f26e40",
+  "enriched": false
+}

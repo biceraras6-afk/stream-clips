@@ -1,0 +1,93 @@
+{
+  "id": "cr-5fd77a5d-aisance-clipping",
+  "title": "Aisance Clipping",
+  "url": "https://contentrewards.com/c/campaigns/5fd77a5d-5e3e-4410-b7f3-685e5c120c14",
+  "status": "open",
+  "brand": "EuroAFF.com",
+  "streamer": null,
+  "category": "mobile-app",
+  "language": null,
+  "description": "Post ready-made Aisance videos or create your own slideshows on TikTok and Instagram Reels, whichever you prefer, and earn based on verified views. Aisance is an iPhone money app that lets users talk to their money like texting a friend and get calm, plain answers right from their iPhone.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 200.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 200.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 200.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 200.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "5fd77a5d-5e3e-4410-b7f3-685e5c120c14",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-17T18:16:09.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-13T10:54:43.000Z",
+  "brief_hash": "d2ba64c05af86567"
+}

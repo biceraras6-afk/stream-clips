@@ -1,0 +1,92 @@
+{
+  "id": "cr-6e79148f-the-hunting-wives-syd-taylor-heaven",
+  "title": "The Hunting Wives - Syd Taylor - \"Heaven\"",
+  "url": "https://contentrewards.com/c/campaigns/6e79148f-eac9-4ba0-8794-ea50f423a8bc",
+  "status": "open",
+  "brand": "Verge Records",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "With the new season of The Hunting Wives just around the corner, you're putting together some of the steamiest and most exciting scenes from Season 1 and pairing them with a climactic song that brings the viewer to the edge of their seat.",
+  "source": null,
+  "platforms": [
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.5,
+    "min_payout": 5.0,
+    "max_payout_per_clip": 250.0,
+    "min_views": 10000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.5,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 250.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 979.77,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "6e79148f-eac9-4ba0-8794-ea50f423a8bc",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 18,
+    "total_views": 52344,
+    "creators": 9,
+    "avg_views": 2908,
+    "avg_payout": 1.12,
+    "updated_at": "2026-11-17T18:52:22.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@colemnty0/video/7707769662552952096",
+    "https://www.tiktok.com/@fithess8/video/7707874330796887318",
+    "https://www.tiktok.com/@rayah.sports/video/7707945861942218006",
+    "https://www.tiktok.com/@chupahiw4ca/video/7708099255268887809",
+    "https://www.tiktok.com/@chupahiw4ca/video/7707777895376243988",
+    "https://www.tiktok.com/@chupahiw4ca/video/7707799071007804692",
+    "https://www.tiktok.com/@memeplug_v2/video/7707843016534330645",
+    "https://www.tiktok.com/@greatscene7/video/7707864269840190734",
+    "https://www.tiktok.com/@clipvault42699/video/7707815545160076562",
+    "https://www.tiktok.com/@greatscene7/video/7707796986925272333"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-13T20:48:12.000Z",
+  "brief_hash": "58307b791cc7d080"
+}
