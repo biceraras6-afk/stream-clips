@@ -1,0 +1,7 @@
+{
+  "_doc": "Nur Platzhalter. Echte Namen/Tokens als Secrets <secret_prefix>_* (siehe tools/auth.py). Neuer Account = neuer Eintrag + auth.py.",
+  "accounts": [
+    {"id": "yt1", "platform": "youtube", "secret_prefix": "YT1", "active": true, "campaign_filter": {"include": [], "exclude": []}},
+    {"id": "tt1", "platform": "tiktok", "secret_prefix": "TT1", "active": true, "campaign_filter": {"include": [], "exclude": []}}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "_doc": "Modelle/Limits ungeprüft gegen aktuelle Anbieter-Doku – vor Dauerbetrieb prüfen. Limits konservativ unter den Gratis-Grenzen.",
+  "tiers": {
+    "bulk": ["gemini", "groq", "claude"],
+    "judge": ["claude"]
+  },
+  "providers": {
+    "gemini": {"model": "gemini-flash-latest", "key_env": "GEMINI_API_KEY", "rpm": 8, "rpd": 200},
+    "groq":   {"model": "llama-3.3-70b-versatile", "key_env": "GROQ_API_KEY", "rpm": 25, "rpd": 800},
+    "claude": {"model": "claude-sonnet-5-5", "key_env": "ANTHROPIC_API_KEY", "rpm": 20, "rpd": 200}
+  }
+}

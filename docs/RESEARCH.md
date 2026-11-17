@@ -84,3 +84,17 @@ Gemini (AI Studio) und Groq: Limits/Nutzungsbedingungen noch nicht recherchiert 
 - [Instagram Content Publishing](https://developers.facebook.com/docs/instagram-platform/content-publishing/)
 - [X API docs](https://docs.x.com/x-api/introduction)
 - Drittquellen (⚠️): [reap.video](https://reap.video/blog/whop-clipping), [clipspeed.ai](https://www.clipspeed.ai/blog/can-you-clip-someone-elses-stream.html), [adaptlypost](https://adaptlypost.com/blog/tiktok-post-limit-per-day), [relevantaudience](https://www.relevantaudience.com/youtube/youtube-shorts-original-content-reach-update/), [postproxy X pricing](https://postproxy.dev/blog/x-api-pricing-2026), [Apify CR scraper](https://apify.com/tactful_anvil/whop-content-rewards-scraper)
+
+## 8. Nachtrag Phase 1 – CR Creator-AGB gelesen (2026-11-17)
+Quelle: [contentrewards.com/terms-of-service/clippers](https://contentrewards.com/terms-of-service/clippers) ✅
+- **7.12 Einreichung binnen 30 Min. nach Veröffentlichung**, ältere Posts nicht einreichbar → Posten und Einreichen müssen gekoppelt sein (Phase 4: Benachrichtigung sofort nach Post).
+- **7.11 Ein Post = eine Kampagne**; abgelehnter Post nirgends neu einreichbar.
+- **12.9 Werbe-Hinweis (FTC) muss am Videoanfang stehen** → Hook-Overlay (Phase 2b) muss Platz dafür lassen.
+- **12.11 Politische Clips nicht auf TikTok/X** → Kategorie „political“ ausgeschlossen.
+- **13.3 Ein CR-Account pro Person**; 9.4 verbundene Accounts werden gemeinsam bewertet.
+- **14.1/14.2** Social-Accounts per OAuth oder Bio-Code verbinden; CR liest nur, postet nicht.
+- **8 Pre-post Review**: manche Kampagnen verlangen MP4-Entwurf vor dem Posten → Feld `prepost_review`.
+- **6.1 CPM**: Mindest- und Höchstbetrag pro Clip; Raten ggf. je Zuschauerland. 6.11: Rate zum Einreichzeitpunkt gilt.
+- **7.3** CPM-Runden: 7 Tage Verdienst + 3 Tage Halt.
+- Zu Scraping/Automatisierung des CR-Zugangs: **kein Abschnitt gefunden**. robots.txt sperrt `/api/`. → Keine Nutzung interner CR-Endpunkte; Erfassung per kopiertem Seitentext (Issue-Formular).
+- Whop-API: Endpunkte „bounties“ mit Ziel-Typ `clipping` existieren (Current API, Beta); ob CR-Kampagnen dort gelistet sind und ob Creator-Schlüssel Zugriff haben: **ungeprüft** (Doku-Abruf hier blockiert). Bis dahin Halbautomat.

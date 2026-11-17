@@ -1,0 +1,25 @@
+name: Neue Kampagne
+description: Kampagne von Content Rewards erfassen (Text der Kampagnenseite einfügen)
+title: "Kampagne: "
+labels: [campaign]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Kampagnen-Link
+      placeholder: https://contentrewards.com/...
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: Seitentext
+      description: Ganze Kampagnenseite markieren, kopieren, hier einfügen (Regeln, Rate, Budget, Plattformen, Quelle).
+    validations:
+      required: true
+  - type: checkboxes
+    id: joined
+    attributes:
+      label: Beigetreten
+      options:
+        - label: Ich bin der Kampagne schon beigetreten
