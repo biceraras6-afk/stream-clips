@@ -224,7 +224,8 @@ ENRICH_SYSTEM = (
 )
 
 
-STREAM_HINT = re.compile(r"twitch|kick\.com|\bkick\b|youtube|stream|vod|podcast|broadcast|livestream|episode", re.I)
+STREAM_HINT = re.compile(r"twitch|kick\.com|\bkick\b|youtube|\byt\b|stream|vod|podcast|broadcast|livestream|episode|clip (?:the )?content", re.I)
+STREAM_CATEGORIES = {"streamer", "gaming", "content-creator", "youtuber", "entertainment", "comedy-podcast"}
 
 
 def enrich(c: dict) -> dict:
@@ -232,8 +233,8 @@ def enrich(c: dict) -> dict:
     h = hashlib.sha256(text.encode()).hexdigest()[:16]
     if c.get("brief_hash") == h and (c.get("source") or c.get("enriched")):
         return c
-    # Gratis-Kontingent sparen: LLM nur, wenn das Briefing nach Stream/Video-Quelle klingt
-    if not STREAM_HINT.search(text):
+    # Gratis-Kontingent sparen: LLM nur bei Briefings, die nach Stream/Video/Creator klingen
+    if not STREAM_HINT.search(text) and (c.get("category") or "") not in STREAM_CATEGORIES:
         c["brief_hash"] = h
         c["source"] = None
         return c
@@ -242,6 +243,11 @@ def enrich(c: dict) -> dict:
     except LLMError as err:
         print(f"  LLM nicht verfügbar ({err}) – Heuristik")
         e = heuristic(text)
+    src = e.get("source") or {}
+    if not src.get("urls") and not src.get("permission_quote"):
+        e["source"] = None
+    elif not src.get("type"):
+        src["type"] = "vod"
     for k in ("streamer", "language", "source", "format", "required_tags", "hashtags", "links",
               "disclosure", "rules", "overlays_allowed", "audience", "flags"):
         if e.get(k) not in (None, "", [], {}):
@@ -311,7 +317,8 @@ def main(dry: bool = False) -> int:
     done = set(todo)
     backlog = [(p, c) for p, c in cm.load() if c.get("cr_id") and c["cr_id"] not in done
                and not c.get("enriched") and c.get("status") == "open"
-               and STREAM_HINT.search(f"{c.get('title')} {c.get('description')} {c.get('guidelines')}")]
+               and (STREAM_HINT.search(f"{c.get('title')} {c.get('description')} {c.get('guidelines')}")
+                    or (c.get("category") or "") in STREAM_CATEGORIES)]
     for p, c in backlog[:MAX_BACKLOG]:
         c = enrich(c)
         if c.get("enriched"):

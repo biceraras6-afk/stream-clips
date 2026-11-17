@@ -57,7 +57,7 @@ def validate(c: dict) -> tuple[list[str], list[str]]:
         if src.get("type") not in PREFS["allowed_source_types"]:
             err.append(f"source.type ungültig: {src.get('type')}")
         if not src.get("urls"):
-            err.append("source.urls leer")
+            (warn if c.get("streamer") else err).append("source.urls leer (Kanal wird beim Schnitt gesucht)")
         if not src.get("permission_quote"):
             err.append("source.permission_quote fehlt (keine Quelle ohne Freigabe)")
     pay = c.get("payment") or {}
