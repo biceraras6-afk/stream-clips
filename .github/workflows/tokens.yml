@@ -1,0 +1,34 @@
+name: tokens
+on:
+  schedule:
+    - cron: "41 3 * * 1"      # montags: Instagram-Token (60 Tage gültig) erneuern
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.13"}
+      - run: pip install -q pynacl
+      - name: Erneuern
+        env:
+          SECRETS_JSON: ${{ toJSON(secrets) }}
+          GH_ADMIN_TOKEN: ${{ secrets.GH_ADMIN_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json, sys
+          sys.path.insert(0, ".")
+          from tools import ghapi, platforms
+          from tools.campaigns import ACCOUNTS
+          for a in ACCOUNTS:
+              if a["active"] and a["platform"] == "instagram" and platforms.secret(a["secret_prefix"] + "_ACCESS_TOKEN"):
+                  tok = platforms.instagram_refresh(a["secret_prefix"])
+                  print(f"::add-mask::{tok}")
+                  ghapi.set_secret(a["secret_prefix"] + "_ACCESS_TOKEN", tok)
+                  print(f"{a['id']}: erneuert")
+          PY
