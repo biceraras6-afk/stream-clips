@@ -8,18 +8,29 @@
   "category": "entertainment",
   "language": null,
   "description": "Clip the official SEGA Black Friday Sale video. Show the priority games.\nMake it clear the sale is on Steam for a limited time.\nPost to TikTok, Instagram Reels, and YouTube Shorts.\n",
-  "source": null,
+  "source": {
+    "type": null,
+    "urls": [],
+    "permission_quote": null
+  },
   "platforms": [
     "instagram",
     "tiktok",
     "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -88,5 +99,12 @@
   "references": [],
   "locked_references": null,
   "launched_at": "2026-11-16T20:26:53.000Z",
-  "brief_hash": "bca6f222d6449ff3"
+  "brief_hash": "bca6f222d6449ff3",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

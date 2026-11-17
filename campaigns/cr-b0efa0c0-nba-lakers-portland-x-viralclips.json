@@ -1,0 +1,122 @@
+{
+  "id": "cr-b0efa0c0-nba-lakers-portland-x-viralclips",
+  "title": "NBA Lakers - Portland X ViralClips® ",
+  "url": "https://contentrewards.com/c/campaigns/b0efa0c0-a411-45d6-8283-93d604ba8ba7",
+  "status": "open",
+  "brand": "ViralClips",
+  "streamer": null,
+  "category": "sports",
+  "language": null,
+  "description": "Clipping campaign for NBA ",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.7,
+    "min_payout": 2.5,
+    "max_payout_per_clip": 70.0,
+    "min_views": 3571,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.7,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 70.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.7,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 70.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.7,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 70.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1200.0,
+    "remaining": 1197.06,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "b0efa0c0-a411-45d6-8283-93d604ba8ba7",
+  "guidelines": "$4d",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 70,
+    "total_views": 37177,
+    "creators": 12,
+    "avg_views": 531,
+    "avg_payout": 0.04,
+    "updated_at": "2026-11-17T18:58:09.000Z"
+  },
+  "references": [
+    "https://www.youtube.com/watch?v=hoDOkXJE8S8",
+    "https://www.tiktok.com/@user.fr177/video/7707234932422135073",
+    "https://www.youtube.com/watch?v=XVpfoIt9cc0",
+    "https://www.youtube.com/watch?v=wdsD7BTT-KA",
+    "https://www.tiktok.com/@user.fr177/video/7707239117523897632",
+    "https://www.youtube.com/watch?v=oSiNZGYdHLo",
+    "https://www.tiktok.com/@topbinsuk6/video/7707324494389480726",
+    "https://www.tiktok.com/@clipper.motionn/video/7707799181699697952",
+    "https://www.tiktok.com/@clip_fact0ry/video/7707295181086772512",
+    "https://www.tiktok.com/@user.fr177/video/7707263258264096032"
+  ],
+  "locked_references": 1,
+  "launched_at": "2026-11-11T12:18:11.000Z",
+  "brief_hash": "dc7f0a17e4a361a2"
+}

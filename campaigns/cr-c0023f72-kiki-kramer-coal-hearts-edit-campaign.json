@@ -1,0 +1,98 @@
+{
+  "id": "cr-c0023f72-kiki-kramer-coal-hearts-edit-campaign",
+  "title": "Kiki Kramer - Coal Hearts Edit Campaign",
+  "url": "https://contentrewards.com/c/campaigns/c0023f72-0ea0-4603-b461-96d2452a43d7",
+  "status": "open",
+  "brand": "Clipping Culture",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "Post clips that match one of the approved content types below.\nAttach the official sound.\nPost to TikTok and/or Instagram Reels.\nEvery clip must fit the song: upbeat, glittery, and edgy.\n",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.0,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 600.0,
+    "min_views": null,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 600.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 600.0
+      }
+    },
+    "geo_priced": true
+  },
+  "budget": {
+    "total": 10500.0,
+    "remaining": 10117.93,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "c0023f72-0ea0-4603-b461-96d2452a43d7",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 56,
+    "total_views": 229908,
+    "creators": 17,
+    "avg_views": 4106,
+    "avg_payout": 6.82,
+    "updated_at": "2026-11-17T18:54:20.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/DfwuIFnxgUg/",
+    "https://www.instagram.com/reel/DfzhlSdxzCC/",
+    "https://www.tiktok.com/@twitchclip9189/video/7707403128953392404",
+    "https://www.instagram.com/reel/DfyDInMRiX4/",
+    "https://www.instagram.com/reel/DfvezTRsZt1/",
+    "https://www.instagram.com/reel/DfqYrwns2Mg/",
+    "https://www.instagram.com/reel/DfzhuJoxmr6/",
+    "https://www.instagram.com/reel/DfsUSKLTFvx/",
+    "https://www.instagram.com/reel/Dfvd0u7iJuC/",
+    "https://www.instagram.com/reel/DfqZo2zsWnR/"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-12T16:30:13.000Z",
+  "brief_hash": "785ed343a310e976"
+}

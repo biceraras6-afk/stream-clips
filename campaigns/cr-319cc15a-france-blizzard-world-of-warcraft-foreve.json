@@ -8,18 +8,29 @@
   "category": "entertainment",
   "language": null,
   "description": "Post clips of World of Warcraft: Forever.\nUse the trailers, gameplay, panels, and video assets in the content folder.\nShow the visuals, the footage highlights, the gameplay, or the world.\nSome files have no spoken language. You can use those too.\nPost on TikTok and YouTube Shorts.\n",
-  "source": null,
+  "source": {
+    "type": "drive",
+    "urls": [],
+    "permission_quote": "Use the trailers, gameplay, panels, and video assets in the content folder."
+  },
   "platforms": [
     "instagram",
     "tiktok",
     "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -99,5 +110,12 @@
   ],
   "locked_references": null,
   "launched_at": "2026-11-03T20:14:38.000Z",
-  "brief_hash": "e68bd0b2b7442c68"
+  "brief_hash": "e68bd0b2b7442c68",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

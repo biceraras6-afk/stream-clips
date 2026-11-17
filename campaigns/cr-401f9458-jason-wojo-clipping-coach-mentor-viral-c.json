@@ -4,25 +4,43 @@
   "url": "https://contentrewards.com/c/campaigns/401f9458-d426-47fb-9f8f-83002a162cb5",
   "status": "open",
   "brand": "Jason Wojo",
-  "streamer": null,
+  "streamer": "Jason Wojo",
   "category": "coach-mentor",
   "language": null,
   "description": "Clip Jason Wojo's Content To Push More YouTube Subscribers: Clip From Podcasts, Events, Speeches, Keynotes, YouTube Long Form and Front Facing Content Already!",
-  "source": null,
+  "source": {
+    "type": null,
+    "urls": [],
+    "permission_quote": "Clip Jason Wojo's Content To Push More YouTube Subscribers: Clip From Podcasts, Events, Speeches, Keynotes, YouTube Long Form and Front Facing Content Already!"
+  },
   "platforms": [
     "facebook",
     "instagram",
     "tiktok",
     "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": [
     "@thejasonwojo"
   ],
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [
+      "tag @thejasonwojo",
+      "use right branding and congruent fonts",
+      "edit professionally"
+    ],
+    "dont": [
+      "post clips that can hurt brand reputation",
+      "include clips with 10 curse words"
+    ]
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -114,5 +132,13 @@
   "references": [],
   "locked_references": 2,
   "launched_at": "2026-11-17T01:57:11.000Z",
-  "brief_hash": "0d19fc864219f61b"
+  "brief_hash": "0d19fc864219f61b",
+  "audience": "United States",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

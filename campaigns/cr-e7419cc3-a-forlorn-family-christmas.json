@@ -1,0 +1,102 @@
+{
+  "id": "cr-e7419cc3-a-forlorn-family-christmas",
+  "title": "A Forlorn Family Christmas",
+  "url": "https://contentrewards.com/c/campaigns/e7419cc3-814c-4e1c-9375-43906721eada",
+  "status": "open",
+  "brand": "Forlorn Skier",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Warm, cozy Christmas song looking for short-form videos. Use “A Forlorn Family Christmas” by Forlorn Skier. Prefer mountain, cabin, snowy, and heartfelt holiday scenes. Keep it positive and uplifting. 15–60 sec vertical videos. Official song as main audio.\n\n",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.75,
+    "min_payout": 4.0,
+    "max_payout_per_clip": 50.0,
+    "min_views": 5333,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.75,
+        "min_payout": 4.0,
+        "max_payout_per_clip": 50.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.75,
+        "min_payout": 4.0,
+        "max_payout_per_clip": 50.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.75,
+        "min_payout": 4.0,
+        "max_payout_per_clip": 50.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "e7419cc3-814c-4e1c-9375-43906721eada",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 8,
+    "total_views": 1446,
+    "creators": 7,
+    "avg_views": 181,
+    "avg_payout": 0.0,
+    "updated_at": "2026-11-17T18:56:09.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/DfnJuY4OG_Y/",
+    "https://www.tiktok.com/@theviraledit.co/video/7706963161349475616",
+    "https://www.tiktok.com/@theviraledit.co/video/7706945245484698913",
+    "https://www.instagram.com/reel/DfnCjTpS0PT/",
+    "https://www.tiktok.com/@viralframes.media/video/7706948522532195592",
+    "https://www.youtube.com/watch?v=pYqZa7FnBus",
+    "https://www.instagram.com/reel/Dfm20MXRMt9/",
+    "https://www.instagram.com/reel/DfmstJjPCU-/"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-11T13:37:03.000Z",
+  "brief_hash": "03a75ff5654af5be"
+}

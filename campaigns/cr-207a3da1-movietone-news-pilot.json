@@ -1,0 +1,81 @@
+{
+  "id": "cr-207a3da1-movietone-news-pilot",
+  "title": "Movietone News Pilot",
+  "url": "https://contentrewards.com/c/campaigns/207a3da1-3aae-4cfb-a263-c8503c687134",
+  "status": "open",
+  "brand": "Movietone News",
+  "streamer": null,
+  "category": "history",
+  "language": null,
+  "description": "Bring history to life with Movietone News! Use our vintage archival footage and pre-edited reels to create engaging shorts. Add creative hooks, captions, and edits to capture attention, drive engagement, and make historical moments go viral.",
+  "source": null,
+  "platforms": [
+    "instagram"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": null,
+    "min_payout": null,
+    "max_payout_per_clip": null,
+    "min_views": null,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 350.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2000.0,
+    "remaining": 2000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "207a3da1-3aae-4cfb-a263-c8503c687134",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": true,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-11T02:51:08.000Z",
+  "brief_hash": "044e071042baaf09"
+}

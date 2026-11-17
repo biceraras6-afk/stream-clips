@@ -1,0 +1,122 @@
+{
+  "id": "cr-02b6bc2c-shabellow-s-clipping-campaign-1-cpm",
+  "title": "Shabellow's Clipping Campaign | $1 CPM",
+  "url": "https://contentrewards.com/c/campaigns/02b6bc2c-3b99-4710-a15b-0b926633cd1a",
+  "status": "open",
+  "brand": "Algorithm",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "(READ CLIPPER BRIEF) \n\nTurn Shabellow's pranks, challenges, streams and IRL comedy into engaging short-form videos that make people stop scrolling. Find the best moments, lead with a strong hook and bring your own editing style while keeping the original context.\n",
+  "source": {
+    "type": null,
+    "urls": [],
+    "permission_quote": null
+  },
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 200.0,
+    "min_views": 2000,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 200.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 200.0
+      },
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 200.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 803.62,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "02b6bc2c-3b99-4710-a15b-0b926633cd1a",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 21,
+    "total_views": 179029,
+    "creators": 5,
+    "avg_views": 8525,
+    "avg_payout": 9.35,
+    "updated_at": "2026-11-17T18:54:21.000Z"
+  },
+  "references": [
+    "https://www.youtube.com/watch?v=U5gQnWNpCMc",
+    "https://www.youtube.com/watch?v=GttnflbsDSc",
+    "https://www.youtube.com/watch?v=DhUBFjEeznk",
+    "https://www.youtube.com/watch?v=krXFHMatknQ",
+    "https://www.instagram.com/reel/DfqrWTsqo6X/",
+    "https://www.youtube.com/watch?v=ChECT_WB6RM",
+    "https://www.youtube.com/watch?v=pcUOGpND7_E",
+    "https://www.youtube.com/watch?v=nNJlCOHNvBE",
+    "https://www.instagram.com/reel/Dfsp8evgWOf/",
+    "https://www.youtube.com/watch?v=s32Jyv7JYRo"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-12T12:29:33.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "5e2ec3e09c8e0907",
+  "enriched": true
+}

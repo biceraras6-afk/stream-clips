@@ -1,0 +1,89 @@
+{
+  "id": "cr-c00a83d6-monday-haircare-gifting-guides-clipping",
+  "title": "MONDAY Haircare Gifting Guides Clipping",
+  "url": "https://contentrewards.com/c/campaigns/c00a83d6-5526-43a7-b8b1-551b9198afc3",
+  "status": "open",
+  "brand": "Clip Influence",
+  "streamer": null,
+  "category": "consumer-brand",
+  "language": null,
+  "description": "Get paid $3/thousand views to clip viral content for the MONDAY Haircare Gifting Guides Clipping Campaign. Create gift-guide collages and wishlist carousels featuring MONDAY Haircare. Showcase self-care essentials, holiday gifts, and Amazon finds!",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 3.0,
+    "min_payout": 3.0,
+    "max_payout_per_clip": 300.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 3.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 300.0
+      },
+      "instagram": {
+        "rate_per_1k": 3.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 300.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 5000.0,
+    "remaining": 4929.24,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "c00a83d6-5526-43a7-b8b1-551b9198afc3",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 1,
+    "total_views": 21900,
+    "creators": 1,
+    "avg_views": 21900,
+    "avg_payout": 70.76,
+    "updated_at": "2026-11-17T18:58:15.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@pinkroutineee/video/7707806673930390797"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-12T05:01:28.000Z",
+  "brief_hash": "47809dbeceb27f87"
+}

@@ -1,0 +1,104 @@
+{
+  "id": "cr-ca9e8eca-jake-paul-how-to-make-money-with-ai",
+  "title": "Jake Paul How to Make Money With AI",
+  "url": "https://contentrewards.com/c/campaigns/ca9e8eca-1d96-4dfa-a252-f4b12f21f394",
+  "status": "open",
+  "brand": "Clip Farm",
+  "streamer": null,
+  "category": "entertainment",
+  "language": null,
+  "description": "Post and create clips from Jake Paul's latest business video, \"How to Make Money With AI\". Clips should be informational and highlight any insights that Jake gives throughout the video. ",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.75,
+    "min_payout": 1.15,
+    "max_payout_per_clip": 250.0,
+    "min_views": 1533,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.75,
+        "min_payout": 1.15,
+        "max_payout_per_clip": 250.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.75,
+        "min_payout": 1.15,
+        "max_payout_per_clip": 250.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.75,
+        "min_payout": 1.15,
+        "max_payout_per_clip": 250.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1200.0,
+    "remaining": 1097.26,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "ca9e8eca-1d96-4dfa-a252-f4b12f21f394",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 29,
+    "total_views": 129052,
+    "creators": 23,
+    "avg_views": 4450,
+    "avg_payout": 3.54,
+    "updated_at": "2026-11-17T18:56:19.000Z"
+  },
+  "references": [
+    "https://www.youtube.com/watch?v=wO5tMVGF12g",
+    "https://www.youtube.com/watch?v=ExBoRcu-6mc",
+    "https://www.youtube.com/watch?v=qljlxA8rOpY",
+    "https://www.tiktok.com/@onlyjasontheween/video/7707676121084693791",
+    "https://www.youtube.com/watch?v=EfskU4p9d6I",
+    "https://www.youtube.com/watch?v=7q9okqyg_u4",
+    "https://www.youtube.com/watch?v=dHlDBdXBteg",
+    "https://www.youtube.com/watch?v=O1Yfd-TCjVg",
+    "https://www.youtube.com/watch?v=DtF1bdAcFSQ",
+    "https://www.youtube.com/watch?v=mfskqAL-73U"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-12T15:57:19.000Z",
+  "brief_hash": "653bad8e78f74845"
+}

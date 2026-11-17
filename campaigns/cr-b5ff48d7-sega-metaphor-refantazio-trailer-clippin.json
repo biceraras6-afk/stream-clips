@@ -1,0 +1,122 @@
+{
+  "id": "cr-b5ff48d7-sega-metaphor-refantazio-trailer-clippin",
+  "title": "SEGA - Metaphor ReFantazio Trailer Clipping",
+  "url": "https://contentrewards.com/c/campaigns/b5ff48d7-ec63-443a-b767-3a430a6f71f4",
+  "status": "open",
+  "brand": "Clipping Culture",
+  "streamer": null,
+  "category": "gaming",
+  "language": "en",
+  "description": "Clip highlight moments from the official Metaphor: ReFantazio trailers.\nUse the Heismay Character Trailer and the Launch Trailer.\nPost to TikTok, Instagram Reels, or YouTube Shorts.\n",
+  "source": {
+    "type": null,
+    "urls": [],
+    "permission_quote": "Clip highlight moments from the official Metaphor: ReFantazio trailers."
+  },
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.0,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 800.0,
+    "min_views": null,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 800.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 800.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 800.0
+      }
+    },
+    "geo_priced": true
+  },
+  "budget": {
+    "total": 12000.0,
+    "remaining": 11062.92,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "b5ff48d7-ec63-443a-b767-3a430a6f71f4",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 201,
+    "total_views": 540058,
+    "creators": 94,
+    "avg_views": 2687,
+    "avg_payout": 4.66,
+    "updated_at": "2026-11-17T18:56:21.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/Dfsg-wBzWnl/",
+    "https://www.tiktok.com/@shiatgaming/video/7708104119663201566",
+    "https://www.instagram.com/reel/Dfta8ffhXSl/",
+    "https://www.instagram.com/reel/DftadMah3Dw/",
+    "https://www.instagram.com/reel/Dfss_nmzj3Z/",
+    "https://www.instagram.com/reel/DfsNZqZCXnF/",
+    "https://www.instagram.com/reel/DfuLcF7BHBo/",
+    "https://www.instagram.com/reel/Dfqni6IIDD7/",
+    "https://www.instagram.com/reel/DfwLhCVoti0/",
+    "https://www.instagram.com/reel/Dfy82ljxFTK/"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-12T18:30:01.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "cd261d323538b12c",
+  "enriched": true
+}

@@ -4,22 +4,33 @@
   "url": "https://contentrewards.com/c/campaigns/5f6b6ac5-9878-4ad6-b90f-c2f2a3392e91",
   "status": "open",
   "brand": "Motion Clipping",
-  "streamer": null,
+  "streamer": "Stream House LA",
   "category": "entertainment",
-  "language": null,
+  "language": "en",
   "description": "Clip for Stream House LA and post viral moments across Tiktok, Instagram and YT shorts and get paid ",
-  "source": null,
+  "source": {
+    "type": null,
+    "urls": [],
+    "permission_quote": null
+  },
   "platforms": [
     "instagram",
     "tiktok",
     "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -99,5 +110,12 @@
   ],
   "locked_references": null,
   "launched_at": "2026-10-06T00:03:34.000Z",
-  "brief_hash": "0778ac767c41eb59"
+  "brief_hash": "0778ac767c41eb59",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

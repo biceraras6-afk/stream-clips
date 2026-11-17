@@ -1,0 +1,92 @@
+{
+  "id": "cr-1614bf42-easy-post-brazil-tiktok-content",
+  "title": "[EASY $] POST BRAZIL TIKTOK CONTENT",
+  "url": "https://contentrewards.com/c/campaigns/1614bf42-6b44-4aa1-9102-736a76e63503",
+  "status": "open",
+  "brand": "Duetti",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Get paid to post Brazil TikToks with Lil Ze – “For Real” 🇧🇷 Funk edits, futebol edits, praia & Carnaval clips, POV/text memes, slideshows, anime edits. Aim for a Brazilian audience. Use the official sound, keep it audible, originals only. No reposts or fake views 💸",
+  "source": null,
+  "platforms": [
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.25,
+    "min_payout": 1.25,
+    "max_payout_per_clip": 100.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.25,
+        "min_payout": 1.25,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 252.05,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "1614bf42-6b44-4aa1-9102-736a76e63503",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 32,
+    "total_views": 609136,
+    "creators": 11,
+    "avg_views": 19036,
+    "avg_payout": 23.37,
+    "updated_at": "2026-11-17T18:52:18.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@latinaz.space1/video/7707660460815928584",
+    "https://www.tiktok.com/@sudutbukittinggi/video/7707464814028868884",
+    "https://www.tiktok.com/@urfavghost36/video/7707861268060753204",
+    "https://www.tiktok.com/@latinaz.space1/video/7707660718224575762",
+    "https://www.tiktok.com/@dalam14haricom/video/7707492959536598293",
+    "https://www.tiktok.com/@dalam14haricom/video/7707494170566479124",
+    "https://www.tiktok.com/@sudutbukittinggi/video/7707493496499801365",
+    "https://www.tiktok.com/@dalam14haricom/video/7707494727834291477",
+    "https://www.tiktok.com/@jjuli.24/photo/7707710476641176864",
+    "https://www.tiktok.com/@dalam14haricom/video/7707532487810911494"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-12T20:51:50.000Z",
+  "brief_hash": "be20a86369993afd"
+}

@@ -1,0 +1,104 @@
+{
+  "id": "cr-91e82bdd-olivier-kennedy-x-viralclips",
+  "title": "Olivier Kennedy X ViralClips®",
+  "url": "https://contentrewards.com/c/campaigns/91e82bdd-2106-4283-a927-edac2c6dfe26",
+  "status": "open",
+  "brand": "ViralClips",
+  "streamer": null,
+  "category": "business",
+  "language": null,
+  "description": "Campagne de clipping pour Olivier Kennedy",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.7,
+    "min_payout": 3.4,
+    "max_payout_per_clip": 100.0,
+    "min_views": 2000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.7,
+        "min_payout": 3.4,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.7,
+        "min_payout": 3.4,
+        "max_payout_per_clip": 100.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.7,
+        "min_payout": 3.4,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 3000.0,
+    "remaining": 2150.24,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "91e82bdd-2106-4283-a927-edac2c6dfe26",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 145,
+    "total_views": 498701,
+    "creators": 35,
+    "avg_views": 3439,
+    "avg_payout": 5.86,
+    "updated_at": "2026-11-17T18:52:17.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/Df1hUj1i6wq/",
+    "https://www.instagram.com/reel/Df1sAoKCXSl/",
+    "https://www.tiktok.com/@arabellarosehartington/video/7708677642559425814",
+    "https://www.instagram.com/reel/DfzZSQhKE1D/",
+    "https://www.tiktok.com/@linnea.239/video/7708737044238880022",
+    "https://www.tiktok.com/@arabellarosehartington/video/7708702428916354326",
+    "https://www.tiktok.com/@linnea.239/video/7708771193356045590",
+    "https://www.tiktok.com/@arabellarosehartington/video/7708770149897145622",
+    "https://www.instagram.com/reel/Dfw08DlAsJd/",
+    "https://www.instagram.com/reel/DfwAQSdouEU/"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-12T16:33:04.000Z",
+  "brief_hash": "077484e536cb901d"
+}

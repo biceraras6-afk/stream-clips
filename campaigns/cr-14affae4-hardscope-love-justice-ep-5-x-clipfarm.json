@@ -4,23 +4,34 @@
   "url": "https://contentrewards.com/c/campaigns/14affae4-940d-43b7-af36-fd64ed9575ea",
   "status": "open",
   "brand": "Clip Farm",
-  "streamer": null,
+  "streamer": "Zach Justice",
   "category": "entertainment",
   "language": null,
   "description": "Love & Justice is Zach Justice's new relationship show on HardScope. Real couples bring one relationship issue to Zach, who hears both sides and delivers a verdict on who is actually at fault. Clip the best moments from Episode 5.",
-  "source": null,
+  "source": {
+    "type": null,
+    "urls": [],
+    "permission_quote": null
+  },
   "platforms": [
     "instagram",
     "tiktok",
     "x",
     "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -107,5 +118,11 @@
   "locked_references": null,
   "launched_at": "2026-11-14T00:12:34.000Z",
   "brief_hash": "26bbe2706251c33b",
-  "enriched": false
+  "enriched": true,
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  }
 }

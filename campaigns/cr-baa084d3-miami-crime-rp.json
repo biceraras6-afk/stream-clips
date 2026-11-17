@@ -1,0 +1,128 @@
+{
+  "id": "cr-baa084d3-miami-crime-rp",
+  "title": "Miami Crime RP ",
+  "url": "https://contentrewards.com/c/campaigns/baa084d3-4cdf-4329-b4e1-f68c4aa3152c",
+  "status": "open",
+  "brand": "BloxClips",
+  "streamer": null,
+  "category": "roblox",
+  "language": null,
+  "description": "Make short videos about Miami Crime RP, an open world crime game on Roblox, and get viewers to play it and join its Discord.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 200.0,
+    "min_views": 2000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 200.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 200.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 200.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1271.53,
+    "remaining": 895.8,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "baa084d3-4cdf-4329-b4e1-f68c4aa3152c",
+  "guidelines": "Must read doc for all Info",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": true,
+    "oauthPlatforms": [
+      "tiktok",
+      "instagram"
+    ],
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "reviewerOnly": [
+      "Must read doc for all Info"
+    ],
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 17,
+    "total_views": 351864,
+    "creators": 8,
+    "avg_views": 20698,
+    "avg_payout": 22.1,
+    "updated_at": "2026-11-17T18:58:09.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@baconprodgoat/video/7708558578713398561",
+    "https://www.instagram.com/reel/Df1B1vsByAJ/",
+    "https://www.youtube.com/watch?v=cp90DKxSlrI",
+    "https://www.instagram.com/reel/DfyAOwxMuOX/",
+    "https://www.tiktok.com/@robloxwinston/video/7707358995207474463",
+    "https://www.instagram.com/p/DfpVatUR-2P/",
+    "https://www.youtube.com/watch?v=bwb0mR0TnTk",
+    "https://www.tiktok.com/@hypeboiusul/video/7708985486370524430",
+    "https://www.instagram.com/p/Dfpvtt9gnd_/",
+    "https://www.youtube.com/watch?v=iCQdvNeF4Do"
+  ],
+  "locked_references": 1,
+  "launched_at": "2026-11-12T00:26:18.000Z",
+  "brief_hash": "75446344770518ea"
+}

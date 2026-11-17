@@ -4,22 +4,33 @@
   "url": "https://contentrewards.com/c/campaigns/60e19a6d-066c-4090-8728-02eb6bd789ef",
   "status": "open",
   "brand": "Hype Media",
-  "streamer": null,
+  "streamer": "Hoodrich",
   "category": "streamer",
   "language": null,
   "description": "Clip Hoodrich’s streams into engaging short-form content about credit, funding, business, and entertaining stream moments. Earn $1.00 per 1,000 verified views.",
-  "source": null,
+  "source": {
+    "type": null,
+    "urls": [],
+    "permission_quote": null
+  },
   "platforms": [
     "instagram",
     "tiktok",
     "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -99,5 +110,12 @@
   ],
   "locked_references": null,
   "launched_at": "2026-10-01T22:38:16.000Z",
-  "brief_hash": "a7114379ebd111d6"
+  "brief_hash": "a7114379ebd111d6",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

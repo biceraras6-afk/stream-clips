@@ -4,20 +4,31 @@
   "url": "https://contentrewards.com/c/campaigns/25d1f67e-1d3f-45ba-8a68-b7699732f234",
   "status": "open",
   "brand": "Kyro Clips",
-  "streamer": null,
+  "streamer": "Brray",
   "category": "music",
   "language": null,
   "description": "Post clips to Brray's song 'Angelica' using his livestream performance and listening event footage and earn $1.50 per 1k views.",
-  "source": null,
+  "source": {
+    "type": "stream",
+    "urls": [],
+    "permission_quote": "Post clips to Brray's song 'Angelica' using his livestream performance and listening event footage"
+  },
   "platforms": [
     "tiktok"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -76,5 +87,12 @@
   "references": [],
   "locked_references": null,
   "launched_at": "2026-11-17T12:54:39.000Z",
-  "brief_hash": "7089dae9e7eeab6c"
+  "brief_hash": "7089dae9e7eeab6c",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

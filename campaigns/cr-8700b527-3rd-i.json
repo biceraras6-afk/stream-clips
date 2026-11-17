@@ -8,16 +8,27 @@
   "category": "technology",
   "language": null,
   "description": "The 3rd-i safety app is a real-time personal and workplace safety application designed to stream live video, audio, and GPS location data to trusted contacts (\"squads\") or trained safety agents",
-  "source": null,
+  "source": {
+    "type": null,
+    "urls": [],
+    "permission_quote": null
+  },
   "platforms": [
     "tiktok"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -89,5 +100,11 @@
   "locked_references": null,
   "launched_at": "2026-11-14T13:43:35.000Z",
   "brief_hash": "4492ec0659ffb72d",
-  "enriched": false
+  "enriched": true,
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  }
 }

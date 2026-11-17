@@ -1,0 +1,88 @@
+{
+  "id": "cr-8ff664db-christian-kuria-duello-romance-drama-fil",
+  "title": "Christian Kuria - Duello | Romance Drama Film Edit",
+  "url": "https://contentrewards.com/c/campaigns/8ff664db-611d-4556-a2a9-f827463fd347",
+  "status": "open",
+  "brand": "Flood Division",
+  "streamer": null,
+  "category": "sound-campaign",
+  "language": null,
+  "description": "Create engaging movie edits with lyrics using Christian Kuria's “Duello” with the official TikTok audio. Keep the song as the main audio focus, follow the content requirements, and submit only videos that meet the 5%+ engagement and audience requirements.",
+  "source": null,
+  "platforms": [
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 962.93,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "8ff664db-611d-4556-a2a9-f827463fd347",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 6,
+    "total_views": 33896,
+    "creators": 5,
+    "avg_views": 5649,
+    "avg_payout": 6.18,
+    "updated_at": "2026-11-17T18:48:09.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@danielseaveyph5/video/7707892108996168981",
+    "https://www.tiktok.com/@wevrl.clips/video/7707833384143211794",
+    "https://www.tiktok.com/@wevrl.clips/video/7707613795488697607",
+    "https://www.tiktok.com/@rails.clips/video/7707703795198774549",
+    "https://www.tiktok.com/@bottlebreakklab/video/7707747063584263446",
+    "https://www.tiktok.com/@jackkpaul1/video/7707574885018750215"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-12T20:24:14.000Z",
+  "brief_hash": "952f7622be8a4373"
+}

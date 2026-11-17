@@ -6,20 +6,31 @@
   "brand": "Clip Farm",
   "streamer": null,
   "category": "entertainment",
-  "language": null,
+  "language": "en",
   "description": "First Press is a business podcast by Press On Ventures. It shows how brands get built. Clip the “Ethan Arpi” Episode. You earn money for every view.",
-  "source": null,
+  "source": {
+    "type": null,
+    "urls": [],
+    "permission_quote": "Clip the “Ethan Arpi” Episode."
+  },
   "platforms": [
     "instagram",
     "tiktok",
     "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -93,5 +104,11 @@
   "locked_references": null,
   "launched_at": "2026-11-13T14:26:09.000Z",
   "brief_hash": "7a17e6bce0f10f71",
-  "enriched": false
+  "enriched": true,
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  }
 }

@@ -1,0 +1,110 @@
+{
+  "id": "cr-1fd67e9d-ccc-crypto-casino",
+  "title": "CCC CRYPTO CASINO ",
+  "url": "https://contentrewards.com/c/campaigns/1fd67e9d-d2b1-4694-8f6f-ae90dae12bcc",
+  "status": "open",
+  "brand": "ClipHaus",
+  "streamer": null,
+  "category": "gambling",
+  "language": null,
+  "description": "Create viral X clips focused on crypto, gambling, casino culture, streamers, and relevant esports content for CCC.IO.\nClips should feel native to X, entertaining first, and relevant to crypto or gambling audiences.",
+  "source": {
+    "type": null,
+    "urls": [],
+    "permission_quote": null
+  },
+  "platforms": [
+    "x"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": null,
+    "min_payout": null,
+    "max_payout_per_clip": null,
+    "min_views": null,
+    "per_platform": {
+      "x": {
+        "rate_per_1k": 0.4,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 4000.0,
+    "remaining": 2868.45,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "1fd67e9d-d2b1-4694-8f6f-ae90dae12bcc",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 77,
+    "total_views": 2628986,
+    "creators": 26,
+    "avg_views": 34143,
+    "avg_payout": 14.7,
+    "updated_at": "2026-11-17T18:58:18.000Z"
+  },
+  "references": [
+    "https://x.com/danny_tonf/status/2121376526797070696",
+    "https://x.com/Thisisvlord/status/2121479724161491190",
+    "https://x.com/dhiveclip/status/2122275265447629285",
+    "https://x.com/tobayehh/status/2121940311291129868",
+    "https://x.com/kposhonsols/status/2122187383420363120",
+    "https://x.com/dhiveclip/status/2121493394622931434",
+    "https://x.com/just_tolu_/status/2122198368885563425",
+    "https://x.com/Theweb3freak/status/2122026262843568489",
+    "https://x.com/p_vault1/status/2121539024527749516",
+    "https://x.com/danny_tonf/status/2121986613127287053"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-11T20:20:06.000Z",
+  "flags": {
+    "gambling": true,
+    "crypto": true,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "e97b32ef19cf515d",
+  "enriched": true
+}

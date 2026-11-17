@@ -1,0 +1,98 @@
+{
+  "id": "cr-2872b137-best-beauty-finds-target-walmart-clippin",
+  "title": "Best Beauty Finds - Target & Walmart Clipping",
+  "url": "https://contentrewards.com/c/campaigns/2872b137-97d0-4a14-9f2b-1166989597ec",
+  "status": "open",
+  "brand": "Clip Influence",
+  "streamer": null,
+  "category": "consumer-brand",
+  "language": null,
+  "description": "Get paid $3/thousand views to clip for the MONDAY HAIRCARE GENERAL Clipping Campaign. Get paid to create haircare shopping-guide carousels and slideshows featuring MONDAY, BEING, TRUE, and DAISE. Showcase affordable finds at Target and Walmart!",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 2.0,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 300.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 2.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 300.0
+      },
+      "instagram": {
+        "rate_per_1k": 2.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 300.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 5000.0,
+    "remaining": 3663.71,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "2872b137-97d0-4a14-9f2b-1166989597ec",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 25,
+    "total_views": 599040,
+    "creators": 6,
+    "avg_views": 23962,
+    "avg_payout": 53.45,
+    "updated_at": "2026-11-17T18:56:21.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@glowuptips.ken/photo/7708528523144678676",
+    "https://www.tiktok.com/@glowuptipsxin/photo/7708153421672516884",
+    "https://www.tiktok.com/@glowuptipsxin/photo/7708849034034679060",
+    "https://www.tiktok.com/@glowuptips.ken/photo/7708792949437402388",
+    "https://www.tiktok.com/@glowuptipsxin/photo/7707999325304982804",
+    "https://www.tiktok.com/@glowuptipsxin/photo/7708256428624071956",
+    "https://www.tiktok.com/@glowuptipsxin/photo/7708503863740861748",
+    "https://www.tiktok.com/@glowuptipsxin/photo/7708060483005467925",
+    "https://www.tiktok.com/@glowuptipsxin/video/7708187524560178453",
+    "https://www.tiktok.com/@glowuptipsxin/video/7708338671572880641"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-12T05:03:01.000Z",
+  "brief_hash": "bb3fa55233c48dde"
+}

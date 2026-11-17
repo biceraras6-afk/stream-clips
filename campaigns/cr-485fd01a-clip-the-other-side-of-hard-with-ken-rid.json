@@ -4,25 +4,52 @@
   "url": "https://contentrewards.com/c/campaigns/485fd01a-6710-4cce-a0e7-723de8990827",
   "status": "open",
   "brand": "RIDEOUT",
-  "streamer": null,
+  "streamer": "Ken Rideout",
   "category": "interview-podcast",
-  "language": null,
+  "language": "en",
   "description": "Clip full episodes of The Other Side of Hard, Ken Rideout's podcast. $1 per 1,000 views on TikTok, Reels and Shorts, $10 to $100 per clip. Ken is a world champion marathoner and recovered addict who talks to Olympians, NBA players and fighters about the hardest thing they got through.",
-  "source": null,
+  "source": {
+    "type": "vod",
+    "urls": [],
+    "permission_quote": "Clip only from the two linked full episodes: Shawn Johnson East and Chris Herren"
+  },
   "platforms": [
     "instagram",
     "tiktok",
     "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": 25,
+    "max_seconds": 60,
+    "aspect": "9:16"
+  },
   "required_tags": [
     "@ken_rideout"
   ],
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
-  "overlays_allowed": null,
+  "rules": {
+    "do": [
+      "Include \"The Other Side of Hard with Ken Rideout\" on screen for the full clip",
+      "Open on a confession, hard number, or strong claim within the first 3 seconds",
+      "Show one complete story with a clear ending",
+      "Use 9:16 vertical format with burned‑in captions and original audio",
+      "Tag @ken_rideout and name the guest in the caption",
+      "Clip only from the two linked full episodes"
+    ],
+    "dont": [
+      "Clip ad reads or mention sponsors",
+      "Include any content about Larry Nassar or USA Gymnastics team doctors",
+      "Present drug use as fun or cool",
+      "Make health or medical claims",
+      "Use AI voices, reaction overlays, gameplay split screens, or copyrighted music",
+      "Buy views or use bots",
+      "Make the clip shorter than 25 seconds or longer than 60 seconds",
+      "Omit the required on‑screen title"
+    ]
+  },
+  "overlays_allowed": false,
   "payment": {
     "model": "cpm",
     "rate_per_1k": 1.0,
@@ -119,5 +146,12 @@
   ],
   "locked_references": 2,
   "launched_at": "2026-11-14T17:37:17.000Z",
-  "brief_hash": "45ed149f2c0493e0"
+  "brief_hash": "45ed149f2c0493e0",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

@@ -1,0 +1,98 @@
+{
+  "id": "cr-ba257cd1-music-clipping-0-50-cpm-where-have-you-b",
+  "title": "MUSIC CLIPPING $0.50 CPM - Where Have You Been",
+  "url": "https://contentrewards.com/c/campaigns/ba257cd1-07f2-4688-8e24-ca9989c7f14d",
+  "status": "open",
+  "brand": "Naarly's Music Promo",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Doing a Instagram / TikTok Clipping Campaign!",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.5,
+    "min_payout": 5.0,
+    "max_payout_per_clip": 15.0,
+    "min_views": 10000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.5,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 15.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.5,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 15.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 892.63,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "ba257cd1-07f2-4688-8e24-ca9989c7f14d",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 16,
+    "total_views": 875930,
+    "creators": 11,
+    "avg_views": 54746,
+    "avg_payout": 6.71,
+    "updated_at": "2026-11-17T18:56:17.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/DfpswMSyiNr/",
+    "https://www.tiktok.com/@talgi.yaa/video/7708739219862162689",
+    "https://www.tiktok.com/@talgi.yaa/video/7708753857265831175",
+    "https://www.tiktok.com/@talgi.yaa/video/7706884964360441095",
+    "https://www.tiktok.com/@talgi.yaa/video/7708744619743546642",
+    "https://www.instagram.com/reel/DfmJz-mJtCb/",
+    "https://www.instagram.com/reel/DfmTrCpSeyy/",
+    "https://www.tiktok.com/@vujojo2/video/7706859399125454102",
+    "https://www.tiktok.com/@vujojo2/video/7706859831981853974",
+    "https://www.tiktok.com/@vujojo2/video/7706861479873596694"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-11T08:25:39.000Z",
+  "brief_hash": "024f5395cabadd7a"
+}

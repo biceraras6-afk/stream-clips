@@ -1,0 +1,92 @@
+{
+  "id": "cr-1de7733c-eric404-meds-movie-edits",
+  "title": "eric404 - Meds | MOVIE EDITS",
+  "url": "https://contentrewards.com/c/campaigns/1de7733c-ecc3-4669-8877-fd990789031b",
+  "status": "open",
+  "brand": "Flood Division",
+  "streamer": null,
+  "category": "sound-campaign",
+  "language": null,
+  "description": "Create engaging movie edits with lyrics using eric404’s “Meds” with the official TikTok audio. Keep the song as the main audio focus, follow the content requirements, and submit only videos that meet the 5%+ engagement and audience requirements. ",
+  "source": null,
+  "platforms": [
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 995.21,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "1de7733c-ecc3-4669-8877-fd990789031b",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 21,
+    "total_views": 10064,
+    "creators": 19,
+    "avg_views": 479,
+    "avg_payout": 0.23,
+    "updated_at": "2026-11-17T18:58:12.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@dstnyxyvr0z/video/7707036683404922134",
+    "https://www.tiktok.com/@danielseaveyph5/video/7708750521254956309",
+    "https://www.tiktok.com/@danielseaveyph5/video/7708750450903846164",
+    "https://www.tiktok.com/@pure.auraclips/video/7707243172975447328",
+    "https://www.tiktok.com/@pure.auraclips/video/7707249511227247905",
+    "https://www.tiktok.com/@clippedia295/video/7707321850929384725",
+    "https://www.tiktok.com/@nurulbinaa/video/7707052817873210631",
+    "https://www.tiktok.com/@hedwig.potters/video/7707078657080118534",
+    "https://www.tiktok.com/@gratim33/video/7707045753725701407",
+    "https://www.tiktok.com/@jamesb1360/video/7707116624683339029"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-11T17:52:14.000Z",
+  "brief_hash": "6b7e45bb8820431b"
+}

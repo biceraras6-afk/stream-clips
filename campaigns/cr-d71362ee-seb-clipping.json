@@ -1,0 +1,93 @@
+{
+  "id": "cr-d71362ee-seb-clipping",
+  "title": "Seb clipping",
+  "url": "https://contentrewards.com/c/campaigns/d71362ee-26cf-40a1-9a83-ab526625d197",
+  "status": "open",
+  "brand": "Seb clipping",
+  "streamer": null,
+  "category": "business",
+  "language": null,
+  "description": "Clippe Sébastien et soit payé aux vues.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.2,
+    "min_payout": 6.0,
+    "max_payout_per_clip": 210.0,
+    "min_views": 5000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.2,
+        "min_payout": 6.0,
+        "max_payout_per_clip": 210.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.2,
+        "min_payout": 6.0,
+        "max_payout_per_clip": 210.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.2,
+        "min_payout": 6.0,
+        "max_payout_per_clip": 210.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1080.0,
+    "remaining": 1080.0,
+    "currency": "USD",
+    "updated_at": "2026-11-17"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-17",
+  "cr_id": "d71362ee-26cf-40a1-9a83-ab526625d197",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-17T18:54:10.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-12T11:47:49.000Z",
+  "brief_hash": "618bb9db80f58fdf"
+}
