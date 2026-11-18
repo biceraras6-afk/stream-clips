@@ -105,7 +105,7 @@ def main() -> int:
                 break
         if not meta:
             log("Kein neues Video in den freigegebenen Quellen.")
-            return 0
+            return 1          # Lauf ohne Ergebnis darf nicht grün sein (Telegram-Meldung)
         if (meta.get("duration") or 0) > CFG["max_source_hours"] * 3600:
             log(f"Video zu lang ({meta['duration'] / 3600:.1f} h) – übersprungen.")
             return 0
