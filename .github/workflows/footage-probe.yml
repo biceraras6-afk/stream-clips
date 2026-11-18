@@ -1,0 +1,28 @@
+name: footage-probe
+on:
+  workflow_dispatch:
+    inputs:
+      folder_url: {description: "Öffentlicher Drive-Ordner der Kampagne", required: true}
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg imagemagick >/dev/null
+          pip install -q gdown
+      - name: Ordner laden und prüfen
+        env: {URL: "${{ inputs.folder_url }}"}
+        run: |
+          mkdir -p f t && gdown --folder "$URL" -O f --quiet || true
+          for v in f/*; do
+            [ -f "$v" ] || continue
+            echo "== $(basename "$v")"
+            ffprobe -v error -show_entries format=duration,size:stream=codec_type,width,height,r_frame_rate -of compact "$v" | tr '\n' ' '; echo
+            ffmpeg -v error -y -ss 2 -i "$v" -frames:v 1 -vf scale=360:-1 "t/$(basename "$v").jpg" || true
+          done
+          montage t/*.jpg -tile 5x -geometry +4+4 sheet.jpg || true
+      - uses: actions/upload-artifact@v4
+        with: {name: footage-sheet, path: sheet.jpg, retention-days: 3}
