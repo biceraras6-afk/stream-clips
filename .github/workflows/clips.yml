@@ -13,6 +13,9 @@ on:
         description: "Höchstzahl Clips"
         required: false
         default: "8"
+      drive_url:
+        description: "Optional: Google-Drive-Datei (Kampagnenmaterial, vom Nutzer freigegeben) statt Stream-Quelle"
+        required: false
   workflow_call:
     inputs:
       campaign: {type: string, required: true}
@@ -63,9 +66,16 @@ jobs:
           CID: ${{ steps.pick.outputs.cid }}
           URL: ${{ inputs.url }}
           MAX: ${{ inputs.max_clips }}
+          DRIVE: ${{ github.event.inputs.drive_url }}
         run: |
           ARGS=(--campaign "$CID" --max-clips "${MAX:-8}")
           [ -n "$URL" ] && ARGS+=(--url "$URL")
+          if [ -n "$DRIVE" ]; then
+            pip install -q gdown
+            mkdir -p footage && gdown --fuzzy "$DRIVE" -O footage/in.mp4 2>&1 | tail -3
+            ls -la footage | tail -2
+            ARGS+=(--local-video footage/in.mp4)
+          fi
           python tools/factory.py "${ARGS[@]}"
       - uses: actions/upload-artifact@v4
         if: always()
