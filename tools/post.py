@@ -90,6 +90,8 @@ def pick(acc: dict, index: dict, posted: dict, camps: dict) -> str | None:
     best = None
     for key, c in index["clips"].items():
         camp = camps.get(c["campaign"])
+        if not camp or not camp.get("briefing_checked"):      # Briefing ist nur eingeloggt sichtbar -> Nutzer muss es erst eintragen lassen
+            continue
         if (c["qa"] != "pass" or p not in c["platforms"] or c["created"] < cutoff or not camp
                 or not camp.get("joined") or camp.get("status") != "open" or p not in (camp.get("platforms") or [])
                 or f"{key}|{p}" in posted["clips"]

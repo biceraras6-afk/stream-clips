@@ -1,9 +1,10 @@
 {
-  "_doc": "Handpflege-Ergänzungen je Kampagne (überschreiben/ergänzen die automatisch erfassten Felder, werden von discover.py nicht überschrieben). Nur öffentliche Briefing-Angaben.",
+  "_doc": "Handpflege-Ergänzungen je Kampagne (überschreiben/ergänzen die automatisch erfassten Felder, werden von discover.py nicht überschrieben). Nur öffentliche Briefing-Angaben. briefing_checked=true: Nutzer hat das Briefing (nur eingeloggt sichtbar) gelesen und Pflichtangaben eingetragen; ohne diesen Wert postet post.py für die Kampagne nicht.",
   "cr-74fcae70-cartier2real-stream-clips-1-1k-views": {
     "required_tags": [
       "@cartier2real"
     ],
-    "mention_text": "Live on Kick"
+    "mention_text": "Live on Kick",
+    "briefing_checked": true
   }
 }
