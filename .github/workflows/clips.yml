@@ -86,3 +86,12 @@ jobs:
             out/clips/
             work/**/selection.json
           retention-days: 14
+      - name: Fehler melden (Telegram)
+        if: failure()
+        env:
+          TG: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          [ -n "$TG" ] && [ -n "$CHAT" ] && curl -s -m 20 "https://api.telegram.org/bot$TG/sendMessage" \
+            --data-urlencode "chat_id=$CHAT" \
+            --data-urlencode "text=Lauf '${{ github.workflow }}' #${{ github.run_number }} fehlgeschlagen: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" >/dev/null || true
