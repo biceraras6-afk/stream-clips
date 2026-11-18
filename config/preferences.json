@@ -37,7 +37,7 @@
     "channel",
     "clips"
   ],
-  "default_est_views": 5000,
+  "default_est_views": 1500,
   "below_min_views_factor": 0.3,
   "clips_per_account_per_day": 3,
   "cr_categories": [
