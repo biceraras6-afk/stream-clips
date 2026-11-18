@@ -1,0 +1,107 @@
+{
+  "id": "cr-f708bdc7-partouche-vegas-wsop-2025-p-1",
+  "title": "Partouche à Vegas – WSOP 2025 | Ép. 1",
+  "url": "https://contentrewards.com/c/campaigns/f708bdc7-b08c-40d5-9bcc-26c21513cde1",
+  "status": "open",
+  "brand": "Groupe Partouche",
+  "streamer": null,
+  "category": "gambling",
+  "language": "fr",
+  "description": "Clippe l’épisode 1 de notre série YouTube : des joueurs Partouche à Las Vegas pour les WSOP 2025. Coulisses, émotions, moments forts du voyage. Vertical 9:16, sous-titres FR. ",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": "9:16"
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 5.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 5000,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 150.0
+      },
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 150.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-18"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-18",
+  "cr_id": "f708bdc7-b08c-40d5-9bcc-26c21513cde1",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": true,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-18T11:33:01.000Z",
+  "flags": {
+    "gambling": true,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "d26d682aec63169a",
+  "enriched": true
+}

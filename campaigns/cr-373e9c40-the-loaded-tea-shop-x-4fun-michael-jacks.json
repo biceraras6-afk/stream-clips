@@ -25,7 +25,9 @@
     "aspect": null
   },
   "required_tags": null,
-  "hashtags": null,
+  "hashtags": [
+    "#TheLoadedTeaShop"
+  ],
   "links": null,
   "disclosure": null,
   "rules": {
@@ -66,7 +68,7 @@
   },
   "budget": {
     "total": 50000.0,
-    "remaining": 46942.37,
+    "remaining": 46925.77,
     "currency": "USD",
     "updated_at": "2026-11-18"
   },
@@ -96,12 +98,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 133,
-    "total_views": 2843825,
-    "creators": 43,
-    "avg_views": 21382,
-    "avg_payout": 22.99,
-    "updated_at": "2026-11-18T10:24:23.000Z"
+    "approved": 135,
+    "total_views": 2859540,
+    "creators": 45,
+    "avg_views": 21182,
+    "avg_payout": 22.77,
+    "updated_at": "2026-11-18T13:40:20.000Z"
   },
   "references": [
     "https://www.instagram.com/reel/Dfm_tcGOE8e/",
@@ -124,5 +126,16 @@
     "adult": false,
     "political": false
   },
-  "enriched": true
+  "enriched": true,
+  "briefing_checked": false,
+  "footage_url": "https://drive.google.com/drive/folders/1QHFRXmc4DhK8PBIAyBoiHuBSVjlJ9MO8",
+  "watermark_url": "https://crusercontent.com/organizations/07f11898-4a1a-5b98-a340-ca5b8b7d83ba/campaigns/references/assets/c1537988-0656-4cf1-80cd-6f89a11a69fa.webp",
+  "platform_first_word": {
+    "instagram": "@theogloadedtea"
+  },
+  "brand_layout": {
+    "top": 428,
+    "box_h": 1200,
+    "wm_width": 960
+  }
 }
