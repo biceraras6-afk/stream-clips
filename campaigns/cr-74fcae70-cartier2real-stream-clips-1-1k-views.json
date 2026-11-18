@@ -65,7 +65,7 @@
   },
   "requires_connected_account": null,
   "prepost_review": false,
-  "joined": false,
+  "joined": true,
   "verified": null,
   "est_views": null,
   "notes": null,
