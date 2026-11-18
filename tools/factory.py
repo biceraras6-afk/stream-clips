@@ -57,6 +57,8 @@ def allowed(url: str, campaign: dict) -> bool:
     norm = lambda u: re.sub(r"^https?://(www\.|m\.)?", "", u).rstrip("/").lower()  # noqa: E731
     srcs = [norm(u) for u in (campaign.get("source") or {}).get("urls") or []]
     u = norm(url)
+    if any(v and v in url for v in (campaign.get("allowed_videos") or [])):   # vom Nutzer benannte Einzelvideos der Quelle
+        return True
     for s in srcs:
         chan = "/".join(s.split("/")[:2])
         if u.startswith(s) or u.startswith(chan):
