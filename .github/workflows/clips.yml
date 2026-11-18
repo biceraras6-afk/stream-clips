@@ -72,7 +72,7 @@ jobs:
           [ -n "$URL" ] && ARGS+=(--url "$URL")
           if [ -n "$DRIVE" ]; then
             pip install -q gdown
-            mkdir -p footage && gdown --fuzzy "$DRIVE" -O footage/in.mp4 2>&1 | grep -v "^$" | tail -8 | cut -c1-300
+            mkdir -p footage && gdown "$DRIVE" -O footage/in.mp4 2>&1 | grep -v "^$" | tail -8 | cut -c1-300
             [ -s footage/in.mp4 ] || { echo "FEHLER: Drive-Download fehlgeschlagen (Freigabe/Quota?)"; exit 1; }
             ls -la footage | tail -2
             ARGS+=(--local-video footage/in.mp4)
