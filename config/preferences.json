@@ -53,5 +53,7 @@
     "Minecraft"
   ],
   "max_est_views": 50000,
-  "min_approved_for_stats": 10
+  "min_approved_for_stats": 10,
+  "min_avg_views": 3000,
+  "unproven_factor": 0.4
 }

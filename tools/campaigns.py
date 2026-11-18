@@ -155,6 +155,12 @@ def score(c: dict) -> float:
         per_clip = min(per_clip, pay["max_payout_per_clip"])
     if pay.get("min_views") and est < pay["min_views"]:
         per_clip *= PREFS["below_min_views_factor"]
+    # Popularität belegen: Clips der Kampagne müssen real Views holen (stats.avg_views), sonst abwerten
+    avg = st.get("avg_views")
+    if avg is None:
+        per_clip *= PREFS.get("unproven_factor", 0.4)          # unbekannt = unbewiesen (z. B. neue/kleine Streamer)
+    elif avg < PREFS.get("min_avg_views", 3000):
+        per_clip *= PREFS.get("unproven_factor", 0.4)
     bonus = 1 + PREFS["preferred_bonus"] * any(
         s.lower() in (c.get("streamer") or "").lower() for s in PREFS["preferred_streamers"])
     return round(per_clip * remaining_frac(c) * bonus, 2)
