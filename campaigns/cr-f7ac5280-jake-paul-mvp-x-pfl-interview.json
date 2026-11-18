@@ -66,9 +66,9 @@
   },
   "budget": {
     "total": 2000.0,
-    "remaining": 1797.73,
+    "remaining": 1734.0,
     "currency": "USD",
-    "updated_at": "2026-11-17"
+    "updated_at": "2026-11-18"
   },
   "deadline": null,
   "submission": {
@@ -96,24 +96,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 756,
-    "total_views": 1237336,
-    "creators": 354,
-    "avg_views": 1637,
-    "avg_payout": 0.27,
-    "updated_at": "2026-11-17T22:16:17.000Z"
+    "approved": 1045,
+    "total_views": 1596407,
+    "creators": 456,
+    "avg_views": 1528,
+    "avg_payout": 0.25,
+    "updated_at": "2026-11-18T01:44:21.000Z"
   },
   "references": [
+    "https://www.instagram.com/reel/Df2WM7aJuFt/",
     "https://x.com/itzgaffer2/status/2121515437334659442",
     "https://www.tiktok.com/@clipshub0326/video/7709016058866224414",
     "https://www.youtube.com/watch?v=y1tAkpI642c",
     "https://x.com/0xdara_/status/2122317817538084905",
     "https://www.youtube.com/watch?v=JBfil2IrXQw",
     "https://x.com/Noirdcreative/status/2121967933144342804",
-    "https://www.instagram.com/reel/DfxCY3ZMqSu/",
     "https://www.youtube.com/watch?v=LKvBx2L-M64",
-    "https://x.com/Felin11932/status/2122112544768991467",
-    "https://x.com/Felin11932/status/2122405596599398727"
+    "https://www.instagram.com/reel/DfxCY3ZMqSu/",
+    "https://x.com/Noirdcreative/status/2122446161873138001"
   ],
   "locked_references": null,
   "launched_at": "2026-11-09T12:14:41.000Z",

@@ -16,6 +16,7 @@
   "platforms": [
     "instagram",
     "tiktok",
+    "x",
     "youtube"
   ],
   "format": {
@@ -56,15 +57,20 @@
         "rate_per_1k": 0.0,
         "min_payout": null,
         "max_payout_per_clip": null
+      },
+      "x": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
       }
     },
     "geo_priced": false
   },
   "budget": {
-    "total": 10000.0,
-    "remaining": 10000.0,
+    "total": 12500.0,
+    "remaining": 12500.0,
     "currency": "USD",
-    "updated_at": "2026-11-17"
+    "updated_at": "2026-11-18"
   },
   "deadline": null,
   "submission": {
@@ -97,7 +103,7 @@
     "creators": 0,
     "avg_views": null,
     "avg_payout": null,
-    "updated_at": "2026-11-17T22:12:09.000Z"
+    "updated_at": "2026-11-18T01:44:09.000Z"
   },
   "references": [],
   "locked_references": null,

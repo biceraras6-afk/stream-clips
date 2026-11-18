@@ -1,0 +1,131 @@
+{
+  "id": "cr-3fdeeed8-ceo-brickz",
+  "title": "CEO BRICKZ",
+  "url": "https://contentrewards.com/c/campaigns/3fdeeed8-d822-4eeb-a35c-f839bc6880ee",
+  "status": "open",
+  "brand": "Bluelead media",
+  "streamer": "CEO BRICKZ",
+  "category": "entertainment",
+  "language": "en",
+  "description": "Get paid to clip CEO BRICKZ, all videos are in the Brief.   Tier 1 Audience Required: Minimum 40% of total views must come from Tier 1 countries, with American (USA) viewers preferred.\n\nAudience demographics  must be shared \nhttps://www.youtube.com/@CEObrickz\nMust use @CEO Brickz and #CEOBrickz",
+  "source": {
+    "type": "channel",
+    "urls": [
+      "https://www.youtube.com/@CEObrickz"
+    ],
+    "permission_quote": null
+  },
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": [
+    "@CEO Brickz"
+  ],
+  "hashtags": [
+    "#CEOBrickz"
+  ],
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Share audience demographics"
+    ],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.25,
+    "min_payout": 2.5,
+    "max_payout_per_clip": 120.0,
+    "min_views": 2000,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 1.25,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 120.0
+      },
+      "tiktok": {
+        "rate_per_1k": 1.25,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 120.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.25,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 120.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 76.58,
+    "currency": "USD",
+    "updated_at": "2026-11-18"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-18",
+  "cr_id": "3fdeeed8-d822-4eeb-a35c-f839bc6880ee",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 216,
+    "total_views": 831587,
+    "creators": 113,
+    "avg_views": 3850,
+    "avg_payout": 4.28,
+    "updated_at": "2026-11-18T01:42:23.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/Df12MyWJFTl/",
+    "https://www.instagram.com/reel/Df2FAdgvIww/",
+    "https://www.instagram.com/reel/Df064keThzv/",
+    "https://www.instagram.com/reel/Df2E7s3vqt9/",
+    "https://www.instagram.com/reel/Df0CVIHTFJc/",
+    "https://www.instagram.com/reel/Df2sq84TfFW/",
+    "https://www.instagram.com/reel/Df1kRs3K_48/",
+    "https://www.instagram.com/reel/Df0CHRTzACh/",
+    "https://www.tiktok.com/@gamgamclip/video/7708423774105767176",
+    "https://www.instagram.com/reel/Dfxi3NTzh1l/"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-11-15T09:52:13.000Z",
+  "audience": "40%+ Tier 1, USA preferred",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "c9e50c17929cdcb4",
+  "enriched": true
+}

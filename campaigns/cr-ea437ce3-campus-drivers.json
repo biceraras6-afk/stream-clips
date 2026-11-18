@@ -68,9 +68,9 @@
   },
   "budget": {
     "total": 2000.0,
-    "remaining": 1654.52,
+    "remaining": 1423.17,
     "currency": "USD",
-    "updated_at": "2026-11-17"
+    "updated_at": "2026-11-18"
   },
   "deadline": null,
   "submission": {
@@ -98,24 +98,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 42,
-    "total_views": 452311,
-    "creators": 30,
-    "avg_views": 10769,
-    "avg_payout": 8.23,
-    "updated_at": "2026-11-17T22:14:18.000Z"
+    "approved": 52,
+    "total_views": 723136,
+    "creators": 31,
+    "avg_views": 13906,
+    "avg_payout": 11.09,
+    "updated_at": "2026-11-18T01:44:21.000Z"
   },
   "references": [
+    "https://www.instagram.com/reel/Df0adyHzkSm/",
     "https://www.instagram.com/reel/Df0H4ezRu9Q/",
     "https://www.tiktok.com/@regardemoviefr/video/7709116381869935905",
     "https://www.instagram.com/reel/Df0TcQzz4Ns/",
-    "https://www.instagram.com/reel/Df0JhceB53C/",
+    "https://www.instagram.com/reel/Df0gRP1SuyB/",
     "https://www.instagram.com/reel/Df0gpMZBmIm/",
-    "https://www.instagram.com/reel/Df0adyHzkSm/",
+    "https://www.instagram.com/reel/Df0JhceB53C/",
+    "https://www.tiktok.com/@regardemoviefr/video/7709238076165393697",
     "https://www.instagram.com/reel/Df0tbXwzQGm/",
-    "https://www.instagram.com/reel/Df0f-WeTxUZ/",
-    "https://x.com/Cessko_/status/2122705331528585415",
-    "https://www.instagram.com/reel/Df0foEMvFDu/"
+    "https://www.instagram.com/reel/Df0Zu0wMUL8/"
   ],
   "locked_references": null,
   "launched_at": "2026-11-16T17:59:41.000Z",

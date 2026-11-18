@@ -4,7 +4,7 @@
   "url": "https://contentrewards.com/c/campaigns/e9a910b6-2d87-41af-9438-6b568f3436c3",
   "status": "open",
   "brand": "Clipping Nest",
-  "streamer": null,
+  "streamer": "Brenduh",
   "category": "entertainment",
   "language": null,
   "description": "Clip viral stream moments for Вrenduh and Get paid.",
@@ -15,12 +15,19 @@
     "x",
     "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -96,5 +103,12 @@
   ],
   "locked_references": null,
   "launched_at": "2026-11-17T04:06:07.000Z",
-  "brief_hash": "6c6749aa95067375"
+  "brief_hash": "6c6749aa95067375",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

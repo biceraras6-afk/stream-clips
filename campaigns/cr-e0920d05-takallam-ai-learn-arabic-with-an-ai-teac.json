@@ -6,7 +6,7 @@
   "brand": "Takallam",
   "streamer": null,
   "category": "language-learning",
-  "language": null,
+  "language": "en",
   "description": "Make short videos about learning Arabic with Takallam AI, the app where an AI teacher speaks Arabic with you. Show a real conversation with the app, your Day 1 vs Day 7 progress, or a phrase you just learned. Paid per view on TikTok, Instagram Reels and YouTube Shorts.",
   "source": null,
   "platforms": [
@@ -14,12 +14,23 @@
     "tiktok",
     "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": "9:16"
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [
+      "Show a real conversation with the app",
+      "Show your Day 1 vs Day 7 progress",
+      "Show a phrase you just learned"
+    ],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
@@ -90,5 +101,11 @@
   "locked_references": null,
   "launched_at": "2026-11-17T17:56:44.000Z",
   "brief_hash": "1eb6d157bba01260",
-  "enriched": false
+  "enriched": true,
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  }
 }

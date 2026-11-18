@@ -21,7 +21,9 @@
     "youtube"
   ],
   "format": null,
-  "required_tags": null,
+  "required_tags": [
+    "@cartier2real"
+  ],
   "hashtags": null,
   "links": null,
   "disclosure": null,
@@ -29,6 +31,7 @@
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
+    "amount_per_post": null,
     "rate_per_1k": 1.0,
     "min_payout": 5.0,
     "max_payout_per_clip": 150.0,
@@ -56,7 +59,7 @@
     "total": 1000.0,
     "remaining": 1000.0,
     "currency": "USD",
-    "updated_at": "2026-11-17"
+    "updated_at": "2026-11-18"
   },
   "deadline": null,
   "submission": {
@@ -89,10 +92,12 @@
     "creators": 0,
     "avg_views": null,
     "avg_payout": null,
-    "updated_at": "2026-11-17T18:20:19.000Z"
+    "updated_at": "2026-11-18T01:44:18.000Z"
   },
   "references": [],
   "locked_references": null,
   "launched_at": "2026-11-17T12:24:45.000Z",
-  "brief_hash": "db4e3dc66af719dc"
+  "brief_hash": "db4e3dc66af719dc",
+  "mention_text": "Live on Kick",
+  "briefing_checked": true
 }
