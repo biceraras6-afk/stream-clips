@@ -41,3 +41,8 @@ Neue Sitzung: „Lies CLAUDE.md und docs/HANDOFF.md, mach beim nächsten Schritt
 - Nutzerentscheidung: Menge vor Qualität; Selbstlauf mit Rückfrage-Grenzen (siehe CLAUDE.md).
 - Offen: Kampagne zum Beitreten wählen (Kandidat: Ultimate Fighting Bots, Twitch; Lacy GTA VI Pool: Regeln/Quelle prüfen); Suche erweitern (Nutzer ja/nein); Support-Frage an CR (Frage 3: AGB 9.4, Frage 4: 30-Min-Frist); Claude-API (Kosten, Entscheidung offen); yt2, ig1, ig2 verbinden; Posting-Freigabe erst nach Beitritt.
 - Laufzeit Fabrik: ~28 Min. für 4 Clips (Audio 5, Transkript 4, Bewertung 7 Min.).
+
+## Erster echter Post (18.11., ca. 01:48 Uhr DE)
+- Einmal-Post per `post.yml` mit `one_shot_account=yt1` (Cartier2Real, YouTube). Nutzer hat innerhalb der Frist eingereicht. Links/Protokoll nur im privaten Daten-Repo.
+- Automatik bleibt gesperrt (`enabled: false`, Freigabe per Telegram `/go`). Fixes dabei: Artefakt-Download ohne Token auf Blob-Umleitung.
+- Nächste Schritte: Views nach 24–48 Std. ansehen (Mindest-Views 5.000), danach entscheiden: Automatik freigeben, IG/TikTok verbinden (Nutzer: morgen), 30-Min-Slots festlegen.
