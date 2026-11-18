@@ -196,7 +196,7 @@ def main() -> int:
         if gap != base_gap:
             log(f"  Länge: Pausen weniger gekürzt (gap {gap}) -> {ln:.1f}s")
         r = cut.render(section, s0, chosen, all_words, cdir, c.get("disclosure"), c.get("overlays_allowed") is not False,
-                       brand=brand_cfg(c, work))
+                       brand=brand_cfg(c, work), cta=c.get("cta_text"))
         cut.CFG["silence_gap"], cut.CFG["silence_keep"] = base_gap, base_keep
         r["loop_score"] = hook.loop_score(cdir / "clip.mp4")
         (cdir / "render.json").write_text(json.dumps(r, indent=1))

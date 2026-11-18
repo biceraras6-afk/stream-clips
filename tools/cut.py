@@ -147,7 +147,7 @@ def _esc(s: str) -> str:
 
 
 def build_ass(words: list[dict], start: float, segs, hook_text: str | None, disclosure: str | None,
-              brand: bool = False, total: float = 0.0) -> str:
+              brand: bool = False, total: float = 0.0, cta: str | None = None) -> str:
     """segs: Bereiche relativ zu `start`, in Ausgabereihenfolge (ein Teaser darf vorn stehen)."""
     sc, hk = CFG["subtitles"], CFG["hook"]
     OW, OH = CFG["output"]["width"], CFG["output"]["height"]
@@ -161,6 +161,7 @@ def build_ass(words: list[dict], start: float, segs, hook_text: str | None, disc
         f"Style: Hook,{sc['font']},{hk['size']},&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,3,"
         f"18,0,8,90,90,{int(OH * hk['y_ratio'])},1",
         f"Style: HookB,{sc['font']},84,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,7,0,8,70,70,110,1",
+        f"Style: Cta,{sc['font']},64,&H0000E5FF,&H000000FF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,6,0,2,60,60,{int(OH * 0.12)},1",
         f"Style: Ad,{sc['font']},44,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,3,0,7,50,50,60,1",
         "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
     ]
@@ -191,6 +192,9 @@ def build_ass(words: list[dict], start: float, segs, hook_text: str | None, disc
             lines.append(f"Dialogue: 1,{_ass_time(0)},{_ass_time(max(total, hk['seconds']))},HookB,,0,0,0,,{_esc(hook)}")
         else:
             lines.append(f"Dialogue: 1,{_ass_time(0)},{_ass_time(hk['seconds'])},Hook,,0,0,0,,{_esc(hook)}")
+    if cta:   # Pflicht-Aufruf der Kampagne (z. B. „Subscribe to Tomo on YouTube“) in den letzten Sekunden
+        end_t = sum(b - a for a, b in segs)
+        lines.append(f"Dialogue: 3,{_ass_time(max(0.0, end_t - 3.5))},{_ass_time(end_t)},Cta,,0,0,0,,{_esc(cta.upper())}")
     if disclosure:
         lines.append(f"Dialogue: 2,{_ass_time(0)},{_ass_time(3.0)},Ad,,0,0,0,,{_esc(disclosure)}")
     return "\n".join(lines) + "\n"
@@ -214,7 +218,8 @@ def prepare_watermark(src: Path, dst: Path) -> Path:
 # ---------- Rendern ----------
 
 def render(section: Path, section_start: float, clip: dict, words: list[dict], out_dir: Path,
-           disclosure: str | None, overlays_allowed: bool = True, brand: dict | None = None) -> dict:
+           disclosure: str | None, overlays_allowed: bool = True, brand: dict | None = None,
+           cta: str | None = None) -> dict:
     """section: heruntergeladener Abschnitt ab `section_start` (absolute Zeit).
     clip: {start, end, overlay|hook_text, teaser: [a, b] | None} (absolute Zeiten)."""
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -229,7 +234,7 @@ def render(section: Path, section_start: float, clip: dict, words: list[dict], o
         segs = [(round(ta - start, 3), round(tb - start, 3))] + segs
     overlay = (clip.get("overlay") or clip.get("hook_text")) if overlays_allowed else None
     total_len = sum(b - a for a, b in segs)
-    ass = build_ass(words, start, segs, overlay, disclosure, brand=bool(brand), total=total_len)
+    ass = build_ass(words, start, segs, overlay, disclosure, brand=bool(brand), total=total_len, cta=cta)
     (out_dir / "subs.ass").write_text(ass)
     parts, labels = [], []
     for i, (a, b) in enumerate(segs):
