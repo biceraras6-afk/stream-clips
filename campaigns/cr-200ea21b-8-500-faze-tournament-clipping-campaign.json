@@ -68,7 +68,7 @@
   },
   "budget": {
     "total": 8500.0,
-    "remaining": 8315.23,
+    "remaining": 8173.0,
     "currency": "USD",
     "updated_at": "2026-11-18"
   },
@@ -119,24 +119,24 @@
     }
   },
   "stats": {
-    "approved": 46,
-    "total_views": 155021,
-    "creators": 15,
-    "avg_views": 3370,
-    "avg_payout": 4.02,
-    "updated_at": "2026-11-18T16:18:09.000Z"
+    "approved": 59,
+    "total_views": 237189,
+    "creators": 18,
+    "avg_views": 4020,
+    "avg_payout": 5.54,
+    "updated_at": "2026-11-18T19:16:11.000Z"
   },
   "references": [
     "https://www.instagram.com/reel/DfsbFasohdY/",
     "https://www.instagram.com/reel/DfxXo4EI3xO/",
+    "https://x.com/timmycartel/status/2122918093978583546",
     "https://www.instagram.com/reel/Df0WFUJor-u/",
     "https://www.youtube.com/watch?v=RmAnbmOiNr8",
+    "https://www.instagram.com/reel/Df2-y_6o_YF/",
+    "https://x.com/timmycartel/status/2122986449997856856",
     "https://www.youtube.com/watch?v=5XPGYma9ZnQ",
-    "https://www.youtube.com/watch?v=MBN129QclX4",
-    "https://www.tiktok.com/@clipvault.285/video/7707038013477424398",
-    "https://www.tiktok.com/@clipvault.285/video/7707131667189714206",
-    "https://www.tiktok.com/@clipsignal.hq/video/7707455487666605318",
-    "https://www.tiktok.com/@clipsignal.hq/video/7707454501841669396"
+    "https://www.instagram.com/reel/DfunaUpoWLp/",
+    "https://www.instagram.com/reel/Df0Tc-Ht7G2/"
   ],
   "locked_references": 2,
   "launched_at": "2026-11-11T19:00:34.000Z",

@@ -1,0 +1,123 @@
+{
+  "id": "cr-0d341d7d-ungodly-mobile-rpg-boss-fights-clutch-pl",
+  "title": "UnGodly Mobile RPG | Boss Fights & Clutch Plays",
+  "url": "https://contentrewards.com/c/campaigns/0d341d7d-e390-4807-9149-9b5294dff3e6",
+  "status": "open",
+  "brand": "Neuvant",
+  "streamer": null,
+  "category": "gaming",
+  "language": null,
+  "description": "UnGodly just launched worldwide. From the creator of Star Wars: Galaxy of Heroes comes a dark fantasy RPG where one hero swap can turn a boss fight. Clip the moment worth replaying. Earn up to $175 per clip, with a chance at a $500 bonus for passing 1M eligible views.",
+  "source": {
+    "type": "vod",
+    "urls": [],
+    "permission_quote": "Clip the moment worth replaying."
+  },
+  "platforms": [
+    "tiktok",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.75,
+    "min_payout": 1.75,
+    "max_payout_per_clip": 175.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.75,
+        "min_payout": 1.75,
+        "max_payout_per_clip": 175.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.75,
+        "min_payout": 1.75,
+        "max_payout_per_clip": 175.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2000.0,
+    "remaining": 2000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-18"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-18",
+  "cr_id": "0d341d7d-e390-4807-9149-9b5294dff3e6",
+  "guidelines": "$4d",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-18T19:14:08.000Z"
+  },
+  "references": [],
+  "locked_references": 5,
+  "launched_at": "2026-11-18T17:36:36.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "483043cf6c49a8e7",
+  "enriched": true
+}

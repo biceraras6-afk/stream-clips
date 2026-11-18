@@ -1,0 +1,113 @@
+{
+  "id": "cr-be9b123e-yourrage-5-000-gta-6-pool-campaign",
+  "title": "YourRAGE $5,000 GTA 6 Pool Campaign",
+  "url": "https://contentrewards.com/c/campaigns/be9b123e-ea47-4305-b6c5-af81f503b247",
+  "status": "open",
+  "brand": "Reach",
+  "streamer": "YourRAGE",
+  "category": "streamer",
+  "language": null,
+  "description": "Get paid to clip YourRAGE's streams during the GTA 6 playthrough! ⬇️\n\nhttps://www.twitch.tv/yourragegaming\n\nCampaign will run the duration of YourRAGE's GTA 6 Marathon stream",
+  "source": {
+    "type": "channel",
+    "urls": [
+      "https://www.twitch.tv/yourragegaming"
+    ],
+    "permission_quote": "Get paid to clip YourRAGE's streams during the GTA 6 playthrough!"
+  },
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "pool",
+    "amount_per_post": null,
+    "rate_per_1k": 0.0,
+    "min_payout": null,
+    "max_payout_per_clip": null,
+    "min_views": null,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      },
+      "instagram": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      },
+      "youtube": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 5000.0,
+    "remaining": 5000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-18"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-18",
+  "cr_id": "be9b123e-ea47-4305-b6c5-af81f503b247",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-18T19:18:09.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-18T16:41:51.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "3f42b41b3eaa1755",
+  "enriched": true
+}

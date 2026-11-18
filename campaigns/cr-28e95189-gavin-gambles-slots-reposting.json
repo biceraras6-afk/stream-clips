@@ -1,0 +1,111 @@
+{
+  "id": "cr-28e95189-gavin-gambles-slots-reposting",
+  "title": "Gavin Gambles Slots Reposting",
+  "url": "https://contentrewards.com/c/campaigns/28e95189-4b8d-4ef7-9329-14b45dc3dc2d",
+  "status": "open",
+  "brand": "Gavin Gambles",
+  "streamer": "Gavin Gambles",
+  "category": "gambling",
+  "language": null,
+  "description": "Repost Gavin Gambles' top slot shorts: jackpots, bonus rounds and big live reactions that already pulled 600K+ views. Light edits are welcome, like a new hook, captions, or a different crop. Real casino footage only. Tag @gavin.gambles in every post.",
+  "source": {
+    "type": "clips",
+    "urls": [],
+    "permission_quote": "Repost Gavin Gambles' top slot shorts: jackpots, bonus rounds and big live reactions that already pulled 600K+ views."
+  },
+  "platforms": [
+    "instagram",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": [
+    "@gavin.gambles"
+  ],
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Add a new hook",
+      "Add captions",
+      "Crop differently"
+    ],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 75.0,
+    "min_views": 2000,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 75.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 75.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-18"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-18",
+  "cr_id": "28e95189-4b8d-4ef7-9329-14b45dc3dc2d",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-18T19:16:09.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-18T17:12:32.000Z",
+  "flags": {
+    "gambling": true,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "f3e4f303a31347af",
+  "enriched": true
+}

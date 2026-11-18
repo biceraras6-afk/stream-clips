@@ -1,0 +1,99 @@
+{
+  "id": "cr-087897cc-thecube-supercomputing-2026-dell-vultr-p",
+  "title": "theCUBE Supercomputing 2026: Dell, Vultr, Penguin",
+  "url": "https://contentrewards.com/c/campaigns/087897cc-3cf6-411d-ae5f-b9049df35a0f",
+  "status": "open",
+  "brand": "ReelsBuilder",
+  "streamer": null,
+  "category": "technology",
+  "language": null,
+  "description": "Clip theCUBE’s SC26 interviews on AI infrastructure. Dell Technologies CTO Ihab Tarazi explains liquid-cooled networking and distributed AI inference. Preet Virk and Andy Mills and Kevin Cochrane, CMO, Vultr. Pick one idea and show why it matters.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 2.0,
+    "min_payout": 3.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 1500,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 150.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 150.0
+      },
+      "x": {
+        "rate_per_1k": 2.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 150.0
+      },
+      "youtube": {
+        "rate_per_1k": 2.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2500.0,
+    "remaining": 2500.0,
+    "currency": "USD",
+    "updated_at": "2026-11-18"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-18",
+  "cr_id": "087897cc-3cf6-411d-ae5f-b9049df35a0f",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-18T19:18:10.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-18T16:59:07.000Z",
+  "brief_hash": "cc4562cef710ec80"
+}

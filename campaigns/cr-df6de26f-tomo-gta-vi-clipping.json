@@ -9,11 +9,11 @@
   "language": "en",
   "description": "Clip Tomo's best GTA VI moments and get as many new people as possible to discover and subscribe to his YouTube channel. Tomo streams GTA VI live on YouTube, so his YouTube livestreams are the main source for clips, along with his GTA VI videos. ➡️\nhttps://www.youtube.com/@Tomovids",
   "source": {
-    "type": "channel",
+    "type": "vod",
     "urls": [
       "https://www.youtube.com/@Tomovids"
     ],
-    "permission_quote": null
+    "permission_quote": "Videos must feature Tomo and be sourced mainly from his GTA VI YouTube livestreams, or his GTA VI videos."
   },
   "platforms": [
     "instagram",
@@ -25,8 +25,13 @@
     "max_seconds": null,
     "aspect": null
   },
-  "required_tags": null,
-  "hashtags": null,
+  "required_tags": [
+    "@Tomovids"
+  ],
+  "hashtags": [
+    "#tomovids",
+    "#gta6"
+  ],
   "links": null,
   "disclosure": null,
   "rules": {
@@ -37,24 +42,24 @@
   "payment": {
     "model": "cpm",
     "amount_per_post": null,
-    "rate_per_1k": 2.0,
-    "min_payout": 4.0,
+    "rate_per_1k": 1.5,
+    "min_payout": 3.5,
     "max_payout_per_clip": 150.0,
-    "min_views": 2000,
+    "min_views": 2333,
     "per_platform": {
       "tiktok": {
-        "rate_per_1k": 2.0,
-        "min_payout": 4.0,
+        "rate_per_1k": 1.5,
+        "min_payout": 3.5,
         "max_payout_per_clip": 150.0
       },
       "instagram": {
-        "rate_per_1k": 2.0,
-        "min_payout": 4.0,
+        "rate_per_1k": 1.5,
+        "min_payout": 3.5,
         "max_payout_per_clip": 150.0
       },
       "youtube": {
-        "rate_per_1k": 2.0,
-        "min_payout": 4.0,
+        "rate_per_1k": 1.5,
+        "min_payout": 3.5,
         "max_payout_per_clip": 150.0
       }
     },
@@ -62,7 +67,7 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 924.38,
+    "remaining": 885.01,
     "currency": "USD",
     "updated_at": "2026-11-18"
   },
@@ -92,18 +97,22 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 7,
-    "total_views": 34666,
-    "creators": 6,
-    "avg_views": 4952,
-    "avg_payout": 10.8,
-    "updated_at": "2026-11-18T16:18:19.000Z"
+    "approved": 10,
+    "total_views": 53730,
+    "creators": 8,
+    "avg_views": 5373,
+    "avg_payout": 11.5,
+    "updated_at": "2026-11-18T19:16:22.000Z"
   },
   "references": [
     "https://www.tiktok.com/@gta6central.us/video/7709477347111603469",
     "https://www.tiktok.com/@gta6central.us/video/7709466249721367821",
+    "https://www.instagram.com/reel/Df4h3XxRcWF/",
+    "https://www.instagram.com/reel/Df4bPJERr_5/",
+    "https://www.tiktok.com/@gta._clips_2/video/7709540380949204255",
     "https://www.youtube.com/watch?v=eYTOwno_3O0",
     "https://www.instagram.com/reel/Df4X0xJquWn/",
+    "https://www.youtube.com/watch?v=DP4tBhXVPwc",
     "https://www.youtube.com/watch?v=A8dyRKL6JNU",
     "https://www.youtube.com/watch?v=EygJHwTJkJs"
   ],
@@ -116,5 +125,6 @@
     "political": false
   },
   "brief_hash": "902b15adf33462aa",
-  "enriched": true
+  "enriched": true,
+  "briefing_checked": false
 }
