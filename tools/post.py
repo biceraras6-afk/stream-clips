@@ -33,6 +33,7 @@ CFG = json.loads((ROOT / "config" / "posting.json").read_text())
 DATA = CFG["data_repo"]
 TZ = ZoneInfo(CFG["timezone"])
 DRY = os.environ.get("DRY_RUN") == "1"
+ONE_SHOT = os.environ.get("ONE_SHOT_ACCOUNT", "").strip()   # Account-ID, nur per Hand-Start (workflow_dispatch)
 
 
 def now() -> dt.datetime:
@@ -43,6 +44,11 @@ def due_slots(posted: dict) -> list[tuple[dict, str]]:
     n = now()
     today = n.date().isoformat()
     out = []
+    if ONE_SHOT:   # einmaliger Post auf ausdrücklichen Nutzerwunsch: genau ein Account, ein Post pro Tag
+        a = next((x for x in cm.ACCOUNTS if x["id"] == ONE_SHOT), None)
+        if a and f"{a['id']}|{today}|manual" not in posted["slots"]:
+            out.append((a, "manual"))
+        return out
     for a in cm.ACCOUNTS:
         if not a["active"]:
             continue
@@ -178,7 +184,7 @@ def posting_enabled() -> bool:
 
 
 def main() -> int:
-    if not posting_enabled():
+    if not ONE_SHOT and not posting_enabled():
         print("Posting gesperrt (config/posting.json enabled=false, kein /go) – nichts gepostet.")
         return 0
     camps = {c["id"]: c for _, c in cm.load()}

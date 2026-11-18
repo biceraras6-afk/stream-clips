@@ -7,6 +7,9 @@ on:
       dry_run:
         description: "Nur Plan anzeigen (1) oder wirklich posten (0)"
         default: "1"
+      one_shot_account:
+        description: "Einmaliger Post auf Nutzerwunsch: Account-ID (z. B. yt1). Umgeht Schalter+Slot, 1 Post/Tag"
+        default: ""
 
 permissions:
   contents: read
@@ -42,6 +45,7 @@ jobs:
           GH_ADMIN_TOKEN: ${{ secrets.GH_ADMIN_TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
           DRY_RUN: ${{ github.event.inputs.dry_run || '0' }}
+          ONE_SHOT_ACCOUNT: ${{ github.event.inputs.one_shot_account || '' }}
         run: |
           if [ -z "$GH_ADMIN_TOKEN" ]; then echo "GH_ADMIN_TOKEN fehlt – siehe docs/SETUP.md"; exit 0; fi
           python tools/post.py
