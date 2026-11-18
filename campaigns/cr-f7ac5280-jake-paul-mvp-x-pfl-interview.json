@@ -66,7 +66,7 @@
   },
   "budget": {
     "total": 2000.0,
-    "remaining": 1751.87,
+    "remaining": 1745.92,
     "currency": "USD",
     "updated_at": "2026-11-18"
   },
@@ -97,11 +97,11 @@
   "content_rules": {},
   "stats": {
     "approved": 1211,
-    "total_views": 1665617,
+    "total_views": 1687995,
     "creators": 518,
-    "avg_views": 1375,
-    "avg_payout": 0.2,
-    "updated_at": "2026-11-18T07:40:18.000Z"
+    "avg_views": 1394,
+    "avg_payout": 0.21,
+    "updated_at": "2026-11-18T10:24:23.000Z"
   },
   "references": [
     "https://x.com/itzgaffer2/status/2121515437334659442",
