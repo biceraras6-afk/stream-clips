@@ -125,8 +125,9 @@ def measure_loudness(path: Path) -> dict:
 
 def normalize_audio(src: Path, dst: Path, target: float, tp: float) -> Path:
     m = measure_loudness(src)
-    af = (f"loudnorm=I={target}:TP={tp}:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:"
-          f"measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true")
+    af = (f"loudnorm=I={target}:TP={tp - 1.0}:LRA=11:measured_I={m['input_i']}:measured_TP={m['input_tp']}:"
+          f"measured_LRA={m['input_lra']}:measured_thresh={m['input_thresh']}:offset={m['target_offset']}:linear=true,"
+          f"alimiter=limit=0.89:level=disabled")      # AAC-Kodierung überschwingt sonst über True Peak
     run(["ffmpeg", "-y", "-v", "error", "-i", str(src), "-c:v", "copy", "-af", af, "-ar", "48000",
          "-c:a", "aac", "-b:a", "192k", str(dst)])
     return dst
