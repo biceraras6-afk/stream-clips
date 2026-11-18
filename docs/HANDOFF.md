@@ -34,3 +34,10 @@ Neue Sitzung: „Lies CLAUDE.md und docs/HANDOFF.md, mach beim nächsten Schritt
 - Skalierung: Vorrat/Qualität, YouTube-Quota (Quellen widersprüchlich: ~6 vs ~100 Uploads/Tag/Projekt), Einreichen von Hand (≈ 20–30 pro Sitzung) begrenzen; erst ausbauen, wenn Phase 3 Mindest-Views zeigt. Ziel heute: 3 Clips/Tag.
 - **Support-Anfrage an Content Rewards** (API/automatisches Einreichen, wie viele Social-Accounts verbindbar) vom Nutzer noch nicht gesendet/beantwortet; Antworttext liegt im Chatverlauf – bei Bedarf neu formulieren.
 - Nutzerwunsch Antwortstil: kurz, Stichworte, deutsch. Sitzungen kurz halten (5-Std-Limit war bei 96 %).
+
+## Stand 18.11. (nachts)
+- **Erledigt + vom Nutzer bestätigt:** Bildschärfe (sehr gut), Fit-Layout mit Unschärfe-Hintergrund (gut), Untertitel ok. Posting-Schalter (`enabled: false`, Telegram /go /stop; Polling ungetestet).
+- Erledigt, ungetestet: Groq-Retry-After, KI-Modelle je Modell gesperrt (Lauf #12: Anbieter ok), Pausenkürzung-Längenfix, True-Peak-Fix, `default_est_views` 1500, Zuschauer-Clips (Twitch, braucht TWITCH_CLIENT_ID/SECRET; Nutzer braucht dafür 2FA bei Twitch), Phase 3 `tools/style.py` (YouTube-API; Schlüssel als Secret vorhanden) – Zahlen: Länge Top ≈ 26 s, Titel ≈ 10 Wörter; STYLE.md noch nicht im Repo, KI-Regeln zu allgemein.
+- Nutzerentscheidung: Menge vor Qualität; Selbstlauf mit Rückfrage-Grenzen (siehe CLAUDE.md).
+- Offen: Kampagne zum Beitreten wählen (Kandidat: Ultimate Fighting Bots, Twitch; Lacy GTA VI Pool: Regeln/Quelle prüfen); Suche erweitern (Nutzer ja/nein); Support-Frage an CR (Frage 3: AGB 9.4, Frage 4: 30-Min-Frist); Claude-API (Kosten, Entscheidung offen); yt2, ig1, ig2 verbinden; Posting-Freigabe erst nach Beitritt.
+- Laufzeit Fabrik: ~28 Min. für 4 Clips (Audio 5, Transkript 4, Bewertung 7 Min.).
