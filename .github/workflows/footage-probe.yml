@@ -16,7 +16,7 @@ jobs:
       - name: Ordner laden und prüfen
         env: {URL: "${{ inputs.folder_url }}"}
         run: |
-          mkdir -p f t && gdown --folder "$URL" -O f --quiet || true
+          mkdir -p f t && gdown --folder "$URL" -O f 2>&1 | tail -15 || true
           for v in f/*; do
             [ -f "$v" ] || continue
             echo "== $(basename "$v")"
