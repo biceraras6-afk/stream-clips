@@ -4,10 +4,10 @@
   "url": "https://contentrewards.com/c/campaigns/051002dd-5c46-43d0-a446-43f2957ba3a9",
   "status": "open",
   "brand": "Ruckus",
-  "streamer": null,
+  "streamer": "Dasgasd3m",
   "category": "gaming",
   "language": null,
-  "description": "Clip Dom's funny and entertaining GTA 6 moments for TikTok and YouTube Shorts. GTA 6-specific accounts required; streamer-clips accounts recommended. Scheduled for Nov 19, 2026. Read the full brief before posting; submissions begin only when the campaign opens.",
+  "description": "Clip Dom's funny and entertaining GTA 6 moments for TikTok and YouTube Shorts. GTA 6-specific accounts required; streamer-clips accounts recommended. Scheduled for Nov 18, 2026. Read the full brief before posting; submissions begin only when the campaign opens.",
   "source": {
     "type": "vod",
     "urls": [],
@@ -89,7 +89,7 @@
     "creators": 0,
     "avg_views": null,
     "avg_payout": null,
-    "updated_at": "2026-11-18T13:40:12.000Z"
+    "updated_at": "2026-11-18T16:18:17.000Z"
   },
   "references": [],
   "locked_references": null,
@@ -100,6 +100,6 @@
     "adult": false,
     "political": false
   },
-  "brief_hash": "1850b6ff02104d8b",
+  "brief_hash": "d9dc942f8057065e",
   "enriched": true
 }

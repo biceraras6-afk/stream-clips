@@ -62,7 +62,7 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 983.51,
+    "remaining": 924.38,
     "currency": "USD",
     "updated_at": "2026-11-18"
   },
@@ -92,16 +92,20 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 2,
-    "total_views": 7507,
-    "creators": 2,
-    "avg_views": 3754,
-    "avg_payout": 8.24,
-    "updated_at": "2026-11-18T13:40:20.000Z"
+    "approved": 7,
+    "total_views": 34666,
+    "creators": 6,
+    "avg_views": 4952,
+    "avg_payout": 10.8,
+    "updated_at": "2026-11-18T16:18:19.000Z"
   },
   "references": [
+    "https://www.tiktok.com/@gta6central.us/video/7709477347111603469",
     "https://www.tiktok.com/@gta6central.us/video/7709466249721367821",
-    "https://www.youtube.com/watch?v=A8dyRKL6JNU"
+    "https://www.youtube.com/watch?v=eYTOwno_3O0",
+    "https://www.instagram.com/reel/Df4X0xJquWn/",
+    "https://www.youtube.com/watch?v=A8dyRKL6JNU",
+    "https://www.youtube.com/watch?v=EygJHwTJkJs"
   ],
   "locked_references": null,
   "launched_at": "2026-11-17T21:19:41.000Z",

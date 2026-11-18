@@ -50,7 +50,7 @@
   },
   "budget": {
     "total": 10000.0,
-    "remaining": 7899.31,
+    "remaining": 7897.98,
     "currency": "USD",
     "updated_at": "2026-11-18"
   },
@@ -81,11 +81,11 @@
   "content_rules": {},
   "stats": {
     "approved": 261,
-    "total_views": 1072643,
+    "total_views": 1073275,
     "creators": 29,
-    "avg_views": 4110,
+    "avg_views": 4112,
     "avg_payout": 8.05,
-    "updated_at": "2026-11-18T13:40:16.000Z"
+    "updated_at": "2026-11-18T16:16:15.000Z"
   },
   "references": [
     "https://www.tiktok.com/@unboxingtherapy08/video/7698827552785222933",
