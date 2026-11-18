@@ -109,7 +109,10 @@ def ensure_requirements(post: dict, camp: dict) -> None:
     need = [t if t.startswith("@") else "@" + t for t in (camp.get("required_tags") or [])]
     if camp.get("mention_text"):
         need.append(camp["mention_text"])
-    for pl in (post.get("platforms") or {}).values():
+    for pname, pl in (post.get("platforms") or {}).items():
+        first = (camp.get("platform_first_word") or {}).get(pname)
+        if first and "caption" in pl and not pl["caption"].lstrip().lower().startswith(first.lower()):
+            pl["caption"] = f"{first} {pl['caption']}"
         for key in ("description", "caption", "text"):
             if key in pl:
                 miss = [n for n in need if n.lower() not in pl[key].lower()]

@@ -48,7 +48,8 @@ def build(clip: dict, transcript_text: str, campaign: dict) -> dict:
             platforms[p] = {"title": f"{t} #shorts" if len(t) < 90 else t,
                             "description": "\n\n".join(x for x in [ad + desc, must, "\n".join(links)] if x.strip())}
         elif p in ("tiktok", "instagram"):
-            platforms[p] = {"caption": " ".join(x for x in [ad + cap, must, " ".join(links)] if x)[: LIMITS[p]]}
+            first = (campaign.get("platform_first_word") or {}).get(p)       # z. B. Instagram: Marken-Tag als erstes Wort
+            platforms[p] = {"caption": " ".join(x for x in [first, ad + cap, must, " ".join(links)] if x)[: LIMITS[p]]}
         elif p == "x":
             platforms[p] = {"text": " ".join(x for x in [ad + cap, " ".join(req), " ".join(links)] if x)[: LIMITS["x"]]}
     return {"campaign": campaign["id"], "campaign_url": campaign.get("url"), "title": title,
