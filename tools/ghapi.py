@@ -82,8 +82,28 @@ def clip_artifacts(repo: str = REPO) -> list[dict]:
     return [a for a in r.get("artifacts", []) if a["name"].startswith("clips-") and not a["expired"]]
 
 
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *a, **k):
+        return None
+
+
+def _download(url: str) -> bytes:
+    """Artefakt laden: GitHub leitet auf Blob-Speicher um – dorthin darf der Token NICHT mit (sonst 401)."""
+    r = urllib.request.Request(url, headers={"Authorization": f"Bearer {_token()}", "Accept": "application/vnd.github+json",
+                                             "X-GitHub-Api-Version": "2022-11-28", "User-Agent": "stream-clips"})
+    try:
+        with urllib.request.build_opener(_NoRedirect).open(r, timeout=120) as resp:
+            return resp.read()
+    except urllib.error.HTTPError as e:
+        loc = e.headers.get("Location")
+        if e.code in (301, 302, 303, 307, 308) and loc:
+            with urllib.request.urlopen(urllib.request.Request(loc, headers={"User-Agent": "stream-clips"}), timeout=600) as resp:
+                return resp.read()
+        raise RuntimeError(f"GitHub GET {url}: {e.code}") from None
+
+
 def download_artifact(a: dict, dest) -> list[str]:
-    data = req("GET", a["archive_download_url"], raw=True)
+    data = _download(a["archive_download_url"])
     with zipfile.ZipFile(io.BytesIO(data)) as z:
         z.extractall(dest)
         return z.namelist()
