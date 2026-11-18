@@ -1,0 +1,113 @@
+{
+  "id": "cr-67302e32-gaming-storytelling",
+  "title": "Gaming Storytelling ",
+  "url": "https://contentrewards.com/c/campaigns/67302e32-f792-4772-a964-b95d2b19f040",
+  "status": "paused",
+  "brand": "AARON RODRIGUEZ TREJO",
+  "streamer": null,
+  "category": "gaming",
+  "language": null,
+  "description": "We are looking for creative content creators to produce engaging storytelling videos using gameplay footage.\n\nCreators can use games like Minecraft, GTA V, Roblox, or other popular games as the background for entertaining stories, mysteries, adventures, and interesting events.\n\nEach video should fea",
+  "source": null,
+  "platforms": [
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "per_post",
+    "amount_per_post": 500.0,
+    "rate_per_1k": 0.0,
+    "min_payout": null,
+    "max_payout_per_clip": null,
+    "min_views": null,
+    "per_platform": {
+      "youtube": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 450.0,
+    "currency": "USD",
+    "updated_at": "2026-11-18"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-18",
+  "cr_id": "67302e32-f792-4772-a964-b95d2b19f040",
+  "guidelines": "We are looking for talented gaming content creators who specialize in storytelling, gaming entertainment, creative narration, and video editing.\n\nIdeal creators should have:\n- Experience creating gaming videos.\n- Strong storytelling and narration skills.\n- Good video editing skills.\n- An understanding of YouTube Shorts, TikTok, and Instagram Reels.\n- Creativity and the ability to keep viewers engaged.\n\nWe welcome both small and large creators. Quality and creativity matter more than follower count.",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": true,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 1,
+    "total_views": 0,
+    "creators": 1,
+    "avg_views": 0,
+    "avg_payout": 550.0,
+    "updated_at": "2026-11-18T21:58:09.000Z"
+  },
+  "references": [],
+  "locked_references": 2,
+  "launched_at": "2026-11-18T21:04:53.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "f94a82ba1bfe9d0c",
+  "enriched": true
+}

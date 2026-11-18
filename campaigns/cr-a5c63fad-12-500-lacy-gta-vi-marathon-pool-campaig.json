@@ -98,14 +98,25 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 0,
-    "total_views": 0,
-    "creators": 0,
-    "avg_views": null,
-    "avg_payout": null,
-    "updated_at": "2026-11-18T16:18:20.000Z"
+    "approved": 63,
+    "total_views": 12685147,
+    "creators": 37,
+    "avg_views": 201352,
+    "avg_payout": 0.0,
+    "updated_at": "2026-11-18T22:08:22.000Z"
   },
-  "references": [],
+  "references": [
+    "https://x.com/pulcys/status/2123030125172126194",
+    "https://www.tiktok.com/@tjr.comp/video/7709541678394215694",
+    "https://www.tiktok.com/@clippedbydk/video/7709546305831341343",
+    "https://x.com/yoxics/status/2123029339612828101",
+    "https://www.tiktok.com/@jacobtheclipper/video/7709489216706678047",
+    "https://www.tiktok.com/@tjr.comp/video/7709490994026155278",
+    "https://www.tiktok.com/@itsnicktheplug/video/7709480113234038038",
+    "https://www.tiktok.com/@clippedbydk/video/7709541801694203167",
+    "https://x.com/yoxics/status/2123033789358358830",
+    "https://x.com/yoxics/status/2123065137229894112"
+  ],
   "locked_references": null,
   "launched_at": "2026-11-17T21:15:34.000Z",
   "flags": {

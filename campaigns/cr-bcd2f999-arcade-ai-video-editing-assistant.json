@@ -1,0 +1,99 @@
+{
+  "id": "cr-bcd2f999-arcade-ai-video-editing-assistant",
+  "title": "ARCADE - AI VIDEO EDITING ASSISTANT",
+  "url": "https://contentrewards.com/c/campaigns/bcd2f999-814a-4056-ae7e-c7c8012fab0b",
+  "status": "open",
+  "brand": "ClipHaus",
+  "streamer": null,
+  "category": "technology",
+  "language": null,
+  "description": " Arcade is an AI video platform that helps marketers, founders, and businesses create polished marketing videos from a prompt, website URL, screen recording, or screenshots.\n The campaign introduces Arcade to people who have a real product, service, or business to market.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 1.5,
+    "max_payout_per_clip": 200.0,
+    "min_views": 1500,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 200.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 200.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 200.0
+      },
+      "x": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 200.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 10000.0,
+    "remaining": 10000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-18"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-18",
+  "cr_id": "bcd2f999-814a-4056-ae7e-c7c8012fab0b",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-18T21:21:28.000Z",
+  "brief_hash": "da69043865403753"
+}

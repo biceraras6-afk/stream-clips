@@ -1,0 +1,117 @@
+{
+  "id": "cr-1d2bcb00-kai-cenat-10-000-gta-6-pool-campaign",
+  "title": "Kai Cenat - $10,000 GTA 6 Pool Campaign",
+  "url": "https://contentrewards.com/c/campaigns/1d2bcb00-c904-415f-aa82-f95b96baad86",
+  "status": "open",
+  "brand": "Clipped & Shipped",
+  "streamer": "Kai Cenat",
+  "category": "streamer",
+  "language": "en",
+  "description": "Clip Kai Cenat’s GTA 6 streams and get paid for your views. Post on TikTok, YouTube Shorts, Instagram Reels & X. The more views, the more you earn.\nRULES HERE:",
+  "source": {
+    "type": "stream",
+    "urls": [],
+    "permission_quote": "Clip Kai Cenat’s GTA 6 streams and get paid for your views."
+  },
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "pool",
+    "amount_per_post": null,
+    "rate_per_1k": 0.0,
+    "min_payout": null,
+    "max_payout_per_clip": null,
+    "min_views": null,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      },
+      "youtube": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      },
+      "instagram": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      },
+      "x": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 10000.0,
+    "remaining": 10000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-18"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-18",
+  "cr_id": "1d2bcb00-c904-415f-aa82-f95b96baad86",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-18T22:06:23.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-18T19:58:55.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "490293857c8bd5c3",
+  "enriched": true
+}

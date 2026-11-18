@@ -1,0 +1,93 @@
+{
+  "id": "cr-7be0bc4d-naya-yeira-almost-there-sound-campaign",
+  "title": "Naya Yeira – Almost There Sound Campaign",
+  "url": "https://contentrewards.com/c/campaigns/7be0bc4d-a46f-4baa-b0f8-3202c9c9e203",
+  "status": "open",
+  "brand": "naya yeira",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Make content with any song from Naya Yeira’s EP Almost There, using the official sound. Music discovery, artist edits, lyric POVs and niche ideas (incl. GTA 6 missions) all welcome. Drop at ~3s, 15s+ long, tag tiktok @nayayeiraofficial / ig @nayayeira. Organic views only.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 10.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 10000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 100.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-18"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-18",
+  "cr_id": "7be0bc4d-a46f-4baa-b0f8-3202c9c9e203",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-18T22:08:08.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-18T21:26:09.000Z",
+  "brief_hash": "71a005a906917748"
+}

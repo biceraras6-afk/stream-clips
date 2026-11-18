@@ -67,7 +67,7 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 885.01,
+    "remaining": 870.72,
     "currency": "USD",
     "updated_at": "2026-11-18"
   },
@@ -97,24 +97,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 10,
-    "total_views": 53730,
-    "creators": 8,
-    "avg_views": 5373,
-    "avg_payout": 11.5,
-    "updated_at": "2026-11-18T19:16:22.000Z"
+    "approved": 13,
+    "total_views": 61787,
+    "creators": 11,
+    "avg_views": 4753,
+    "avg_payout": 9.94,
+    "updated_at": "2026-11-18T22:08:21.000Z"
   },
   "references": [
     "https://www.tiktok.com/@gta6central.us/video/7709477347111603469",
     "https://www.tiktok.com/@gta6central.us/video/7709466249721367821",
+    "https://www.instagram.com/reel/Df49LORouqI/",
     "https://www.instagram.com/reel/Df4h3XxRcWF/",
     "https://www.instagram.com/reel/Df4bPJERr_5/",
-    "https://www.tiktok.com/@gta._clips_2/video/7709540380949204255",
     "https://www.youtube.com/watch?v=eYTOwno_3O0",
-    "https://www.instagram.com/reel/Df4X0xJquWn/",
+    "https://www.tiktok.com/@gta._clips_2/video/7709540380949204255",
+    "https://www.tiktok.com/@gta6clipsdaily61/video/7709343309428198670",
     "https://www.youtube.com/watch?v=DP4tBhXVPwc",
-    "https://www.youtube.com/watch?v=A8dyRKL6JNU",
-    "https://www.youtube.com/watch?v=EygJHwTJkJs"
+    "https://www.tiktok.com/@chatclippedthat_26/video/7709539631624211744"
   ],
   "locked_references": null,
   "launched_at": "2026-11-17T21:19:41.000Z",

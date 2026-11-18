@@ -1,0 +1,120 @@
+{
+  "id": "cr-c78dfc62-joey-x-streetbike-tommy-jet-ski-backflip",
+  "title": "Joey x Streetbike Tommy Jet Ski Backflip",
+  "url": "https://contentrewards.com/c/campaigns/c78dfc62-45dc-45cd-896c-75b63a4f674c",
+  "status": "open",
+  "brand": "meetjoey",
+  "streamer": "Streetbike Tommy",
+  "category": "entertainment",
+  "language": null,
+  "description": "Create and share your best clips from Streetbike Tommy’s YouTube video. Use the provided footage, include the approved Joey logo with its warning label, and tag both Joey and Streetbike Tommy. Authentic organic views only. See campaign requirements for full details.",
+  "source": {
+    "type": "vod",
+    "urls": [],
+    "permission_quote": "Create and share your best clips from Streetbike Tommy’s YouTube video."
+  },
+  "platforms": [
+    "instagram"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": [
+    "@Joey",
+    "@StreetbikeTommy"
+  ],
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 2.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 500,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 2.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2500.0,
+    "remaining": 2500.0,
+    "currency": "USD",
+    "updated_at": "2026-11-18"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-18",
+  "cr_id": "c78dfc62-45dc-45cd-896c-75b63a4f674c",
+  "guidelines": "$4f",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": true,
+    "draftCaptionRequired": true
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 4,
+  "launched_at": "2026-11-18T20:44:51.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "42a7d5ceac264b42",
+  "enriched": true
+}
