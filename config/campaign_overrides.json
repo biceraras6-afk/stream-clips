@@ -1,0 +1,9 @@
+{
+  "_doc": "Handpflege-Ergänzungen je Kampagne (überschreiben/ergänzen die automatisch erfassten Felder, werden von discover.py nicht überschrieben). Nur öffentliche Briefing-Angaben.",
+  "cr-74fcae70-cartier2real-stream-clips-1-1k-views": {
+    "required_tags": [
+      "@cartier2real"
+    ],
+    "mention_text": "Live on Kick"
+  }
+}

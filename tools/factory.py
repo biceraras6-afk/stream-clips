@@ -33,7 +33,7 @@ def load_campaign(cid: str) -> dict:
     p = ROOT / "campaigns" / f"{cid}.json"
     if not p.exists():
         sys.exit(f"Kampagne {cid} nicht gefunden")
-    return json.loads(p.read_text())
+    return cm.load([p])[0][1]          # inkl. Handpflege-Ergänzungen (config/campaign_overrides.json)
 
 
 def allowed(url: str, campaign: dict) -> bool:

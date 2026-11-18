@@ -102,6 +102,19 @@ def pick(acc: dict, index: dict, posted: dict, camps: dict) -> str | None:
     return best
 
 
+def ensure_requirements(post: dict, camp: dict) -> None:
+    """Pflichtangaben der Kampagne (Tags/Erwähnung) auch bei älteren Clips ergänzen, falls im Text fehlend."""
+    need = [t if t.startswith("@") else "@" + t for t in (camp.get("required_tags") or [])]
+    if camp.get("mention_text"):
+        need.append(camp["mention_text"])
+    for pl in (post.get("platforms") or {}).values():
+        for key in ("description", "caption", "text"):
+            if key in pl:
+                miss = [n for n in need if n.lower() not in pl[key].lower()]
+                if miss:
+                    pl[key] = (pl[key].rstrip() + "\n\n" + " ".join(miss)).strip()[:4800]
+
+
 def notify(rec: dict, camp: dict, post: dict) -> None:
     deadline = (dt.datetime.fromisoformat(rec["posted_at"]) + dt.timedelta(minutes=30)).strftime("%H:%M")
     if rec["platform"] == "tiktok" and not rec.get("url"):
@@ -219,6 +232,7 @@ def main() -> int:
                 ghapi.download_artifact(art, tmp)
                 d = Path(tmp) / c["path"]
                 post = json.loads((d / "post.json").read_text())
+                ensure_requirements(post, camps[c["campaign"]])
                 res = platforms.UPLOADERS[acc["platform"]](acc["secret_prefix"], d / "clip.mp4", post)
             new_rt = res.pop("new_refresh_token", None)
             if new_rt and new_rt != platforms.secret(f"{acc['secret_prefix']}_REFRESH_TOKEN"):

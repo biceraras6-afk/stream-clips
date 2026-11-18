@@ -36,7 +36,13 @@ def today() -> dt.date:
 def load(paths=None) -> list[tuple[pathlib.Path, dict]]:
     files = [pathlib.Path(p) for p in paths] if paths else sorted(
         p for p in CDIR.glob("*.json") if not p.name.startswith("_"))
-    return [(p, json.loads(p.read_text())) for p in files]
+    ov = json.loads((ROOT / "config" / "campaign_overrides.json").read_text()) if (ROOT / "config" / "campaign_overrides.json").exists() else {}
+    out = []
+    for p in files:
+        c = json.loads(p.read_text())
+        c.update({k: v for k, v in (ov.get(p.stem) or {}).items() if not k.startswith("_")})   # Handpflege-Ergänzungen
+        out.append((p, c))
+    return out
 
 
 def validate(c: dict) -> tuple[list[str], list[str]]:

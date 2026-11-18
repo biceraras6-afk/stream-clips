@@ -38,7 +38,8 @@ def build(clip: dict, transcript_text: str, campaign: dict) -> dict:
     cap = (draft.get("tiktok") or {}).get("caption") or title
     extra = [h.lower() for h in draft.get("hashtags", []) if re.fullmatch(r"#\w{2,30}", h or "")]
     hashtags = list(dict.fromkeys(camp_hs + extra))[:8]
-    must = " ".join(req + hashtags)
+    mention = campaign.get("mention_text")        # z. B. „Live on Kick“ (Briefing-Pflicht)
+    must = " ".join(req + ([mention] if mention else []) + hashtags)
     ad = f"{disclosure} " if disclosure else ""
     platforms = {}
     for p in campaign.get("platforms") or []:
