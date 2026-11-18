@@ -46,3 +46,8 @@ Neue Sitzung: „Lies CLAUDE.md und docs/HANDOFF.md, mach beim nächsten Schritt
 - Einmal-Post per `post.yml` mit `one_shot_account=yt1` (Cartier2Real, YouTube). Nutzer hat innerhalb der Frist eingereicht. Links/Protokoll nur im privaten Daten-Repo.
 - Automatik bleibt gesperrt (`enabled: false`, Freigabe per Telegram `/go`). Fixes dabei: Artefakt-Download ohne Token auf Blob-Umleitung.
 - Nächste Schritte: Views nach 24–48 Std. ansehen (Mindest-Views 5.000), danach entscheiden: Automatik freigeben, IG/TikTok verbinden (Nutzer: morgen), 30-Min-Slots festlegen.
+
+## Antwort Content Rewards (18.11.)
+- **Keine API und kein automatisches Einreichen.** Einreichen bleibt Handarbeit (<=30 Min. nach Post). Skalierung hängt am Zeitbudget des Nutzers (ca. 1–3 Min. je Post), nicht an der Technik.
+- Hindernisse je Kampagne: Quelle (YouTube-Download von Actions gesperrt; Drive-Footage großer Dateien von Google gesperrt), Briefing nur eingeloggt/extern sichtbar (Sperre `briefing_checked`), Pflichtangaben je Kampagne (config/campaign_overrides.json).
+- Gebaut diese Sitzung: Marken-Layout (Wasserzeichen), Einmal-Post (`one_shot_account`), Telegram-Meldung bei Fehlschlag, Kampagnen-Overrides (Loaded Tea Shop MJ, Tomo GTA VI, Cartier2Real).
