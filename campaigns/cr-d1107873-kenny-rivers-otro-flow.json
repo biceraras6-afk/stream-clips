@@ -1,0 +1,81 @@
+{
+  "id": "cr-d1107873-kenny-rivers-otro-flow",
+  "title": "Kenny Rivers - Otro Flow",
+  "url": "https://contentrewards.com/c/campaigns/d1107873-0dd6-4640-97f4-3578b9e317d8",
+  "status": "open",
+  "brand": "Digital E-Clipz",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Push Kenny Rivers’ new track “Otro Flow” through: Anime edits, Sports edits, Hispanic entertainment/news, and Dance trends. Be sure to check the full brief before posting.",
+  "source": null,
+  "platforms": [
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 250.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 250.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-18"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-18",
+  "cr_id": "d1107873-0dd6-4640-97f4-3578b9e317d8",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-18T07:34:10.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-18T06:05:27.000Z",
+  "brief_hash": "3c2294fd486c6c60"
+}
