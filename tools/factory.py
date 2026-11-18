@@ -29,6 +29,22 @@ OUT = ROOT / "out" / "clips"
 SEEN = ROOT / "state" / "processed.json"
 
 
+def brand_cfg(c: dict, work: Path) -> dict | None:
+    """Marken-Layout (Pflicht-Wasserzeichen): Bild laden, zuschneiden, Maße für cut.render."""
+    bl = c.get("brand_layout")
+    if not bl or not c.get("watermark_url"):
+        return None
+    import urllib.request
+    raw, png = work / "watermark_src", work / "watermark.png"
+    if not png.exists():
+        req = urllib.request.Request(c["watermark_url"], headers={"User-Agent": "stream-clips/0.1"})
+        raw.write_bytes(urllib.request.urlopen(req, timeout=60).read())
+        cut.prepare_watermark(raw, png)
+    import cv2
+    h, w = cv2.imread(str(png), cv2.IMREAD_UNCHANGED).shape[:2]
+    return {**bl, "watermark": png, "wm_ratio": h / w}
+
+
 def load_campaign(cid: str) -> dict:
     p = ROOT / "campaigns" / f"{cid}.json"
     if not p.exists():
@@ -177,7 +193,8 @@ def main() -> int:
                 break
         if gap != base_gap:
             log(f"  Länge: Pausen weniger gekürzt (gap {gap}) -> {ln:.1f}s")
-        r = cut.render(section, s0, chosen, all_words, cdir, c.get("disclosure"), c.get("overlays_allowed") is not False)
+        r = cut.render(section, s0, chosen, all_words, cdir, c.get("disclosure"), c.get("overlays_allowed") is not False,
+                       brand=brand_cfg(c, work))
         cut.CFG["silence_gap"], cut.CFG["silence_keep"] = base_gap, base_keep
         r["loop_score"] = hook.loop_score(cdir / "clip.mp4")
         (cdir / "render.json").write_text(json.dumps(r, indent=1))

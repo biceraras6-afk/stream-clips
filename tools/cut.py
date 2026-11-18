@@ -146,7 +146,8 @@ def _esc(s: str) -> str:
     return s.replace("\\", "").replace("{", "(").replace("}", ")")
 
 
-def build_ass(words: list[dict], start: float, segs, hook_text: str | None, disclosure: str | None) -> str:
+def build_ass(words: list[dict], start: float, segs, hook_text: str | None, disclosure: str | None,
+              brand: bool = False, total: float = 0.0) -> str:
     """segs: Bereiche relativ zu `start`, in Ausgabereihenfolge (ein Teaser darf vorn stehen)."""
     sc, hk = CFG["subtitles"], CFG["hook"]
     OW, OH = CFG["output"]["width"], CFG["output"]["height"]
@@ -159,6 +160,7 @@ def build_ass(words: list[dict], start: float, segs, hook_text: str | None, disc
         f"{sc['outline']},2,2,60,60,{int(OH * (1 - sc['y_ratio']))},1",
         f"Style: Hook,{sc['font']},{hk['size']},&H00000000,&H000000FF,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,3,"
         f"18,0,8,90,90,{int(OH * hk['y_ratio'])},1",
+        f"Style: HookB,{sc['font']},84,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,7,0,8,70,70,110,1",
         f"Style: Ad,{sc['font']},44,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,3,0,7,50,50,60,1",
         "", "[Events]", "Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text",
     ]
@@ -185,16 +187,34 @@ def build_ass(words: list[dict], start: float, segs, hook_text: str | None, disc
         out_off += b - a
     if hook_text:
         hook = " ".join(hook_text.split()[: hk["max_words"]]).upper()
-        lines.append(f"Dialogue: 1,{_ass_time(0)},{_ass_time(hk['seconds'])},Hook,,0,0,0,,{_esc(hook)}")
+        if brand:   # Überschrift im oberen Balken, ganze Videodauer (wie im Beispiel der Marke)
+            lines.append(f"Dialogue: 1,{_ass_time(0)},{_ass_time(max(total, hk['seconds']))},HookB,,0,0,0,,{_esc(hook)}")
+        else:
+            lines.append(f"Dialogue: 1,{_ass_time(0)},{_ass_time(hk['seconds'])},Hook,,0,0,0,,{_esc(hook)}")
     if disclosure:
         lines.append(f"Dialogue: 2,{_ass_time(0)},{_ass_time(3.0)},Ad,,0,0,0,,{_esc(disclosure)}")
     return "\n".join(lines) + "\n"
 
 
+# ---------- Marken-Layout (Kampagnen mit Pflicht-Wasserzeichen) ----------
+
+def prepare_watermark(src: Path, dst: Path) -> Path:
+    """Wasserzeichen laden, auf den sichtbaren Inhalt zuschneiden (transparenter Rand weg), als PNG mit Alpha ablegen."""
+    import cv2
+    img = cv2.imread(str(src), cv2.IMREAD_UNCHANGED)
+    if img is None or img.ndim < 3 or img.shape[2] < 4:
+        raise RuntimeError("Wasserzeichen nicht lesbar oder ohne Transparenz")
+    ys, xs = np.where(img[:, :, 3] > 8)
+    pad = 6
+    y0, y1, x0, x1 = max(ys.min() - pad, 0), ys.max() + pad, max(xs.min() - pad, 0), xs.max() + pad
+    cv2.imwrite(str(dst), img[y0:y1, x0:x1])
+    return dst
+
+
 # ---------- Rendern ----------
 
 def render(section: Path, section_start: float, clip: dict, words: list[dict], out_dir: Path,
-           disclosure: str | None, overlays_allowed: bool = True) -> dict:
+           disclosure: str | None, overlays_allowed: bool = True, brand: dict | None = None) -> dict:
     """section: heruntergeladener Abschnitt ab `section_start` (absolute Zeit).
     clip: {start, end, overlay|hook_text, teaser: [a, b] | None} (absolute Zeiten)."""
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -208,7 +228,8 @@ def render(section: Path, section_start: float, clip: dict, words: list[dict], o
         ta, tb = clip["teaser"]
         segs = [(round(ta - start, 3), round(tb - start, 3))] + segs
     overlay = (clip.get("overlay") or clip.get("hook_text")) if overlays_allowed else None
-    ass = build_ass(words, start, segs, overlay, disclosure)
+    total_len = sum(b - a for a, b in segs)
+    ass = build_ass(words, start, segs, overlay, disclosure, brand=bool(brand), total=total_len)
     (out_dir / "subs.ass").write_text(ass)
     parts, labels = [], []
     for i, (a, b) in enumerate(segs):
@@ -217,10 +238,22 @@ def render(section: Path, section_start: float, clip: dict, words: list[dict], o
         labels.append(f"[v{i}][a{i}]")
     o = CFG["output"]
     fps = min(o.get("fps_max", 60), round(info["fps"])) if info["fps"] >= 24 else 30
-    fc = ("".join(parts) + "".join(labels) + f"concat=n={len(segs)}:v=1:a=1[vc][ac];"
-          f"[vc]{layout_filter(lay, info)},fps={fps},ass={out_dir / 'subs.ass'}[vo]")
+    OW, OH = o["width"], o["height"]
+    extra_in: list[str] = []
+    if brand:   # oben Überschrift-Balken, Mitte Video, unten Balken mit Wasserzeichen (Beispiel der Marke)
+        top, box_h, wm_w = brand.get("top", 428), brand.get("box_h", 1200), brand.get("wm_width", 960)
+        lay = {"type": "brand", "top": top, "box_h": box_h}
+        wm_y = top + box_h + (OH - top - box_h - int(wm_w * brand["wm_ratio"])) // 2
+        fc = ("".join(parts) + "".join(labels) + f"concat=n={len(segs)}:v=1:a=1[vc][ac];"
+              f"[vc]scale={OW}:{box_h}:force_original_aspect_ratio=increase,crop={OW}:{box_h},"
+              f"pad={OW}:{OH}:0:{top}:black[vb];[1:v]scale={wm_w}:-1[wm];"
+              f"[vb][wm]overlay=(W-w)/2:{wm_y}:shortest=1,fps={fps},ass={out_dir / 'subs.ass'}[vo]")
+        extra_in = ["-loop", "1", "-i", str(brand["watermark"])]
+    else:
+        fc = ("".join(parts) + "".join(labels) + f"concat=n={len(segs)}:v=1:a=1[vc][ac];"
+              f"[vc]{layout_filter(lay, info)},fps={fps},ass={out_dir / 'subs.ass'}[vo]")
     raw = out_dir / "raw.mp4"
-    media.run(["ffmpeg", "-y", "-v", "error", "-i", str(section), "-filter_complex", fc, "-map", "[vo]", "-map", "[ac]",
+    media.run(["ffmpeg", "-y", "-v", "error", "-i", str(section), *extra_in, "-filter_complex", fc, "-map", "[vo]", "-map", "[ac]",
                "-c:v", "libx264", "-preset", o.get("preset", "medium"), "-crf", str(o["crf"]), "-pix_fmt", "yuv420p",
                "-profile:v", "high", "-c:a", "aac", "-b:a", "192k", str(raw)])
     final = out_dir / "clip.mp4"
