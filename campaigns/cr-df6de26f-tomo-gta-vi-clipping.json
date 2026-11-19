@@ -67,7 +67,7 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 608.64,
+    "remaining": 604.32,
     "currency": "USD",
     "updated_at": "2026-11-19"
   },
@@ -98,11 +98,11 @@
   "content_rules": {},
   "stats": {
     "approved": 22,
-    "total_views": 333280,
+    "total_views": 336138,
     "creators": 19,
-    "avg_views": 15149,
-    "avg_payout": 17.79,
-    "updated_at": "2026-11-19T04:22:21.000Z"
+    "avg_views": 15279,
+    "avg_payout": 17.99,
+    "updated_at": "2026-11-19T07:50:20.000Z"
   },
   "references": [
     "https://www.tiktok.com/@stanleymengclipsss/video/7709516826505481490",
