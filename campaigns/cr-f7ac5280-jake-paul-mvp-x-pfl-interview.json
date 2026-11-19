@@ -66,7 +66,7 @@
   },
   "budget": {
     "total": 2000.0,
-    "remaining": 1615.0,
+    "remaining": 1589.5,
     "currency": "USD",
     "updated_at": "2026-11-19"
   },
@@ -97,23 +97,23 @@
   "content_rules": {},
   "stats": {
     "approved": 1396,
-    "total_views": 2110249,
+    "total_views": 2163952,
     "creators": 585,
-    "avg_views": 1512,
-    "avg_payout": 0.28,
-    "updated_at": "2026-11-19T07:50:21.000Z"
+    "avg_views": 1550,
+    "avg_payout": 0.29,
+    "updated_at": "2026-11-19T10:28:18.000Z"
   },
   "references": [
     "https://x.com/Noirdcreative/status/2121967933144342804",
     "https://x.com/Noirdcreative/status/2122446161873138001",
+    "https://x.com/anjydot/status/2122829548462977213",
     "https://x.com/itzgaffer2/status/2121515437334659442",
     "https://www.tiktok.com/@clipshub0326/video/7709016058866224414",
-    "https://x.com/anjydot/status/2122829548462977213",
-    "https://www.youtube.com/watch?v=y1tAkpI642c",
     "https://x.com/0xdara_/status/2122317817538084905",
+    "https://www.youtube.com/watch?v=y1tAkpI642c",
     "https://www.tiktok.com/@clipdistrict805/video/7709266355224202518",
-    "https://www.youtube.com/watch?v=JBfil2IrXQw",
-    "https://x.com/0xdara_/status/2122655228742729995"
+    "https://x.com/0xdara_/status/2122655228742729995",
+    "https://www.youtube.com/watch?v=JBfil2IrXQw"
   ],
   "locked_references": null,
   "launched_at": "2026-11-09T12:14:41.000Z",

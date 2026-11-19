@@ -1,0 +1,112 @@
+{
+  "id": "cr-01d692c1-carrot-s-clipping-campaign",
+  "title": "Carrot's Clipping Campaign",
+  "url": "https://contentrewards.com/c/campaigns/01d692c1-fdf1-429c-8d6b-de0cb449a4ad",
+  "status": "open",
+  "brand": "Carrot",
+  "streamer": "Carrot",
+  "category": "crypto",
+  "language": "en",
+  "description": "Cut short clips from Carrot’s streams. \n\nFull streams are in the Google Drive folder below and update after every stream. \n\nPays $.50 per 1,000 views on TikTok, YouTube Shorts & Instagram.\n\nBest clips: onboarding people to Pump.fun, good interactions, funny moments & memorable quotes.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "cut short clips from streams",
+      "focus on onboarding people to Pump.fun",
+      "feature good interactions",
+      "include funny moments and memorable quotes"
+    ],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.5,
+    "min_payout": 2.5,
+    "max_payout_per_clip": 100.0,
+    "min_views": 5000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.5,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.5,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 100.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.5,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-19"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-19",
+  "cr_id": "01d692c1-fdf1-429c-8d6b-de0cb449a4ad",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-19T10:24:07.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-19T08:08:37.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": true,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "38592b690f4151bf",
+  "enriched": true
+}
