@@ -98,12 +98,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 661,
-    "total_views": 46235636,
-    "creators": 346,
-    "avg_views": 69948,
+    "approved": 754,
+    "total_views": 52369496,
+    "creators": 387,
+    "avg_views": 69456,
     "avg_payout": 0.0,
-    "updated_at": "2026-11-19T19:20:22.000Z"
+    "updated_at": "2026-11-19T22:08:24.000Z"
   },
   "references": [
     "https://x.com/pulcys/status/2123030125172126194",
@@ -112,10 +112,10 @@
     "https://x.com/yoxics/status/2123199319876755867",
     "https://www.tiktok.com/@liepeex/video/7709485152572853526",
     "https://www.tiktok.com/@clippedbydk/video/7709541801694203167",
-    "https://x.com/coresculture/status/2123163696742420740",
     "https://x.com/streamzhq/status/2123136057222856912",
-    "https://www.tiktok.com/@tjr.comp/video/7709490994026155278",
-    "https://www.tiktok.com/@jacobtheclipper/video/7709489216706678047"
+    "https://x.com/coresculture/status/2123163696742420740",
+    "https://www.tiktok.com/@jacobtheclipper/video/7709489216706678047",
+    "https://www.tiktok.com/@tjr.comp/video/7709490994026155278"
   ],
   "locked_references": null,
   "launched_at": "2026-11-17T21:15:34.000Z",
