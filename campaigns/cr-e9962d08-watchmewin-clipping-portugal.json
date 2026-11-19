@@ -50,7 +50,7 @@
   },
   "budget": {
     "total": 2000.0,
-    "remaining": 1101.9,
+    "remaining": 1098.26,
     "currency": "USD",
     "updated_at": "2026-11-19"
   },
@@ -81,11 +81,11 @@
   "content_rules": {},
   "stats": {
     "approved": 123,
-    "total_views": 1572745,
+    "total_views": 1578230,
     "creators": 22,
-    "avg_views": 12787,
-    "avg_payout": 7.3,
-    "updated_at": "2026-11-19T13:38:09.000Z"
+    "avg_views": 12831,
+    "avg_payout": 7.33,
+    "updated_at": "2026-11-19T16:18:12.000Z"
   },
   "references": [
     "https://www.tiktok.com/@the._paradise/video/7704011175054298400",
