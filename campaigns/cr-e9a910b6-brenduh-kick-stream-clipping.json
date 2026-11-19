@@ -31,6 +31,7 @@
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
+    "amount_per_post": null,
     "rate_per_1k": 0.5,
     "min_payout": 1.0,
     "max_payout_per_clip": 200.0,
@@ -61,9 +62,9 @@
   },
   "budget": {
     "total": 1500.0,
-    "remaining": 1492.79,
+    "remaining": 1231.64,
     "currency": "USD",
-    "updated_at": "2026-11-17"
+    "updated_at": "2026-11-19"
   },
   "deadline": null,
   "submission": {
@@ -91,15 +92,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 1,
-    "total_views": 13128,
-    "creators": 1,
-    "avg_views": 13128,
-    "avg_payout": 7.21,
-    "updated_at": "2026-11-17T18:18:17.000Z"
+    "approved": 35,
+    "total_views": 493167,
+    "creators": 17,
+    "avg_views": 14090,
+    "avg_payout": 7.67,
+    "updated_at": "2026-11-19T19:22:14.000Z"
   },
   "references": [
-    "https://www.youtube.com/watch?v=C1mC1Lg76Vw"
+    "https://www.tiktok.com/@viralclipz_ty/video/7709241507621997846",
+    "https://www.youtube.com/watch?v=C1mC1Lg76Vw",
+    "https://www.youtube.com/watch?v=4TU3fQDnF1k",
+    "https://www.youtube.com/watch?v=Y3rjeKmM8Pc",
+    "https://www.youtube.com/watch?v=zvGNc4rt7DI",
+    "https://www.youtube.com/watch?v=xjWn7fPTykk",
+    "https://www.youtube.com/watch?v=Wn_g-MkKPQw",
+    "https://x.com/_streamersclips/status/2122948602892804357",
+    "https://www.youtube.com/watch?v=FSvVthB4CWM",
+    "https://www.youtube.com/watch?v=ihC2uuh49aA"
   ],
   "locked_references": null,
   "launched_at": "2026-11-17T04:06:07.000Z",

@@ -84,14 +84,25 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 0,
-    "total_views": 0,
-    "creators": 0,
-    "avg_views": null,
-    "avg_payout": null,
-    "updated_at": "2026-11-19T16:20:21.000Z"
+    "approved": 26,
+    "total_views": 6558,
+    "creators": 16,
+    "avg_views": 252,
+    "avg_payout": 0.0,
+    "updated_at": "2026-11-19T19:20:21.000Z"
   },
-  "references": [],
+  "references": [
+    "https://www.youtube.com/watch?v=yI9UUDOINhc",
+    "https://www.youtube.com/watch?v=3VYVnrqEvYM",
+    "https://www.youtube.com/watch?v=Dz4WjpAXUks",
+    "https://www.youtube.com/watch?v=ffLWB-02PRw",
+    "https://www.youtube.com/watch?v=83jVJwIpNFU",
+    "https://www.tiktok.com/@gtauto6theory/video/7709409867961765152",
+    "https://www.youtube.com/watch?v=Z-igdDbFwhM",
+    "https://www.tiktok.com/@show.clip167/video/7709479421249342728",
+    "https://www.tiktok.com/@streamer_clips858/video/7709472550400560390",
+    "https://www.tiktok.com/@clipz4you088/video/7709483911838960916"
+  ],
   "locked_references": null,
   "launched_at": "2026-11-17T20:09:13.000Z",
   "flags": {
