@@ -67,9 +67,9 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 870.72,
+    "remaining": 618.89,
     "currency": "USD",
-    "updated_at": "2026-11-18"
+    "updated_at": "2026-11-19"
   },
   "deadline": null,
   "submission": {
@@ -97,24 +97,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 13,
-    "total_views": 61787,
-    "creators": 11,
-    "avg_views": 4753,
-    "avg_payout": 9.94,
-    "updated_at": "2026-11-18T22:08:21.000Z"
+    "approved": 22,
+    "total_views": 325471,
+    "creators": 19,
+    "avg_views": 14794,
+    "avg_payout": 17.32,
+    "updated_at": "2026-11-19T01:38:19.000Z"
   },
   "references": [
+    "https://www.tiktok.com/@stanleymengclipsss/video/7709516826505481490",
     "https://www.tiktok.com/@gta6central.us/video/7709477347111603469",
+    "https://www.tiktok.com/@ye_baby8/video/7709487103205281047",
     "https://www.tiktok.com/@gta6central.us/video/7709466249721367821",
+    "https://www.tiktok.com/@ye_baby8/video/7709507260032060694",
+    "https://www.instagram.com/reel/Df5F0IOIHI-/",
+    "https://www.tiktok.com/@mjpc_clipper/video/7709489543711345928",
     "https://www.instagram.com/reel/Df49LORouqI/",
     "https://www.instagram.com/reel/Df4h3XxRcWF/",
-    "https://www.instagram.com/reel/Df4bPJERr_5/",
-    "https://www.youtube.com/watch?v=eYTOwno_3O0",
-    "https://www.tiktok.com/@gta._clips_2/video/7709540380949204255",
-    "https://www.tiktok.com/@gta6clipsdaily61/video/7709343309428198670",
-    "https://www.youtube.com/watch?v=DP4tBhXVPwc",
-    "https://www.tiktok.com/@chatclippedthat_26/video/7709539631624211744"
+    "https://www.instagram.com/reel/Df4bPJERr_5/"
   ],
   "locked_references": null,
   "launched_at": "2026-11-17T21:19:41.000Z",
@@ -126,5 +126,9 @@
   },
   "brief_hash": "902b15adf33462aa",
   "enriched": true,
-  "briefing_checked": false
+  "briefing_checked": false,
+  "allowed_videos": [
+    "XRo2L3077NI"
+  ],
+  "cta_text": "Subscribe to Tomo on YouTube"
 }
