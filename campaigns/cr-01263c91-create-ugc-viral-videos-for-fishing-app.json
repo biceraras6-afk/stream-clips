@@ -1,0 +1,105 @@
+{
+  "id": "cr-01263c91-create-ugc-viral-videos-for-fishing-app",
+  "title": "Create UGC viral videos for Fishing App",
+  "url": "https://contentrewards.com/c/campaigns/01263c91-ca79-40cf-a4db-0a3213302fe3",
+  "status": "open",
+  "brand": "FishMan - Fishing App",
+  "streamer": null,
+  "category": "fishing",
+  "language": null,
+  "description": "We’re looking for amateur and passionate anglers to create viral content for our fishing app. We pay per CPM with no payment cap! ",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 10.0,
+    "max_payout_per_clip": 500.0,
+    "min_views": 10000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 500.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 500.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-19"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-19",
+  "cr_id": "01263c91-ca79-40cf-a4db-0a3213302fe3",
+  "guidelines": "Use high energy hook in the first 2 seconds \nAlways show the app in use (either on a phone in your hand or with a screen capture) \nAlways highlight one (and only one) key feature relevant with your video\nAlways direct viewers to search the app on the app stores",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": true,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": true,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 4,
+  "launched_at": "2026-11-19T12:22:46.000Z",
+  "brief_hash": "64aa5c6290f7ceb9"
+}

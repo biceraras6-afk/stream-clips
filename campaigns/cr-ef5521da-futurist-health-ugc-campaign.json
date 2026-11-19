@@ -1,0 +1,87 @@
+{
+  "id": "cr-ef5521da-futurist-health-ugc-campaign",
+  "title": "Futurist Health - UGC campaign",
+  "url": "https://contentrewards.com/c/campaigns/ef5521da-f2da-40c3-bdf7-1e720cab4b72",
+  "status": "open",
+  "brand": "Futurist Health",
+  "streamer": null,
+  "category": "health",
+  "language": null,
+  "description": "We are a consumer health focused on preventative muscle and bone health for longevity. Futurist Health is a digital membership that includes testing, analysis and a clinician review of users muscle and bone health. \n",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 2.0,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 900.0,
+    "min_views": 1000,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 2.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 900.0
+      },
+      "tiktok": {
+        "rate_per_1k": 2.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 900.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-19"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-19",
+  "cr_id": "ef5521da-f2da-40c3-bdf7-1e720cab4b72",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": true,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-19T12:15:36.000Z",
+  "brief_hash": "1af753f71ba05c1f"
+}
