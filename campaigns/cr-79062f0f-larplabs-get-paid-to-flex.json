@@ -1,0 +1,87 @@
+{
+  "id": "cr-79062f0f-larplabs-get-paid-to-flex",
+  "title": "LarpLabs: Get Paid to Flex",
+  "url": "https://contentrewards.com/c/campaigns/79062f0f-8b13-447e-9be3-651e5e37b452",
+  "status": "open",
+  "brand": "Larp Labs",
+  "streamer": null,
+  "category": "technology",
+  "language": null,
+  "description": "Show a balance that makes no sense in Chase, Cash App or Coinbase, then reveal it's LarpLabs. Reveals, slideshows, breakdowns and reactions all work. Mention LarpLabs in the video and caption. Original posts\n  only, tiktok/reels, mostly US audience. Paid per 1K views.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 5.0,
+    "max_payout_per_clip": 300.0,
+    "min_views": 5000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 300.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 300.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2000.0,
+    "remaining": 2000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-20"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-20",
+  "cr_id": "79062f0f-8b13-447e-9be3-651e5e37b452",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-20T16:00:08.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-20T15:26:02.000Z",
+  "brief_hash": "0dddf8d71d9117f8"
+}

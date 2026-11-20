@@ -1,0 +1,87 @@
+{
+  "id": "cr-84d20e7c-post-instagram-clips-from-our-video",
+  "title": "Post Instagram clips from our video",
+  "url": "https://contentrewards.com/c/campaigns/84d20e7c-a3be-4f2d-90f9-e10adccb01a9",
+  "status": "open",
+  "brand": "Driven INC",
+  "streamer": null,
+  "category": "business",
+  "language": null,
+  "description": "Create and post an Instagram clip (Reel) cut from our video here: \n\nhttps://vimeo.com/1248718964/99f3156535?share=copy&fl=sv&fe=ci\n\nWhat to do:\n\nWatch the video and cut any clip you like from it. Get creative with the moment you choose, captions, and editing.\n\nPost the clip on your public Instagram",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 2.0,
+    "min_payout": 10.0,
+    "max_payout_per_clip": 50.0,
+    "min_views": 5000,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 50.0
+      },
+      "tiktok": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 50.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-20"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-20",
+  "cr_id": "84d20e7c-a3be-4f2d-90f9-e10adccb01a9",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": true,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-20T15:49:41.000Z",
+  "brief_hash": "e6c2b4503d939a31"
+}

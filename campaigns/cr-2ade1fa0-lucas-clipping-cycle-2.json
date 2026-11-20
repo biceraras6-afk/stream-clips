@@ -56,7 +56,7 @@
   },
   "budget": {
     "total": 4900.0,
-    "remaining": 2810.16,
+    "remaining": 2800.71,
     "currency": "USD",
     "updated_at": "2026-11-20"
   },
@@ -87,11 +87,11 @@
   "content_rules": {},
   "stats": {
     "approved": 298,
-    "total_views": 2922414,
+    "total_views": 2929227,
     "creators": 30,
-    "avg_views": 9807,
-    "avg_payout": 7.01,
-    "updated_at": "2026-11-20T13:38:12.000Z"
+    "avg_views": 9830,
+    "avg_payout": 7.04,
+    "updated_at": "2026-11-20T16:16:13.000Z"
   },
   "references": [
     "https://www.tiktok.com/@clip2lucas/video/7701297385858764065",
@@ -102,8 +102,8 @@
     "https://www.tiktok.com/@lucas0nly1/video/7709094263958588692",
     "https://www.tiktok.com/@lucasonlyclip1/video/7697700374291156247",
     "https://www.tiktok.com/@imlucasonly1.clipping/video/7708447247146421537",
-    "https://www.tiktok.com/@lucasonly91/video/7703080863960943893",
-    "https://www.youtube.com/watch?v=33yjvC0q8TE"
+    "https://www.youtube.com/watch?v=33yjvC0q8TE",
+    "https://www.tiktok.com/@lucasonly91/video/7703080863960943893"
   ],
   "locked_references": null,
   "launched_at": "2026-09-15T20:02:41.000Z",

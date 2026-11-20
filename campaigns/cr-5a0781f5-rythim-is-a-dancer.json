@@ -1,0 +1,93 @@
+{
+  "id": "cr-5a0781f5-rythim-is-a-dancer",
+  "title": "Rythim is a Dancer",
+  "url": "https://contentrewards.com/c/campaigns/5a0781f5-2721-43cb-bc76-72882dd9b0e9",
+  "status": "open",
+  "brand": "Clouted",
+  "streamer": null,
+  "category": "film-trailers",
+  "language": null,
+  "description": "TV/Film Movie Campaign",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.25,
+    "min_payout": 0.5,
+    "max_payout_per_clip": 250.0,
+    "min_views": 400,
+    "per_platform": {
+      "youtube": {
+        "rate_per_1k": 1.25,
+        "min_payout": 0.5,
+        "max_payout_per_clip": 250.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.25,
+        "min_payout": 0.5,
+        "max_payout_per_clip": 250.0
+      },
+      "tiktok": {
+        "rate_per_1k": 1.25,
+        "min_payout": 0.5,
+        "max_payout_per_clip": 250.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 3333.0,
+    "remaining": 3333.0,
+    "currency": "USD",
+    "updated_at": "2026-11-20"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-20",
+  "cr_id": "5a0781f5-2721-43cb-bc76-72882dd9b0e9",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-20T16:16:15.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-20T13:34:13.000Z",
+  "brief_hash": "22f794d78bdc683e"
+}
