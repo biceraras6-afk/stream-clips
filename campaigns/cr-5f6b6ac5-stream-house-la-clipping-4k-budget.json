@@ -56,7 +56,7 @@
   },
   "budget": {
     "total": 4000.0,
-    "remaining": 2267.35,
+    "remaining": 2213.02,
     "currency": "USD",
     "updated_at": "2026-11-20"
   },
@@ -87,11 +87,11 @@
   "content_rules": {},
   "stats": {
     "approved": 1347,
-    "total_views": 1040393,
+    "total_views": 1067982,
     "creators": 234,
-    "avg_views": 772,
-    "avg_payout": 1.29,
-    "updated_at": "2026-11-20T04:16:19.000Z"
+    "avg_views": 793,
+    "avg_payout": 1.33,
+    "updated_at": "2026-11-20T07:46:20.000Z"
   },
   "references": [
     "https://www.tiktok.com/@cweplug/video/7703206759887850773",

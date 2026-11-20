@@ -60,7 +60,7 @@
   },
   "budget": {
     "total": 12000.0,
-    "remaining": 10768.26,
+    "remaining": 10765.17,
     "currency": "USD",
     "updated_at": "2026-11-20"
   },
@@ -91,11 +91,11 @@
   "content_rules": {},
   "stats": {
     "approved": 260,
-    "total_views": 706599,
+    "total_views": 708596,
     "creators": 101,
-    "avg_views": 2718,
-    "avg_payout": 4.74,
-    "updated_at": "2026-11-20T04:20:22.000Z"
+    "avg_views": 2725,
+    "avg_payout": 4.75,
+    "updated_at": "2026-11-20T07:46:19.000Z"
   },
   "references": [
     "https://www.tiktok.com/@shiatgaming/video/7708104119663201566",

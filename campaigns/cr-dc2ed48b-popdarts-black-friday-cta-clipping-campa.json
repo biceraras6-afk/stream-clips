@@ -1,0 +1,93 @@
+{
+  "id": "cr-dc2ed48b-popdarts-black-friday-cta-clipping-campa",
+  "title": "Popdarts [Black Friday CTA] [Clipping Campaign]",
+  "url": "https://contentrewards.com/c/campaigns/dc2ed48b-cd6d-43bb-8bab-70c960a3696e",
+  "status": "open",
+  "brand": "ClipHouse",
+  "streamer": null,
+  "category": "product",
+  "language": null,
+  "description": "Create viral clips from Popdarts' 2025 National Championship and 2026 West Coast Wildcard. Highlight exciting gameplay, trick shots, and reactions while promoting Popdarts' Black Friday sale with discounts up to 50% off. Must have 50%+ U.S. audience.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1250.0,
+    "remaining": 1250.0,
+    "currency": "USD",
+    "updated_at": "2026-11-20"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-20",
+  "cr_id": "dc2ed48b-cd6d-43bb-8bab-70c960a3696e",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-20T07:40:12.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-20T05:34:32.000Z",
+  "brief_hash": "1489d80321dfd53e"
+}

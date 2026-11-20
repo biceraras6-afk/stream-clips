@@ -1,0 +1,105 @@
+{
+  "id": "cr-9860f017-come-barshim-e-tamberi-music-campaign",
+  "title": "Come Barshim e Tamberi | Music Campaign",
+  "url": "https://contentrewards.com/c/campaigns/9860f017-9ee0-4c89-8012-3ad533c61f02",
+  "status": "open",
+  "brand": "Music Promo Clippers",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Get paid to promote this song by adding it to your content! Italian audiences only. 4% minimum view/like engagement ratio required per submission.",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.3,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 45.0,
+    "min_views": 3333,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.3,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 45.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.25,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 45.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.3,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 45.0
+      },
+      "x": {
+        "rate_per_1k": 1.5,
+        "min_payout": 45.0,
+        "max_payout_per_clip": 45.0
+      },
+      "facebook": {
+        "rate_per_1k": 0.25,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 45.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-20"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-20",
+  "cr_id": "9860f017-9ee0-4c89-8012-3ad533c61f02",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-20T05:10:12.000Z",
+  "brief_hash": "48a0f09704ab9c91"
+}
