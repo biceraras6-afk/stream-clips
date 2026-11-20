@@ -1,0 +1,117 @@
+{
+  "id": "cr-1b3065cb-7-500-luxdrop-logo-clipping-campaign",
+  "title": "$7,500 LUXDROP Logo Clipping Campaign",
+  "url": "https://contentrewards.com/c/campaigns/1b3065cb-29fd-4631-a252-ec3f6d28a583",
+  "status": "open",
+  "brand": "Reach",
+  "streamer": null,
+  "category": "gaming",
+  "language": null,
+  "description": "Get paid to clip GTA 6 gameplay/content/stream.\n\nLuxDrop Watermark/Logo: ",
+  "source": {
+    "type": "stream",
+    "urls": [],
+    "permission_quote": "Get paid to clip GTA 6 gameplay/content/stream."
+  },
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.75,
+    "min_payout": 7.5,
+    "max_payout_per_clip": 300.0,
+    "min_views": 10000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.75,
+        "min_payout": 7.5,
+        "max_payout_per_clip": 300.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.75,
+        "min_payout": 7.5,
+        "max_payout_per_clip": 300.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.75,
+        "min_payout": 7.5,
+        "max_payout_per_clip": 300.0
+      },
+      "x": {
+        "rate_per_1k": 0.75,
+        "min_payout": 7.5,
+        "max_payout_per_clip": 300.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 7500.0,
+    "remaining": 7500.0,
+    "currency": "USD",
+    "updated_at": "2026-11-20"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-20",
+  "cr_id": "1b3065cb-29fd-4631-a252-ec3f6d28a583",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-20T01:32:18.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-19T22:49:32.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "6c1299615a6f692c",
+  "enriched": true
+}

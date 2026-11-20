@@ -60,9 +60,9 @@
   },
   "budget": {
     "total": 12000.0,
-    "remaining": 10782.14,
+    "remaining": 10773.57,
     "currency": "USD",
-    "updated_at": "2026-11-19"
+    "updated_at": "2026-11-20"
   },
   "deadline": null,
   "submission": {
@@ -91,15 +91,15 @@
   "content_rules": {},
   "stats": {
     "approved": 260,
-    "total_views": 697855,
+    "total_views": 703252,
     "creators": 101,
-    "avg_views": 2684,
-    "avg_payout": 4.68,
-    "updated_at": "2026-11-19T22:08:23.000Z"
+    "avg_views": 2705,
+    "avg_payout": 4.72,
+    "updated_at": "2026-11-20T01:32:19.000Z"
   },
   "references": [
-    "https://www.instagram.com/reel/Dfsg-wBzWnl/",
     "https://www.tiktok.com/@shiatgaming/video/7708104119663201566",
+    "https://www.instagram.com/reel/Dfsg-wBzWnl/",
     "https://www.instagram.com/reel/Df0o8wRKaAm/",
     "https://www.instagram.com/reel/Dfta8ffhXSl/",
     "https://www.instagram.com/reel/DftadMah3Dw/",
