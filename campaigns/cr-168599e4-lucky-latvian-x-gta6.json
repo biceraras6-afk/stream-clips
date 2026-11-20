@@ -16,7 +16,8 @@
   "platforms": [
     "instagram",
     "tiktok",
-    "x"
+    "x",
+    "youtube"
   ],
   "format": {
     "min_seconds": null,
@@ -59,13 +60,18 @@
         "rate_per_1k": 2.0,
         "min_payout": 10.0,
         "max_payout_per_clip": 100.0
+      },
+      "youtube": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 100.0
       }
     },
     "geo_priced": false
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 1000.0,
+    "remaining": 959.91,
     "currency": "USD",
     "updated_at": "2026-11-20"
   },
@@ -95,14 +101,25 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 0,
-    "total_views": 0,
-    "creators": 0,
-    "avg_views": null,
-    "avg_payout": null,
-    "updated_at": "2026-11-20T13:34:15.000Z"
+    "approved": 83,
+    "total_views": 47738,
+    "creators": 63,
+    "avg_views": 575,
+    "avg_payout": 0.48,
+    "updated_at": "2026-11-20T19:26:22.000Z"
   },
-  "references": [],
+  "references": [
+    "https://www.instagram.com/reel/Df9zsxaB9b5/",
+    "https://x.com/trevor87618/status/2123764069211512965",
+    "https://www.instagram.com/reel/Df9gHnYRcIb/",
+    "https://www.instagram.com/reel/Df9jQUMTiLK/",
+    "https://www.tiktok.com/@mememade4/video/7710209256187759893",
+    "https://www.instagram.com/reel/Df9r88dgus4/",
+    "https://x.com/onrulli_/status/2123758319231995939",
+    "https://www.instagram.com/reel/Df9jm4YOxt8/",
+    "https://www.instagram.com/reel/Df9hY9LtlcC/",
+    "https://www.instagram.com/reel/Df9qHKQg3zS/"
+  ],
   "locked_references": null,
   "launched_at": "2026-11-20T10:29:44.000Z",
   "audience": "EU",

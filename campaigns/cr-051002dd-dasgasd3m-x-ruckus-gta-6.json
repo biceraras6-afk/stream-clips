@@ -54,7 +54,7 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 769.09,
+    "remaining": 921.69,
     "currency": "USD",
     "updated_at": "2026-11-20"
   },
@@ -84,24 +84,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 68,
-    "total_views": 150401,
-    "creators": 46,
-    "avg_views": 2212,
-    "avg_payout": 3.4,
-    "updated_at": "2026-11-20T16:16:22.000Z"
+    "approved": 62,
+    "total_views": 61677,
+    "creators": 41,
+    "avg_views": 995,
+    "avg_payout": 1.26,
+    "updated_at": "2026-11-20T19:24:23.000Z"
   },
   "references": [
-    "https://www.tiktok.com/@gta.6clipped6/video/7709880249089035542",
-    "https://www.youtube.com/watch?v=En7w4mLnavo",
     "https://www.youtube.com/watch?v=PlJ9kzqWoNU",
-    "https://www.tiktok.com/@gta6.moments75/video/7709679534437698834",
     "https://www.youtube.com/watch?v=NV1eUQP-6as",
     "https://www.youtube.com/watch?v=oSFhbQfL7X8",
-    "https://www.tiktok.com/@yetartstudio/video/7709772003237973249",
-    "https://www.tiktok.com/@prettyclutchclips/video/7709872674322877710",
-    "https://www.tiktok.com/@gta.6clipped6/video/7709844845560417558",
-    "https://www.youtube.com/watch?v=yI9UUDOINhc"
+    "https://www.youtube.com/watch?v=yI9UUDOINhc",
+    "https://www.youtube.com/watch?v=ePttFGB6V30",
+    "https://www.youtube.com/watch?v=Dz4WjpAXUks",
+    "https://www.youtube.com/watch?v=3VYVnrqEvYM",
+    "https://www.youtube.com/watch?v=ffLWB-02PRw",
+    "https://www.tiktok.com/@leonidafiles.ltd/video/7709501729917635862",
+    "https://www.tiktok.com/@leonidafiles.ltd/video/7709499454088482071"
   ],
   "locked_references": null,
   "launched_at": "2026-11-17T20:09:13.000Z",
