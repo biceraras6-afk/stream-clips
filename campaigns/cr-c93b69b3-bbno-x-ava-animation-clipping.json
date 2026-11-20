@@ -1,0 +1,81 @@
+{
+  "id": "cr-c93b69b3-bbno-x-ava-animation-clipping",
+  "title": "bbno$ x Ava - Animation Clipping",
+  "url": "https://contentrewards.com/c/campaigns/c93b69b3-b0a7-42ca-aaf6-a63fd3811cc3",
+  "status": "open",
+  "brand": "Clipping Culture",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Use Ava's (@juniperdots) newest animation. Link below.\nPost the full animation or a cut of it.\nAdd on-screen text and a caption that praise the animation.\nAttach the official sound.\nPost to TikTok only.",
+  "source": null,
+  "platforms": [
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.5,
+    "min_payout": 1.5,
+    "max_payout_per_clip": 100.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1500.0,
+    "remaining": 1500.0,
+    "currency": "USD",
+    "updated_at": "2026-11-20"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-20",
+  "cr_id": "c93b69b3-b0a7-42ca-aaf6-a63fd3811cc3",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-20T22:06:17.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-20T19:10:16.000Z",
+  "brief_hash": "ca5b5dae010b6f7d"
+}

@@ -68,7 +68,7 @@
   },
   "budget": {
     "total": 8500.0,
-    "remaining": 7902.4,
+    "remaining": 7895.76,
     "currency": "USD",
     "updated_at": "2026-11-20"
   },
@@ -110,6 +110,19 @@
       "noExplicit": false
     },
     "faceOnCamera": false,
+    "reviewerOnly": [
+      "Only clip the official FaZe Flank Invitational broadcast (twitch.tv/faze, twitch.tv/zoomaa) or the players' own POV streams",
+      "Keep the FaZe Flank Invitational logo on screen for the whole clip, never over the action",
+      "Caption must include @FaZeClan @ZooMaa @TheFlank #FaZeFlankInvitational, plus featured player and team handles when shown",
+      "60%+ US audience required",
+      "Hook in the first second: open on the play, the pick or the reaction",
+      "Every clip must be an edit, no full VODs or unedited stream segments",
+      "Never make FaZe, CDL teams or players look bad, no fake results, fake drama or misleading scores",
+      "Vertical 9:16, at least 7 seconds",
+      "No carousels, collab posts, politics or religion",
+      "Keep every clip public for at least 3 months",
+      "Full rules in the guidelines"
+    ],
     "sound": {
       "keepOriginalAudio": false,
       "mustUseProvided": false
@@ -120,17 +133,17 @@
   },
   "stats": {
     "approved": 63,
-    "total_views": 361898,
+    "total_views": 364957,
     "creators": 19,
-    "avg_views": 5744,
-    "avg_payout": 9.49,
-    "updated_at": "2026-11-20T19:26:15.000Z"
+    "avg_views": 5793,
+    "avg_payout": 9.59,
+    "updated_at": "2026-11-20T22:04:16.000Z"
   },
   "references": [
     "https://www.instagram.com/reel/DfsbFasohdY/",
     "https://www.instagram.com/reel/DfxXo4EI3xO/",
-    "https://www.instagram.com/reel/Df70lyotG3w/",
     "https://www.instagram.com/reel/Df2-y_6o_YF/",
+    "https://www.instagram.com/reel/Df70lyotG3w/",
     "https://www.instagram.com/reel/Df7Ffcct8Xy/",
     "https://x.com/timmycartel/status/2122918093978583546",
     "https://www.instagram.com/reel/Df0WFUJor-u/",
@@ -138,7 +151,7 @@
     "https://x.com/timmycartel/status/2122986449997856856",
     "https://www.instagram.com/reel/Df8gs1bsvM3/"
   ],
-  "locked_references": 2,
+  "locked_references": 3,
   "launched_at": "2026-11-11T19:00:34.000Z",
   "brief_hash": "7f824c962f26f44f"
 }

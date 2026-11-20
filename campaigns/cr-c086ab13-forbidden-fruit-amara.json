@@ -1,0 +1,113 @@
+{
+  "id": "cr-c086ab13-forbidden-fruit-amara",
+  "title": "Forbidden Fruit:Amara",
+  "url": "https://contentrewards.com/c/campaigns/c086ab13-a4d6-496e-aec3-309ec6cd4817",
+  "status": "open",
+  "brand": "Heavenly Nest LLC",
+  "streamer": null,
+  "category": "entertainment",
+  "language": "en",
+  "description": "Create a hilarious, attention-grabbing reaction video promoting Forbidden Fruit: In the Shelter of Amara by Ronail Hopkins.\n\nUse the comedic energy of viral reactions similar to Druski, Jordan Howlett or Will Smith.\n\nCapture viewers’ attention within the first 1–3 seconds with shock, laughter.",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 200.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 200.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 200.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 200.0
+      },
+      "facebook": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 200.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2000.0,
+    "remaining": 2000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-20"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-20",
+  "cr_id": "c086ab13-a4d6-496e-aec3-309ec6cd4817",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-20T22:06:13.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-20T21:07:56.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "9d0339460b2bb643",
+  "enriched": true
+}
