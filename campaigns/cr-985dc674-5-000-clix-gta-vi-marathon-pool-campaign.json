@@ -72,7 +72,7 @@
     "total": 5000.0,
     "remaining": 5000.0,
     "currency": "USD",
-    "updated_at": "2026-11-18"
+    "updated_at": "2026-11-20"
   },
   "deadline": null,
   "submission": {
@@ -100,24 +100,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 251,
-    "total_views": 283323,
-    "creators": 149,
-    "avg_views": 1129,
+    "approved": 700,
+    "total_views": 1901209,
+    "creators": 341,
+    "avg_views": 2716,
     "avg_payout": 0.0,
-    "updated_at": "2026-11-18T19:18:22.000Z"
+    "updated_at": "2026-11-20T13:38:22.000Z"
   },
   "references": [
+    "https://www.tiktok.com/@decadeclips/video/7709535104707677472",
     "https://www.tiktok.com/@decadeclips/video/7709483558510857505",
-    "https://www.tiktok.com/@ukclips875/video/7709507089466412310",
+    "https://www.tiktok.com/@fnprosclips/video/7709663394797718798",
     "https://www.tiktok.com/@28clips1/video/7709500499606703390",
-    "https://www.tiktok.com/@fnprosclips/video/7709493001881423134",
+    "https://www.tiktok.com/@ukclips875/video/7709507089466412310",
+    "https://www.youtube.com/watch?v=Cy24OJz0OhA",
+    "https://www.youtube.com/watch?v=YnAoJ--pZYU",
     "https://www.tiktok.com/@dylxnn444/video/7709490013456698646",
-    "https://www.tiktok.com/@fnprosclips/video/7709483442060266783",
-    "https://www.tiktok.com/@clipgremlinn/video/7709487793596108033",
-    "https://www.tiktok.com/@frxst.gta6/video/7709483955367513375",
-    "https://www.tiktok.com/@bestccclipps/video/7709509876556254477",
-    "https://www.tiktok.com/@hamsterxgaming1/video/7709517630708747540"
+    "https://www.tiktok.com/@fnprosclips/video/7710009320628440334",
+    "https://x.com/fnprosclips/status/2123542089787232397"
   ],
   "locked_references": null,
   "launched_at": "2026-11-17T23:36:11.000Z",

@@ -1,0 +1,117 @@
+{
+  "id": "cr-168599e4-lucky-latvian-x-gta6",
+  "title": "Lucky Latvian X GTA6",
+  "url": "https://contentrewards.com/c/campaigns/168599e4-92fa-4e52-9ef6-2556a30381e7",
+  "status": "open",
+  "brand": "KLIPZY",
+  "streamer": "Lucky Latvian",
+  "category": "gaming",
+  "language": null,
+  "description": "GTA 6 is out and clips are everywhere. Cut the best GTA 6 gameplay and stream moments into short vertical clips for TikTok, Instagram Reels and YouTube Shorts, work in the provided Lucky Latvian CTA, and get paid for verified views.\nFor more check - https://t.me/klipzyIO\nPrimary focus - EU",
+  "source": {
+    "type": "vod",
+    "urls": [],
+    "permission_quote": "Cut the best GTA 6 gameplay and stream moments into short vertical clips for TikTok, Instagram Reels and YouTube Shorts, work in the provided Lucky Latvian CTA, and get paid for verified views."
+  },
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "x"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": "vertical"
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": [
+    "https://t.me/klipzyIO"
+  ],
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Cut GTA 6 gameplay and stream moments into short vertical clips",
+      "Include the provided Lucky Latvian CTA"
+    ],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 2.0,
+    "min_payout": 10.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 5000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 100.0
+      },
+      "x": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-20"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-20",
+  "cr_id": "168599e4-92fa-4e52-9ef6-2556a30381e7",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-20T13:34:15.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-20T10:29:44.000Z",
+  "audience": "EU",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "823bc8b9587d44cd",
+  "enriched": true
+}

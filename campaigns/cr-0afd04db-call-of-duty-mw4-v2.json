@@ -56,7 +56,7 @@
   },
   "budget": {
     "total": 26300.0,
-    "remaining": 13355.2,
+    "remaining": 13350.88,
     "currency": "USD",
     "updated_at": "2026-11-20"
   },
@@ -87,17 +87,17 @@
   "content_rules": {},
   "stats": {
     "approved": 750,
-    "total_views": 11972155,
+    "total_views": 11987044,
     "creators": 84,
-    "avg_views": 15963,
-    "avg_payout": 17.26,
-    "updated_at": "2026-11-20T10:24:22.000Z"
+    "avg_views": 15983,
+    "avg_payout": 17.27,
+    "updated_at": "2026-11-20T13:38:21.000Z"
   },
   "references": [
     "https://www.tiktok.com/@clzr_clips/video/7698520367580663048",
     "https://www.tiktok.com/@ghost.darrk/video/7705440528489254166",
-    "https://www.tiktok.com/@abcall.of.duty/video/7702198557385805076",
     "https://x.com/Kickarabnews/status/2123163075851538622",
+    "https://www.tiktok.com/@abcall.of.duty/video/7702198557385805076",
     "https://www.tiktok.com/@abcall.of.duty/video/7699107108406496532",
     "https://www.tiktok.com/@gaming.universe74/video/7699811427187428628",
     "https://www.tiktok.com/@clzr_clips/video/7694070524258831617",

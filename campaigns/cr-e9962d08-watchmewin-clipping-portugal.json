@@ -50,7 +50,7 @@
   },
   "budget": {
     "total": 2000.0,
-    "remaining": 1080.7,
+    "remaining": 1079.81,
     "currency": "USD",
     "updated_at": "2026-11-20"
   },
@@ -81,11 +81,11 @@
   "content_rules": {},
   "stats": {
     "approved": 123,
-    "total_views": 1619007,
+    "total_views": 1620818,
     "creators": 22,
-    "avg_views": 13163,
-    "avg_payout": 7.47,
-    "updated_at": "2026-11-20T10:22:13.000Z"
+    "avg_views": 13177,
+    "avg_payout": 7.48,
+    "updated_at": "2026-11-20T13:36:20.000Z"
   },
   "references": [
     "https://www.tiktok.com/@the._paradise/video/7704011175054298400",
@@ -96,8 +96,8 @@
     "https://www.tiktok.com/@tuga.football.zone/video/7708317811382177046",
     "https://www.tiktok.com/@tuga._tok/video/7701498597778410784",
     "https://www.instagram.com/reel/DfPhe9dIF_P/",
-    "https://www.tiktok.com/@the._paradise/video/7702499564959337761",
-    "https://www.tiktok.com/@polisheda00/video/7709124356110126368"
+    "https://www.tiktok.com/@polisheda00/video/7709124356110126368",
+    "https://www.tiktok.com/@the._paradise/video/7702499564959337761"
   ],
   "locked_references": null,
   "launched_at": "2026-10-21T18:41:33.000Z",
