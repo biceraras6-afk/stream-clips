@@ -1,0 +1,87 @@
+{
+  "id": "cr-828a70a1-plasticai-show-the-ai-glow-up",
+  "title": "PlasticAi: Show the AI glow up ",
+  "url": "https://contentrewards.com/c/campaigns/828a70a1-2fe4-4975-b91e-3324c43d4647",
+  "status": "open",
+  "brand": "MG Media LLC",
+  "streamer": null,
+  "category": "skincare",
+  "language": null,
+  "description": "PlasticAi is an iPhone app that shows what you could look like after a\ncosmetic procedure, before you commit. Take a selfie, pick a procedure\n(nose job, lip filler, jawline, chin, and more), and get your AI preview\nin seconds.\n\nYour job: use the app, film your reaction, and post it.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 10.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 10000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-21"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-21",
+  "cr_id": "828a70a1-2fe4-4975-b91e-3324c43d4647",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": true,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-21T09:30:11.000Z",
+  "brief_hash": "b2a1568afc70ea66"
+}
