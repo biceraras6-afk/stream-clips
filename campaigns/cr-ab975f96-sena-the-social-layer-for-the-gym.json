@@ -1,0 +1,105 @@
+{
+  "id": "cr-ab975f96-sena-the-social-layer-for-the-gym",
+  "title": "Sena - The Social Layer for the Gym",
+  "url": "https://contentrewards.com/c/campaigns/ab975f96-db29-4d4c-aba9-4aa7683569f0",
+  "status": "open",
+  "brand": "Sena",
+  "streamer": null,
+  "category": "gym-training",
+  "language": null,
+  "description": "Make short-form videos featuring Sena, the gym app built to be an intelligent system of consistency. Show how it logs every set, helps you build streaks, guides you through what to workout, and lets you Share to Sena with friends. Earn $3 per 1,000 views, up to $300 per creator.",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 3.0,
+    "min_payout": 3.0,
+    "max_payout_per_clip": 300.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 3.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 300.0
+      },
+      "instagram": {
+        "rate_per_1k": 3.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 300.0
+      },
+      "youtube": {
+        "rate_per_1k": 3.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 300.0
+      },
+      "x": {
+        "rate_per_1k": 3.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 300.0
+      },
+      "facebook": {
+        "rate_per_1k": 3.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 300.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-21"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-21",
+  "cr_id": "ab975f96-db29-4d4c-aba9-4aa7683569f0",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-21T07:24:08.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-21T04:13:25.000Z",
+  "brief_hash": "09244350ec805ac2"
+}
