@@ -1,0 +1,99 @@
+{
+  "id": "cr-f1715329-daily-pastures",
+  "title": "Daily Pastures",
+  "url": "https://contentrewards.com/c/campaigns/f1715329-d58e-4488-893d-cb31be01c3b4",
+  "status": "open",
+  "brand": "Daily Pastures",
+  "streamer": null,
+  "category": "faith-spirituality",
+  "language": null,
+  "description": "Daily Pastures is a Scripture-centered devotional app. Repost videos or slideshows from our library, exactly as delivered: one per season, up to 3 to start. Files are sent only on pre-approval; early posts are rejected. Caption line 1: #ad · Sponsored by Daily Pastures. \nBrief and library in links.\n",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 5.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 5000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 100.0
+      },
+      "facebook": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 100.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1100.0,
+    "remaining": 1100.0,
+    "currency": "USD",
+    "updated_at": "2026-11-21"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-21",
+  "cr_id": "f1715329-d58e-4488-893d-cb31be01c3b4",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": true,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-21T12:42:15.000Z",
+  "brief_hash": "908aacef971a846f"
+}

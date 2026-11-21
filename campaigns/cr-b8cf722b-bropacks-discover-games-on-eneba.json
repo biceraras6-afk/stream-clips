@@ -64,7 +64,7 @@
   },
   "budget": {
     "total": 5973.53,
-    "remaining": 5888.13,
+    "remaining": 5887.08,
     "currency": "USD",
     "updated_at": "2026-11-21"
   },
@@ -95,11 +95,11 @@
   "content_rules": {},
   "stats": {
     "approved": 11,
-    "total_views": 27271,
+    "total_views": 27589,
     "creators": 7,
-    "avg_views": 2479,
-    "avg_payout": 7.76,
-    "updated_at": "2026-11-21T10:08:16.000Z"
+    "avg_views": 2508,
+    "avg_payout": 7.86,
+    "updated_at": "2026-11-21T13:20:17.000Z"
   },
   "references": [
     "https://www.tiktok.com/@vipstudios1/video/7709347913234681096",
