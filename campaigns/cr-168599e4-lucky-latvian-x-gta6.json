@@ -71,9 +71,9 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 892.03,
+    "remaining": 864.95,
     "currency": "USD",
-    "updated_at": "2026-11-20"
+    "updated_at": "2026-11-21"
   },
   "deadline": null,
   "submission": {
@@ -102,20 +102,20 @@
   "content_rules": {},
   "stats": {
     "approved": 83,
-    "total_views": 77085,
+    "total_views": 92966,
     "creators": 63,
-    "avg_views": 929,
-    "avg_payout": 1.3,
-    "updated_at": "2026-11-20T22:06:23.000Z"
+    "avg_views": 1120,
+    "avg_payout": 1.63,
+    "updated_at": "2026-11-21T01:36:20.000Z"
   },
   "references": [
     "https://www.instagram.com/reel/Df9zsxaB9b5/",
-    "https://x.com/trevor87618/status/2123764069211512965",
     "https://www.instagram.com/reel/Df9jm4YOxt8/",
+    "https://x.com/trevor87618/status/2123764069211512965",
     "https://www.tiktok.com/@gamingw344/video/7710215911566871839",
+    "https://www.tiktok.com/@mememade4/video/7710209256187759893",
     "https://www.instagram.com/reel/Df9gHnYRcIb/",
     "https://x.com/onrulli_/status/2123758319231995939",
-    "https://www.tiktok.com/@mememade4/video/7710209256187759893",
     "https://www.instagram.com/reel/Df9r88dgus4/",
     "https://www.instagram.com/reel/Df9jQUMTiLK/",
     "https://www.instagram.com/reel/Df9hY9LtlcC/"

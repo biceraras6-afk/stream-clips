@@ -67,7 +67,7 @@
     "total": 9000.0,
     "remaining": 9000.0,
     "currency": "USD",
-    "updated_at": "2026-11-20"
+    "updated_at": "2026-11-21"
   },
   "deadline": null,
   "submission": {
@@ -95,15 +95,16 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 26408,
-    "total_views": 165407054,
+    "approved": 26434,
+    "total_views": 176508579,
     "creators": 3065,
-    "avg_views": 6264,
+    "avg_views": 6677,
     "avg_payout": 0.0,
-    "updated_at": "2026-11-20T22:06:23.000Z"
+    "updated_at": "2026-11-21T01:34:23.000Z"
   },
   "references": [
     "https://x.com/astaonx_/status/2123058941253013662",
+    "https://x.com/CantCatchGibbs/status/2123171100314239480",
     "https://www.tiktok.com/@everythingkc3/video/7703718326911896862",
     "https://x.com/yoxics/status/2123166487909425422",
     "https://www.tiktok.com/@kvrtezz/video/7708515634568613140",
@@ -111,8 +112,7 @@
     "https://www.instagram.com/reel/DfjanLdyNwL/",
     "https://x.com/yoxics/status/2121136574125728071",
     "https://www.youtube.com/watch?v=JozFDFc0yuQ",
-    "https://x.com/yoxics/status/2123044874991865956",
-    "https://www.tiktok.com/@pbarclips.tv/video/7707754093221072159"
+    "https://x.com/yoxics/status/2123044874991865956"
   ],
   "locked_references": null,
   "launched_at": "2026-10-31T17:21:26.000Z",

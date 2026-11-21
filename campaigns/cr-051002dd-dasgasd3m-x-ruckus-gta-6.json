@@ -54,9 +54,9 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 896.46,
+    "remaining": 895.99,
     "currency": "USD",
-    "updated_at": "2026-11-20"
+    "updated_at": "2026-11-21"
   },
   "deadline": null,
   "submission": {
@@ -84,12 +84,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 63,
-    "total_views": 84240,
+    "approved": 64,
+    "total_views": 85985,
     "creators": 42,
-    "avg_views": 1337,
-    "avg_payout": 1.64,
-    "updated_at": "2026-11-20T22:06:24.000Z"
+    "avg_views": 1344,
+    "avg_payout": 1.63,
+    "updated_at": "2026-11-21T01:34:23.000Z"
   },
   "references": [
     "https://www.youtube.com/watch?v=PlJ9kzqWoNU",
@@ -98,10 +98,10 @@
     "https://www.youtube.com/watch?v=NV1eUQP-6as",
     "https://www.youtube.com/watch?v=yI9UUDOINhc",
     "https://www.youtube.com/watch?v=ePttFGB6V30",
+    "https://www.youtube.com/watch?v=OoHUTU3GuGk",
     "https://www.youtube.com/watch?v=Dz4WjpAXUks",
     "https://www.youtube.com/watch?v=3VYVnrqEvYM",
-    "https://www.youtube.com/watch?v=ffLWB-02PRw",
-    "https://www.tiktok.com/@leonidafiles.ltd/video/7709501729917635862"
+    "https://www.youtube.com/watch?v=ffLWB-02PRw"
   ],
   "locked_references": null,
   "launched_at": "2026-11-17T20:09:13.000Z",
