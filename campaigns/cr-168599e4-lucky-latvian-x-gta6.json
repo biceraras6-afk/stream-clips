@@ -71,7 +71,7 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 704.99,
+    "remaining": 678.3,
     "currency": "USD",
     "updated_at": "2026-11-21"
   },
@@ -102,11 +102,11 @@
   "content_rules": {},
   "stats": {
     "approved": 83,
-    "total_views": 169390,
+    "total_views": 182946,
     "creators": 63,
-    "avg_views": 2041,
-    "avg_payout": 3.55,
-    "updated_at": "2026-11-21T13:20:24.000Z"
+    "avg_views": 2204,
+    "avg_payout": 3.88,
+    "updated_at": "2026-11-21T16:02:19.000Z"
   },
   "references": [
     "https://x.com/trevor87618/status/2123764069211512965",

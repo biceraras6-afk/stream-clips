@@ -56,7 +56,7 @@
   },
   "budget": {
     "total": 4900.0,
-    "remaining": 2764.97,
+    "remaining": 2759.77,
     "currency": "USD",
     "updated_at": "2026-11-21"
   },
@@ -86,12 +86,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 298,
-    "total_views": 2966970,
+    "approved": 301,
+    "total_views": 2978398,
     "creators": 30,
-    "avg_views": 9956,
-    "avg_payout": 7.16,
-    "updated_at": "2026-11-21T13:20:17.000Z"
+    "avg_views": 9895,
+    "avg_payout": 7.11,
+    "updated_at": "2026-11-21T16:02:19.000Z"
   },
   "references": [
     "https://www.tiktok.com/@clip2lucas/video/7701297385858764065",
