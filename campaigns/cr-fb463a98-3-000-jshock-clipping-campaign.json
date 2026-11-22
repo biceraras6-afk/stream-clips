@@ -1,0 +1,118 @@
+{
+  "id": "cr-fb463a98-3-000-jshock-clipping-campaign",
+  "title": "$3,000 JShock Clipping Campaign",
+  "url": "https://contentrewards.com/c/campaigns/fb463a98-3b5b-476d-a789-529b4a7120bd",
+  "status": "open",
+  "brand": "Reach",
+  "streamer": "JShock",
+  "category": "streamer",
+  "language": null,
+  "description": "Create/Clip JShock content, read the rules and requirements for more information \n\nRules and requirements: https://reachclipping.com/JShock\n\nCampaign end date: 27th of November.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "pool",
+    "amount_per_post": null,
+    "rate_per_1k": 0.0,
+    "min_payout": null,
+    "max_payout_per_clip": null,
+    "min_views": null,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      },
+      "instagram": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      },
+      "youtube": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 3000.0,
+    "remaining": 3000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-22"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-22",
+  "cr_id": "fb463a98-3b5b-476d-a789-529b4a7120bd",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 4323,
+    "total_views": 19945601,
+    "creators": 272,
+    "avg_views": 4614,
+    "avg_payout": 0.0,
+    "updated_at": "2026-11-22T04:14:17.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@ze_clipper67/video/7702274953667824918",
+    "https://www.tiktok.com/@goldnnfn/video/7709271890392550670",
+    "https://www.tiktok.com/@bilzpaid/video/7707294404583017750",
+    "https://www.tiktok.com/@certified_clips55/video/7706910022055251222",
+    "https://www.tiktok.com/@goldnnfn/video/7708521517981781279",
+    "https://www.tiktok.com/@jshockclipss/video/7702424694812658957",
+    "https://www.tiktok.com/@real.clipz.exe/video/7704877774120455444",
+    "https://www.instagram.com/reel/Dfq-K8NhOL9/",
+    "https://www.tiktok.com/@houseofclips.1/video/7704026170144148757",
+    "https://www.tiktok.com/@houseofclips.1/video/7705358820293266708"
+  ],
+  "locked_references": null,
+  "launched_at": "2026-10-27T16:48:41.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "f97d5d3cd1f18d9f",
+  "enriched": true
+}

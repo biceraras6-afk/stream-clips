@@ -48,7 +48,7 @@
   },
   "budget": {
     "total": 17500.0,
-    "remaining": 11865.59,
+    "remaining": 11780.26,
     "currency": "USD",
     "updated_at": "2026-11-22"
   },
@@ -79,11 +79,11 @@
   "content_rules": {},
   "stats": {
     "approved": 95,
-    "total_views": 2338019,
+    "total_views": 2368207,
     "creators": 16,
-    "avg_views": 24611,
-    "avg_payout": 59.31,
-    "updated_at": "2026-11-22T01:30:21.000Z"
+    "avg_views": 24928,
+    "avg_payout": 60.21,
+    "updated_at": "2026-11-22T04:16:16.000Z"
   },
   "references": [
     "https://www.instagram.com/reel/DfrsDeltzLn/",
@@ -93,8 +93,8 @@
     "https://www.instagram.com/reel/Dfz2x-Xtu0v/",
     "https://www.instagram.com/reel/Dfws1pkPOWF/",
     "https://www.instagram.com/reel/Df8eOkqvBCm/",
-    "https://www.instagram.com/reel/DfxA687Pwh4/",
     "https://www.instagram.com/reel/Df6sbfQB5-z/",
+    "https://www.instagram.com/reel/DfxA687Pwh4/",
     "https://www.instagram.com/reel/DfwF_D1vC_S/"
   ],
   "locked_references": null,
