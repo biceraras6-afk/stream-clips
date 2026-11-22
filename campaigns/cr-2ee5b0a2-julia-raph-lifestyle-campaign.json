@@ -1,0 +1,99 @@
+{
+  "id": "cr-2ee5b0a2-julia-raph-lifestyle-campaign",
+  "title": "Julia & Raph - Lifestyle Campaign",
+  "url": "https://contentrewards.com/c/campaigns/2ee5b0a2-e10c-4c94-af25-44f3e90941c0",
+  "status": "open",
+  "brand": "Julia & Raph Clipping",
+  "streamer": null,
+  "category": "personal-brand",
+  "language": null,
+  "description": "Lifestyle, cool/aura, edits, quotes, showing Julia's and Raph's lifestyle & achievements.\n\nJoin our whop to read the Full Guidelines",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.8,
+    "min_payout": 5.0,
+    "max_payout_per_clip": 200.0,
+    "min_views": 6250,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 0.8,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 200.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.7,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 200.0
+      },
+      "facebook": {
+        "rate_per_1k": 0.6,
+        "min_payout": 4.0,
+        "max_payout_per_clip": 150.0
+      },
+      "tiktok": {
+        "rate_per_1k": 0.5,
+        "min_payout": 4.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 5000.0,
+    "remaining": 5000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-22"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-22",
+  "cr_id": "2ee5b0a2-e10c-4c94-af25-44f3e90941c0",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-22T21:54:09.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-22T20:29:39.000Z",
+  "brief_hash": "8049e201c00c198a"
+}

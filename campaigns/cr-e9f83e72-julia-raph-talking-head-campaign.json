@@ -1,0 +1,99 @@
+{
+  "id": "cr-e9f83e72-julia-raph-talking-head-campaign",
+  "title": "Julia & Raph - Talking Head Campaign",
+  "url": "https://contentrewards.com/c/campaigns/e9f83e72-4efe-4a00-a186-8fac1850ee8a",
+  "status": "open",
+  "brand": "Julia & Raph Clipping",
+  "streamer": null,
+  "category": "personal-brand",
+  "language": null,
+  "description": "Talking Head videos of Julia or Raph showing their competency, helping people, bringing value, vlogging etc... \n\nJoin our whop to read the Full Guidelines",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 2.0,
+    "min_payout": 10.0,
+    "max_payout_per_clip": 250.0,
+    "min_views": 5000,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 250.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.8,
+        "min_payout": 9.0,
+        "max_payout_per_clip": 200.0
+      },
+      "facebook": {
+        "rate_per_1k": 1.0,
+        "min_payout": 8.0,
+        "max_payout_per_clip": 175.0
+      },
+      "tiktok": {
+        "rate_per_1k": 0.8,
+        "min_payout": 7.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 5000.0,
+    "remaining": 5000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-22"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-22",
+  "cr_id": "e9f83e72-4efe-4a00-a186-8fac1850ee8a",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-22T21:56:09.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-22T20:28:39.000Z",
+  "brief_hash": "d69b7e7029fc7740"
+}
