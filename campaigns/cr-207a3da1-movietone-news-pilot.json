@@ -1,45 +1,80 @@
 {
   "id": "cr-207a3da1-movietone-news-pilot",
-  "title": "Movietone News Pilot",
+  "title": "Movietone Presents Clip Farm",
   "url": "https://contentrewards.com/c/campaigns/207a3da1-3aae-4cfb-a263-c8503c687134",
   "status": "open",
-  "brand": "Movietone News",
+  "brand": "Modern",
   "streamer": null,
-  "category": "history",
+  "category": "entertainment",
   "language": null,
-  "description": "Bring history to life with Movietone News! Use our vintage archival footage and pre-edited reels to create engaging shorts. Add creative hooks, captions, and edits to capture attention, drive engagement, and make historical moments go viral.",
-  "source": null,
+  "description": "Creators will post pre-produced clips from Movietone Presents across TikTok, Instagram Reels, and YouTube Shorts. Our team handled all editing and content preparation, allowing creators to focus on distribution. The goal is to maximize organic reach, drive engagement, and increase Tubi viewership.",
+  "source": {
+    "type": "vod",
+    "urls": [],
+    "permission_quote": "Creators will post pre-produced clips from Movietone Presents across TikTok, Instagram Reels, and YouTube Shorts."
+  },
   "platforms": [
-    "instagram"
+    "facebook",
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
   ],
-  "format": null,
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
   "required_tags": null,
   "hashtags": null,
   "links": null,
   "disclosure": null,
-  "rules": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
     "amount_per_post": null,
-    "rate_per_1k": null,
-    "min_payout": null,
-    "max_payout_per_clip": null,
-    "min_views": null,
+    "rate_per_1k": 1.25,
+    "min_payout": 3.0,
+    "max_payout_per_clip": 75.0,
+    "min_views": 2400,
     "per_platform": {
       "instagram": {
-        "rate_per_1k": 1.5,
-        "min_payout": 1.5,
-        "max_payout_per_clip": 350.0
+        "rate_per_1k": 1.25,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 75.0
+      },
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 100.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.75,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 75.0
+      },
+      "x": {
+        "rate_per_1k": 0.75,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 75.0
+      },
+      "facebook": {
+        "rate_per_1k": 1.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 75.0
       }
     },
     "geo_priced": false
   },
   "budget": {
     "total": 2000.0,
-    "remaining": 2000.0,
+    "remaining": 1434.36,
     "currency": "USD",
-    "updated_at": "2026-11-17"
+    "updated_at": "2026-11-22"
   },
   "deadline": null,
   "submission": {
@@ -67,15 +102,33 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 0,
-    "total_views": 0,
-    "creators": 0,
-    "avg_views": null,
-    "avg_payout": null,
-    "updated_at": null
+    "approved": 126,
+    "total_views": 367731,
+    "creators": 72,
+    "avg_views": 2918,
+    "avg_payout": 4.49,
+    "updated_at": "2026-11-22T07:34:14.000Z"
   },
-  "references": [],
+  "references": [
+    "https://www.tiktok.com/@realsuperstarclips/video/7710314111648730388",
+    "https://www.tiktok.com/@myclipdistrict/video/7710310299840040200",
+    "https://www.tiktok.com/@endlessdeals4/video/7710387977221836053",
+    "https://x.com/alxxvictor/status/2123475003505025512",
+    "https://www.tiktok.com/@clipnova4200/video/7710001470082616597",
+    "https://x.com/alxxvictor/status/2123453210199298191",
+    "https://x.com/alxxvictor/status/2123448536486322672",
+    "https://www.tiktok.com/@endlessdeals4/video/7710391908815605044",
+    "https://www.tiktok.com/@videclips_/video/7709708612821699858",
+    "https://x.com/xaijnt77357/status/2123712688001839272"
+  ],
   "locked_references": null,
   "launched_at": "2026-11-11T02:51:08.000Z",
-  "brief_hash": "044e071042baaf09"
+  "brief_hash": "58d0d986927711d5",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "enriched": true
 }

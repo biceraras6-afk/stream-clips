@@ -1,0 +1,87 @@
+{
+  "id": "cr-8f277129-kiiras-over-u-friends-romance-animals-ga",
+  "title": "KIIRAS - OVER U | Friends/Romance/Animals/Gaming+",
+  "url": "https://contentrewards.com/c/campaigns/8f277129-d8f0-493d-927b-57580af18be1",
+  "status": "open",
+  "brand": "Artist Influence",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Get paid per view to clip KIIRAS' \"OVER U\" on TikTok + IG. Fun, youthful, perfectly-in-sync edits: bestie moments, playful couples, cute animal duos, fast gameplay & satisfying builds. Keep it clean and carefree. Multiple posts allowed. Read brief below.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 150.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-22"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-22",
+  "cr_id": "8f277129-d8f0-493d-927b-57580af18be1",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-22T07:32:14.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-22T04:59:13.000Z",
+  "brief_hash": "431a8b243b35807b"
+}
