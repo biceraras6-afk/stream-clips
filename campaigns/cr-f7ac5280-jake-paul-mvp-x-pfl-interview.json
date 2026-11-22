@@ -66,7 +66,7 @@
   },
   "budget": {
     "total": 2000.0,
-    "remaining": 1399.77,
+    "remaining": 1389.57,
     "currency": "USD",
     "updated_at": "2026-11-22"
   },
@@ -97,11 +97,11 @@
   "content_rules": {},
   "stats": {
     "approved": 1705,
-    "total_views": 2933566,
+    "total_views": 2955611,
     "creators": 662,
-    "avg_views": 1721,
-    "avg_payout": 0.35,
-    "updated_at": "2026-11-22T13:18:19.000Z"
+    "avg_views": 1733,
+    "avg_payout": 0.36,
+    "updated_at": "2026-11-22T16:02:19.000Z"
   },
   "references": [
     "https://x.com/Noirdcreative/status/2121967933144342804",
