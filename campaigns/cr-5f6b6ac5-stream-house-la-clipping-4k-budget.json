@@ -33,32 +33,32 @@
     "amount_per_post": null,
     "rate_per_1k": 2.0,
     "min_payout": 3.5,
-    "max_payout_per_clip": 700.0,
+    "max_payout_per_clip": 400.0,
     "min_views": 1750,
     "per_platform": {
       "tiktok": {
         "rate_per_1k": 2.0,
         "min_payout": 3.5,
-        "max_payout_per_clip": 700.0
+        "max_payout_per_clip": 400.0
       },
       "instagram": {
         "rate_per_1k": 2.0,
         "min_payout": 3.5,
-        "max_payout_per_clip": 700.0
+        "max_payout_per_clip": 400.0
       },
       "youtube": {
         "rate_per_1k": 0.5,
         "min_payout": 1.2,
-        "max_payout_per_clip": 500.0
+        "max_payout_per_clip": 400.0
       }
     },
     "geo_priced": false
   },
   "budget": {
     "total": 4000.0,
-    "remaining": 2098.1,
+    "remaining": 2095.51,
     "currency": "USD",
-    "updated_at": "2026-11-21"
+    "updated_at": "2026-11-22"
   },
   "deadline": null,
   "submission": {
@@ -87,11 +87,11 @@
   "content_rules": {},
   "stats": {
     "approved": 1480,
-    "total_views": 1078850,
+    "total_views": 1081403,
     "creators": 242,
-    "avg_views": 729,
+    "avg_views": 731,
     "avg_payout": 1.29,
-    "updated_at": "2026-11-21T22:02:17.000Z"
+    "updated_at": "2026-11-22T01:30:22.000Z"
   },
   "references": [
     "https://www.tiktok.com/@cweplug/video/7703206759887850773",
