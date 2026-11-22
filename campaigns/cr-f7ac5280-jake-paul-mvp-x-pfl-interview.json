@@ -1,13 +1,13 @@
 {
   "id": "cr-f7ac5280-jake-paul-mvp-x-pfl-interview",
-  "title": "Jake Paul MVP x PFL Interview",
+  "title": "Patrick Habirora X Jake Paul Clipping",
   "url": "https://contentrewards.com/c/campaigns/f7ac5280-4d8b-4f96-9c49-351a0c1f6477",
   "status": "open",
   "brand": "Clipflow",
   "streamer": "Jake Paul",
   "category": "entertainment",
   "language": null,
-  "description": "Jake Paul MVP x PFL Interview Clipping \n\n- Clip Jake Paul from the content folder talking about the PFL and MVP merger.\n- Keep Jake front and center and make the PFL x MVP merger the story of every post.\n- Clip moments where Jak",
+  "description": "Patrick Habirora Fighting Edits/Clipping X Jake Paul MVP x PFL Interview Clipping \n",
   "source": {
     "type": "drive",
     "urls": [],
@@ -37,28 +37,28 @@
     "model": "cpm",
     "amount_per_post": null,
     "rate_per_1k": 0.5,
-    "min_payout": 2.5,
+    "min_payout": 1.5,
     "max_payout_per_clip": 50.0,
-    "min_views": 5000,
+    "min_views": 3000,
     "per_platform": {
       "tiktok": {
         "rate_per_1k": 0.5,
-        "min_payout": 2.5,
+        "min_payout": 1.5,
         "max_payout_per_clip": 50.0
       },
       "instagram": {
         "rate_per_1k": 0.5,
-        "min_payout": 2.5,
+        "min_payout": 1.5,
         "max_payout_per_clip": 50.0
       },
       "youtube": {
         "rate_per_1k": 0.5,
-        "min_payout": 2.5,
+        "min_payout": 1.5,
         "max_payout_per_clip": 50.0
       },
       "x": {
         "rate_per_1k": 0.5,
-        "min_payout": 2.5,
+        "min_payout": 1.5,
         "max_payout_per_clip": 50.0
       }
     },
@@ -66,7 +66,7 @@
   },
   "budget": {
     "total": 2000.0,
-    "remaining": 1411.85,
+    "remaining": 1407.28,
     "currency": "USD",
     "updated_at": "2026-11-22"
   },
@@ -97,11 +97,11 @@
   "content_rules": {},
   "stats": {
     "approved": 1705,
-    "total_views": 2904308,
+    "total_views": 2913153,
     "creators": 662,
-    "avg_views": 1703,
-    "avg_payout": 0.34,
-    "updated_at": "2026-11-22T07:32:20.000Z"
+    "avg_views": 1709,
+    "avg_payout": 0.35,
+    "updated_at": "2026-11-22T10:04:18.000Z"
   },
   "references": [
     "https://x.com/Noirdcreative/status/2121967933144342804",
@@ -117,7 +117,7 @@
   ],
   "locked_references": null,
   "launched_at": "2026-11-09T12:14:41.000Z",
-  "brief_hash": "96418dce442c43b2",
+  "brief_hash": "e7ef7a9e396d5fa6",
   "flags": {
     "gambling": false,
     "crypto": false,
