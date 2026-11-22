@@ -1,0 +1,113 @@
+{
+  "id": "cr-80806b5c-2-500-youngla-clipping-campaign",
+  "title": "$2,500 YoungLA Clipping Campaign",
+  "url": "https://contentrewards.com/c/campaigns/80806b5c-4916-4fbc-b769-d23be33e9b22",
+  "status": "open",
+  "brand": "Reach",
+  "streamer": "YoungLA",
+  "category": "entertainment",
+  "language": null,
+  "description": "Get paid to clip content from the new YoungLA YouTube video ⬇️\n\nhttps://www.youtube.com/watch?v=apDMsgkFJH4\n\n",
+  "source": {
+    "type": "vod",
+    "urls": [
+      "https://www.youtube.com/watch?v=apDMsgkFJH4"
+    ],
+    "permission_quote": "Get paid to clip content from the new YoungLA YouTube video ⬇️"
+  },
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 10.0,
+    "max_payout_per_clip": 300.0,
+    "min_views": 10000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 300.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 300.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 300.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2500.0,
+    "remaining": 2500.0,
+    "currency": "USD",
+    "updated_at": "2026-11-22"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-22",
+  "cr_id": "80806b5c-4916-4fbc-b769-d23be33e9b22",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-22T19:10:21.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-22T16:18:16.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "f3fada4ecd37bf66",
+  "enriched": true
+}

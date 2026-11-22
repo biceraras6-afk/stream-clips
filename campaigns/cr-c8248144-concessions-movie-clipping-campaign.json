@@ -62,7 +62,7 @@
   },
   "budget": {
     "total": 2550.0,
-    "remaining": 1831.07,
+    "remaining": 1545.71,
     "currency": "USD",
     "updated_at": "2026-11-22"
   },
@@ -92,24 +92,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 191,
-    "total_views": 536479,
-    "creators": 53,
-    "avg_views": 2809,
-    "avg_payout": 3.76,
-    "updated_at": "2026-11-22T01:28:19.000Z"
+    "approved": 203,
+    "total_views": 775005,
+    "creators": 56,
+    "avg_views": 3818,
+    "avg_payout": 4.95,
+    "updated_at": "2026-11-22T19:12:27.000Z"
   },
   "references": [
+    "https://www.instagram.com/reel/Df5CKjcNeSK/",
+    "https://www.instagram.com/reel/Df5CCvFtI2t/",
     "https://www.instagram.com/reel/DfmDqoNihCs/",
     "https://www.youtube.com/watch?v=H_HAgb_5zHE",
     "https://www.youtube.com/watch?v=vzWyD_jkV_Q",
     "https://www.youtube.com/watch?v=cF-yL6pTkws",
-    "https://www.instagram.com/reel/Df5CKjcNeSK/",
+    "https://www.instagram.com/reel/Dfqyjggyvch/",
     "https://www.instagram.com/reel/DfrsVOmi2kQ/",
     "https://www.youtube.com/watch?v=vYXemExTIeg",
-    "https://www.youtube.com/watch?v=RsEcCFbeNT8",
-    "https://www.youtube.com/watch?v=p8qyGtYESNc",
-    "https://www.youtube.com/watch?v=A6iUEhyYBB4"
+    "https://www.youtube.com/watch?v=KHskRWfl4Hg"
   ],
   "locked_references": null,
   "launched_at": "2026-11-10T13:48:09.000Z",

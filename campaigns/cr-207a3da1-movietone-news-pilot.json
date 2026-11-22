@@ -72,7 +72,7 @@
   },
   "budget": {
     "total": 2000.0,
-    "remaining": 1229.74,
+    "remaining": 1136.45,
     "currency": "USD",
     "updated_at": "2026-11-22"
   },
@@ -102,12 +102,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 126,
-    "total_views": 500613,
-    "creators": 72,
-    "avg_views": 3973,
-    "avg_payout": 6.11,
-    "updated_at": "2026-11-22T16:02:16.000Z"
+    "approved": 167,
+    "total_views": 566085,
+    "creators": 91,
+    "avg_views": 3390,
+    "avg_payout": 5.17,
+    "updated_at": "2026-11-22T19:12:17.000Z"
   },
   "references": [
     "https://www.tiktok.com/@realsuperstarclips/video/7710314111648730388",
@@ -118,8 +118,8 @@
     "https://x.com/alxxvictor/status/2123448536486322672",
     "https://www.tiktok.com/@clipnova4200/video/7710001470082616597",
     "https://x.com/Juv3nTaS/status/2124131542712848713",
-    "https://www.tiktok.com/@endlessdeals4/video/7710391908815605044",
-    "https://www.tiktok.com/@videclips_/video/7709708612821699858"
+    "https://x.com/xaijnt77357/status/2123712688001839272",
+    "https://x.com/0x_Richie/status/2123630447015907689"
   ],
   "locked_references": null,
   "launched_at": "2026-11-11T02:51:08.000Z",

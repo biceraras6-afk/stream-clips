@@ -50,7 +50,7 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 736.25,
+    "remaining": 734.94,
     "currency": "USD",
     "updated_at": "2026-11-22"
   },
@@ -81,11 +81,11 @@
   "content_rules": {},
   "stats": {
     "approved": 486,
-    "total_views": 385296,
+    "total_views": 386096,
     "creators": 63,
-    "avg_views": 793,
-    "avg_payout": 0.54,
-    "updated_at": "2026-11-22T16:02:12.000Z"
+    "avg_views": 794,
+    "avg_payout": 0.55,
+    "updated_at": "2026-11-22T19:12:10.000Z"
   },
   "references": [
     "https://www.tiktok.com/@mrdmt_666/video/7705174872263003410",
@@ -93,11 +93,11 @@
     "https://www.tiktok.com/@sportsclipsdly/video/7703306723645213959",
     "https://www.tiktok.com/@sportsclipsdly/video/7697746571043032327",
     "https://www.tiktok.com/@z_clips49/video/7697052784905948429",
+    "https://www.tiktok.com/@sportsclipsdly/video/7708708673568165140",
     "https://www.youtube.com/watch?v=UxRANc9zFY0",
     "https://www.youtube.com/watch?v=k-NK2vvbUhE",
     "https://www.tiktok.com/@sportsclipsdly/video/7697763715428535568",
-    "https://www.tiktok.com/@mrdmt_666/video/7708139842743307538",
-    "https://www.youtube.com/watch?v=M8xxrFGaabw"
+    "https://www.tiktok.com/@mrdmt_666/video/7708139842743307538"
   ],
   "locked_references": null,
   "launched_at": "2026-08-06T15:10:23.000Z",
