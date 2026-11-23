@@ -72,7 +72,7 @@
     "total": 5000.0,
     "remaining": 5000.0,
     "currency": "USD",
-    "updated_at": "2026-11-22"
+    "updated_at": "2026-11-23"
   },
   "deadline": null,
   "submission": {
@@ -100,12 +100,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 3818,
-    "total_views": 11512721,
-    "creators": 1614,
-    "avg_views": 3015,
+    "approved": 4146,
+    "total_views": 11948151,
+    "creators": 1703,
+    "avg_views": 2882,
     "avg_payout": 0.0,
-    "updated_at": "2026-11-22T22:02:20.000Z"
+    "updated_at": "2026-11-23T01:40:21.000Z"
   },
   "references": [
     "https://www.tiktok.com/@finestfnclips/video/7709949632507301142",
