@@ -1,0 +1,113 @@
+{
+  "id": "cr-011d5396-reflare-on-x-threads-articles-videos",
+  "title": "Reflare on X: threads, articles & videos",
+  "url": "https://contentrewards.com/c/campaigns/011d5396-fe6e-427e-bda0-3067f28d8634",
+  "status": "open",
+  "brand": "Reflare",
+  "streamer": null,
+  "category": "technology",
+  "language": null,
+  "description": "Get paid to post about Reflare on X, in any format you like: thread, article, video, review. Reflare is a back catalog manager for YouTube that gets old videos views again with new thumbnails. Join the affiliate program as well and earn 30% for 12 months on top of your views pay.",
+  "source": null,
+  "platforms": [
+    "x"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": null,
+    "min_payout": null,
+    "max_payout_per_clip": null,
+    "min_views": null,
+    "per_platform": {
+      "x": {
+        "rate_per_1k": 3.0,
+        "min_payout": 15.0,
+        "max_payout_per_clip": 200.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-23"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-23",
+  "cr_id": "011d5396-fe6e-427e-bda0-3067f28d8634",
+  "guidelines": "$4f",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 3,
+  "launched_at": "2026-11-23T20:59:34.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "deac0f3a73b8a746",
+  "enriched": true
+}

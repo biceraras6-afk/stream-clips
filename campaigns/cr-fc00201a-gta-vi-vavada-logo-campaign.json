@@ -1,0 +1,122 @@
+{
+  "id": "cr-fc00201a-gta-vi-vavada-logo-campaign",
+  "title": "GTA VI VAVADA [LOGO CAMPAIGN]",
+  "url": "https://contentrewards.com/c/campaigns/fc00201a-43b4-41e5-9408-e43a60c5a38e",
+  "status": "open",
+  "brand": "Bounty",
+  "streamer": null,
+  "category": "gambling",
+  "language": "en",
+  "description": "Post any GTA content you want and get paid for the views. GTA 6, GTA V, RP, San Andreas, gameplay, edits, memes, streamer clips and AI content all work. The only must is the Vavada animated logo on screen for the whole video, with the green background removed.",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Include the Vavada animated logo on screen for the entire video",
+      "Remove the green background from the logo"
+    ],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.5,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 2000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.5,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 150.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.5,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 150.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.5,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 150.0
+      },
+      "x": {
+        "rate_per_1k": 0.5,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 150.0
+      },
+      "facebook": {
+        "rate_per_1k": 0.5,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 10001.0,
+    "remaining": 10001.0,
+    "currency": "USD",
+    "updated_at": "2026-11-23"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-23",
+  "cr_id": "fc00201a-43b4-41e5-9408-e43a60c5a38e",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-23T22:08:08.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-23T21:33:37.000Z",
+  "flags": {
+    "gambling": true,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "674780228aee8bb2",
+  "enriched": true
+}

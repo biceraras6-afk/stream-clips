@@ -1,0 +1,93 @@
+{
+  "id": "cr-70abe577-june-s-journey",
+  "title": "June's Journey",
+  "url": "https://contentrewards.com/c/campaigns/70abe577-4c05-4cbb-b855-5e7f68b26ca5",
+  "status": "open",
+  "brand": "Clip Mansion",
+  "streamer": null,
+  "category": "mobile-gaming",
+  "language": null,
+  "description": "June's journey is a hidden-object game with 1920's detective stories. \n\nAudience: Women 45+ who play in the evening. Many videos are made for their daughters and granddaughters, who send them to mom or grandma. ",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.5,
+    "min_payout": 1.5,
+    "max_payout_per_clip": 200.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 200.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 200.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 200.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-23"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-23",
+  "cr_id": "70abe577-4c05-4cbb-b855-5e7f68b26ca5",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-23T22:04:09.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-23T18:57:24.000Z",
+  "brief_hash": "d63df0fdf469d6fd"
+}
