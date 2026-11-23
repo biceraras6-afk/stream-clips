@@ -1,0 +1,139 @@
+{
+  "id": "cr-76247d00-make-a-video-about-smrt-algo-1-per-1k-vi",
+  "title": "Make a Video About SMRT Algo: $1 per 1K views",
+  "url": "https://contentrewards.com/c/campaigns/76247d00-8cfe-45e2-b711-63e2d3e9b313",
+  "status": "open",
+  "brand": "SMRT Algo",
+  "streamer": null,
+  "category": "trading",
+  "language": null,
+  "description": "Make your own video about SMRT Algo, a suite of TradingView indicators that reads trend, momentum, volume, structure and volatility together. Full creative freedom.\n\nFree access: email support@smrtalgo.com with the subject \"Creator Access\" plus your TradingView username and social handle.",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Send draft and caption for approval before posting"
+    ],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 5.0,
+    "max_payout_per_clip": 50.0,
+    "min_views": 5000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 50.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 50.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 50.0
+      },
+      "x": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 50.0
+      },
+      "facebook": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 50.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-23"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-23",
+  "cr_id": "76247d00-8cfe-45e2-b711-63e2d3e9b313",
+  "guidelines": "Make your own video about SMRT Algo, in any style you like. Full creative freedom. Send your draft and caption before posting so we can approve it.\n\nSMRT Algo is a suite of TradingView indicators: Pro V5 reads trend, momentum, volume, structure and volatility together and shows a setup when they line up, plus a screener, SMRT Volume Profile and SMRT Oscillator.\n\nWant to use the tools in your video? Message us your TradingView username in the campaign chat and we'll switch on access.\n\n**Free access for creators**\n\nYou don't need to buy SMRT Algo to take part. Email support@smrtalgo.com with this subject line:\n\nContent Rewards Creator Access\n\nPaste this in the email and fill it in:\n\nTradingView username:\nTikTok / Instagram / YouTube handle:\nContent Rewards profile name:\n",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": true,
+    "draftCaptionRequired": true
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 2,
+  "launched_at": "2026-11-23T07:21:30.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "78796dc0f0b6b892",
+  "enriched": true
+}

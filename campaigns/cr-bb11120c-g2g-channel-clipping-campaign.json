@@ -50,7 +50,7 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 733.51,
+    "remaining": 733.34,
     "currency": "USD",
     "updated_at": "2026-11-23"
   },
@@ -81,11 +81,11 @@
   "content_rules": {},
   "stats": {
     "approved": 486,
-    "total_views": 386972,
+    "total_views": 387077,
     "creators": 63,
     "avg_views": 796,
     "avg_payout": 0.55,
-    "updated_at": "2026-11-23T04:30:13.000Z"
+    "updated_at": "2026-11-23T07:54:07.000Z"
   },
   "references": [
     "https://www.tiktok.com/@mrdmt_666/video/7705174872263003410",

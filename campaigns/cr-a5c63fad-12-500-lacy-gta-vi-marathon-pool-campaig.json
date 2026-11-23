@@ -70,7 +70,7 @@
     "total": 12500.0,
     "remaining": 12500.0,
     "currency": "USD",
-    "updated_at": "2026-11-20"
+    "updated_at": "2026-11-23"
   },
   "deadline": null,
   "submission": {
@@ -98,24 +98,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 822,
-    "total_views": 60627207,
-    "creators": 427,
-    "avg_views": 73756,
+    "approved": 8758,
+    "total_views": 103124187,
+    "creators": 3394,
+    "avg_views": 11775,
     "avg_payout": 0.0,
-    "updated_at": "2026-11-20T10:24:22.000Z"
+    "updated_at": "2026-11-23T07:56:21.000Z"
   },
   "references": [
     "https://x.com/pulcys/status/2123030125172126194",
     "https://www.tiktok.com/@tjr.comp/video/7709541678394215694",
+    "https://www.tiktok.com/@jacobtheclipper/video/7710061821582920973",
+    "https://x.com/preacherdefi/status/2123523895114227790",
     "https://www.tiktok.com/@liepeex/video/7709485152572853526",
     "https://www.tiktok.com/@clippedbydk/video/7709546305831341343",
     "https://x.com/yoxics/status/2123199319876755867",
-    "https://www.tiktok.com/@clippedbydk/video/7709541801694203167",
-    "https://x.com/streamzhq/status/2123136057222856912",
-    "https://x.com/coresculture/status/2123163696742420740",
+    "https://www.tiktok.com/@kiteclips8/video/7710048792686513426",
     "https://x.com/Snowwy/status/2123256564601471386",
-    "https://www.tiktok.com/@jacobtheclipper/video/7709489216706678047"
+    "https://www.tiktok.com/@clippedbydk/video/7709541801694203167"
   ],
   "locked_references": null,
   "launched_at": "2026-11-17T21:15:34.000Z",
