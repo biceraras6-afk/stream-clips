@@ -66,7 +66,7 @@
   },
   "budget": {
     "total": 2000.0,
-    "remaining": 1301.66,
+    "remaining": 1333.27,
     "currency": "USD",
     "updated_at": "2026-11-23"
   },
@@ -96,24 +96,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 1705,
-    "total_views": 3113344,
-    "creators": 662,
-    "avg_views": 1826,
-    "avg_payout": 0.41,
-    "updated_at": "2026-11-23T07:56:17.000Z"
+    "approved": 1704,
+    "total_views": 3056834,
+    "creators": 661,
+    "avg_views": 1794,
+    "avg_payout": 0.39,
+    "updated_at": "2026-11-23T10:30:20.000Z"
   },
   "references": [
     "https://x.com/Noirdcreative/status/2121967933144342804",
-    "https://x.com/anjydot/status/2122829548462977213",
     "https://x.com/Noirdcreative/status/2122446161873138001",
     "https://x.com/0xdara_/status/2122655228742729995",
     "https://x.com/0xdara_/status/2122317817538084905",
     "https://www.tiktok.com/@bigbank_270/video/7709590525740961037",
     "https://x.com/itzgaffer2/status/2121515437334659442",
     "https://www.tiktok.com/@clipshub0326/video/7709016058866224414",
+    "https://x.com/kaizenor01/status/2123691666083119553",
     "https://www.youtube.com/watch?v=y1tAkpI642c",
-    "https://x.com/kaizenor01/status/2123691666083119553"
+    "https://www.tiktok.com/@clipdistrict805/video/7709266355224202518"
   ],
   "locked_references": null,
   "launched_at": "2026-11-09T12:14:41.000Z",
