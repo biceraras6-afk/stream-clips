@@ -70,7 +70,7 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 821.33,
+    "remaining": 795.88,
     "currency": "USD",
     "updated_at": "2026-11-23"
   },
@@ -100,12 +100,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 32,
-    "total_views": 366291,
-    "creators": 27,
-    "avg_views": 11447,
-    "avg_payout": 5.58,
-    "updated_at": "2026-11-23T13:46:21.000Z"
+    "approved": 33,
+    "total_views": 404161,
+    "creators": 29,
+    "avg_views": 12247,
+    "avg_payout": 6.19,
+    "updated_at": "2026-11-23T16:24:21.000Z"
   },
   "references": [
     "https://www.instagram.com/reel/DgCRAjJP8Jf/",
@@ -114,10 +114,10 @@
     "https://www.youtube.com/watch?v=eDVYLtgRvCI",
     "https://www.youtube.com/watch?v=HF6axN6_Qdo",
     "https://www.tiktok.com/@gta6everyday1/video/7710794247242403124",
+    "https://www.instagram.com/reel/DgDxrBsK4HW/",
     "https://www.youtube.com/watch?v=6qkTGfpt0iI",
-    "https://x.com/_streamersclips/status/2124486368416190695",
-    "https://www.instagram.com/reel/DgBbcNqSnAn/",
-    "https://www.instagram.com/reel/DgBb4_-SuxJ/"
+    "https://www.youtube.com/watch?v=oXkgooA1gwo",
+    "https://www.instagram.com/reel/DgBbcNqSnAn/"
   ],
   "locked_references": null,
   "launched_at": "2026-11-21T20:04:58.000Z",

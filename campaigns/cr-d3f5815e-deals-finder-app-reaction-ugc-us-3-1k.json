@@ -1,0 +1,123 @@
+{
+  "id": "cr-d3f5815e-deals-finder-app-reaction-ugc-us-3-1k",
+  "title": "Deals Finder App – Reaction UGC [US] $3/1K",
+  "url": "https://contentrewards.com/c/campaigns/d3f5815e-584b-4cd6-9901-e097ced46125",
+  "status": "open",
+  "brand": "Deals Finder",
+  "streamer": null,
+  "category": "app",
+  "language": null,
+  "description": "Film yourself finding a real Amazon deal on the free Deals Finder app, phone in hand with the screen readable, then overlay your own reaction in the corner. Tone: \"how did nobody tell me about this?\" Face on camera. Apply first; we agree your hook before you film. 70%+ US views, analytics required.",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 3.0,
+    "min_payout": 5.0,
+    "max_payout_per_clip": 2000.0,
+    "min_views": 1667,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 3.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 2000.0
+      },
+      "instagram": {
+        "rate_per_1k": 3.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 2000.0
+      },
+      "youtube": {
+        "rate_per_1k": 3.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 2000.0
+      },
+      "x": {
+        "rate_per_1k": 3.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 2000.0
+      },
+      "facebook": {
+        "rate_per_1k": 3.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 2000.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1500.0,
+    "remaining": 1500.0,
+    "currency": "USD",
+    "updated_at": "2026-11-23"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-23",
+  "cr_id": "d3f5815e-584b-4cd6-9901-e097ced46125",
+  "guidelines": "$4f",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": true,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": true,
+    "draftCaptionRequired": true
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 1,
+  "launched_at": "2026-11-23T14:41:54.000Z",
+  "brief_hash": "42f90bacbfb1aa10"
+}
