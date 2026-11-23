@@ -1,0 +1,99 @@
+{
+  "id": "cr-739c0988-openclips-black-friday-repost-earn",
+  "title": "OpenClips Black Friday: Repost & Earn",
+  "url": "https://contentrewards.com/c/campaigns/739c0988-80c1-4b3e-b599-efc6fbad553f",
+  "status": "open",
+  "brand": "OpenClips",
+  "streamer": null,
+  "category": "ai-tools",
+  "language": null,
+  "description": "Get paid to post AI videos that are already made. No subscription, no prompting, no generating.\n\nOpenClips is an AI video app with the top models in one place (Veo, Kling, Seedance, Hailuo and more). We give you a library of ready, high-quality AI videos. You add your touch, post, and earn.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.5,
+    "min_payout": 1.5,
+    "max_payout_per_clip": 150.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 150.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 150.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 150.0
+      },
+      "x": {
+        "rate_per_1k": 1.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2500.0,
+    "remaining": 2500.0,
+    "currency": "USD",
+    "updated_at": "2026-11-23"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-23",
+  "cr_id": "739c0988-80c1-4b3e-b599-efc6fbad553f",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-23T13:46:14.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-23T10:12:02.000Z",
+  "brief_hash": "14801c5bb3c2c2be"
+}

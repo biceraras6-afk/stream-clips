@@ -1,0 +1,138 @@
+{
+  "id": "cr-3eed4d79-marc-simoncini-ultimate-x-virality",
+  "title": "Marc Simoncini ultimate x Virality®",
+  "url": "https://contentrewards.com/c/campaigns/3eed4d79-3d77-4704-9356-e1da545e6043",
+  "status": "open",
+  "brand": "ViralClips",
+  "streamer": "Marc Simoncini",
+  "category": "entertainment",
+  "language": "fr",
+  "description": "Campagne de clipping pour Marc Simoncini ",
+  "source": {
+    "type": "vod",
+    "urls": [],
+    "permission_quote": "utilisez les passages de Marc Simoncini dans le podcast UNBX qui sont en lien de cette campagne !"
+  },
+  "platforms": [
+    "instagram"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": [
+    "@Marc_simoncini"
+  ],
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Publier exclusivement sur Instagram (Reels)",
+      "Publier depuis des comptes français uniquement",
+      "Mentionner @Marc_simoncini sur chaque clip publié",
+      "Utiliser les passages de Marc Simoncini dans le podcast UNBX"
+    ],
+    "dont": [
+      "Publier du contenu raciste, haineux, discriminatoire, violent ou offensant"
+    ]
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 3.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 3000,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2000.0,
+    "remaining": 1171.59,
+    "currency": "USD",
+    "updated_at": "2026-11-23"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-23",
+  "cr_id": "3eed4d79-3d77-4704-9356-e1da545e6043",
+  "guidelines": "🎬 Brief de campagne – Marc Simoncini x UNBX\n\nMerci de respecter les consignes suivantes pour que vos vidéos soient validées :\n\nONLY FRENCH ACCOUNT \n\n🇫🇷 Comptes français uniquement : les publications doivent être réalisées depuis des comptes français.\n\n📱 Instagram uniquement : les clips doivent être publiés exclusivement sur Instagram (Reels).\n\n🏷️ Tag obligatoire : mentionnez @Marc_simoncini sur chaque clip publié.\n\n🎙️ Contenu : utilisez les passages de Marc Simoncini dans le podcast UNBX qui sont en lien de cette campagne !\n\n🚫 Contenus interdits : aucun contenu raciste, haineux, discriminatoire, violent ou offensant ne sera accepté.\n\n⚠️ Toute vidéo ne respectant pas ces consignes pourra être refusée et ne sera pas comptabilisée dans la campagne.\n\n",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 1067,
+    "total_views": 1125910,
+    "creators": 56,
+    "avg_views": 1055,
+    "avg_payout": 0.78,
+    "updated_at": "2026-11-23T13:40:14.000Z"
+  },
+  "references": [
+    "https://www.instagram.com/reel/DfwYxsqxW-W/",
+    "https://www.instagram.com/reel/DfS_kQnuE2t/",
+    "https://www.instagram.com/reel/DftsaLJR25C/",
+    "https://www.instagram.com/reel/DfXL0fds_Hr/",
+    "https://www.instagram.com/reel/Df-dvz4gBxT/",
+    "https://www.instagram.com/reel/DfJ1C-TtJ4x/",
+    "https://www.instagram.com/reel/DfkUJgOiCYO/",
+    "https://www.instagram.com/reel/DfxYZNkIJZG/",
+    "https://www.instagram.com/reel/DfXI8i2CEdm/",
+    "https://www.instagram.com/reel/DfxYlc-ItNZ/"
+  ],
+  "locked_references": 1,
+  "launched_at": "2026-10-30T15:36:08.000Z",
+  "audience": "France",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "25513c8101e0c309",
+  "enriched": true
+}
