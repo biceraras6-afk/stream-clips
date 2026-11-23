@@ -35,8 +35,8 @@
   "payment": {
     "model": "cpm",
     "amount_per_post": null,
-    "rate_per_1k": 1.5,
-    "min_payout": 1.5,
+    "rate_per_1k": 2.0,
+    "min_payout": 2.0,
     "max_payout_per_clip": 800.0,
     "min_views": 1000,
     "per_platform": {
@@ -46,8 +46,8 @@
         "max_payout_per_clip": 800.0
       },
       "instagram": {
-        "rate_per_1k": 1.5,
-        "min_payout": 1.5,
+        "rate_per_1k": 2.0,
+        "min_payout": 2.0,
         "max_payout_per_clip": 800.0
       },
       "youtube": {
@@ -56,13 +56,13 @@
         "max_payout_per_clip": 800.0
       }
     },
-    "geo_priced": true
+    "geo_priced": false
   },
   "budget": {
     "total": 12000.0,
-    "remaining": 10708.35,
+    "remaining": 10091.44,
     "currency": "USD",
-    "updated_at": "2026-11-20"
+    "updated_at": "2026-11-23"
   },
   "deadline": null,
   "submission": {
@@ -90,24 +90,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 292,
-    "total_views": 732365,
-    "creators": 110,
-    "avg_views": 2508,
-    "avg_payout": 4.42,
-    "updated_at": "2026-11-20T13:38:22.000Z"
+    "approved": 425,
+    "total_views": 1058839,
+    "creators": 127,
+    "avg_views": 2491,
+    "avg_payout": 4.49,
+    "updated_at": "2026-11-23T04:30:21.000Z"
   },
   "references": [
     "https://www.instagram.com/reel/Dfsg-wBzWnl/",
     "https://www.instagram.com/reel/Dfta8ffhXSl/",
     "https://www.instagram.com/reel/DftadMah3Dw/",
     "https://www.instagram.com/reel/Dfss_nmzj3Z/",
+    "https://www.instagram.com/reel/DgAzGvoKoTX/",
     "https://www.instagram.com/reel/DfsNZqZCXnF/",
     "https://www.instagram.com/reel/Df7PSJwIO5C/",
     "https://www.instagram.com/reel/Dfr3c8DTqg6/",
-    "https://www.instagram.com/reel/DfuLcF7BHBo/",
-    "https://www.instagram.com/reel/Dfy82ljxFTK/",
-    "https://www.instagram.com/reel/DfwLhCVoti0/"
+    "https://www.youtube.com/watch?v=yIBujC-08wU",
+    "https://www.instagram.com/reel/DfuLcF7BHBo/"
   ],
   "locked_references": null,
   "launched_at": "2026-11-12T18:30:01.000Z",
