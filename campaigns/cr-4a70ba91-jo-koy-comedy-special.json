@@ -48,7 +48,7 @@
   },
   "budget": {
     "total": 17500.0,
-    "remaining": 10674.6,
+    "remaining": 10602.38,
     "currency": "USD",
     "updated_at": "2026-11-23"
   },
@@ -79,11 +79,11 @@
   "content_rules": {},
   "stats": {
     "approved": 131,
-    "total_views": 2744712,
+    "total_views": 2773619,
     "creators": 19,
-    "avg_views": 20952,
-    "avg_payout": 52.1,
-    "updated_at": "2026-11-23T16:24:19.000Z"
+    "avg_views": 21173,
+    "avg_payout": 52.65,
+    "updated_at": "2026-11-23T19:22:23.000Z"
   },
   "references": [
     "https://www.instagram.com/reel/DfrsDeltzLn/",

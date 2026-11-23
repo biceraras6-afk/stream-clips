@@ -40,23 +40,23 @@
     "model": "cpm",
     "amount_per_post": null,
     "rate_per_1k": 3.0,
-    "min_payout": 3.0,
+    "min_payout": 6.0,
     "max_payout_per_clip": 500.0,
-    "min_views": 1000,
+    "min_views": 2000,
     "per_platform": {
       "tiktok": {
         "rate_per_1k": 3.0,
-        "min_payout": 3.0,
+        "min_payout": 6.0,
         "max_payout_per_clip": 500.0
       },
       "instagram": {
         "rate_per_1k": 3.0,
-        "min_payout": 3.0,
+        "min_payout": 6.0,
         "max_payout_per_clip": 500.0
       },
       "youtube": {
         "rate_per_1k": 3.0,
-        "min_payout": 3.0,
+        "min_payout": 6.0,
         "max_payout_per_clip": 500.0
       }
     },
@@ -64,7 +64,7 @@
   },
   "budget": {
     "total": 5973.53,
-    "remaining": 5865.62,
+    "remaining": 5852.73,
     "currency": "USD",
     "updated_at": "2026-11-23"
   },
@@ -94,24 +94,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 11,
-    "total_views": 34124,
-    "creators": 7,
-    "avg_views": 3102,
-    "avg_payout": 9.81,
-    "updated_at": "2026-11-23T16:24:16.000Z"
+    "approved": 14,
+    "total_views": 38036,
+    "creators": 8,
+    "avg_views": 2717,
+    "avg_payout": 8.63,
+    "updated_at": "2026-11-23T19:22:18.000Z"
   },
   "references": [
     "https://www.tiktok.com/@vipstudios1/video/7709347913234681096",
     "https://www.instagram.com/reel/Df2vvnfpMEl/",
     "https://www.tiktok.com/@rizzbymax1/video/7708402616895687957",
+    "https://www.youtube.com/watch?v=6T3JMQOlPpw",
     "https://www.tiktok.com/@dropzone.intel/video/7704081297454484768",
     "https://www.youtube.com/watch?v=c8d5lCq_0V4",
     "https://www.youtube.com/watch?v=LX3tO0YKApE",
+    "https://www.youtube.com/watch?v=DtlyzEMoR3c",
     "https://www.youtube.com/watch?v=lGZk08g5GWU",
-    "https://www.youtube.com/watch?v=ypFWant98PM",
-    "https://www.youtube.com/watch?v=Wo6-zSUeqz8",
-    "https://www.youtube.com/watch?v=2d4I6kHys54"
+    "https://www.youtube.com/watch?v=ypFWant98PM"
   ],
   "locked_references": null,
   "launched_at": "2026-10-28T20:26:37.000Z",

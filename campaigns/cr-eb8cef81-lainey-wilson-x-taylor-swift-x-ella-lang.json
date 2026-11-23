@@ -1,0 +1,93 @@
+{
+  "id": "cr-eb8cef81-lainey-wilson-x-taylor-swift-x-ella-lang",
+  "title": "Lainey Wilson x Taylor Swift x Ella Langley",
+  "url": "https://contentrewards.com/c/campaigns/eb8cef81-ed15-4e32-ac86-a77fe22488b0",
+  "status": "open",
+  "brand": "The Clip Ship",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Clip Lainey’s behind the scenes and collab moments from the 60th CMA Awards. Every clip should leave viewers feeling Lainey owned the night, and should send them to her and the new single “Just A Woman”.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 2.0,
+    "min_payout": 4.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 2000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 2.0,
+        "min_payout": 4.0,
+        "max_payout_per_clip": 150.0
+      },
+      "instagram": {
+        "rate_per_1k": 2.0,
+        "min_payout": 4.0,
+        "max_payout_per_clip": 150.0
+      },
+      "youtube": {
+        "rate_per_1k": 2.0,
+        "min_payout": 4.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-23"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-23",
+  "cr_id": "eb8cef81-ed15-4e32-ac86-a77fe22488b0",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-23T19:22:17.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-23T18:28:54.000Z",
+  "brief_hash": "d71290f50b2880df"
+}
