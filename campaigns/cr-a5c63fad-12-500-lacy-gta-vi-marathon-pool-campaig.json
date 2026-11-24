@@ -70,7 +70,7 @@
     "total": 12500.0,
     "remaining": 12500.0,
     "currency": "USD",
-    "updated_at": "2026-11-23"
+    "updated_at": "2026-11-24"
   },
   "deadline": null,
   "submission": {
@@ -98,12 +98,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 9847,
-    "total_views": 109931725,
-    "creators": 3758,
-    "avg_views": 11164,
+    "approved": 9968,
+    "total_views": 112788713,
+    "creators": 3794,
+    "avg_views": 11315,
     "avg_payout": 0.0,
-    "updated_at": "2026-11-23T22:10:21.000Z"
+    "updated_at": "2026-11-24T01:38:21.000Z"
   },
   "references": [
     "https://x.com/pulcys/status/2123030125172126194",

@@ -70,9 +70,9 @@
   },
   "budget": {
     "total": 10000.0,
-    "remaining": 8924.3,
+    "remaining": 8842.63,
     "currency": "USD",
-    "updated_at": "2026-11-23"
+    "updated_at": "2026-11-24"
   },
   "deadline": null,
   "submission": {
@@ -100,12 +100,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 137,
-    "total_views": 3015191,
-    "creators": 106,
-    "avg_views": 22009,
-    "avg_payout": 7.85,
-    "updated_at": "2026-11-23T22:10:21.000Z"
+    "approved": 143,
+    "total_views": 3108828,
+    "creators": 109,
+    "avg_views": 21740,
+    "avg_payout": 8.09,
+    "updated_at": "2026-11-24T01:38:19.000Z"
   },
   "references": [
     "https://www.facebook.com/share/r/19jUnLaf9r/",
@@ -115,7 +115,7 @@
     "https://www.tiktok.com/@bendadonclipvault/video/7711290105834556685",
     "https://www.instagram.com/reel/DgDaLHPOlff/",
     "https://www.youtube.com/watch?v=EdB8NIprFt4",
-    "https://x.com/0xMichangelo/status/2124120112856719810",
+    "https://www.youtube.com/watch?v=R-k7D3UgHrM",
     "https://www.youtube.com/watch?v=jqgGQs6sDro"
   ],
   "locked_references": null,

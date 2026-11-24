@@ -1,0 +1,119 @@
+{
+  "id": "cr-1a393342-1-000-rizzler-x-lazer-dim-clipping-campa",
+  "title": "$1,000 Rizzler x Lazer Dim Clipping Campaign",
+  "url": "https://contentrewards.com/c/campaigns/1a393342-f98e-47e3-8c82-b081245704f5",
+  "status": "open",
+  "brand": "D&S Distribution & Seeding",
+  "streamer": "Lyrical Lemonade",
+  "category": "hip-hop-rap",
+  "language": "en",
+  "description": "Clip the most viral Lyrical Lemonade TV episodes ever: The Rizzler (New York Nights) and Lazer Dim 700 (New York Nights and No Comfort Jamaica). Remix the moments that already went viral with new hooks, memes and edits. $1.00 per 1K views on TikTok, Reels and Shorts.",
+  "source": {
+    "type": "vod",
+    "urls": [],
+    "permission_quote": "Clip the most viral Lyrical Lemonade TV episodes ever: The Rizzler (New York Nights) and Lazer Dim 700 (New York Nights and No Comfort Jamaica)."
+  },
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Remix the moments that already went viral with new hooks, memes and edits"
+    ],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 2000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 100.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 100.0
+      },
+      "x": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-24"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-24",
+  "cr_id": "1a393342-f98e-47e3-8c82-b081245704f5",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-24T01:28:10.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-24T00:19:59.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "b038cbc627545c00",
+  "enriched": true
+}

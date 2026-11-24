@@ -50,9 +50,9 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 729.44,
+    "remaining": 729.43,
     "currency": "USD",
-    "updated_at": "2026-11-23"
+    "updated_at": "2026-11-24"
   },
   "deadline": null,
   "submission": {
@@ -81,11 +81,11 @@
   "content_rules": {},
   "stats": {
     "approved": 486,
-    "total_views": 389325,
+    "total_views": 389333,
     "creators": 63,
     "avg_views": 801,
     "avg_payout": 0.56,
-    "updated_at": "2026-11-23T22:12:14.000Z"
+    "updated_at": "2026-11-24T01:28:10.000Z"
   },
   "references": [
     "https://www.tiktok.com/@mrdmt_666/video/7705174872263003410",
