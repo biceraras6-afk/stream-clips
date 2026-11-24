@@ -1,0 +1,93 @@
+{
+  "id": "cr-7c2939bb-3-000-juliano-massarelli-dedicated-campa",
+  "title": "$3,000 Juliano Massarelli Dedicated Campaign",
+  "url": "https://contentrewards.com/c/campaigns/7c2939bb-cb2d-4773-b0d5-464d43ac989e",
+  "status": "open",
+  "brand": "Reach",
+  "streamer": null,
+  "category": "personal-brand",
+  "language": null,
+  "description": "Clip/Create Juliano Massarelli Content on a dedicated account. \n\nRead the rules and requirements here:\nhttps://reachclipping.com/Juliano",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 10.0,
+    "max_payout_per_clip": 300.0,
+    "min_views": 10000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 300.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 300.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 300.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 3000.0,
+    "remaining": 3000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-24"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-24",
+  "cr_id": "7c2939bb-cb2d-4773-b0d5-464d43ac989e",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-24T22:14:10.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-24T18:44:12.000Z",
+  "brief_hash": "2827f67176630f58"
+}

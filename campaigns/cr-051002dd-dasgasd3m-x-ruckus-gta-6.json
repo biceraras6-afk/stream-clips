@@ -57,7 +57,7 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 697.89,
+    "remaining": 672.08,
     "currency": "USD",
     "updated_at": "2026-11-24"
   },
@@ -88,11 +88,11 @@
   "content_rules": {},
   "stats": {
     "approved": 174,
-    "total_views": 200988,
+    "total_views": 206122,
     "creators": 110,
-    "avg_views": 1155,
-    "avg_payout": 1.74,
-    "updated_at": "2026-11-24T19:24:21.000Z"
+    "avg_views": 1185,
+    "avg_payout": 1.88,
+    "updated_at": "2026-11-24T22:14:21.000Z"
   },
   "references": [
     "https://www.tiktok.com/@axiomclipz26/video/7711152331429121301",
