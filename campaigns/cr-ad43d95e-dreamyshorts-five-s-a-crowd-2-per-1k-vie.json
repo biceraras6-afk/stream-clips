@@ -1,0 +1,138 @@
+{
+  "id": "cr-ad43d95e-dreamyshorts-five-s-a-crowd-2-per-1k-vie",
+  "title": "DreamyShorts: Five's a Crowd | $2 per 1K views",
+  "url": "https://contentrewards.com/c/campaigns/ad43d95e-b2af-44db-a7e6-d9b8d07201d9",
+  "status": "open",
+  "brand": "dream labs",
+  "streamer": null,
+  "category": "tv-series",
+  "language": null,
+  "description": "Five's a Crowd is a short animated romcom series from DreamyShorts (vertical drama): a lake villa weekend with one too many people. Cut 20-40 second clips from episode 1 or the trailer and post them on your TikTok, Reels or Shorts page with our link in your bio. Footage provided. Hook in 2 seconds.",
+  "source": {
+    "type": "drive",
+    "urls": [],
+    "permission_quote": "Cut 20-40 second clips from episode 1 or the trailer and post them on your TikTok, Reels or Shorts page with our link in your bio."
+  },
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": 20,
+    "max_seconds": 40,
+    "aspect": "vertical"
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Hook in 2 seconds",
+      "Put link in bio"
+    ],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 2.0,
+    "min_payout": 4.0,
+    "max_payout_per_clip": 300.0,
+    "min_views": 2000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 2.0,
+        "min_payout": 4.0,
+        "max_payout_per_clip": 300.0
+      },
+      "instagram": {
+        "rate_per_1k": 2.0,
+        "min_payout": 4.0,
+        "max_payout_per_clip": 300.0
+      },
+      "youtube": {
+        "rate_per_1k": 2.0,
+        "min_payout": 4.0,
+        "max_payout_per_clip": 300.0
+      },
+      "x": {
+        "rate_per_1k": 2.0,
+        "min_payout": 4.0,
+        "max_payout_per_clip": 300.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-24"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-24",
+  "cr_id": "ad43d95e-b2af-44db-a7e6-d9b8d07201d9",
+  "guidelines": "$4f",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": true,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 3,
+  "launched_at": "2026-11-24T02:46:18.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "b70718356b5e5293",
+  "enriched": true
+}
