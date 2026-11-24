@@ -1,0 +1,93 @@
+{
+  "id": "cr-bf07452d-ourdream-ai-companion-clips-2-per-1k-vie",
+  "title": "ourdream: AI companion clips | $2 per 1K views",
+  "url": "https://contentrewards.com/c/campaigns/bf07452d-a6dc-42e6-9882-edb85088664e",
+  "status": "open",
+  "brand": "dream labs",
+  "streamer": null,
+  "category": "technology",
+  "language": null,
+  "description": "ourdream is an app where you create your own AI character and chat with her: custom looks, stories and voice calls. Cut 10-30 second clips from twelve of our best ads and post them on your Reels or Shorts page with our link in your bio. Footage provided. Keep it safe for work.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "x",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 2.0,
+    "min_payout": 4.0,
+    "max_payout_per_clip": 300.0,
+    "min_views": 2000,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 2.0,
+        "min_payout": 4.0,
+        "max_payout_per_clip": 300.0
+      },
+      "youtube": {
+        "rate_per_1k": 2.0,
+        "min_payout": 4.0,
+        "max_payout_per_clip": 300.0
+      },
+      "x": {
+        "rate_per_1k": 2.0,
+        "min_payout": 4.0,
+        "max_payout_per_clip": 300.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-24"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-24",
+  "cr_id": "bf07452d-a6dc-42e6-9882-edb85088664e",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-24T07:42:12.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-24T04:14:15.000Z",
+  "brief_hash": "7528d595932f4e37"
+}
