@@ -1,0 +1,141 @@
+{
+  "id": "cr-9cc61501-discpods-clip-the-free-steam-demo",
+  "title": "DiscPods: clip the free Steam demo",
+  "url": "https://contentrewards.com/c/campaigns/9cc61501-8430-4ee1-932b-f377e48cd74b",
+  "status": "open",
+  "brand": "Emerald Wizard Studios",
+  "streamer": null,
+  "category": "gaming",
+  "language": "en",
+  "description": "DiscPods is a party game for up to 8 friends. Everyone leaves a solid trail: touch any trail and you're out. Free demo on Steam (Windows and Mac). Full game 2 March 2027 at $9.99. Cut your own short clips from our footage. Apply with a screenshot of your audience countries.",
+  "source": {
+    "type": "vod",
+    "urls": [],
+    "permission_quote": "Cut your own short clips from our footage."
+  },
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": 10,
+    "max_seconds": 30,
+    "aspect": "9:16"
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": "paid-promotion label",
+  "rules": {
+    "do": [
+      "Include the name DiscPods and 'free demo on Steam' readable on screen",
+      "Use English captions",
+      "Make your own edit of the provided footage",
+      "Say 'bots' for computer players",
+      "Always write 'DiscPods'",
+      "Send an analytics screenshot of your audience countries with the clip"
+    ],
+    "dont": [
+      "No straight re-uploads",
+      "No AI voices",
+      "No invented claims about the game"
+    ]
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 3.0,
+    "min_payout": 6.0,
+    "max_payout_per_clip": 60.0,
+    "min_views": 2000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 3.0,
+        "min_payout": 6.0,
+        "max_payout_per_clip": 60.0
+      },
+      "instagram": {
+        "rate_per_1k": 3.0,
+        "min_payout": 6.0,
+        "max_payout_per_clip": 60.0
+      },
+      "youtube": {
+        "rate_per_1k": 3.0,
+        "min_payout": 6.0,
+        "max_payout_per_clip": 60.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-24"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-24",
+  "cr_id": "9cc61501-8430-4ee1-932b-f377e48cd74b",
+  "guidelines": "Vertical 9:16, 10 to 30 seconds.\nThe name DiscPods and \"free demo on Steam\" readable on screen.\nEnglish captions.\nYour own edit of the footage we give you. No straight re-uploads.\nNo AI voices.\nNo invented claims about the game.\nSwitch on the platform's paid-promotion label.\nMost of your viewers are in the United States, the United Kingdom, Canada or Germany. Send an analytics screenshot of your audience countries with the clip.\nSay \"bots\" for computer players, and always write \"DiscPods\".",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 2,
+  "launched_at": "2026-11-24T15:16:28.000Z",
+  "audience": "United States, United Kingdom, Canada or Germany",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "10ce377a0a8a732f",
+  "enriched": true
+}

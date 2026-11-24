@@ -30,34 +30,35 @@
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
-    "rate_per_1k": 0.0,
-    "min_payout": 2.0,
+    "amount_per_post": null,
+    "rate_per_1k": 3.5,
+    "min_payout": 3.5,
     "max_payout_per_clip": 800.0,
-    "min_views": null,
+    "min_views": 1000,
     "per_platform": {
       "tiktok": {
         "rate_per_1k": 0.0,
-        "min_payout": 2.0,
+        "min_payout": 4.0,
         "max_payout_per_clip": 800.0
       },
       "instagram": {
-        "rate_per_1k": 1.5,
-        "min_payout": 1.5,
+        "rate_per_1k": 3.5,
+        "min_payout": 3.5,
         "max_payout_per_clip": 800.0
       },
       "youtube": {
         "rate_per_1k": 0.0,
-        "min_payout": 2.0,
+        "min_payout": 4.0,
         "max_payout_per_clip": 800.0
       }
     },
-    "geo_priced": true
+    "geo_priced": false
   },
   "budget": {
     "total": 12000.0,
-    "remaining": 12000.0,
+    "remaining": 8830.87,
     "currency": "USD",
-    "updated_at": "2026-11-17"
+    "updated_at": "2026-11-24"
   },
   "deadline": null,
   "submission": {
@@ -85,14 +86,25 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 0,
-    "total_views": 0,
-    "creators": 0,
-    "avg_views": null,
-    "avg_payout": null,
-    "updated_at": "2026-11-17T18:24:24.000Z"
+    "approved": 123,
+    "total_views": 873290,
+    "creators": 29,
+    "avg_views": 7100,
+    "avg_payout": 25.77,
+    "updated_at": "2026-11-24T16:30:22.000Z"
   },
-  "references": [],
+  "references": [
+    "https://www.instagram.com/reel/DgG7QXYOURR/",
+    "https://www.instagram.com/p/DgF1e2FNqTm/",
+    "https://www.instagram.com/p/DgEU3vRRXB1/",
+    "https://www.instagram.com/reel/DgDhUzbx6p8/",
+    "https://www.instagram.com/reel/DgECOcmIlEa/",
+    "https://www.instagram.com/p/DgER76jxK17/",
+    "https://www.instagram.com/reel/DgDelgtxRrP/",
+    "https://www.instagram.com/reel/DgDn9xIRFe-/",
+    "https://www.instagram.com/reel/DgDmbLTs8DS/",
+    "https://www.instagram.com/reel/DgDeHGDOq-k/"
+  ],
   "locked_references": null,
   "launched_at": "2026-11-16T20:26:53.000Z",
   "brief_hash": "bca6f222d6449ff3",

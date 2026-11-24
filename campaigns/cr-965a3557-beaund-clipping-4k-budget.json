@@ -1,0 +1,87 @@
+{
+  "id": "cr-965a3557-beaund-clipping-4k-budget",
+  "title": "Beaund Clipping | $4K Budget",
+  "url": "https://contentrewards.com/c/campaigns/965a3557-eb30-495d-86dd-db251b32362a",
+  "status": "open",
+  "brand": "Motion Clipping",
+  "streamer": null,
+  "category": "health-wellness",
+  "language": null,
+  "description": "BEAUND is a Korean beauty tech brand behind the NMODE PRO, an EMS facial lifting device with over 300,000 units sold.\n\nYour goal is to create engaging photo slideshows and short-form video clips focused on jawline definition, facial puffiness, K-Pop, and looksmaxxing.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.2,
+    "min_payout": 1.5,
+    "max_payout_per_clip": 200.0,
+    "min_views": 1250,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.2,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 200.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.2,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 200.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 4000.0,
+    "remaining": 4000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-24"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-24",
+  "cr_id": "965a3557-eb30-495d-86dd-db251b32362a",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-24T16:28:09.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-24T14:27:09.000Z",
+  "brief_hash": "8893b80340c92d61"
+}
