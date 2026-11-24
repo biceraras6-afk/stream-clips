@@ -31,32 +31,32 @@
   "payment": {
     "model": "cpm",
     "amount_per_post": null,
-    "rate_per_1k": 3.5,
-    "min_payout": 3.5,
+    "rate_per_1k": 4.5,
+    "min_payout": 4.5,
     "max_payout_per_clip": 800.0,
     "min_views": 1000,
     "per_platform": {
       "tiktok": {
         "rate_per_1k": 0.0,
-        "min_payout": 4.0,
+        "min_payout": 5.0,
         "max_payout_per_clip": 800.0
       },
       "instagram": {
-        "rate_per_1k": 3.5,
-        "min_payout": 3.5,
+        "rate_per_1k": 4.5,
+        "min_payout": 4.5,
         "max_payout_per_clip": 800.0
       },
       "youtube": {
         "rate_per_1k": 0.0,
-        "min_payout": 4.0,
+        "min_payout": 5.0,
         "max_payout_per_clip": 800.0
       }
     },
-    "geo_priced": false
+    "geo_priced": true
   },
   "budget": {
     "total": 12000.0,
-    "remaining": 8830.87,
+    "remaining": 8541.96,
     "currency": "USD",
     "updated_at": "2026-11-24"
   },
@@ -86,24 +86,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 123,
-    "total_views": 873290,
+    "approved": 125,
+    "total_views": 937344,
     "creators": 29,
-    "avg_views": 7100,
-    "avg_payout": 25.77,
-    "updated_at": "2026-11-24T16:30:22.000Z"
+    "avg_views": 7499,
+    "avg_payout": 27.66,
+    "updated_at": "2026-11-24T19:24:19.000Z"
   },
   "references": [
     "https://www.instagram.com/reel/DgG7QXYOURR/",
     "https://www.instagram.com/p/DgF1e2FNqTm/",
+    "https://www.instagram.com/p/DgGw8zRtLec/",
     "https://www.instagram.com/p/DgEU3vRRXB1/",
-    "https://www.instagram.com/reel/DgDhUzbx6p8/",
     "https://www.instagram.com/reel/DgECOcmIlEa/",
+    "https://www.instagram.com/reel/DgDhUzbx6p8/",
     "https://www.instagram.com/p/DgER76jxK17/",
     "https://www.instagram.com/reel/DgDelgtxRrP/",
     "https://www.instagram.com/reel/DgDn9xIRFe-/",
-    "https://www.instagram.com/reel/DgDmbLTs8DS/",
-    "https://www.instagram.com/reel/DgDeHGDOq-k/"
+    "https://www.instagram.com/reel/DgDmbLTs8DS/"
   ],
   "locked_references": null,
   "launched_at": "2026-11-16T20:26:53.000Z",

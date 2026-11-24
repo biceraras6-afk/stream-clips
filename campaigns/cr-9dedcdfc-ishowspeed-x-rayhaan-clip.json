@@ -1,0 +1,124 @@
+{
+  "id": "cr-9dedcdfc-ishowspeed-x-rayhaan-clip",
+  "title": "Ishowspeed X Rayhaan Clip",
+  "url": "https://contentrewards.com/c/campaigns/9dedcdfc-7e4d-4e56-8036-846bfdbdc676",
+  "status": "open",
+  "brand": "Rayhaan Perfumes",
+  "streamer": "Ishowspeed",
+  "category": "entertainment",
+  "language": null,
+  "description": "Ishowspeed was spotted using our product during a stream. We would like to promote that with multiple style of communication like:\n- Speed tried to hide which Rayhaan he uses while playing GTA 6\n- ⁠Ishowspped revealed he uses Rayhaan perfume\n- Ishowspeed spotted using Rayhaan Wolf perfume ",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": [
+    "@rayhaan.perfumes"
+  ],
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Zoom on the product when the front is revealed",
+      "Edit video as per your page style"
+    ],
+    "dont": []
+  },
+  "overlays_allowed": true,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.5,
+    "min_payout": 50.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 33333,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.5,
+        "min_payout": 50.0,
+        "max_payout_per_clip": 150.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 50.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2000.0,
+    "remaining": 2000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-24"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-24",
+  "cr_id": "9dedcdfc-7e4d-4e56-8036-846bfdbdc676",
+  "guidelines": "Must add brand tag @rayhaan.perfumes\nCan edit video as per their page style\ndo try to zoom on the product when the front is revelead",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": true,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 1,
+  "launched_at": "2026-11-24T16:43:24.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "124b9b899fdfc981",
+  "enriched": true
+}

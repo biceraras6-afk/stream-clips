@@ -1,0 +1,93 @@
+{
+  "id": "cr-ea004b56-apple-tv-4k-holiday-camera-trick-2-50-1k",
+  "title": "Apple TV 4K Holiday Camera Trick ($2.50/1k Views)",
+  "url": "https://contentrewards.com/c/campaigns/ea004b56-b1fe-4ded-b4c0-ecdca477f028",
+  "status": "open",
+  "brand": "FamJam",
+  "streamer": null,
+  "category": "technology",
+  "language": null,
+  "description": "Own an Apple TV 4K + iPhone/iPad? Film a 15-30s vertical video showing FamJam (100% Free on App Store) turning your TV into a live family camera! Hook: \"If you own an Apple TV 4K, try this before Christmas:\" -> show live TV + 3-2-1 Siri Remote flash + Polaroid card saved!",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 2.5,
+    "min_payout": 2.5,
+    "max_payout_per_clip": 100.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 2.5,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 2.5,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 100.0
+      },
+      "youtube": {
+        "rate_per_1k": 2.5,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-24"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-24",
+  "cr_id": "ea004b56-b1fe-4ded-b4c0-ecdca477f028",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-24T03:46:49.000Z",
+  "brief_hash": "1d50c6e94c024438"
+}

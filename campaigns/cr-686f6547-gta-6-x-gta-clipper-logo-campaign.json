@@ -54,7 +54,7 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 692.62,
+    "remaining": 776.36,
     "currency": "USD",
     "updated_at": "2026-11-24"
   },
@@ -84,22 +84,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 35,
-    "total_views": 597010,
-    "creators": 30,
-    "avg_views": 17057,
-    "avg_payout": 8.78,
-    "updated_at": "2026-11-24T16:30:23.000Z"
+    "approved": 42,
+    "total_views": 490211,
+    "creators": 35,
+    "avg_views": 11672,
+    "avg_payout": 5.32,
+    "updated_at": "2026-11-24T19:24:21.000Z"
   },
   "references": [
-    "https://www.instagram.com/reel/DgCRAjJP8Jf/",
     "https://www.tiktok.com/@bilzpaid/video/7711030779362413846",
+    "https://www.youtube.com/watch?v=eHwYi4GE8ls",
     "https://www.youtube.com/watch?v=gxHO3YM25co",
     "https://www.youtube.com/watch?v=eDVYLtgRvCI",
     "https://www.youtube.com/watch?v=WEXlkn4ca-g",
     "https://www.youtube.com/watch?v=a0NyLJoXWNI",
+    "https://www.tiktok.com/@clippagewizard/video/7711225092319071519",
     "https://www.youtube.com/watch?v=HF6axN6_Qdo",
-    "https://www.youtube.com/watch?v=E9j64aCVXwo"
+    "https://www.youtube.com/watch?v=E9j64aCVXwo",
+    "https://www.youtube.com/watch?v=oXkgooA1gwo"
   ],
   "locked_references": null,
   "launched_at": "2026-11-21T20:04:58.000Z",

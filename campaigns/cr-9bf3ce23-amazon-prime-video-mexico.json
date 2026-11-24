@@ -1,0 +1,113 @@
+{
+  "id": "cr-9bf3ce23-amazon-prime-video-mexico",
+  "title": "AMAZON PRIME VIDEO MEXICO ",
+  "url": "https://contentrewards.com/c/campaigns/9bf3ce23-c93b-4276-ae83-693492f1f62e",
+  "status": "open",
+  "brand": "ClipHaus",
+  "streamer": null,
+  "category": "entertainment",
+  "language": "es",
+  "description": "Create viral, entertaining clips from **Perfectos Mentirosos**, focusing on the Jude and Aegan storyline, emotional moments, strong hooks, and content that gets Mexican audiences talking. 🇲🇽🔥",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Focus on the Jude and Aegan storyline",
+      "Focus on emotional moments",
+      "Use strong hooks",
+      "Engage Mexican audiences"
+    ],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.5,
+    "min_payout": 1.5,
+    "max_payout_per_clip": 175.0,
+    "min_views": 3000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 175.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 175.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.5,
+        "min_payout": 1.5,
+        "max_payout_per_clip": 175.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 10000.0,
+    "remaining": 10000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-24"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-24",
+  "cr_id": "9bf3ce23-c93b-4276-ae83-693492f1f62e",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-24T19:22:07.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-24T16:05:53.000Z",
+  "audience": "Mexican audiences",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "0e1d84ec669be74b",
+  "enriched": true
+}
