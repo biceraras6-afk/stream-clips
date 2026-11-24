@@ -70,7 +70,7 @@
   },
   "budget": {
     "total": 10000.0,
-    "remaining": 8596.19,
+    "remaining": 8565.27,
     "currency": "USD",
     "updated_at": "2026-11-24"
   },
@@ -101,22 +101,21 @@
   "content_rules": {},
   "stats": {
     "approved": 165,
-    "total_views": 3380325,
+    "total_views": 3418838,
     "creators": 123,
-    "avg_views": 20487,
-    "avg_payout": 8.51,
-    "updated_at": "2026-11-24T10:24:21.000Z"
+    "avg_views": 20720,
+    "avg_payout": 8.7,
+    "updated_at": "2026-11-24T13:36:21.000Z"
   },
   "references": [
-    "https://www.facebook.com/share/r/19jUnLaf9r/",
     "https://www.tiktok.com/@bendadonclipvault/video/7709875501791202574",
     "https://www.tiktok.com/@gta.clips.lab/video/7710007436639309086",
     "https://x.com/cse_clips/status/2124566274235920842",
     "https://www.youtube.com/watch?v=R-k7D3UgHrM",
     "https://www.tiktok.com/@bendadonclipvault/video/7711290105834556685",
+    "https://www.youtube.com/watch?v=V6qVTxJeBvY",
     "https://www.youtube.com/watch?v=EdB8NIprFt4",
-    "https://www.instagram.com/reel/DgDaLHPOlff/",
-    "https://www.youtube.com/watch?v=V6qVTxJeBvY"
+    "https://www.instagram.com/reel/DgDaLHPOlff/"
   ],
   "locked_references": null,
   "launched_at": "2026-11-19T01:29:44.000Z",
