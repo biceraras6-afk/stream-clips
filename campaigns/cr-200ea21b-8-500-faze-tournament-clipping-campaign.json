@@ -68,7 +68,7 @@
   },
   "budget": {
     "total": 8500.0,
-    "remaining": 6108.11,
+    "remaining": 6107.72,
     "currency": "USD",
     "updated_at": "2026-11-25"
   },
@@ -133,11 +133,11 @@
   },
   "stats": {
     "approved": 95,
-    "total_views": 1189054,
+    "total_views": 1189323,
     "creators": 22,
-    "avg_views": 12516,
+    "avg_views": 12519,
     "avg_payout": 25.18,
-    "updated_at": "2026-11-25T16:36:13.000Z"
+    "updated_at": "2026-11-25T19:16:17.000Z"
   },
   "references": [
     "https://www.instagram.com/p/DgDSPsbN2Rk/",
