@@ -1,0 +1,93 @@
+{
+  "id": "cr-40562c73-game-over-gta-vi-rollout",
+  "title": "'Game Over' GTA VI Rollout",
+  "url": "https://contentrewards.com/c/campaigns/40562c73-8031-45a7-9c82-566b98c5f65f",
+  "status": "open",
+  "brand": "DiamondzCartel",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Source intriguing GTA VI footage of gameplay, especially \"WASTED\" or flashy, dramatic, must watch, nice cars, crazy moments. Standard walking and basic clips will be rejected. Epic moments in gameplay will be accepted. Song clip MUST be overlayed on every clip. 3 options, 15/15/30 secs, looping.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.5,
+    "min_payout": 2.5,
+    "max_payout_per_clip": 100.0,
+    "min_views": 5000,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 0.5,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 100.0
+      },
+      "tiktok": {
+        "rate_per_1k": 0.5,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 100.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.5,
+        "min_payout": 2.5,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-25"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-25",
+  "cr_id": "40562c73-8031-45a7-9c82-566b98c5f65f",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": true,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-25T01:37:53.000Z",
+  "brief_hash": "17a884323cab8e36"
+}

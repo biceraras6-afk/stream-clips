@@ -7,7 +7,7 @@
   "streamer": null,
   "category": "entertainment",
   "language": null,
-  "description": "Get paid $2/thousand views to clip for the Mini Brands — Ulta Beauty. Goal is to bring awareness to the Mini Brands x Ulta Series 2 Launch. Create viral clips and get paid!",
+  "description": "Get paid $1.50-1.75/thousand views to clip for the Mini Brands — Ulta Beauty. Goal is to bring awareness to the Mini Brands x Ulta Series 2 Launch. Create viral clips and get paid!",
   "source": null,
   "platforms": [
     "instagram",
@@ -50,9 +50,9 @@
   },
   "budget": {
     "total": 10000.0,
-    "remaining": 6163.17,
+    "remaining": 5787.92,
     "currency": "USD",
-    "updated_at": "2026-11-19"
+    "updated_at": "2026-11-25"
   },
   "deadline": null,
   "submission": {
@@ -80,24 +80,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 489,
-    "total_views": 1792144,
-    "creators": 60,
-    "avg_views": 3665,
-    "avg_payout": 7.85,
-    "updated_at": "2026-11-19T13:32:13.000Z"
+    "approved": 456,
+    "total_views": 1737897,
+    "creators": 61,
+    "avg_views": 3811,
+    "avg_payout": 9.24,
+    "updated_at": "2026-11-25T04:32:17.000Z"
   },
   "references": [
     "https://www.tiktok.com/@realmltap56/video/7699227849856797965",
-    "https://www.instagram.com/reel/Dez4EHSJMmF/",
     "https://www.instagram.com/reel/Dfsn0JZBXDO/",
+    "https://www.instagram.com/reel/Dez4EHSJMmF/",
     "https://www.tiktok.com/@mochiimi.w/photo/7699556044585979149",
     "https://www.tiktok.com/@minifonzy/video/7707703548573748511",
     "https://www.instagram.com/reel/De7it8IguN4/",
     "https://www.tiktok.com/@belleminibrands/video/7707248545115557151",
     "https://www.tiktok.com/@minibronny/video/7700266528893160725",
     "https://www.tiktok.com/@minibronny/video/7699891051464609076",
-    "https://www.tiktok.com/@lilbrotoys/video/7699541512429882644"
+    "https://www.tiktok.com/@myminikeeps/video/7701043354481478926"
   ],
   "locked_references": null,
   "launched_at": "2026-10-20T20:12:54.000Z",
@@ -107,6 +107,6 @@
     "adult": false,
     "political": false
   },
-  "brief_hash": "ef93309da6fa0df0",
+  "brief_hash": "5a8199276d7b77e5",
   "enriched": true
 }
