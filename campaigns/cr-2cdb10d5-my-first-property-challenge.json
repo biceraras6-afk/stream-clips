@@ -1,0 +1,99 @@
+{
+  "id": "cr-2cdb10d5-my-first-property-challenge",
+  "title": "My First Property Challenge",
+  "url": "https://contentrewards.com/c/campaigns/2cdb10d5-249a-42a2-b822-947186682705",
+  "status": "open",
+  "brand": "Charles Noonan Inc",
+  "streamer": null,
+  "category": "real-estate",
+  "language": null,
+  "description": "Make short reels on buying your first property: first piece of Land, First Truck Parking Lot, first Land flip, First ground up construction. Every clip MUST end with a CTA: \"Comment \"First\".  US viewers only. Please direct all content to @charlesjnoonan on IG.",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 3.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 9.0,
+    "min_views": 333,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 3.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 9.0
+      },
+      "instagram": {
+        "rate_per_1k": 3.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 9.0
+      },
+      "youtube": {
+        "rate_per_1k": 3.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 9.0
+      },
+      "facebook": {
+        "rate_per_1k": 3.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 9.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-25"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-25",
+  "cr_id": "2cdb10d5-249a-42a2-b822-947186682705",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-25T01:42:08.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-24T21:39:42.000Z",
+  "brief_hash": "883a449a24bd1d70"
+}

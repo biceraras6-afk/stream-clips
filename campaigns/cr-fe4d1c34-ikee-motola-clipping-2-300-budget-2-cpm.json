@@ -56,9 +56,9 @@
   },
   "budget": {
     "total": 2300.0,
-    "remaining": 2156.9,
+    "remaining": 1830.68,
     "currency": "USD",
-    "updated_at": "2026-11-17"
+    "updated_at": "2026-11-25"
   },
   "deadline": null,
   "submission": {
@@ -86,24 +86,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 24,
-    "total_views": 101511,
-    "creators": 11,
-    "avg_views": 4230,
-    "avg_payout": 5.96,
-    "updated_at": "2026-11-17T18:52:16.000Z"
+    "approved": 79,
+    "total_views": 415965,
+    "creators": 20,
+    "avg_views": 5265,
+    "avg_payout": 5.94,
+    "updated_at": "2026-11-25T01:42:12.000Z"
   },
   "references": [
-    "https://www.instagram.com/reel/DfwC6lxKX-9/",
-    "https://www.instagram.com/reel/Dfxr62MMuMG/",
-    "https://www.instagram.com/reel/Df1CThnS_GH/",
-    "https://www.tiktok.com/@ikeeclips_1/video/7708484698061786389",
-    "https://www.instagram.com/reel/DfudhPgCkVj/",
-    "https://www.instagram.com/reel/Dfsu4Rjiqs0/",
-    "https://www.youtube.com/watch?v=RoF7aGIgGgE",
-    "https://www.youtube.com/watch?v=wxuO5ScjoSQ",
-    "https://www.instagram.com/reel/Dft1l2-CPA0/",
-    "https://www.youtube.com/watch?v=BtTt37aLNgI"
+    "https://www.youtube.com/watch?v=OjE_rlIxYhc",
+    "https://www.youtube.com/watch?v=7t_YZzfhBoU",
+    "https://www.youtube.com/watch?v=3bGunLIB8Bg",
+    "https://www.youtube.com/watch?v=hEFnb6ltA6Y",
+    "https://www.youtube.com/watch?v=IS8DdvjLzfU",
+    "https://www.youtube.com/watch?v=nY5KFe8jP3s",
+    "https://www.youtube.com/watch?v=IMiBqkOLUws",
+    "https://www.youtube.com/watch?v=-CDr58olvTE",
+    "https://www.youtube.com/watch?v=7C9kqQkpNQ4",
+    "https://www.instagram.com/reel/DfudhPgCkVj/"
   ],
   "locked_references": null,
   "launched_at": "2026-11-12T20:07:32.000Z",

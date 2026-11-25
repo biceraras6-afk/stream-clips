@@ -66,9 +66,9 @@
   },
   "budget": {
     "total": 2000.0,
-    "remaining": 1194.86,
+    "remaining": 1190.02,
     "currency": "USD",
-    "updated_at": "2026-11-24"
+    "updated_at": "2026-11-25"
   },
   "deadline": null,
   "submission": {
@@ -97,11 +97,11 @@
   "content_rules": {},
   "stats": {
     "approved": 1704,
-    "total_views": 3317567,
+    "total_views": 3322931,
     "creators": 661,
-    "avg_views": 1947,
-    "avg_payout": 0.47,
-    "updated_at": "2026-11-24T22:16:15.000Z"
+    "avg_views": 1950,
+    "avg_payout": 0.48,
+    "updated_at": "2026-11-25T01:40:21.000Z"
   },
   "references": [
     "https://www.tiktok.com/@officialapriyanto/video/7708801738215673109",

@@ -68,7 +68,7 @@
     "total": 10000.0,
     "remaining": 10000.0,
     "currency": "USD",
-    "updated_at": "2026-11-24"
+    "updated_at": "2026-11-25"
   },
   "deadline": null,
   "submission": {
@@ -96,24 +96,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 7419,
-    "total_views": 56446576,
-    "creators": 3727,
-    "avg_views": 7608,
+    "approved": 7797,
+    "total_views": 73922986,
+    "creators": 3857,
+    "avg_views": 9481,
     "avg_payout": 0.0,
-    "updated_at": "2026-11-24T22:14:23.000Z"
+    "updated_at": "2026-11-25T01:42:23.000Z"
   },
   "references": [
     "https://www.instagram.com/reel/Df8K3nltAZl/",
     "https://www.tiktok.com/@gamingselect/video/7709666694846745870",
+    "https://www.tiktok.com/@theclipperslab/video/7710680890183142678",
+    "https://www.tiktok.com/@etherealclipz/video/7710642408458915092",
+    "https://www.tiktok.com/@subzero.media0/video/7710594021038607648",
+    "https://www.tiktok.com/@toakz.clips/video/7710619667424890145",
     "https://www.instagram.com/reel/Df8Ks4mROUJ/",
     "https://www.instagram.com/reel/Df8Y17StIVx/",
     "https://www.tiktok.com/@everythings175/video/7709908697509645600",
-    "https://www.instagram.com/reel/Df8HAkbxIti/",
-    "https://www.instagram.com/reel/Df-JtJjqTWA/",
-    "https://x.com/logicweirdngkid/status/2123450480034447667",
-    "https://www.instagram.com/reel/Df8NcRqt_ej/",
-    "https://x.com/Shurta07/status/2123406630390022316"
+    "https://www.instagram.com/reel/Df8HAkbxIti/"
   ],
   "locked_references": null,
   "launched_at": "2026-11-18T19:58:55.000Z",
