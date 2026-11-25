@@ -1,0 +1,105 @@
+{
+  "id": "cr-9685e4b8-solean-vor-der-kamera-unser-skript-de",
+  "title": "Solean · Vor der Kamera, unser Skript (DE)",
+  "url": "https://contentrewards.com/c/campaigns/9685e4b8-3164-419b-8ed1-479e05b8665c",
+  "status": "open",
+  "brand": "Solean",
+  "streamer": null,
+  "category": "health-wellness",
+  "language": null,
+  "description": "Kurze Videos vor der Kamera (9:16, 10–20 Sek.): Du sprichst unser Skript wortgetreu, ohne eigene Erfahrungen oder Empfehlungen. 100 $ pro freigegebenem Video ab 1.000 Aufrufen. Ablauf: Entwurf, Freigabe, Veröffentlichung. Gesucht: deutschsprachige Creator (m/w/d), mind. 60% der Aufrufe aus DE/AT/CH.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "per_post",
+    "amount_per_post": 100.0,
+    "rate_per_1k": 0.0,
+    "min_payout": null,
+    "max_payout_per_clip": null,
+    "min_views": null,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      },
+      "youtube": {
+        "rate_per_1k": 0.0,
+        "min_payout": null,
+        "max_payout_per_clip": null
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-25"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-25",
+  "cr_id": "9685e4b8-3164-419b-8ed1-479e05b8665c",
+  "guidelines": "$50",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": true,
+    "draftCaptionRequired": true
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 3,
+  "launched_at": "2026-11-25T14:09:38.000Z",
+  "brief_hash": "30b294cb20991341"
+}

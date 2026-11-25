@@ -54,7 +54,7 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 737.9,
+    "remaining": 736.43,
     "currency": "USD",
     "updated_at": "2026-11-25"
   },
@@ -85,11 +85,11 @@
   "content_rules": {},
   "stats": {
     "approved": 42,
-    "total_views": 549387,
+    "total_views": 553175,
     "creators": 35,
-    "avg_views": 13081,
-    "avg_payout": 6.24,
-    "updated_at": "2026-11-25T13:46:21.000Z"
+    "avg_views": 13171,
+    "avg_payout": 6.28,
+    "updated_at": "2026-11-25T16:36:19.000Z"
   },
   "references": [
     "https://www.tiktok.com/@bilzpaid/video/7711030779362413846",
