@@ -1,0 +1,99 @@
+{
+  "id": "cr-5c9922ea-ourdream-japan-on-x-3-1k",
+  "title": "ourdream Japan on X | 日本語アカウント限定 | $3/1K",
+  "url": "https://contentrewards.com/c/campaigns/5c9922ea-24c0-4e3f-a029-0576c0e462cd",
+  "status": "open",
+  "brand": "dream labs",
+  "streamer": null,
+  "category": "technology",
+  "language": null,
+  "description": "ourdreamは、自分だけのAIキャラクターを作って会話できるアプリです。日本語で投稿しているXアカウト限定のキャンペーン。素材8本から10〜30秒のクリップを作り、リンクを投稿に入れてXに投稿。Japanse X accounts only: cut clips from our 8 Japanese vieos and post on X with the link in the post.",
+  "source": null,
+  "platforms": [
+    "x"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": null,
+    "min_payout": null,
+    "max_payout_per_clip": null,
+    "min_views": null,
+    "per_platform": {
+      "x": {
+        "rate_per_1k": 3.0,
+        "min_payout": 6.0,
+        "max_payout_per_clip": 300.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-25"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-25",
+  "cr_id": "5c9922ea-24c0-4e3f-a029-0576c0e462cd",
+  "guidelines": "$4f",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 1,
+  "launched_at": "2026-11-25T06:42:50.000Z",
+  "brief_hash": "48dbdfc2b2c0755c"
+}
