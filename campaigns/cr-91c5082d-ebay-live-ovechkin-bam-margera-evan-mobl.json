@@ -39,23 +39,23 @@
     "model": "cpm",
     "amount_per_post": null,
     "rate_per_1k": 4.0,
-    "min_payout": 4.0,
+    "min_payout": 8.0,
     "max_payout_per_clip": 400.0,
-    "min_views": 1000,
+    "min_views": 2000,
     "per_platform": {
       "tiktok": {
         "rate_per_1k": 4.0,
-        "min_payout": 4.0,
+        "min_payout": 8.0,
         "max_payout_per_clip": 400.0
       },
       "instagram": {
         "rate_per_1k": 4.0,
-        "min_payout": 4.0,
+        "min_payout": 8.0,
         "max_payout_per_clip": 400.0
       },
       "youtube": {
         "rate_per_1k": 4.0,
-        "min_payout": 4.0,
+        "min_payout": 8.0,
         "max_payout_per_clip": 400.0
       }
     },
@@ -63,7 +63,7 @@
   },
   "budget": {
     "total": 4000.0,
-    "remaining": 4000.0,
+    "remaining": 3617.38,
     "currency": "USD",
     "updated_at": "2026-11-25"
   },
@@ -93,14 +93,19 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 0,
-    "total_views": 0,
-    "creators": 0,
-    "avg_views": null,
-    "avg_payout": null,
-    "updated_at": "2026-11-25T19:16:23.000Z"
+    "approved": 4,
+    "total_views": 87592,
+    "creators": 4,
+    "avg_views": 21898,
+    "avg_payout": 95.66,
+    "updated_at": "2026-11-25T22:14:24.000Z"
   },
-  "references": [],
+  "references": [
+    "https://www.tiktok.com/@buzzify.official/video/7711898828655299870",
+    "https://www.youtube.com/watch?v=TET9psrL_Qw",
+    "https://www.youtube.com/watch?v=cw1pIWCaFK0",
+    "https://www.youtube.com/watch?v=g2YV4fUVqj0"
+  ],
   "locked_references": null,
   "launched_at": "2026-11-23T22:49:32.000Z",
   "flags": {

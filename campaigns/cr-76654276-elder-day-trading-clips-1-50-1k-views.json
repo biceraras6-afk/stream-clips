@@ -1,0 +1,130 @@
+{
+  "id": "cr-76654276-elder-day-trading-clips-1-50-1k-views",
+  "title": "Elder | Day Trading Clips | $1.50/1K views",
+  "url": "https://contentrewards.com/c/campaigns/76654276-286a-4a36-b964-211cd68ec8e4",
+  "status": "open",
+  "brand": "tradingelder",
+  "streamer": "Elder",
+  "category": "day-trading",
+  "language": "en",
+  "description": "Clip Elder's live trading sessions and Youtube, and re-edit his viral reels. He's a 25-year-old full-time ES/NQ futures day trader who teaches order flow. ",
+  "source": {
+    "type": "drive",
+    "urls": [],
+    "permission_quote": "Use only Elder's footage from the Drive, YouTube, and Instagram"
+  },
+  "platforms": [
+    "instagram"
+  ],
+  "format": {
+    "min_seconds": 15,
+    "max_seconds": 90,
+    "aspect": "9:16"
+  },
+  "required_tags": [
+    "@tradingelder"
+  ],
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Use vertical 9:16 format",
+      "Keep clips 15‑90 seconds",
+      "Include burned‑in captions",
+      "Hook within first 1‑2 seconds",
+      "Re‑edit viral reels with new hook or captions",
+      "Tag @tradingelder"
+    ],
+    "dont": [
+      "Upload straight 1:1 reuploads",
+      "Use botted views, view pods, follow‑for‑follow, giveaways, or paid promotion",
+      "Post for less than 30 days"
+    ]
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.5,
+    "min_payout": 3.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 2000,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2000.0,
+    "remaining": 2000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-25"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-25",
+  "cr_id": "76654276-286a-4a36-b964-211cd68ec8e4",
+  "guidelines": "Vertical 9:16, 15 to 90 seconds, with burned-in captions\nHook in the first 1-2 seconds (a live win, a bold market call, or a quick question)\nUse only Elder's footage from the Drive, YouTube, and Instagram\nElder's viral reels must be re-edited: new hook, new captions, or a different cut. Straight 1:1 reuploads get rejected\nMust tag @tradingelder in the caption\nReal views only. Botted views, view pods, follow-for-follow, giveaways, or paid promotion = rejected and removed from the campaign\nPost must stay up for at least 30 days\nEnglish only",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 3,
+  "launched_at": "2026-11-25T19:20:36.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "af714ae79d1650b2",
+  "enriched": true
+}
