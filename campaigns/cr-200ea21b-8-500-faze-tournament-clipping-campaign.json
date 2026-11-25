@@ -68,7 +68,7 @@
   },
   "budget": {
     "total": 8500.0,
-    "remaining": 6399.88,
+    "remaining": 6399.5,
     "currency": "USD",
     "updated_at": "2026-11-25"
   },
@@ -133,11 +133,11 @@
   },
   "stats": {
     "approved": 90,
-    "total_views": 1052703,
+    "total_views": 1056572,
     "creators": 22,
-    "avg_views": 11697,
-    "avg_payout": 23.33,
-    "updated_at": "2026-11-25T10:24:14.000Z"
+    "avg_views": 11740,
+    "avg_payout": 23.34,
+    "updated_at": "2026-11-25T13:46:12.000Z"
   },
   "references": [
     "https://www.instagram.com/p/DgDSPsbN2Rk/",
@@ -148,8 +148,8 @@
     "https://www.instagram.com/reel/DfxXo4EI3xO/",
     "https://www.instagram.com/reel/DgBlwBPMK45/",
     "https://www.instagram.com/reel/Df2-y_6o_YF/",
-    "https://x.com/batoisblessed/status/2124445175887835621",
-    "https://www.instagram.com/reel/Df70lyotG3w/"
+    "https://www.instagram.com/reel/Df0WFUJor-u/",
+    "https://x.com/batoisblessed/status/2124445175887835621"
   ],
   "locked_references": 3,
   "launched_at": "2026-11-11T19:00:34.000Z",
