@@ -1,0 +1,105 @@
+{
+  "id": "cr-61ca6b2e-my-mini-birthday-series-1-clipping",
+  "title": "My Mini Birthday Series 1 Clipping ",
+  "url": "https://contentrewards.com/c/campaigns/61ca6b2e-033c-434c-826b-9b9960d0e822",
+  "status": "open",
+  "brand": "Clip Influence",
+  "streamer": null,
+  "category": "entertainment",
+  "language": "es",
+  "description": "Gana $3 por cada mil vistas creando clips para la campaña oficial de My Mini Birthday Serie 1. Comparte unboxings, hallazgos en tiendas y la búsqueda de las gemelas con audiencias de México y Latinoamérica. Cuéntales que pueden buscar My Mini Birthday en Walmart y Juguetrón.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Comparte unboxings, hallazgos en tiendas y la búsqueda de las gemelas",
+      "Menciona que pueden buscar My Mini Birthday en Walmart y Juguetrón"
+    ],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 3.0,
+    "min_payout": 3.0,
+    "max_payout_per_clip": 300.0,
+    "min_views": 1000,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 3.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 300.0
+      },
+      "tiktok": {
+        "rate_per_1k": 3.0,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 300.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 5000.0,
+    "remaining": 5000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-26"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-26",
+  "cr_id": "61ca6b2e-033c-434c-826b-9b9960d0e822",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-26T16:18:08.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-26T15:48:48.000Z",
+  "audience": "México y Latinoamérica",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "423e92506f932dec",
+  "enriched": true
+}

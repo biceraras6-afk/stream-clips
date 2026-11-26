@@ -68,7 +68,7 @@
   },
   "budget": {
     "total": 8500.0,
-    "remaining": 6105.58,
+    "remaining": 5691.7,
     "currency": "USD",
     "updated_at": "2026-11-26"
   },
@@ -132,24 +132,24 @@
     }
   },
   "stats": {
-    "approved": 95,
-    "total_views": 1191343,
-    "creators": 22,
-    "avg_views": 12540,
-    "avg_payout": 25.2,
-    "updated_at": "2026-11-26T13:42:19.000Z"
+    "approved": 99,
+    "total_views": 1379571,
+    "creators": 23,
+    "avg_views": 13935,
+    "avg_payout": 28.37,
+    "updated_at": "2026-11-26T16:26:18.000Z"
   },
   "references": [
+    "https://x.com/timmycartel/status/2125091121160159498",
     "https://www.instagram.com/p/DgDSPsbN2Rk/",
+    "https://x.com/batoisblessed/status/2125586428524400856",
     "https://www.instagram.com/reel/Df-zkEJgNH5/",
     "https://x.com/timmycartel/status/2124739119435678084",
     "https://www.instagram.com/reel/DfsbFasohdY/",
     "https://www.instagram.com/reel/DgAgP8vtv0z/",
     "https://www.instagram.com/reel/DfxXo4EI3xO/",
     "https://www.instagram.com/reel/DgBlwBPMK45/",
-    "https://www.instagram.com/reel/Df2-y_6o_YF/",
-    "https://www.instagram.com/reel/Df0WFUJor-u/",
-    "https://x.com/batoisblessed/status/2124445175887835621"
+    "https://www.instagram.com/reel/Df2-y_6o_YF/"
   ],
   "locked_references": 3,
   "launched_at": "2026-11-11T19:00:34.000Z",

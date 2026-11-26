@@ -1,0 +1,99 @@
+{
+  "id": "cr-dfa15334-steffi-for-men-us-launch",
+  "title": "Steffi for Men – US Launch",
+  "url": "https://contentrewards.com/c/campaigns/dfa15334-e5b9-4918-920c-35cf07bf90f9",
+  "status": "open",
+  "brand": "steffi for men",
+  "streamer": null,
+  "category": "beauty-brand",
+  "language": null,
+  "description": "Help make Steffi for Men known across the US. Turn our supplied fragrance videos into engaging English TikTok clips and post them on your own account. Reach US audiences, showcase the brand and fragrances, and encourage viewers to discover our official channels. Earn based on approved views.",
+  "source": null,
+  "platforms": [
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 5.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 5000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 5.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-26"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-26",
+  "cr_id": "dfa15334-e5b9-4918-920c-35cf07bf90f9",
+  "guidelines": "Create engaging clips using the supplied Steffi for Men videos.\nUse English and create content for a US audience.\nStart with a strong hook in the first 1–2 seconds.\nMake the Steffi for Men brand name clearly visible and easy to remember.\nFocus on the fragrances and building brand awareness.\nPublish each clip on your own public TikTok account.\nInclude “Steffi for Men” in the caption.\nCreate your own edit rather than reposting the original video unchanged.\nDo not invent personal experiences or product claims.\nClearly disclose the paid collaboration in every post.\nOnly organic views are eligible. No bots, purchased views or paid boosts.",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": true,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 4,
+  "launched_at": "2026-11-26T15:47:01.000Z",
+  "brief_hash": "35e04c6d055ca5e8"
+}

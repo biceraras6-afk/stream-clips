@@ -70,7 +70,7 @@
   },
   "budget": {
     "total": 10000.0,
-    "remaining": 8490.3,
+    "remaining": 8459.9,
     "currency": "USD",
     "updated_at": "2026-11-26"
   },
@@ -101,11 +101,11 @@
   "content_rules": {},
   "stats": {
     "approved": 206,
-    "total_views": 1477773,
+    "total_views": 1505085,
     "creators": 148,
-    "avg_views": 7174,
-    "avg_payout": 7.33,
-    "updated_at": "2026-11-26T13:42:20.000Z"
+    "avg_views": 7306,
+    "avg_payout": 7.48,
+    "updated_at": "2026-11-26T16:26:24.000Z"
   },
   "references": [
     "https://x.com/aaminhajj__/status/2124771041029275697",
