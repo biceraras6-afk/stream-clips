@@ -1,0 +1,105 @@
+{
+  "id": "cr-2f923c1f-post-gameplay-of-mr-exit",
+  "title": "Post gameplay of Mr EXIT",
+  "url": "https://contentrewards.com/c/campaigns/2f923c1f-9680-414d-8e9d-38841faef813",
+  "status": "open",
+  "brand": "Nightshrine",
+  "streamer": null,
+  "category": "mobile-gaming",
+  "language": null,
+  "description": "Make short videos playing Mr EXIT, a new free iPhone game. Show your reactions, fails and big \"aha\" moments. Post on TikTok, Reels or Shorts with \"Mr EXIT\" on screen, and get paid per 1,000 views. You don't need a following.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 2.0,
+    "min_payout": 10.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 5000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 2.0,
+        "min_payout": 10.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-26"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": true,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-26",
+  "cr_id": "2f923c1f-9680-414d-8e9d-38841faef813",
+  "guidelines": "Required:\n- Describe the game as \"A Runner Platformer built for mobile\"\n- No AI imagery or AI generated bastardisations of Brand or Mr EXIT content\n- AI use on your own facecams/transitions is acceptable.\n- When discussing levels, please include terms such as \"handmade\" or \"bespoke\", also include the fact that there are over 200 levels\n- You MUST include the link in any and all content that users can easily access\n- The primary goal of this campaign is to obtain installs, so encourage users to install via the link \n- You must record your own footage, if you just reuse footage posted from the trailer, preview, or elsewhere, your submission will be rejected and your application will be revoked.\n\nOptional Talking Points that may be helpful:\n- Made by one person who grew up on early 2000s flash games like N, Vex, Fancy Pants Adventure\n- Used to work on Crossy Road, I was a Product Manager (proof: https://www.linkedin.com/in/jackson-frew/)\n- If you need a Remove Ads code, message me and I can provide one.\n",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": true,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": true,
+    "draftCaptionRequired": true
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 1,
+  "launched_at": "2026-11-25T21:38:35.000Z",
+  "brief_hash": "d1ce643faed89362"
+}

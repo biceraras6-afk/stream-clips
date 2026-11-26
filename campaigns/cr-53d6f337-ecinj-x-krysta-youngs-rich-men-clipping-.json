@@ -1,0 +1,87 @@
+{
+  "id": "cr-53d6f337-ecinj-x-krysta-youngs-rich-men-clipping-",
+  "title": "ECINJ x Krysta Youngs - Rich Men Clipping [8538]",
+  "url": "https://contentrewards.com/c/campaigns/53d6f337-6a97-4924-9982-f7e6f21933fb",
+  "status": "open",
+  "brand": "Sound Network",
+  "streamer": null,
+  "category": "music",
+  "language": null,
+  "description": "Pick one theme below and clip footage that fits it.\nEdit to the official sound, starting on the hook. \nPost to TikTok or Instagram Reels.\n",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 100.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 100.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2250.0,
+    "remaining": 2250.0,
+    "currency": "USD",
+    "updated_at": "2026-11-26"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-26",
+  "cr_id": "53d6f337-6a97-4924-9982-f7e6f21933fb",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-26T01:48:07.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-25T21:41:26.000Z",
+  "brief_hash": "f03c94e0f624eb4c"
+}

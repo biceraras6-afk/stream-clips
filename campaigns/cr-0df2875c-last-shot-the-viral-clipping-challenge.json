@@ -1,0 +1,105 @@
+{
+  "id": "cr-0df2875c-last-shot-the-viral-clipping-challenge",
+  "title": "Last Shot | The Viral Clipping Challenge",
+  "url": "https://contentrewards.com/c/campaigns/0df2875c-02b7-4651-b837-26017ef8c777",
+  "status": "open",
+  "brand": "Last Shot AZ",
+  "streamer": null,
+  "category": "personal-brand",
+  "language": null,
+  "description": "Turn exclusive footage into viral content and get paid for your creativity. Earn $1 per 1,000 eligible views. Create scroll-stopping edits, showcase your skills, and build your income. No minimum followers required. Your creativity. Your views. Your payday.",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 25.0,
+    "max_payout_per_clip": 1000.0,
+    "min_views": 25000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 25.0,
+        "max_payout_per_clip": 1000.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 25.0,
+        "max_payout_per_clip": 1000.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 25.0,
+        "max_payout_per_clip": 1000.0
+      },
+      "x": {
+        "rate_per_1k": 1.0,
+        "min_payout": 25.0,
+        "max_payout_per_clip": 1000.0
+      },
+      "facebook": {
+        "rate_per_1k": 1.0,
+        "min_payout": 25.0,
+        "max_payout_per_clip": 1000.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2000.0,
+    "remaining": 2000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-26"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-26",
+  "cr_id": "0df2875c-02b7-4651-b837-26017ef8c777",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-26T01:46:15.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-25T22:41:52.000Z",
+  "brief_hash": "86ddbf05a7ed475e"
+}

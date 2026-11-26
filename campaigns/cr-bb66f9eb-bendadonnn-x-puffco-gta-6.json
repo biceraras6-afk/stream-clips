@@ -70,9 +70,9 @@
   },
   "budget": {
     "total": 10000.0,
-    "remaining": 8693.48,
+    "remaining": 8509.03,
     "currency": "USD",
-    "updated_at": "2026-11-25"
+    "updated_at": "2026-11-26"
   },
   "deadline": null,
   "submission": {
@@ -100,12 +100,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 186,
-    "total_views": 1295670,
-    "creators": 141,
-    "avg_views": 6966,
-    "avg_payout": 7.02,
-    "updated_at": "2026-11-25T22:14:21.000Z"
+    "approved": 196,
+    "total_views": 1459216,
+    "creators": 140,
+    "avg_views": 7445,
+    "avg_payout": 7.61,
+    "updated_at": "2026-11-26T01:48:22.000Z"
   },
   "references": [
     "https://www.youtube.com/watch?v=664mCJTGTq0",
@@ -114,8 +114,7 @@
     "https://www.youtube.com/watch?v=o6Z4qKe9_qM",
     "https://x.com/batjay_/status/2125179715363516580",
     "https://x.com/Ajetcrypt/status/2124102397857304611",
-    "https://www.youtube.com/watch?v=Csi8GFGM82E",
-    "https://www.youtube.com/watch?v=V6qVTxJeBvY"
+    "https://x.com/Asodiqu_1/status/2125174342367560186"
   ],
   "locked_references": null,
   "launched_at": "2026-11-19T01:29:44.000Z",
