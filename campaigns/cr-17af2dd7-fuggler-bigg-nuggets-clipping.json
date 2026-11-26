@@ -50,9 +50,9 @@
   },
   "budget": {
     "total": 10000.0,
-    "remaining": 10000.0,
+    "remaining": 8706.33,
     "currency": "USD",
-    "updated_at": "2026-11-25"
+    "updated_at": "2026-11-26"
   },
   "deadline": null,
   "submission": {
@@ -80,14 +80,25 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 0,
-    "total_views": 0,
-    "creators": 0,
-    "avg_views": null,
-    "avg_payout": null,
-    "updated_at": "2026-11-25T13:44:09.000Z"
+    "approved": 62,
+    "total_views": 858245,
+    "creators": 28,
+    "avg_views": 13843,
+    "avg_payout": 20.87,
+    "updated_at": "2026-11-26T13:42:23.000Z"
   },
-  "references": [],
+  "references": [
+    "https://www.tiktok.com/@minifonzy/video/7712111912649067806",
+    "https://www.tiktok.com/@fuggricia/video/7712114759243533589",
+    "https://www.tiktok.com/@saoirse5149/video/7712152236335336722",
+    "https://www.tiktok.com/@fugglerbron/video/7712138828957551873",
+    "https://www.tiktok.com/@motherfuggers6/video/7712144169296317709",
+    "https://www.tiktok.com/@unboxlarping/video/7712113908181388557",
+    "https://www.instagram.com/reel/DgKxapshT0b/",
+    "https://www.tiktok.com/@boogerluvv/video/7712119736171023629",
+    "https://www.tiktok.com/@k_fuggler/video/7712122781072313607",
+    "https://www.tiktok.com/@myminiunbox/video/7712129723748453645"
+  ],
   "locked_references": null,
   "launched_at": "2026-11-25T13:17:10.000Z",
   "audience": "US",
