@@ -63,7 +63,7 @@
   },
   "budget": {
     "total": 4000.0,
-    "remaining": 3540.78,
+    "remaining": 3540.03,
     "currency": "USD",
     "updated_at": "2026-11-26"
   },
@@ -94,11 +94,11 @@
   "content_rules": {},
   "stats": {
     "approved": 5,
-    "total_views": 106359,
+    "total_views": 106538,
     "creators": 4,
-    "avg_views": 21272,
-    "avg_payout": 91.84,
-    "updated_at": "2026-11-26T19:22:21.000Z"
+    "avg_views": 21308,
+    "avg_payout": 91.99,
+    "updated_at": "2026-11-26T22:14:21.000Z"
   },
   "references": [
     "https://www.tiktok.com/@buzzify.official/video/7711898828655299870",

@@ -50,9 +50,9 @@
   },
   "budget": {
     "total": 10000.0,
-    "remaining": 5759.53,
+    "remaining": 5751.42,
     "currency": "USD",
-    "updated_at": "2026-11-25"
+    "updated_at": "2026-11-26"
   },
   "deadline": null,
   "submission": {
@@ -80,24 +80,23 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 460,
-    "total_views": 1754624,
+    "approved": 459,
+    "total_views": 1756776,
     "creators": 61,
-    "avg_views": 3814,
-    "avg_payout": 9.22,
-    "updated_at": "2026-11-25T16:36:14.000Z"
+    "avg_views": 3827,
+    "avg_payout": 9.26,
+    "updated_at": "2026-11-26T22:16:20.000Z"
   },
   "references": [
     "https://www.tiktok.com/@realmltap56/video/7699227849856797965",
     "https://www.instagram.com/reel/Dfsn0JZBXDO/",
     "https://www.instagram.com/reel/Dez4EHSJMmF/",
-    "https://www.tiktok.com/@mochiimi.w/photo/7699556044585979149",
     "https://www.tiktok.com/@minifonzy/video/7707703548573748511",
+    "https://www.tiktok.com/@mochiimi.w/photo/7699556044585979149",
     "https://www.instagram.com/reel/De7it8IguN4/",
     "https://www.tiktok.com/@belleminibrands/video/7707248545115557151",
     "https://www.tiktok.com/@minibronny/video/7700266528893160725",
-    "https://www.tiktok.com/@minibronny/video/7699891051464609076",
-    "https://www.tiktok.com/@myminikeeps/video/7701043354481478926"
+    "https://www.tiktok.com/@minibronny/video/7699891051464609076"
   ],
   "locked_references": null,
   "launched_at": "2026-10-20T20:12:54.000Z",

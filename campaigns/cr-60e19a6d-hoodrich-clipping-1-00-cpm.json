@@ -56,7 +56,7 @@
   },
   "budget": {
     "total": 5000.0,
-    "remaining": 4437.73,
+    "remaining": 4437.69,
     "currency": "USD",
     "updated_at": "2026-11-26"
   },
@@ -87,11 +87,11 @@
   "content_rules": {},
   "stats": {
     "approved": 204,
-    "total_views": 514331,
+    "total_views": 514335,
     "creators": 14,
     "avg_views": 2521,
     "avg_payout": 2.76,
-    "updated_at": "2026-11-26T19:22:14.000Z"
+    "updated_at": "2026-11-26T22:14:17.000Z"
   },
   "references": [
     "https://www.youtube.com/watch?v=-muFj3ZTyLY",
