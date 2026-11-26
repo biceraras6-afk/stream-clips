@@ -37,7 +37,7 @@
     "min_views": 1500,
     "per_platform": {
       "instagram": {
-        "rate_per_1k": 1.5,
+        "rate_per_1k": 1.0,
         "min_payout": 3.0,
         "max_payout_per_clip": 50.0
       },
@@ -48,7 +48,7 @@
       },
       "youtube": {
         "rate_per_1k": 1.0,
-        "min_payout": 2.0,
+        "min_payout": 3.0,
         "max_payout_per_clip": 50.0
       }
     },
@@ -56,7 +56,7 @@
   },
   "budget": {
     "total": 2300.0,
-    "remaining": 1811.27,
+    "remaining": 1708.67,
     "currency": "USD",
     "updated_at": "2026-11-26"
   },
@@ -86,12 +86,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 80,
-    "total_views": 430917,
-    "creators": 20,
-    "avg_views": 5386,
-    "avg_payout": 6.11,
-    "updated_at": "2026-11-26T07:44:11.000Z"
+    "approved": 92,
+    "total_views": 517695,
+    "creators": 21,
+    "avg_views": 5627,
+    "avg_payout": 6.43,
+    "updated_at": "2026-11-26T10:28:17.000Z"
   },
   "references": [
     "https://www.youtube.com/watch?v=OjE_rlIxYhc",
@@ -100,10 +100,10 @@
     "https://www.youtube.com/watch?v=3bGunLIB8Bg",
     "https://www.youtube.com/watch?v=nY5KFe8jP3s",
     "https://www.youtube.com/watch?v=IS8DdvjLzfU",
+    "https://www.youtube.com/watch?v=hB19mH6tGuM",
     "https://www.youtube.com/watch?v=IMiBqkOLUws",
     "https://www.youtube.com/watch?v=-CDr58olvTE",
-    "https://www.youtube.com/watch?v=7C9kqQkpNQ4",
-    "https://www.youtube.com/watch?v=2j2bUkJRzEU"
+    "https://www.youtube.com/watch?v=cj4vRLjgCqk"
   ],
   "locked_references": null,
   "launched_at": "2026-11-12T20:07:32.000Z",
