@@ -1,0 +1,119 @@
+{
+  "id": "cr-bec622f6-gameful",
+  "title": "Gameful",
+  "url": "https://contentrewards.com/c/campaigns/bec622f6-681c-4243-a60d-d3463c7c746d",
+  "status": "open",
+  "brand": "BloxClips",
+  "streamer": null,
+  "category": "roblox",
+  "language": null,
+  "description": "Make your own videos about Roblox trading, item values and the community around your game, show Gameful in them, and get your viewers to use gameful.com.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 200.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 200.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 200.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 200.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 5000.0,
+    "remaining": 5000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-26"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-26",
+  "cr_id": "bec622f6-681c-4243-a60d-d3463c7c746d",
+  "guidelines": "Only make videos about games live on Gameful (mostly MM2, Fisch is also OK)\nRoblox trading, values or gameplay accounts only\nNo other sponsors, item shops, promo codes or trading sites in the video\nNo real-money selling, gambling, scam tutorials or calling out real usernames\nKeep at least a 1% engagement rate\nCross-posting to TikTok, Shorts and Reels is encouraged",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": true,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "reviewerOnly": [
+      "Only make videos about games live on Gameful (mostly MM2, Fisch is also OK)",
+      "Roblox trading, values or gameplay accounts only",
+      "No other sponsors, item shops, promo codes or trading sites in the video",
+      "No real-money selling, gambling, scam tutorials or calling out real usernames",
+      "Keep at least a 1% engagement rate",
+      "Cross-posting to TikTok, Shorts and Reels is encouraged"
+    ],
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 1,
+  "launched_at": "2026-11-26T02:50:24.000Z",
+  "brief_hash": "05c5361325ace30e"
+}
