@@ -68,7 +68,7 @@
   },
   "budget": {
     "total": 8500.0,
-    "remaining": 5691.7,
+    "remaining": 5686.09,
     "currency": "USD",
     "updated_at": "2026-11-26"
   },
@@ -133,11 +133,11 @@
   },
   "stats": {
     "approved": 99,
-    "total_views": 1379571,
+    "total_views": 1382198,
     "creators": 23,
-    "avg_views": 13935,
-    "avg_payout": 28.37,
-    "updated_at": "2026-11-26T16:26:18.000Z"
+    "avg_views": 13962,
+    "avg_payout": 28.42,
+    "updated_at": "2026-11-26T19:22:20.000Z"
   },
   "references": [
     "https://x.com/timmycartel/status/2125091121160159498",
