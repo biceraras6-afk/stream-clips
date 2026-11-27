@@ -70,7 +70,7 @@
   },
   "budget": {
     "total": 10000.0,
-    "remaining": 7910.86,
+    "remaining": 7788.93,
     "currency": "USD",
     "updated_at": "2026-11-27"
   },
@@ -101,11 +101,11 @@
   "content_rules": {},
   "stats": {
     "approved": 258,
-    "total_views": 2005397,
+    "total_views": 2128641,
     "creators": 169,
-    "avg_views": 7773,
-    "avg_payout": 8.1,
-    "updated_at": "2026-11-27T16:24:20.000Z"
+    "avg_views": 8251,
+    "avg_payout": 8.57,
+    "updated_at": "2026-11-27T19:20:19.000Z"
   },
   "references": [
     "https://www.tiktok.com/@gta.clips.lab/video/7710007436639309086",
