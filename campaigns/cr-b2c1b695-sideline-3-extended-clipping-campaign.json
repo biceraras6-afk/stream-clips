@@ -1,0 +1,93 @@
+{
+  "id": "cr-b2c1b695-sideline-3-extended-clipping-campaign",
+  "title": "Sideline 3 (Extended Clipping Campaign)",
+  "url": "https://contentrewards.com/c/campaigns/b2c1b695-bbba-4267-9d19-79385f637ae4",
+  "status": "open",
+  "brand": "Clouted",
+  "streamer": null,
+  "category": "movie-tv-show",
+  "language": null,
+  "description": "Movie + TV",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 0.5,
+    "max_payout_per_clip": 250.0,
+    "min_views": 500,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 0.5,
+        "max_payout_per_clip": 250.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 0.5,
+        "max_payout_per_clip": 250.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 0.5,
+        "max_payout_per_clip": 250.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 2500.0,
+    "remaining": 2500.0,
+    "currency": "USD",
+    "updated_at": "2026-11-27"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-27",
+  "cr_id": "b2c1b695-bbba-4267-9d19-79385f637ae4",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-27T04:26:19.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-27T03:11:08.000Z",
+  "brief_hash": "5c04d4b646bc6b15"
+}
