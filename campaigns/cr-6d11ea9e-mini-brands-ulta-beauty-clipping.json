@@ -50,7 +50,7 @@
   },
   "budget": {
     "total": 10000.0,
-    "remaining": 5747.77,
+    "remaining": 5706.94,
     "currency": "USD",
     "updated_at": "2026-11-27"
   },
@@ -80,12 +80,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 459,
-    "total_views": 1758911,
+    "approved": 462,
+    "total_views": 1784056,
     "creators": 61,
-    "avg_views": 3832,
-    "avg_payout": 9.26,
-    "updated_at": "2026-11-27T04:28:22.000Z"
+    "avg_views": 3862,
+    "avg_payout": 9.29,
+    "updated_at": "2026-11-27T07:44:18.000Z"
   },
   "references": [
     "https://www.tiktok.com/@realmltap56/video/7699227849856797965",
@@ -96,7 +96,8 @@
     "https://www.instagram.com/reel/De7it8IguN4/",
     "https://www.tiktok.com/@belleminibrands/video/7707248545115557151",
     "https://www.tiktok.com/@minibronny/video/7700266528893160725",
-    "https://www.tiktok.com/@minibronny/video/7699891051464609076"
+    "https://www.tiktok.com/@minibronny/video/7699891051464609076",
+    "https://www.tiktok.com/@beautyfinds_daily24/video/7712593697006914824"
   ],
   "locked_references": null,
   "launched_at": "2026-10-20T20:12:54.000Z",

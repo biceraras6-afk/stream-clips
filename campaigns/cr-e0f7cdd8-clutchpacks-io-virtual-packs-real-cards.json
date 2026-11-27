@@ -1,0 +1,110 @@
+{
+  "id": "cr-e0f7cdd8-clutchpacks-io-virtual-packs-real-cards",
+  "title": "ClutchPacks.io - Virtual Packs, Real Cards ",
+  "url": "https://contentrewards.com/c/campaigns/e0f7cdd8-cd0a-4faa-aa60-7903e110dee4",
+  "status": "open",
+  "brand": "Artist Influence",
+  "streamer": "Danny",
+  "category": "consumer-brand",
+  "language": null,
+  "description": "Get paid per view to clip ClutchPacks.io: virtual packs, real cards. Cut big Pokémon, One Piece & sports card rips from Danny's livestream, pack-opening footage & repo edits. Code RIPS20 on screen + in caption, link in bio, & hashtags on every post. Read brief below. Max Payout $200+",
+  "source": {
+    "type": "stream",
+    "urls": [],
+    "permission_quote": "Cut big Pokémon, One Piece & sports card rips from Danny's livestream, pack-opening footage & repo edits."
+  },
+  "platforms": [
+    "instagram",
+    "tiktok"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Include Code RIPS20 on screen",
+      "Include Code RIPS20 in caption",
+      "Add link in bio",
+      "Include hashtags on every post"
+    ],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 1000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 150.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1250.0,
+    "remaining": 1250.0,
+    "currency": "USD",
+    "updated_at": "2026-11-27"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-27",
+  "cr_id": "e0f7cdd8-cd0a-4faa-aa60-7903e110dee4",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-27T07:42:21.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-27T04:31:16.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "ce55467afb82a477",
+  "enriched": true
+}
