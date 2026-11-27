@@ -67,7 +67,7 @@
     "total": 9000.0,
     "remaining": 9000.0,
     "currency": "USD",
-    "updated_at": "2026-11-26"
+    "updated_at": "2026-11-27"
   },
   "deadline": null,
   "submission": {
@@ -95,12 +95,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 30720,
-    "total_views": 204184683,
+    "approved": 30724,
+    "total_views": 205775678,
     "creators": 3658,
-    "avg_views": 6647,
+    "avg_views": 6698,
     "avg_payout": 0.0,
-    "updated_at": "2026-11-26T22:14:22.000Z"
+    "updated_at": "2026-11-27T01:48:20.000Z"
   },
   "references": [
     "https://x.com/astaonx_/status/2123058941253013662",

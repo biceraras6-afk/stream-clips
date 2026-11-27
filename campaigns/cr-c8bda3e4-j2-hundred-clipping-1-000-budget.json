@@ -1,0 +1,130 @@
+{
+  "id": "cr-c8bda3e4-j2-hundred-clipping-1-000-budget",
+  "title": "J2 Hundred Clipping  | $1,000 Budget!",
+  "url": "https://contentrewards.com/c/campaigns/c8bda3e4-2635-40a1-a21a-d034accc016a",
+  "status": "open",
+  "brand": "MGCPM",
+  "streamer": "J2 Hundred",
+  "category": "personal-brand",
+  "language": null,
+  "description": "J2 Hundred one of the biggest streamers in the UK with over 4M+ followers across platforms!\n\nHe streams on Kick and has some crazy content that’s perfect for short form. This campaign will be solely built around promoting those moments while following ALL campaign guidelines!",
+  "source": {
+    "type": "channel",
+    "urls": [],
+    "permission_quote": "Must use recent content linked (YouTube videos + Kick Streams)"
+  },
+  "platforms": [
+    "tiktok"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": [
+    "#j2hundred",
+    "#j2"
+  ],
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Use recent content no longer than 1 month old",
+      "Direct viewers to J2's stream in every caption",
+      "Mention J2's name on any on-screen text"
+    ],
+    "dont": [
+      "Tarnish J2's image or make him look bad"
+    ]
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 1.2,
+    "max_payout_per_clip": 80.0,
+    "min_views": 1200,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.2,
+        "max_payout_per_clip": 80.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-27"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-27",
+  "cr_id": "c8bda3e4-2635-40a1-a21a-d034accc016a",
+  "guidelines": "- Must use recent content linked (YouTube videos + Kick Streams)\n- Must use content no longer than 1 month old\n- Must use #j2hundred + #j2 on every post\n- Every caption must direct viewers to J2’s stream (see guide for examples)\n- Must mention J2’s name on any on screen text (J2 goes here…. For example)\n- Content/Captions mustn't tarnish his image( can’t make him look bad)\n- Must have US, UK, EUR, CAN, AUS or NZ audience\n",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 2,
+    "total_views": 420,
+    "creators": 2,
+    "avg_views": 210,
+    "avg_payout": 0.0,
+    "updated_at": "2026-11-27T01:42:19.000Z"
+  },
+  "references": [
+    "https://www.tiktok.com/@aicartoonclips67/video/7712639559397281046",
+    "https://www.tiktok.com/@drakkkeeeeeeeee/video/7712649034107735318"
+  ],
+  "locked_references": 3,
+  "launched_at": "2026-11-26T23:56:01.000Z",
+  "audience": "US, UK, EUR, CAN, AUS or NZ",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "023a255d34eee03f",
+  "enriched": true
+}

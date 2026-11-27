@@ -50,9 +50,9 @@
   },
   "budget": {
     "total": 10000.0,
-    "remaining": 5751.42,
+    "remaining": 5749.71,
     "currency": "USD",
-    "updated_at": "2026-11-26"
+    "updated_at": "2026-11-27"
   },
   "deadline": null,
   "submission": {
@@ -81,11 +81,11 @@
   "content_rules": {},
   "stats": {
     "approved": 459,
-    "total_views": 1756776,
+    "total_views": 1757529,
     "creators": 61,
-    "avg_views": 3827,
+    "avg_views": 3829,
     "avg_payout": 9.26,
-    "updated_at": "2026-11-26T22:16:20.000Z"
+    "updated_at": "2026-11-27T01:48:13.000Z"
   },
   "references": [
     "https://www.tiktok.com/@realmltap56/video/7699227849856797965",
