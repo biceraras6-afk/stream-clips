@@ -63,7 +63,7 @@
   },
   "budget": {
     "total": 4000.0,
-    "remaining": 3497.56,
+    "remaining": 2958.89,
     "currency": "USD",
     "updated_at": "2026-11-27"
   },
@@ -93,24 +93,23 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 11,
-    "total_views": 116410,
-    "creators": 5,
-    "avg_views": 10583,
-    "avg_payout": 45.68,
-    "updated_at": "2026-11-27T19:20:16.000Z"
+    "approved": 18,
+    "total_views": 241135,
+    "creators": 14,
+    "avg_views": 13396,
+    "avg_payout": 57.84,
+    "updated_at": "2026-11-27T22:14:26.000Z"
   },
   "references": [
     "https://www.tiktok.com/@buzzify.official/video/7711898828655299870",
+    "https://www.youtube.com/watch?v=fGRlMDKmqQ0",
+    "https://www.instagram.com/reel/DgOM3uLABpy/",
     "https://www.youtube.com/watch?v=TET9psrL_Qw",
+    "https://www.youtube.com/watch?v=vvj9lzwD53Y",
+    "https://www.youtube.com/watch?v=2Z7QXuYef6g",
     "https://www.youtube.com/watch?v=cw1pIWCaFK0",
-    "https://www.youtube.com/watch?v=EAzlLzBQllY",
-    "https://www.youtube.com/watch?v=Acwcx5dhecw",
-    "https://www.youtube.com/watch?v=g2YV4fUVqj0",
-    "https://www.youtube.com/watch?v=NOn7xfsgrjI",
-    "https://www.youtube.com/watch?v=b1Q8ccEKDNM",
-    "https://www.youtube.com/watch?v=aXgAoEAuOBE",
-    "https://www.youtube.com/watch?v=9vCqjOl7zdU"
+    "https://www.tiktok.com/@thegoodpart67/video/7712290214173052174",
+    "https://www.tiktok.com/@caught_on_stream/video/7712247723793108238"
   ],
   "locked_references": null,
   "launched_at": "2026-11-23T22:49:32.000Z",

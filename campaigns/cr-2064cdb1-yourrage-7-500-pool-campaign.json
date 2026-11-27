@@ -73,7 +73,7 @@
     "total": 7500.0,
     "remaining": 7500.0,
     "currency": "USD",
-    "updated_at": "2026-11-23"
+    "updated_at": "2026-11-27"
   },
   "deadline": null,
   "submission": {
@@ -101,14 +101,24 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 0,
-    "total_views": 0,
-    "creators": 0,
-    "avg_views": null,
-    "avg_payout": null,
-    "updated_at": "2026-11-23T01:38:20.000Z"
+    "approved": 238,
+    "total_views": 1602880,
+    "creators": 58,
+    "avg_views": 6735,
+    "avg_payout": 0.0,
+    "updated_at": "2026-11-27T22:14:24.000Z"
   },
-  "references": [],
+  "references": [
+    "https://www.tiktok.com/@viralhotbox007/video/7711299279763115277",
+    "https://www.tiktok.com/@warzone.culture/video/7711496049415720224",
+    "https://www.youtube.com/watch?v=n5-1GVyMrSo",
+    "https://www.youtube.com/watch?v=zTCYxBUEo-4",
+    "https://www.tiktok.com/@rageyy__/video/7711255720901102861",
+    "https://www.youtube.com/watch?v=5uZSThIQP9A",
+    "https://www.youtube.com/watch?v=QK_9UqRFR_M",
+    "https://www.youtube.com/watch?v=UYrcB8coo6U",
+    "https://www.youtube.com/watch?v=4zhrc2yKjMo"
+  ],
   "locked_references": null,
   "launched_at": "2026-11-22T23:12:14.000Z",
   "flags": {

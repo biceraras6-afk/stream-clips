@@ -81,24 +81,13 @@
   "content_rules": {},
   "stats": {
     "approved": 485,
-    "total_views": 395010,
+    "total_views": 395012,
     "creators": 63,
     "avg_views": 814,
     "avg_payout": 0.58,
-    "updated_at": "2026-11-27T19:20:08.000Z"
+    "updated_at": "2026-11-27T22:12:09.000Z"
   },
-  "references": [
-    "https://www.tiktok.com/@mrdmt_666/video/7705174872263003410",
-    "https://www.tiktok.com/@mrdmt_666/video/7708139842743307538",
-    "https://www.tiktok.com/@gamgamclip/video/7708703243135700231",
-    "https://www.tiktok.com/@sportsclipsdly/video/7703306723645213959",
-    "https://www.tiktok.com/@sportsclipsdly/video/7697746571043032327",
-    "https://www.tiktok.com/@sportsclipsdly/video/7708708673568165140",
-    "https://www.tiktok.com/@z_clips49/video/7697052784905948429",
-    "https://www.youtube.com/watch?v=UxRANc9zFY0",
-    "https://www.youtube.com/watch?v=k-NK2vvbUhE",
-    "https://www.tiktok.com/@sportsclipsdly/video/7697763715428535568"
-  ],
+  "references": [],
   "locked_references": null,
   "launched_at": "2026-08-06T15:10:23.000Z",
   "brief_hash": "8f2b1ca1631ab1c3",

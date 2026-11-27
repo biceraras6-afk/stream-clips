@@ -50,7 +50,7 @@
   },
   "budget": {
     "total": 10000.0,
-    "remaining": 7209.64,
+    "remaining": 7180.62,
     "currency": "USD",
     "updated_at": "2026-11-27"
   },
@@ -81,23 +81,16 @@
   "content_rules": {},
   "stats": {
     "approved": 355,
-    "total_views": 1394425,
+    "total_views": 1407872,
     "creators": 41,
-    "avg_views": 3928,
-    "avg_payout": 7.86,
-    "updated_at": "2026-11-27T19:20:17.000Z"
+    "avg_views": 3966,
+    "avg_payout": 7.94,
+    "updated_at": "2026-11-27T22:14:23.000Z"
   },
   "references": [
     "https://www.tiktok.com/@unboxingtherapy08/video/7698827552785222933",
-    "https://www.instagram.com/reel/DesC94ctMxy/",
     "https://www.tiktok.com/@mochiimi.w/photo/7698348859021380878",
-    "https://www.tiktok.com/@.lu.mii/photo/7697677580664638728",
-    "https://www.tiktok.com/@.lu.mii/video/7706615385931451666",
-    "https://www.tiktok.com/@.lu.mii/photo/7700533678518160658",
-    "https://www.tiktok.com/@.lu.mii/photo/7700260637624077575",
-    "https://www.tiktok.com/@myminiunbox/photo/7697278448036859150",
-    "https://www.tiktok.com/@.lu.mii/video/7706951776183831809",
-    "https://www.tiktok.com/@lilbrotoys/video/7698781139246370049"
+    "https://www.tiktok.com/@myminiunbox/photo/7697278448036859150"
   ],
   "locked_references": null,
   "launched_at": "2026-10-15T21:46:44.000Z",

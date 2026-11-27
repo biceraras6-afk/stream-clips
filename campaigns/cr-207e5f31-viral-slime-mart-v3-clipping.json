@@ -50,9 +50,9 @@
   },
   "budget": {
     "total": 20000.0,
-    "remaining": 20000.0,
+    "remaining": 17896.41,
     "currency": "USD",
-    "updated_at": "2026-11-26"
+    "updated_at": "2026-11-27"
   },
   "deadline": null,
   "submission": {
@@ -80,14 +80,23 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 0,
-    "total_views": 0,
-    "creators": 0,
-    "avg_views": null,
-    "avg_payout": null,
-    "updated_at": "2026-11-26T16:24:14.000Z"
+    "approved": 114,
+    "total_views": 1316191,
+    "creators": 52,
+    "avg_views": 11546,
+    "avg_payout": 18.45,
+    "updated_at": "2026-11-27T22:14:22.000Z"
   },
-  "references": [],
+  "references": [
+    "https://www.tiktok.com/@sadbabyfinds3/video/7712883596729535757",
+    "https://www.tiktok.com/@slimeplush1/video/7712542343307513118",
+    "https://www.tiktok.com/@toydiaryy/video/7712512687661468941",
+    "https://www.tiktok.com/@minitoycollector00/video/7712518309236722951",
+    "https://www.tiktok.com/@collectibletoys4/photo/7712607057039396126",
+    "https://www.tiktok.com/@sprout.toysxo/video/7712824593865624839",
+    "https://www.instagram.com/reel/DgONF3hydvR/",
+    "https://www.tiktok.com/@ktoyss/video/7712598134756478221"
+  ],
   "locked_references": null,
   "launched_at": "2026-11-26T15:48:45.000Z",
   "flags": {
