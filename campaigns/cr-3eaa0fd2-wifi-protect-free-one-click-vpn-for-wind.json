@@ -1,0 +1,145 @@
+{
+  "id": "cr-3eaa0fd2-wifi-protect-free-one-click-vpn-for-wind",
+  "title": "WiFi Protect – free one-click VPN for Windows",
+  "url": "https://contentrewards.com/c/campaigns/3eaa0fd2-fb64-43a7-929b-4d5b0bfbb2ab",
+  "status": "open",
+  "brand": "WiFi Protect",
+  "streamer": null,
+  "category": "technology",
+  "language": "en",
+  "description": "Make short clips about WiFi Protect, a free one-click VPN for Windows from the Microsoft Store. Show the app on screen, say its name, and put wifi-protect.com/@yourhandle in your bio and on screen so viewers can open it on their PC. Paid per 1,000 views. Made for a US audience.",
+  "source": null,
+  "platforms": [
+    "facebook",
+    "instagram",
+    "tiktok",
+    "x",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": [
+    "wifi-protect.com/@yourhandle"
+  ],
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Show WiFi Protect running on a Windows PC",
+      "Say WiFi Protect",
+      "Put wifi-protect.com/@yourhandle on screen and say it out loud using your account handle",
+      "Keep wifi-protect.com/@yourhandle in your bio while the post is live"
+    ],
+    "dont": []
+  },
+  "overlays_allowed": true,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.5,
+    "min_payout": 3.0,
+    "max_payout_per_clip": 300.0,
+    "min_views": 2000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.5,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 300.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.5,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 300.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.5,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 300.0
+      },
+      "x": {
+        "rate_per_1k": 1.5,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 300.0
+      },
+      "facebook": {
+        "rate_per_1k": 1.5,
+        "min_payout": 3.0,
+        "max_payout_per_clip": 300.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-27"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-27",
+  "cr_id": "3eaa0fd2-fb64-43a7-929b-4d5b0bfbb2ab",
+  "guidelines": "Show WiFi Protect running on a Windows PC and say \"WiFi Protect\".\nPut wifi-protect.com/@yourhandle on screen and say it out loud, using the handle of the account you post from.\nKeep wifi-protect.com/@yourhandle in your bio (YouTube: in the description) while the post is live.\nEnglish only, for a US audience.",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": true,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 7,
+  "launched_at": "2026-11-27T15:26:48.000Z",
+  "audience": "60%+ US",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "e90e28d064e32bbc",
+  "enriched": true
+}

@@ -1,0 +1,81 @@
+{
+  "id": "cr-cbd94178-fanatics-collect-sports-pages-only",
+  "title": "Fanatics Collect | Sports Pages Only",
+  "url": "https://contentrewards.com/c/campaigns/cbd94178-810e-42ff-bfd3-fe42d2f046b5",
+  "status": "open",
+  "brand": "Artist Influence",
+  "streamer": null,
+  "category": "gambling",
+  "language": null,
+  "description": "Get paid per view to post Fanatics Collect sports card content on Instagram Reels. Sports-related pages only. Repost or edit the official card content, tag @fanatics and use #fanaticscollect #sports #cards in every caption. Multiple posts allowed. Read brief below. Max Payout $200+",
+  "source": null,
+  "platforms": [
+    "instagram"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 1.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 1000,
+    "per_platform": {
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 1.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-27"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-27",
+  "cr_id": "cbd94178-810e-42ff-bfd3-fe42d2f046b5",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-27T16:24:12.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-27T13:33:58.000Z",
+  "brief_hash": "a753638685251378"
+}

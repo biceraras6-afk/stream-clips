@@ -70,7 +70,7 @@
   },
   "budget": {
     "total": 10000.0,
-    "remaining": 7745.05,
+    "remaining": 7910.86,
     "currency": "USD",
     "updated_at": "2026-11-27"
   },
@@ -100,21 +100,20 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 241,
-    "total_views": 2157863,
-    "creators": 158,
-    "avg_views": 8954,
-    "avg_payout": 9.36,
-    "updated_at": "2026-11-27T13:38:22.000Z"
+    "approved": 258,
+    "total_views": 2005397,
+    "creators": 169,
+    "avg_views": 7773,
+    "avg_payout": 8.1,
+    "updated_at": "2026-11-27T16:24:20.000Z"
   },
   "references": [
-    "https://x.com/aaminhajj__/status/2124771041029275697",
     "https://www.tiktok.com/@gta.clips.lab/video/7710007436639309086",
-    "https://x.com/Asodiqu_1/status/2125174342367560186",
-    "https://www.instagram.com/reel/DgIVVuLqW0J/",
     "https://www.youtube.com/watch?v=o6Z4qKe9_qM",
     "https://x.com/batjay_/status/2125179715363516580",
-    "https://www.youtube.com/watch?v=Csi8GFGM82E"
+    "https://x.com/Ajetcrypt/status/2124102397857304611",
+    "https://www.youtube.com/watch?v=V6qVTxJeBvY",
+    "https://www.youtube.com/watch?v=DuiZqhoQWDQ"
   ],
   "locked_references": null,
   "launched_at": "2026-11-19T01:29:44.000Z",

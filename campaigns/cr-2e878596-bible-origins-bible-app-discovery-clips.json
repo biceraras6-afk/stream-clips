@@ -1,0 +1,93 @@
+{
+  "id": "cr-2e878596-bible-origins-bible-app-discovery-clips",
+  "title": "Bible Origins: Bible app discovery clips",
+  "url": "https://contentrewards.com/c/campaigns/2e878596-b91f-486c-a79c-42cf141e351f",
+  "status": "open",
+  "brand": "Bible Origins",
+  "streamer": null,
+  "category": "ios-app",
+  "language": null,
+  "description": "Bible Origins is a free iPhone app that shows how Bible wording changes between translations. Tap any word to see the Masoretic, Catholic, Geneva and more, plus the original Hebrew or Greek. Make real, faith-friendly videos of you discovering the app. Follow every rule below exactly.",
+  "source": null,
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": null,
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": null,
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 0.01,
+    "max_payout_per_clip": 150.0,
+    "min_views": 10,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 0.01,
+        "max_payout_per_clip": 150.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 0.01,
+        "max_payout_per_clip": 150.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 0.01,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-27"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-27",
+  "cr_id": "2e878596-b91f-486c-a79c-42cf141e351f",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-27T16:20:08.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-27T15:41:37.000Z",
+  "brief_hash": "5583546bc5634115"
+}

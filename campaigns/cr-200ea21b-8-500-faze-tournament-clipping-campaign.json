@@ -68,7 +68,7 @@
   },
   "budget": {
     "total": 8500.0,
-    "remaining": 5060.99,
+    "remaining": 5059.75,
     "currency": "USD",
     "updated_at": "2026-11-27"
   },
@@ -133,11 +133,11 @@
   },
   "stats": {
     "approved": 106,
-    "total_views": 1668327,
+    "total_views": 1668991,
     "creators": 26,
-    "avg_views": 15739,
-    "avg_payout": 32.44,
-    "updated_at": "2026-11-27T13:38:22.000Z"
+    "avg_views": 15745,
+    "avg_payout": 32.46,
+    "updated_at": "2026-11-27T16:24:15.000Z"
   },
   "references": [
     "https://x.com/intelCDL/status/2124938717420790096",
