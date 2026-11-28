@@ -50,9 +50,9 @@
   },
   "budget": {
     "total": 10000.0,
-    "remaining": 7180.62,
+    "remaining": 7272.64,
     "currency": "USD",
-    "updated_at": "2026-11-27"
+    "updated_at": "2026-11-28"
   },
   "deadline": null,
   "submission": {
@@ -80,17 +80,18 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 355,
-    "total_views": 1407872,
-    "creators": 41,
-    "avg_views": 3966,
-    "avg_payout": 7.94,
-    "updated_at": "2026-11-27T22:14:23.000Z"
+    "approved": 341,
+    "total_views": 1357320,
+    "creators": 40,
+    "avg_views": 3980,
+    "avg_payout": 8.0,
+    "updated_at": "2026-11-28T04:18:15.000Z"
   },
   "references": [
     "https://www.tiktok.com/@unboxingtherapy08/video/7698827552785222933",
     "https://www.tiktok.com/@mochiimi.w/photo/7698348859021380878",
-    "https://www.tiktok.com/@myminiunbox/photo/7697278448036859150"
+    "https://www.tiktok.com/@myminiunbox/photo/7697278448036859150",
+    "https://www.tiktok.com/@toyzumi_07/photo/7712715423262805269"
   ],
   "locked_references": null,
   "launched_at": "2026-10-15T21:46:44.000Z",

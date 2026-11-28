@@ -32,23 +32,23 @@
     "model": "cpm",
     "amount_per_post": null,
     "rate_per_1k": 1.0,
-    "min_payout": 1.2,
+    "min_payout": 1.0,
     "max_payout_per_clip": 300.0,
-    "min_views": 1200,
+    "min_views": 1000,
     "per_platform": {
       "tiktok": {
         "rate_per_1k": 1.0,
-        "min_payout": 1.2,
+        "min_payout": 1.0,
         "max_payout_per_clip": 300.0
       },
       "instagram": {
         "rate_per_1k": 1.0,
-        "min_payout": 1.2,
+        "min_payout": 1.0,
         "max_payout_per_clip": 300.0
       },
       "youtube": {
         "rate_per_1k": 1.0,
-        "min_payout": 1.2,
+        "min_payout": 1.0,
         "max_payout_per_clip": 300.0
       }
     },
@@ -56,9 +56,9 @@
   },
   "budget": {
     "total": 1000.0,
-    "remaining": 1000.0,
+    "remaining": 961.09,
     "currency": "USD",
-    "updated_at": "2026-11-25"
+    "updated_at": "2026-11-28"
   },
   "deadline": null,
   "submission": {
@@ -86,14 +86,21 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 0,
-    "total_views": 0,
-    "creators": 0,
-    "avg_views": null,
-    "avg_payout": null,
-    "updated_at": "2026-11-25T04:22:09.000Z"
+    "approved": 27,
+    "total_views": 36024,
+    "creators": 16,
+    "avg_views": 1334,
+    "avg_payout": 1.44,
+    "updated_at": "2026-11-28T04:18:19.000Z"
   },
-  "references": [],
+  "references": [
+    "https://www.youtube.com/watch?v=kTL-VdS7-8s",
+    "https://www.youtube.com/watch?v=mwHIeqFbYT0",
+    "https://www.youtube.com/watch?v=_lrXrbkge1s",
+    "https://www.youtube.com/watch?v=PA_EQz5W-eM",
+    "https://www.youtube.com/watch?v=G1ZL3I5ci-4",
+    "https://www.youtube.com/watch?v=6_lNG-VERrU"
+  ],
   "locked_references": null,
   "launched_at": "2026-11-25T02:06:50.000Z",
   "flags": {
