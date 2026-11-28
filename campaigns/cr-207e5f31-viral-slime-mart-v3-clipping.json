@@ -50,7 +50,7 @@
   },
   "budget": {
     "total": 20000.0,
-    "remaining": 17305.35,
+    "remaining": 17026.83,
     "currency": "USD",
     "updated_at": "2026-11-28"
   },
@@ -81,19 +81,20 @@
   "content_rules": {},
   "stats": {
     "approved": 115,
-    "total_views": 1893336,
+    "total_views": 2123316,
     "creators": 52,
-    "avg_views": 16464,
-    "avg_payout": 23.43,
-    "updated_at": "2026-11-28T04:18:18.000Z"
+    "avg_views": 18464,
+    "avg_payout": 25.85,
+    "updated_at": "2026-11-28T07:38:14.000Z"
   },
   "references": [
     "https://www.tiktok.com/@sadbabyfinds3/video/7712883596729535757",
     "https://www.tiktok.com/@slimeplush1/video/7712542343307513118",
+    "https://www.instagram.com/reel/DgONF3hydvR/",
     "https://www.tiktok.com/@toydiaryy/video/7712512687661468941",
     "https://www.tiktok.com/@minitoycollector00/video/7712518309236722951",
-    "https://www.tiktok.com/@sprout.toysxo/video/7712824593865624839",
-    "https://www.tiktok.com/@minibrandscutie/video/7712884553098087711"
+    "https://www.instagram.com/reel/DgPqN71BfDC/",
+    "https://www.tiktok.com/@myminiobsession/video/7712895073763052830"
   ],
   "locked_references": null,
   "launched_at": "2026-11-26T15:48:45.000Z",
