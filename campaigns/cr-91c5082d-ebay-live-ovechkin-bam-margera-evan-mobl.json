@@ -63,9 +63,9 @@
   },
   "budget": {
     "total": 4000.0,
-    "remaining": 2958.89,
+    "remaining": 2940.06,
     "currency": "USD",
-    "updated_at": "2026-11-27"
+    "updated_at": "2026-11-28"
   },
   "deadline": null,
   "submission": {
@@ -94,18 +94,18 @@
   "content_rules": {},
   "stats": {
     "approved": 18,
-    "total_views": 241135,
+    "total_views": 245517,
     "creators": 14,
-    "avg_views": 13396,
-    "avg_payout": 57.84,
-    "updated_at": "2026-11-27T22:14:26.000Z"
+    "avg_views": 13640,
+    "avg_payout": 58.89,
+    "updated_at": "2026-11-28T01:42:24.000Z"
   },
   "references": [
     "https://www.tiktok.com/@buzzify.official/video/7711898828655299870",
     "https://www.youtube.com/watch?v=fGRlMDKmqQ0",
     "https://www.instagram.com/reel/DgOM3uLABpy/",
-    "https://www.youtube.com/watch?v=TET9psrL_Qw",
     "https://www.youtube.com/watch?v=vvj9lzwD53Y",
+    "https://www.youtube.com/watch?v=TET9psrL_Qw",
     "https://www.youtube.com/watch?v=2Z7QXuYef6g",
     "https://www.youtube.com/watch?v=cw1pIWCaFK0",
     "https://www.tiktok.com/@thegoodpart67/video/7712290214173052174",

@@ -1,0 +1,114 @@
+{
+  "id": "cr-7bdb9bf1-venice-saints-take-the-whisky-official-s",
+  "title": "Venice Saints - Take the Whisky Official Sound",
+  "url": "https://contentrewards.com/c/campaigns/7bdb9bf1-9f74-4a55-a055-6bece03eadf5",
+  "status": "open",
+  "brand": "Clipping Culture",
+  "streamer": "Venice Saints",
+  "category": "entertainment",
+  "language": null,
+  "description": "Clip the official Take the Whisky music video by Venice Saints.\nAttach the official sound to every post.\nPost on TikTok, Instagram Reels, or YouTube Shorts.\n",
+  "source": {
+    "type": "vod",
+    "urls": [],
+    "permission_quote": "Clip the official Take the Whisky music video by Venice Saints."
+  },
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Attach the official sound to every post",
+      "Post on TikTok, Instagram Reels, or YouTube Shorts"
+    ],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 0.0,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 600.0,
+    "min_views": null,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 0.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 600.0
+      },
+      "instagram": {
+        "rate_per_1k": 0.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 600.0
+      },
+      "youtube": {
+        "rate_per_1k": 0.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 600.0
+      }
+    },
+    "geo_priced": true
+  },
+  "budget": {
+    "total": 10500.0,
+    "remaining": 10500.0,
+    "currency": "USD",
+    "updated_at": "2026-11-28"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-28",
+  "cr_id": "7bdb9bf1-9f74-4a55-a055-6bece03eadf5",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": "2026-11-28T01:40:17.000Z"
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-27T22:17:03.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "dca0dfe57892140f",
+  "enriched": true
+}

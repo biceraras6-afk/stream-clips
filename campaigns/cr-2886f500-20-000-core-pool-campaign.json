@@ -73,7 +73,7 @@
     "total": 20000.0,
     "remaining": 20000.0,
     "currency": "USD",
-    "updated_at": "2026-11-27"
+    "updated_at": "2026-11-28"
   },
   "deadline": null,
   "submission": {
@@ -101,12 +101,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 6346,
-    "total_views": 84158117,
+    "approved": 6353,
+    "total_views": 84380987,
     "creators": 891,
-    "avg_views": 13262,
+    "avg_views": 13282,
     "avg_payout": 0.0,
-    "updated_at": "2026-11-27T22:14:26.000Z"
+    "updated_at": "2026-11-28T01:44:18.000Z"
   },
   "references": [
     "https://www.tiktok.com/@jacobtheclipper/video/7710061821582920973",
