@@ -1,0 +1,137 @@
+{
+  "id": "cr-f3d675ad-blitzed",
+  "title": "Blitzed",
+  "url": "https://contentrewards.com/c/campaigns/f3d675ad-b19c-4536-821f-a2b38d47bb5e",
+  "status": "open",
+  "brand": "Blitzed.io",
+  "streamer": null,
+  "category": "casino",
+  "language": null,
+  "description": "Blitzed clipping",
+  "source": {
+    "type": "drive",
+    "urls": [
+      "reference folder"
+    ],
+    "permission_quote": null
+  },
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "x"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": null
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": null,
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "Open with the result or reaction in the first second: big win, brutal loss, live reaction",
+      "Only use footage from the reference folder"
+    ],
+    "dont": [
+      "No other streamers or reposted clips"
+    ]
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 2.0,
+    "min_payout": 25.0,
+    "max_payout_per_clip": 200.0,
+    "min_views": 12500,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 2.0,
+        "min_payout": 25.0,
+        "max_payout_per_clip": 200.0
+      },
+      "instagram": {
+        "rate_per_1k": 2.0,
+        "min_payout": 25.0,
+        "max_payout_per_clip": 200.0
+      },
+      "x": {
+        "rate_per_1k": 2.0,
+        "min_payout": 25.0,
+        "max_payout_per_clip": 200.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-28"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-28",
+  "cr_id": "f3d675ad-b19c-4536-821f-a2b38d47bb5e",
+  "guidelines": "- Open with the result or reaction in the first second: big win, brutal loss, live reaction\n- Only use footage from the reference folder, no other streamers or reposted clips\n- No more than 30% of account audience from India, Pakistan, Bangladesh, Indonesia, Philippines, Vietnam, Nigeria or Egypt combined (analytics screenshot required with each submission)",
+  "requires_application": true,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": false,
+    "brandLogo": false,
+    "faceOnCamera": false,
+    "preApproval": false,
+    "draftCaptionRequired": false
+  },
+  "content_rules": {
+    "audio": {
+      "clearSpeech": false
+    },
+    "branding": {
+      "logoRequired": false
+    },
+    "content": {
+      "noExplicit": false
+    },
+    "faceOnCamera": false,
+    "sound": {
+      "keepOriginalAudio": false,
+      "mustUseProvided": false
+    },
+    "video": {
+      "wellLit": false
+    }
+  },
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": 1,
+  "launched_at": "2026-11-28T15:23:37.000Z",
+  "audience": "No more than 30% of account audience from India, Pakistan, Bangladesh, Indonesia, Philippines, Vietnam, Nigeria or Egypt combined",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "3cf67dc04581faaf",
+  "enriched": true
+}

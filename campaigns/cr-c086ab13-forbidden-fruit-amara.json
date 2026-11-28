@@ -7,7 +7,7 @@
   "streamer": null,
   "category": "entertainment",
   "language": "en",
-  "description": "Create a hilarious, attention-grabbing reaction video promoting Forbidden Fruit: In the Shelter of Amara by Ronail Hopkins.\n\nUse the comedic energy of viral reactions similar to Druski, Jordan Howlett or Will Smith.\n\nCapture viewers’ attention within the first 1–3 seconds with shock, laughter.",
+  "description": "Create a hilarious, attention-grabbing reaction video to our Promotional clip that shows the woman Reading the book.\n\ncomedic energy of viral reactions similar to Druski, Jordan Howlett or Will Smith. COOL RUNNINGS MOVIE;\n\nCapture viewers’ attention within the first 1–3 seconds with shock, laughter.",
   "source": null,
   "platforms": [
     "facebook",
@@ -25,7 +25,10 @@
   "links": null,
   "disclosure": null,
   "rules": {
-    "do": [],
+    "do": [
+      "Create a hilarious, attention-grabbing reaction video",
+      "Capture viewers' attention within the first 1-3 seconds with shock, laughter"
+    ],
     "dont": []
   },
   "overlays_allowed": null,
@@ -62,9 +65,9 @@
   },
   "budget": {
     "total": 2000.0,
-    "remaining": 2000.0,
+    "remaining": 1592.15,
     "currency": "USD",
-    "updated_at": "2026-11-20"
+    "updated_at": "2026-11-28"
   },
   "deadline": null,
   "submission": {
@@ -92,12 +95,12 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 0,
-    "total_views": 0,
-    "creators": 0,
-    "avg_views": null,
-    "avg_payout": null,
-    "updated_at": "2026-11-20T22:06:13.000Z"
+    "approved": 83,
+    "total_views": 375289,
+    "creators": 56,
+    "avg_views": 4522,
+    "avg_payout": 4.91,
+    "updated_at": "2026-11-28T16:06:08.000Z"
   },
   "references": [],
   "locked_references": null,
@@ -108,6 +111,6 @@
     "adult": false,
     "political": false
   },
-  "brief_hash": "9d0339460b2bb643",
+  "brief_hash": "91f711d63482a4ab",
   "enriched": true
 }
