@@ -1,0 +1,117 @@
+{
+  "id": "cr-c8a1a319-autofeed-ugc-faceless-videos-on-autopilo",
+  "title": "AutoFeed UGC: faceless videos on autopilot",
+  "url": "https://contentrewards.com/c/campaigns/c8a1a319-b1c9-4196-a6b4-e906df70f531",
+  "status": "open",
+  "brand": "AutoFeed",
+  "streamer": null,
+  "category": "ai-video",
+  "language": "en",
+  "description": "Make short videos about AutoFeed, the app that writes, renders and posts faceless videos (Reddit stories, AI slideshows, Would You Rather) to TikTok and YouTube Shorts every day. Every video, screenshot and graphic you need: autofeed.ai/creator-kit. $1 per 1K views, up to $150 per video.",
+  "source": {
+    "type": "drive",
+    "urls": [
+      "autofeed.ai/creator-kit"
+    ],
+    "permission_quote": null
+  },
+  "platforms": [
+    "instagram",
+    "tiktok",
+    "youtube"
+  ],
+  "format": {
+    "min_seconds": null,
+    "max_seconds": null,
+    "aspect": "9:16"
+  },
+  "required_tags": null,
+  "hashtags": null,
+  "links": [
+    "autofeed.ai/creator-kit"
+  ],
+  "disclosure": null,
+  "rules": {
+    "do": [
+      "make short videos about AutoFeed"
+    ],
+    "dont": []
+  },
+  "overlays_allowed": null,
+  "payment": {
+    "model": "cpm",
+    "amount_per_post": null,
+    "rate_per_1k": 1.0,
+    "min_payout": 2.0,
+    "max_payout_per_clip": 150.0,
+    "min_views": 2000,
+    "per_platform": {
+      "tiktok": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 150.0
+      },
+      "instagram": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 150.0
+      },
+      "youtube": {
+        "rate_per_1k": 1.0,
+        "min_payout": 2.0,
+        "max_payout_per_clip": 150.0
+      }
+    },
+    "geo_priced": false
+  },
+  "budget": {
+    "total": 1000.0,
+    "remaining": 1000.0,
+    "currency": "USD",
+    "updated_at": "2026-11-28"
+  },
+  "deadline": null,
+  "submission": {
+    "method": "manual",
+    "window_minutes": 30
+  },
+  "requires_connected_account": null,
+  "prepost_review": false,
+  "joined": false,
+  "verified": null,
+  "est_views": null,
+  "notes": null,
+  "captured_at": "2026-11-28",
+  "cr_id": "c8a1a319-b1c9-4196-a6b4-e906df70f531",
+  "guidelines": "",
+  "requires_application": false,
+  "requirements": {
+    "oauthRequired": null,
+    "oauthPlatforms": null,
+    "linkInBio": null,
+    "brandLogo": null,
+    "faceOnCamera": null,
+    "preApproval": false,
+    "draftCaptionRequired": null
+  },
+  "content_rules": {},
+  "stats": {
+    "approved": 0,
+    "total_views": 0,
+    "creators": 0,
+    "avg_views": null,
+    "avg_payout": null,
+    "updated_at": null
+  },
+  "references": [],
+  "locked_references": null,
+  "launched_at": "2026-11-28T17:23:54.000Z",
+  "flags": {
+    "gambling": false,
+    "crypto": false,
+    "adult": false,
+    "political": false
+  },
+  "brief_hash": "a7e1db7f0d591803",
+  "enriched": true
+}

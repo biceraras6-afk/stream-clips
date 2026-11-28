@@ -34,6 +34,7 @@
   "overlays_allowed": null,
   "payment": {
     "model": "cpm",
+    "amount_per_post": null,
     "rate_per_1k": 0.0,
     "min_payout": 1.0,
     "max_payout_per_clip": 500.0,
@@ -59,9 +60,9 @@
   },
   "budget": {
     "total": 8000.0,
-    "remaining": 7395.62,
+    "remaining": 4158.98,
     "currency": "USD",
-    "updated_at": "2026-11-17"
+    "updated_at": "2026-11-28"
   },
   "deadline": null,
   "submission": {
@@ -89,25 +90,14 @@
   },
   "content_rules": {},
   "stats": {
-    "approved": 173,
-    "total_views": 364024,
-    "creators": 39,
-    "avg_views": 2104,
-    "avg_payout": 3.49,
-    "updated_at": "2026-11-17T18:20:17.000Z"
+    "approved": 539,
+    "total_views": 1209406,
+    "creators": 83,
+    "avg_views": 2244,
+    "avg_payout": 7.13,
+    "updated_at": "2026-11-28T19:18:19.000Z"
   },
-  "references": [
-    "https://www.youtube.com/watch?v=QNC-99IG2E0",
-    "https://www.tiktok.com/@komsic.stwak/video/7706281892508634390",
-    "https://www.tiktok.com/@raz_eur/video/7705141988953296150",
-    "https://www.tiktok.com/@komsic.stwak/video/7707672248139681047",
-    "https://www.tiktok.com/@ruzzz011/video/7708288496431156532",
-    "https://www.tiktok.com/@raz_eur/video/7706905587576999190",
-    "https://www.tiktok.com/@komsic.stwak/video/7707043275542400258",
-    "https://www.tiktok.com/@raz_eur/video/7706569312160451862",
-    "https://www.tiktok.com/@komsic.stwak/video/7706280944415640854",
-    "https://www.tiktok.com/@raz_eur/video/7706917563443334422"
-  ],
+  "references": [],
   "locked_references": null,
   "launched_at": "2026-11-03T20:14:38.000Z",
   "brief_hash": "e68bd0b2b7442c68",

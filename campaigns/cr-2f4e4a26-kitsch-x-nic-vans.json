@@ -56,7 +56,7 @@
   },
   "budget": {
     "total": 40000.0,
-    "remaining": 36892.38,
+    "remaining": 36928.81,
     "currency": "USD",
     "updated_at": "2026-11-28"
   },
@@ -87,22 +87,13 @@
   "content_rules": {},
   "stats": {
     "approved": 290,
-    "total_views": 1929225,
-    "creators": 160,
-    "avg_views": 6652,
-    "avg_payout": 10.72,
-    "updated_at": "2026-11-28T16:08:17.000Z"
+    "total_views": 1902145,
+    "creators": 159,
+    "avg_views": 6559,
+    "avg_payout": 10.59,
+    "updated_at": "2026-11-28T19:16:20.000Z"
   },
-  "references": [
-    "https://www.youtube.com/watch?v=2C_yHQ-9t40",
-    "https://www.youtube.com/watch?v=a_fg8fHg7MA",
-    "https://www.youtube.com/watch?v=YWW5Zv6-i6I",
-    "https://www.youtube.com/watch?v=REHrjVIPB44",
-    "https://www.youtube.com/watch?v=JIyj6p4O2I8",
-    "https://www.youtube.com/watch?v=EfwV447DgEc",
-    "https://www.youtube.com/watch?v=MHkWYzAhHug",
-    "https://www.youtube.com/watch?v=m5Yi5EN7hvI"
-  ],
+  "references": [],
   "locked_references": null,
   "launched_at": "2026-11-19T03:19:28.000Z",
   "flags": {
